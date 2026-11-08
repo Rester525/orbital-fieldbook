@@ -1,0 +1,9 @@
+# Only properties declared here are pushed; leave every other remote setting unchanged.
+project_id = "orbital-fieldbook"
+
+[auth]
+site_url = "https://orbital-fieldbook.vercel.app"
+additional_redirect_urls = ["https://orbital-fieldbook.vercel.app", "http://127.0.0.1:4173"]
+
+[auth.email]
+enable_confirmations = true

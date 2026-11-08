@@ -1,6 +1,6 @@
 # Orbital Fieldbook
 
-A private/local-first, schedule-centered **Solar System Division B (2026–27)** study app. Independent of Science Olympiad; not an official rulebook or tournament exam.
+A local-first, optionally cloud-synced **Solar System Division B (2026–27)** study app. Independent of Science Olympiad; not an official rulebook or tournament exam.
 
 ## Start locally
 
@@ -23,8 +23,9 @@ Only `public/` is served. **Never serve the enclosing `Solar System` directory**
 - The approximately 50-minute simulation uses a persistent wall-clock deadline. No calculator, lab controls, hints or solution UI is available during it. Reload does not restart the clock. It is a study timer, **not secure proctoring**: question keys are present in local source files. Submit to access explanations again.
 - Two meaningful SVG/table models: geometric transit light curve and flux/equilibrium-temperature explorer. Models state units, assumptions, omissions, guided questions and known cases. Simulated data are never presented as observations or proof of life.
 - The notes planner has four Letter-sized faces for **two sheets, both sides**, editable plain text, an on-screen print preview, font selection and overflow checks. Print duplex/long-edge at actual size with browser headers/footers disabled. No affixed labels/annotations. Preview assistance is not a tournament-acceptance guarantee.
-- Device-only state includes mission steps/reflections, edited schedule, notes, attempts, recall and current simulation. JSON backups are validated and versioned; future schemas are rejected. Import downloads a backup before replacing existing work. Storage errors are visible. If an existing save is unreadable, automatic saves are blocked until **Recover saved data** exports the original and you explicitly approve replacement. Export regularly; clearing site data or private-mode storage can erase work.
-- All core code, lessons, models, questions and icons are local. External citations require internet. Offline return requires a successful first cache installation. No remote fonts/JS/images, account, telemetry, AI calls, backend or database.
+- Guest work is stored only on this device. **Sign in · sync** offers Supabase email/password login, email-confirmed signup, password reset, and private per-account sync. Signing in never copies guest work automatically; choose **Copy guest work to account**. Account writes save locally first, then sync online. Offline edits remain pending, with a Retry sync control. If two devices diverge, choose a cloud copy (the device copy downloads first) or explicitly confirm overwriting the cloud. Sign out returns to the separate guest work.
+- Device state includes mission steps/reflections, edited schedule, notes, attempts, recall and current simulation. JSON backups are validated and versioned; future schemas are rejected. Import downloads a backup before replacing existing work. Storage errors are visible. If an existing save is unreadable, automatic saves are blocked until **Recover saved data** exports the original and you explicitly approve replacement. A corrupt account copy can be exported from **Account & sync** without overwriting it. Keep independent backups: cloud sync is not version history or a substitute for export.
+- All lessons, questions, models and the Supabase browser SDK are bundled locally; external citations and signed-in sync need internet. Offline return requires a successful first cache installation. No remote fonts/JS/images, telemetry or AI calls. Supabase Auth and a private Postgres row provide optional login and sync; the project URL and publishable key are public browser configuration, never a service-role key.
 
 ## Source authority / what is official
 
@@ -40,7 +41,8 @@ Only `public/` is served. **Never serve the enclosing `Solar System` directory**
 
 - `public/index.html` — semantic app shell, CSP, skip link, navigation.
 - `public/css/app.css` — observatory visual system, light/dark, responsive layout, focus/reduced-motion and Letter print styles.
-- `public/js/app.js` — bootstrap, data loading, route guard, themes, offline/update status.
+- `public/js/app.js` — bootstrap, data loading, route guard, themes, account integration, offline/update status.
+- `public/js/auth-ui.js`, `public/js/cloud-sync.js`, `public/js/cloud-config.js` — email account dialog, per-user local-first sync/conflict controller, public project configuration.
 - `public/js/view.js` — safe text escaping, external URL protocol check, shared tables/citations/downloads.
 - `public/js/missions-ui.js` — mission board, editorial reading mapping, local work/export.
 - `public/js/library-ui.js` — searchable lessons, evidence and citation views.
@@ -54,14 +56,16 @@ Only `public/` is served. **Never serve the enclosing `Solar System` directory**
 - `public/data/{worlds,missions,foundations}.json` — original lessons.
 - `public/data/questions-{worlds,missions,foundations}.json` — original cited practice.
 - `public/data/{schedule,scope,resources}.json` — sanitized source-derived workflow, scope and outbound links.
-- `public/assets/icon.svg`, `icon-192.png`, `icon-512.png` — original app icons.
+- `public/assets/icon.svg`, `icon-192.png`, `icon-512.png` — original app icons. `supabase.js` and `SUPABASE-LICENSE.txt` — bundled MIT-licensed Supabase browser client and notice.
 - `public/manifest.webmanifest`, `public/sw.js` — install metadata and generated complete-asset cache.
 - `scripts/check.mjs` — schemas, exact list/clause coverage, numeric keys, import/syntax/private-asset checks.
 - `scripts/build.mjs` — validate, generate content-hashed precache, `COVERAGE.md` and `BUILD_REPORT.json`.
 - `scripts/http-smoke.mjs` — live HTTP byte/MIME/private-path checks and protected-source hashes.
 - `scripts/icons.py` — optional icon reproduction (Pillow only for this development task).
 - `tests/*.test.mjs` — pure-core, data, rendering, DOM-interaction and simulated-service-worker checks.
-- `package.json`, `package-lock.json` — Node test commands and **test-only** LinkeDOM; no runtime library dependencies.
+- `package.json`, `package-lock.json` — Node scripts, bundled runtime Supabase client and test-only LinkeDOM.
+- `supabase/config.toml`, `supabase/migrations/*.sql` — production auth redirects and row-level-security/revisioned-save schema; no database password is committed.
+- `AUTH_PLAN.md` — security/sync implementation boundaries.
 - `start.command` — localhost-only Python server.
 - `vercel.json`, `.vercelignore` — static-only Vercel preset, production-only dependency install, security headers, service-worker revalidation and build-upload boundary.
 - `.github/workflows/verify.yml` — Node 22 build, tests and source checks on push/PR.
@@ -99,13 +103,14 @@ The Node service-worker harness runs the actual generated worker against real lo
 7. Fill four notes faces; inspect all four pages in system print preview; verify duplex produces two sheets without clipping or extra pages.
 8. Wait for offline installation, close/reopen offline, then test an update after a rebuild. External sources should remain internet-only.
 9. Back up, clear a test profile's site data, import, and verify restored notes/progress/schedule. Never clear the primary profile without a backup.
-10. Mentor-review scientific explanations/keys, provisional source flags and official updates before competition.
+10. In a test profile, sign up and confirm email, sign in, copy guest work deliberately, edit a note, and verify it appears after sign-in on a second device. Test sign-out, offline pending edits and conflict choices before trusting sync.
+11. Mentor-review scientific explanations/keys, provisional source flags and official updates before competition.
 
 ## Vercel deployment
 
 Live site: **https://orbital-fieldbook.vercel.app/**. GitHub `main` is connected to Vercel's `rishi-s-projects10/orbital-fieldbook` project; pushes trigger production builds. `vercel.json` selects the Other framework, runs `npm ci --omit=dev` and `npm run build`, and serves only `public/`. `.vercelignore` excludes the local-only source baseline, test fixtures and development reports from CLI uploads. No environment variables, serverless functions, paid APIs, or rewrites are required. The build validates the original content and generates the content-hashed offline cache. Vercel's default revalidation policy for unversioned files and the explicit `sw.js` header avoid stale deploys; the service worker keeps already-installed assets available offline.
 
-GitHub publication makes the original question bank and answer keys visible in source; this is a study tool, not a secure assessment. Student work remains in each browser's local storage and is **not** synced to GitHub or Vercel. Different origins (localhost vs. a Vercel domain, preview vs. production) have separate progress; export/import a backup to move work. Only the app subdirectory is in the repository; the parent PDFs, scans, attachments and local `SOURCE_BASELINE.json` are not committed. Review official corrections and arrange mentor science review before relying on this for competition.
+GitHub publication makes the original question bank and answer keys visible in source; this is a study tool, not a secure assessment. Guest work remains in each browser's local storage; signed-in work syncs to a private Supabase row with row-level security. The Supabase browser key is publishable, not a secret; never ship a service-role key. Different origins (localhost vs. Vercel, preview vs. production) have separate guest work and auth sessions; sign in to the same account to retrieve cloud work, or export/import a backup for guest data. Email confirmation and password-reset links return to the production site; default Supabase email delivery is rate-limited and may require custom SMTP for broader use. Only the app subdirectory is in the repository; the parent PDFs, scans, attachments and local `SOURCE_BASELINE.json` are not committed. Review official corrections and arrange mentor science review before relying on this for competition.
 
 ## Known limits
 
@@ -115,4 +120,4 @@ GitHub publication makes the original question bank and answer keys visible in s
 - Practice is a finite original bank, not an official exam or a claim of exhaustive exam coverage.
 - Written quality and recall confidence are self-assessed; no automatic essay scoring.
 - Browser visual/accessibility/install/print QA is manual, not claimed passed by Node tests.
-- Plain-text local backups are not encrypted; no sync or mentor submission backend.
+- Plain-text local backups are not encrypted. Account sync is private to the signed-in Supabase user via row-level security, but is not end-to-end encrypted. No mentor submission backend.

@@ -1,0 +1,8 @@
+# Supabase login and sync implementation
+
+- Preserve guest-first, offline-capable app. Existing local data remains untouched until account choice; signing out restores the guest ledger. Never put passwords or service-role keys in assets, logs, Git, or Vercel environment.
+- Browser uses locally bundled Supabase JS with only the project URL and public publishable key. Sign up/sign in/reset by email; email verification and redirect URL are configured to the production origin. Auth session is handled by Supabase JS, not our state schema.
+- One `user_fieldbooks` row per auth user; RLS for SELECT/INSERT/UPDATE and no anon access. Atomic revision-checked `save_fieldbook` RPC prevents silent concurrent-device overwrites. DB limits JSON size; client validates the state schema before save/load.
+- Each account has its own local cache. Offline edits remain local and visibly pending. First login to an empty cloud requires explicit choice to upload guest work; conflicting versions present download-versus-confirmed-overwrite choices with a local backup before replacement. Never lose unread/corrupt local data.
+- Generate complete offline precache after adding local SDK/config assets. Build/test in CI and locally, then deploy Git-connected Vercel production. Verify auth+RLS against a temporary account, delete it, check HTTPS assets and private-path 404, and distinguish automated tests from a human email-confirmation test.
+- Cost: Supabase organization's Free plan, one new project; no paid APIs or subscriptions. Default mail limits may restrict public signup until custom SMTP is configured. No automatic Google OAuth provider setup.

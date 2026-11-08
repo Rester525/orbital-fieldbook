@@ -1,0 +1,45 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {authHTML,createAuthActions,mountAuthUI} from '../public/js/auth-ui.js';
+import {parseHTML} from 'linkedom';
+
+test('account dialog offers labeled email/password login, signup, reset and sync controls',()=>{
+ const html=authHTML();for(const word of ['type="email"','type="password"','Sign in','Create account','Reset password','Sign out','Retry sync','Use cloud copy','Keep device copy'])assert.ok(html.includes(word),word);
+ assert.match(html,/aria-live="polite"/);
+});
+test('first account with guest work offers explicit start-empty or copy guest choices',()=>{
+ const {document}=parseHTML('<button id="entry"></button><dialog id="dialog"></dialog>');
+ const sync={status:{kind:'guest',user:null,dirty:false}};
+ const ui=mountAuthUI({client:{auth:{}},sync,button:document.querySelector('#entry'),dialog:document.querySelector('#dialog')});
+ ui.update({kind:'decision',user:'a',dirty:false});
+ assert.equal(document.querySelector('[data-account-action="guest"]').hidden,false);
+ assert.match(document.querySelector('[data-account-action="cloud"]').textContent,/Start empty/);
+ assert.equal(document.querySelector('[data-account-action="overwrite"]').hidden,true);
+ ui.update({kind:'decision',user:'a',dirty:true});
+ assert.equal(document.querySelector('[data-account-action="guest"]').hidden,true,'guest import must not replace unsynced account work');
+});
+test('password recovery exposes a new-password action and updates the signed-in user',async()=>{
+ const calls=[];const client={auth:{updateUser:async data=>{calls.push(data);return {data:{user:{id:'a'}},error:null};}}};
+ const actions=createAuthActions(client);await actions.updatePassword('new-secret-pass');assert.deepEqual(calls,[{password:'new-secret-pass'}]);
+ const {document}=parseHTML('<button id="entry"></button><dialog id="dialog"></dialog>');
+ const ui=mountAuthUI({client,sync:{status:{kind:'guest',user:null,dirty:false}},button:document.querySelector('#entry'),dialog:document.querySelector('#dialog')});
+ ui.setRecoveryMode(true);
+ assert.equal(document.querySelector('#account-recovery').hidden,false);
+ assert.equal(document.querySelector('#account-credentials').hidden,true);
+ assert.match(document.querySelector('#account-recovery').textContent,/new password/i);
+});
+
+test('unread account storage has an export action rather than a false backup',()=>{
+ const {document}=parseHTML('<button id="entry"></button><dialog id="dialog"></dialog>');
+ const ui=mountAuthUI({client:{auth:{}},sync:{status:{kind:'guest',user:null,dirty:false},exportUnread(){return true;}},button:document.querySelector('#entry'),dialog:document.querySelector('#dialog')});
+ ui.update({kind:'corrupt',user:'a',dirty:false});
+ assert.equal(document.querySelector('[data-account-action="export-unread"]').hidden,false);
+});
+
+test('auth actions use injected Supabase client and distinguish confirmation from session',async()=>{
+ const calls=[];const client={auth:{signUp:async args=>{calls.push(['signup',args]);return {data:{user:{id:'a'},session:null},error:null};},signInWithPassword:async args=>{calls.push(['login',args]);return {data:{session:{user:{id:'a'}}},error:null};},resetPasswordForEmail:async email=>{calls.push(['reset',email]);return {data:{},error:null};},signOut:async()=>{calls.push(['logout']);return {error:null};}}};
+ const actions=createAuthActions(client);assert.equal((await actions.signUp('a@example.com','example-secret')).confirmationRequired,true);
+ await actions.signIn('a@example.com','example-secret');await actions.reset('a@example.com');await actions.signOut();
+ assert.deepEqual(calls.map(x=>x[0]),['signup','login','reset','logout']);
+ assert.equal(calls[0][1].email,'a@example.com');
+});

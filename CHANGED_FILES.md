@@ -4,6 +4,7 @@ All listed files are within the new `solar-system-study-app/` project. No existi
 
 - `.gitignore`
 - `.vercelignore`
+- `AUTH_PLAN.md`
 - `BUILD_REPORT.json`
 - `CHANGED_FILES.md`
 - `CORE_API.md`
@@ -22,6 +23,8 @@ All listed files are within the new `solar-system-study-app/` project. No existi
 - `public/assets/icon-192.png`
 - `public/assets/icon-512.png`
 - `public/assets/icon.svg`
+- `public/assets/supabase.js`
+- `public/assets/SUPABASE-LICENSE.txt`
 - `public/css/app.css`
 - `public/data/foundations.json`
 - `public/data/missions.json`
@@ -34,6 +37,9 @@ All listed files are within the new `solar-system-study-app/` project. No existi
 - `public/data/worlds.json`
 - `public/index.html`
 - `public/js/app.js`
+- `public/js/auth-ui.js`
+- `public/js/cloud-config.js`
+- `public/js/cloud-sync.js`
 - `public/js/dashboard-ui.js`
 - `public/js/labs-ui.js`
 - `public/js/library-ui.js`
@@ -51,6 +57,13 @@ All listed files are within the new `solar-system-study-app/` project. No existi
 - `scripts/http-smoke.mjs`
 - `scripts/icons.py`
 - `start.command`
+- `supabase/.gitignore`
+- `supabase/config.toml`
+- `supabase/migrations/20261108213824_fieldbooks.sql`
+- `supabase/migrations/20261108220200_fix_conflict_code.sql`
+- `tests/auth-integration.test.mjs`
+- `tests/auth-sync.test.mjs`
+- `tests/auth-ui.test.mjs`
 - `tests/contrast.test.mjs`
 - `tests/dom.test.mjs`
 - `tests/foundations.test.mjs`

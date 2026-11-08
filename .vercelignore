@@ -9,3 +9,4 @@ VERIFICATION_TEST_OUTPUT.txt
 start.command
 scripts/http-smoke.mjs
 scripts/icons.py
+supabase/

@@ -7,7 +7,7 @@ Project: repository root (`solar-system-study-app/`).
 | Check | Actual result |
 |---|---|
 | `npm run build` | Passed; generated content-derived cache and coverage report |
-| `npm test` | **61 tests passed, 0 failed**, including Vercel static-output and upload-boundary contracts |
+| `npm test` | **83 tests passed, 0 failed**, including account isolation, offline retries, dirty-state conflicts, recovery/export, Vercel static-output and upload-boundary contracts |
 | `npm run check` | Passed; 41 lessons, 84 original questions, 14 exact B55 clause IDs |
 | Exact named lists vs original curriculum | 9 worlds, 3 extrasolar systems, 4 methods, 16 missions/telescopes; no substitutions/additions |
 | Numeric question checks | 19 explicit numeric keys independently recomputed; lesson worked arithmetic tested |
@@ -19,12 +19,14 @@ Project: repository root (`solar-system-study-app/`).
 | Exam integration | Timer ownership, reload/expiry, skip-link regression, hidden answer controls, full-state recovery export, stale imported options pass |
 | Color calculations | Text ≥4.5:1 across defined surfaces; essential control boundaries ≥3:1 in both themes |
 | Service worker | Generated worker executed in Node VM; real-asset offline navigation, namespace cleanup and byte-derived cache version pass |
-| HTTP smoke test | **27 public assets HTTP 200**, every served byte matches disk on `https://orbital-fieldbook.vercel.app/`; JavaScript/CSS/JSON MIME assertions pass |
+| HTTP smoke test | Previous guest-only deployment: **27 public assets HTTP 200** and byte-matched; updated sync deployment must be rechecked below |
 | Vercel response headers | Production `/` returns 200 with `nosniff`, `no-referrer`, `DENY` frame policy and revalidating cache; `/sw.js` returns 200 with `no-cache` |
 | Private-path HTTP probes | Four representative private/nonpublic paths return **404** |
 | Protected original hashes | Five original files unchanged (private handbook, two source PDFs, reference app's two uncommitted UI files) |
 | Reference git state | Still exactly ` M index.html` and `?? css/modern-test.css`; no checkout/reset/write performed |
-| Runtime dependency audit | `npm audit --omit=dev`: 0 vulnerabilities; no runtime npm dependencies |
+| Runtime dependency audit | `npm audit --omit=dev`: 0 vulnerabilities; `@supabase/supabase-js` is bundled into the static public assets |
+| Supabase live access policy | Disposable users: password login, anonymous denial, per-user RLS isolation, cross-account update denial and stale-revision rejection passed; users deleted |
+| Chromium local integration | Guest work separated, explicit import, second browser receives synced edits, sign-out restores guest, recovery URL opens password dialog; no page errors |
 
 `BUILD_REPORT.json` contains the exact precache inventory/version and derived content totals. `HTTP_VERIFICATION.json` contains per-asset HTTP status, MIME type, byte size and check timestamp. `COVERAGE.md` lists exact clause → lesson IDs → question IDs.
 
@@ -49,13 +51,14 @@ Project: repository root (`solar-system-study-app/`).
 
 ## What is NOT claimed verified
 
-- **No browser automation was run.** Node/LinkeDOM is not a layout engine or complete browser. Real desktop/phone appearance, screen-reader/keyboard usability, native PWA installation, actual offline/update behavior, and system print pagination still require the README manual checklist.
+- Browser automation covered only the account/guest/recovery paths above. Node/LinkeDOM is not a layout engine or complete browser. Real desktop/phone appearance, screen-reader/keyboard usability, native PWA installation, actual offline/update behavior, and system print pagination still require the README manual checklist.
 - Four-face print geometry and overflow logic exist, but no physical duplex printout or real print-preview screenshot was inspected.
 - Official corrections/clarifications returned HTTP 403 in this build. The prior dossier check is not substituted for a fresh successful check. All lessons retain `pending_rules_review`.
 - Weeks 7–11, Hub logistics and an exact January deadline remain unsupplied, not inferred.
 - Automated schema/key checks are not a guarantee of tournament performance or independent human science approval. Sources and written rubrics remain available for mentor review.
 - No private pack questions/keys, OCR, scans, original PDFs/DOCX or official rule copy are shipped.
-- The production site is deployed at `https://orbital-fieldbook.vercel.app/`; GitHub `main` triggers Vercel production builds. No paid external API, telemetry, or synchronization was performed.
+- Supabase email delivery/confirmation and password-reset links have not been verified end-to-end through a real mailbox; default delivery has rate limits. Browser account sync and Auth password sign-in were tested with disposable, admin-confirmed accounts.
+- The production site is deployed at `https://orbital-fieldbook.vercel.app/`; GitHub `main` triggers Vercel production builds. An optional per-user Supabase sync backend is used for signed-in accounts; guest content stays local.
 
 ## Local running artifact
 
