@@ -19,14 +19,14 @@ Project: repository root (`solar-system-study-app/`).
 | Exam integration | Timer ownership, reload/expiry, skip-link regression, hidden answer controls, full-state recovery export, stale imported options pass |
 | Color calculations | Text ≥4.5:1 across defined surfaces; essential control boundaries ≥3:1 in both themes |
 | Service worker | Generated worker executed in Node VM; real-asset offline navigation, namespace cleanup and byte-derived cache version pass |
-| HTTP smoke test | Previous guest-only deployment: **27 public assets HTTP 200** and byte-matched; updated sync deployment must be rechecked below |
+| HTTP smoke test | Updated production deployment: **32 public assets HTTP 200** and every byte matched local build; four private paths returned 404 |
 | Vercel response headers | Production `/` returns 200 with `nosniff`, `no-referrer`, `DENY` frame policy and revalidating cache; `/sw.js` returns 200 with `no-cache` |
 | Private-path HTTP probes | Four representative private/nonpublic paths return **404** |
 | Protected original hashes | Five original files unchanged (private handbook, two source PDFs, reference app's two uncommitted UI files) |
 | Reference git state | Still exactly ` M index.html` and `?? css/modern-test.css`; no checkout/reset/write performed |
 | Runtime dependency audit | `npm audit --omit=dev`: 0 vulnerabilities; `@supabase/supabase-js` is bundled into the static public assets |
 | Supabase live access policy | Disposable users: password login, anonymous denial, per-user RLS isolation, cross-account update denial and stale-revision rejection passed; users deleted |
-| Chromium local integration | Guest work separated, explicit import, second browser receives synced edits, sign-out restores guest, recovery URL opens password dialog; no page errors |
+| Chromium local + production integration | On both origins: guest work separated, explicit import, second browser receives synced edits, sign-out restores guest; no page errors. Recovery URL opens password dialog locally |
 
 `BUILD_REPORT.json` contains the exact precache inventory/version and derived content totals. `HTTP_VERIFICATION.json` contains per-asset HTTP status, MIME type, byte size and check timestamp. `COVERAGE.md` lists exact clause → lesson IDs → question IDs.
 
