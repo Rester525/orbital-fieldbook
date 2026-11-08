@@ -1,8 +1,14 @@
 {
-  "checkedAt": "2026-11-08T20:45:02.051Z",
+  "checkedAt": "2026-11-08T22:02:48.202Z",
   "base": "https://orbital-fieldbook.vercel.app/",
-  "assetsVerified": 27,
+  "assetsVerified": 32,
   "assetResults": [
+    {
+      "path": "assets/SUPABASE-LICENSE.txt",
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8",
+      "bytes": 1065
+    },
     {
       "path": "assets/icon-192.png",
       "status": 200,
@@ -22,10 +28,16 @@
       "bytes": 391
     },
     {
+      "path": "assets/supabase.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "bytes": 219856
+    },
+    {
       "path": "css/app.css",
       "status": 200,
       "contentType": "text/css; charset=utf-8",
-      "bytes": 14294
+      "bytes": 14967
     },
     {
       "path": "data/foundations.json",
@@ -85,19 +97,37 @@
       "path": "index.html",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
-      "bytes": 3032
+      "bytes": 3374
     },
     {
       "path": "js/app.js",
       "status": 200,
       "contentType": "application/javascript; charset=utf-8",
-      "bytes": 6813
+      "bytes": 10214
+    },
+    {
+      "path": "js/auth-ui.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "bytes": 7875
+    },
+    {
+      "path": "js/cloud-config.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "bytes": 244
+    },
+    {
+      "path": "js/cloud-sync.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "bytes": 6728
     },
     {
       "path": "js/dashboard-ui.js",
       "status": 200,
       "contentType": "application/javascript; charset=utf-8",
-      "bytes": 11608
+      "bytes": 11731
     },
     {
       "path": "js/labs-ui.js",
@@ -163,7 +193,7 @@
       "path": "sw.js",
       "status": 200,
       "contentType": "application/javascript; charset=utf-8",
-      "bytes": 2003
+      "bytes": 2125
     }
   ],
   "privatePathsDenied": [
