@@ -1,0 +1,2546 @@
+[
+  {
+    "id": "qf-materials",
+    "lesson_id": "foundation-orientation",
+    "rule_refs": [
+      "2.a–c"
+    ],
+    "type": "mcq",
+    "prompt": "Under the supplied B55 rule map, which preparation respects the materials limits? Current official updates still need checking.",
+    "explanation": "Two sheets used on both sides provide four faces. The mapped rules do not permit a calculator or extra affixed labels. The official updates, not this app, control competition permissions.",
+    "source_refs": [
+      {
+        "url": "https://www.soinc.org/sites/default/files/uploaded_files/Science_Olympiad_Div_B_Rules_2027_for_Web_Secured.pdf",
+        "title": "Science Olympiad 2027 Division B Rules — Solar System",
+        "locator": "B55 / PDF page 60, clauses 1, 2.a–c, 3 introduction, 4.a–c; supplied verified rule map, current corrections check blocked",
+        "checked_at": "2026-11-08",
+        "status": "pending_rules_review"
+      }
+    ],
+    "difficulty": "easy",
+    "kind": "recall",
+    "options": [
+      "Four separate sheets and no calculator",
+      "Two double-sided sheets prepared as required, writing utensils and no calculator",
+      "Two sheets plus a calculator for numerical items",
+      "Two sheets with extra sticky-note annotations"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "qf-score",
+    "lesson_id": "foundation-orientation",
+    "rule_refs": [
+      "1",
+      "3 intro",
+      "4.a–c"
+    ],
+    "type": "written",
+    "prompt": "A teammate proposes memorizing trivia and writing only scientific keywords to maximize the event score. Explain a better strategy using both the mapped scoring priorities and the event’s emphasis.",
+    "explanation": "The mapped event prioritizes reasoning, conceptual understanding and interpretation. Higher score wins, quality and accuracy matter, and preselected questions break ties. A claim supported by a measurement and explanation is stronger than a list of unrelated terms.",
+    "source_refs": [
+      {
+        "url": "https://www.soinc.org/sites/default/files/uploaded_files/Science_Olympiad_Div_B_Rules_2027_for_Web_Secured.pdf",
+        "title": "Science Olympiad 2027 Division B Rules — Solar System",
+        "locator": "B55 / PDF page 60, clauses 1, 2.a–c, 3 introduction, 4.a–c; supplied verified rule map, current corrections check blocked",
+        "checked_at": "2026-11-08",
+        "status": "pending_rules_review"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "reasoning",
+    "rubric": [
+      "1 point: identify reasoning/data interpretation rather than trivia as the main study emphasis.",
+      "1 point: connect scoring to accuracy and quality of explanations; note that preselected items resolve ties, not app speed.",
+      "1 point: propose a claim–measurement–mechanism–limitation structure and practice it with a partner."
+    ]
+  },
+  {
+    "id": "qf-scope-review",
+    "lesson_id": "foundation-orientation",
+    "rule_refs": [
+      "1"
+    ],
+    "type": "mcq",
+    "prompt": "An app shows “B55 mapped · update check pending.” What can a team responsibly conclude from this badge?",
+    "explanation": "The lesson is mapped to the supplied manual, but a blocked corrections check cannot establish that no updates exist. The team should consult official updates before competition, not treat a practice app as final authority.",
+    "source_refs": [
+      {
+        "url": "https://www.soinc.org/sites/default/files/uploaded_files/Science_Olympiad_Div_B_Rules_2027_for_Web_Secured.pdf",
+        "title": "Science Olympiad 2027 Division B Rules — Solar System",
+        "locator": "B55 / PDF page 60, clauses 1, 2.a–c, 3 introduction, 4.a–c; supplied verified rule map, current corrections check blocked",
+        "checked_at": "2026-11-08",
+        "status": "pending_rules_review"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "reasoning",
+    "options": [
+      "The mapping supersedes official clarifications",
+      "The rules have definitely not changed",
+      "Every linked astronomy page is now required scope",
+      "A manual mapping exists, but current official updates still need checking"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "qf-conditions",
+    "lesson_id": "foundation-habitability",
+    "rule_refs": [
+      "3.b.i"
+    ],
+    "type": "mcq",
+    "prompt": "Compare the three hypothetical habitats in the table. Which offers the strongest evidence for a persistent subsurface water habitat, without establishing life?",
+    "explanation": "Habitat B combines evidence for a persistent liquid reservoir, an energy source and chemical exchange. A warm transient film is not equivalent to stable liquid, and frozen ingredients alone do not establish accessibility. No row confirms life.",
+    "source_refs": [
+      {
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Exoplanets/Life_on_exoplanets",
+        "title": "ESA — Life on exoplanets?",
+        "locator": "Choosing the right exoplanet; Looking from a distance; Spectra sleuths; So, you think you found a biosignature; What is life?",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://science.nasa.gov/exoplanets/habitable-zone/",
+        "title": "NASA — The Habitable Zone",
+        "locator": "Fast facts: What is the Habitable Zone?; Where Are We Looking for Life, and Why?",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-3-gravitational-potential-energy-and-total-energy",
+        "title": "OpenStax University Physics Volume 1 — 13.3 Gravitational Potential Energy and Total Energy",
+        "locator": "Gravitational Potential Energy beyond Earth; Escape velocity; Energy and gravitationally bound objects",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/2-2-water",
+        "title": "OpenStax Biology 2e — 2.2 Water",
+        "locator": "Water’s Polarity; Water’s States: Gas, Liquid, and Solid; Water’s High Heat Capacity",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants",
+        "title": "OpenStax Chemistry 2e — 13.2 Equilibrium Constants",
+        "locator": "Reaction quotient definition; Predicting the Direction of Reaction",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-6-tidal-forces",
+        "title": "OpenStax University Physics Volume 1 — 13.6 Tidal Forces",
+        "locator": "Lunar Tides; tidal force as a difference in gravitational attraction",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://science.nasa.gov/solar-system/ocean-worlds/",
+        "title": "NASA — Ocean Worlds",
+        "locator": "Jupiter’s Moon Europa; Saturn’s Moon Enceladus; Ancient Mars (mechanisms only, not dated mission status)",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "comparison",
+    "options": [
+      "A, because warmth alone proves a habitat",
+      "C, because ice plus carbon proves life",
+      "B, because liquid persistence and energy are both supported",
+      "All three are equally supported because each contains water"
+    ],
+    "answer": 2,
+    "data": {
+      "headers": [
+        "Habitat",
+        "Water evidence",
+        "Energy and exchange"
+      ],
+      "rows": [
+        [
+          "A",
+          "Warm surface film lasting minutes",
+          "No persistent source measured"
+        ],
+        [
+          "B",
+          "Subsurface liquid maintained across repeated observations",
+          "Internal heat and water–rock exchange"
+        ],
+        [
+          "C",
+          "Cold solid ice only",
+          "No liquid or chemical gradient measured"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "qf-retention",
+    "lesson_id": "foundation-habitability",
+    "rule_refs": [
+      "3.b.i"
+    ],
+    "type": "written",
+    "prompt": "Two worlds have the same radius and atmospheric composition. One is more massive, but also receives much stronger stellar heating. Explain why mass alone cannot rank their long-term atmospheric retention.",
+    "explanation": "Greater mass at the same radius raises escape speed, favoring retention. Greater heating increases molecular speeds and can drive additional loss. Replenishment and irradiation history also matter, so these competing influences require more measurements.",
+    "source_refs": [
+      {
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Exoplanets/Life_on_exoplanets",
+        "title": "ESA — Life on exoplanets?",
+        "locator": "Choosing the right exoplanet; Looking from a distance; Spectra sleuths; So, you think you found a biosignature; What is life?",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://science.nasa.gov/exoplanets/habitable-zone/",
+        "title": "NASA — The Habitable Zone",
+        "locator": "Fast facts: What is the Habitable Zone?; Where Are We Looking for Life, and Why?",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-3-gravitational-potential-energy-and-total-energy",
+        "title": "OpenStax University Physics Volume 1 — 13.3 Gravitational Potential Energy and Total Energy",
+        "locator": "Gravitational Potential Energy beyond Earth; Escape velocity; Energy and gravitationally bound objects",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/2-2-water",
+        "title": "OpenStax Biology 2e — 2.2 Water",
+        "locator": "Water’s Polarity; Water’s States: Gas, Liquid, and Solid; Water’s High Heat Capacity",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants",
+        "title": "OpenStax Chemistry 2e — 13.2 Equilibrium Constants",
+        "locator": "Reaction quotient definition; Predicting the Direction of Reaction",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-6-tidal-forces",
+        "title": "OpenStax University Physics Volume 1 — 13.6 Tidal Forces",
+        "locator": "Lunar Tides; tidal force as a difference in gravitational attraction",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://science.nasa.gov/solar-system/ocean-worlds/",
+        "title": "NASA — Ocean Worlds",
+        "locator": "Jupiter’s Moon Europa; Saturn’s Moon Enceladus; Ancient Mars (mechanisms only, not dated mission status)",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "reasoning",
+    "rubric": [
+      "1 point: explain that larger mass at fixed radius means stronger gravitational binding/higher escape speed.",
+      "1 point: explain that stronger heating can increase gas escape; composition alone does not fix loss.",
+      "1 point: state that the competing effects prevent a unique ranking without temperature/loss history or other evidence."
+    ]
+  },
+  {
+    "id": "qf-disequilibrium-life",
+    "lesson_id": "foundation-habitability",
+    "rule_refs": [
+      "3.b.i"
+    ],
+    "type": "mcq",
+    "prompt": "Reactive gases coexist in an atmosphere and should react if mixed. Which conclusion is most defensible before measuring transport and reaction rates?",
+    "explanation": "Disequilibrium can supply usable chemical energy, but transport, geological sources, light-driven chemistry or slow kinetics can also maintain it. Establishing a biological source needs additional evidence.",
+    "source_refs": [
+      {
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Exoplanets/Life_on_exoplanets",
+        "title": "ESA — Life on exoplanets?",
+        "locator": "Choosing the right exoplanet; Looking from a distance; Spectra sleuths; So, you think you found a biosignature; What is life?",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://science.nasa.gov/exoplanets/habitable-zone/",
+        "title": "NASA — The Habitable Zone",
+        "locator": "Fast facts: What is the Habitable Zone?; Where Are We Looking for Life, and Why?",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-3-gravitational-potential-energy-and-total-energy",
+        "title": "OpenStax University Physics Volume 1 — 13.3 Gravitational Potential Energy and Total Energy",
+        "locator": "Gravitational Potential Energy beyond Earth; Escape velocity; Energy and gravitationally bound objects",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/2-2-water",
+        "title": "OpenStax Biology 2e — 2.2 Water",
+        "locator": "Water’s Polarity; Water’s States: Gas, Liquid, and Solid; Water’s High Heat Capacity",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants",
+        "title": "OpenStax Chemistry 2e — 13.2 Equilibrium Constants",
+        "locator": "Reaction quotient definition; Predicting the Direction of Reaction",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-6-tidal-forces",
+        "title": "OpenStax University Physics Volume 1 — 13.6 Tidal Forces",
+        "locator": "Lunar Tides; tidal force as a difference in gravitational attraction",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://science.nasa.gov/solar-system/ocean-worlds/",
+        "title": "NASA — Ocean Worlds",
+        "locator": "Jupiter’s Moon Europa; Saturn’s Moon Enceladus; Ancient Mars (mechanisms only, not dated mission status)",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "reasoning",
+    "options": [
+      "Life is confirmed because equilibrium is impossible",
+      "A source or slow process may sustain disequilibrium; biology is one hypothesis",
+      "The atmosphere cannot contain both gases",
+      "The gas mixture guarantees a surface ocean"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "qf-morphology",
+    "diagram": "morphology",
+    "lesson_id": "foundation-evidence",
+    "rule_refs": [
+      "3 intro",
+      "3.b.ii"
+    ],
+    "type": "written",
+    "prompt": "The original schematic and table summarize a fictional survey, not a real mission image or dataset. Make the strongest justified claim about past water, give one alternative and propose a discriminating measurement.",
+    "explanation": "Converging channel, layering and hydrated-mineral evidence favors past water-related transport or alteration. It does not show present water or organisms. Higher-resolution sediment textures/stratigraphy and additional mineral bands can test dry-flow or volcanic alternatives.",
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/mars-2020-perseverance/science-highlights",
+        "title": "NASA — Perseverance Science Highlights",
+        "locator": "Sampled Ancient Lakebeds; Revealed Complex History of Water",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Exoplanets/Life_on_exoplanets",
+        "title": "ESA — Life on exoplanets?",
+        "locator": "Choosing the right exoplanet; Looking from a distance; Spectra sleuths; So, you think you found a biosignature; What is life?",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+        "title": "NASA — How We Find and Classify Exoplanets",
+        "locator": "Radial Velocity: Reading the Wobble; Transits: Planets Found in Dips in Light; Gravitational Microlensing; The Rise of Direct Imaging; Coronagraph",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.nasa.gov/news-release/nasas-asteroid-bennu-sample-reveals-mix-of-lifes-ingredients/",
+        "title": "NASA — Asteroid Bennu Sample Reveals Mix of Life’s Ingredients",
+        "locator": "Paragraphs beginning “Detailed in the Nature Astronomy paper”, “These building blocks”, and “Reporting in the journal Nature”",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "data",
+    "rubric": [
+      "1 point: infer past water-related activity and cite at least two particular table observations.",
+      "1 point: explicitly avoid claiming current liquid or life from these observations alone.",
+      "1 point: offer a plausible dry-flow or volcanic alternative and a measurement that could distinguish it."
+    ],
+    "data": {
+      "headers": [
+        "Measurement",
+        "Observation",
+        "Limitation"
+      ],
+      "rows": [
+        [
+          "Orbital image",
+          "Branches converge into a basin fan",
+          "Some dry processes also make channels"
+        ],
+        [
+          "Layer image",
+          "Fine layers over coarser deposits",
+          "Duration not measured"
+        ],
+        [
+          "Surface spectrum",
+          "Two bands match a hydrated mineral",
+          "Only exposed surface sampled"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "qf-spectrum",
+    "lesson_id": "foundation-evidence",
+    "rule_refs": [
+      "3 intro",
+      "3.b.ii"
+    ],
+    "type": "mcq",
+    "prompt": "In this synthetic absorption table, molecule X is predicted to absorb at 2.0 and 3.0 μm; molecule Y at 2.0 and 4.0 μm. Which interpretation best fits the observed bands? All entries are above the detection threshold when marked present.",
+    "explanation": "The shared 2.0 μm band is ambiguous, but the 3.0 μm band and absent 4.0 μm band favor X under the stated model. Real attribution still needs noise, overlapping species and environmental effects checked. This exercise does not identify life.",
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/mars-2020-perseverance/science-highlights",
+        "title": "NASA — Perseverance Science Highlights",
+        "locator": "Sampled Ancient Lakebeds; Revealed Complex History of Water",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Exoplanets/Life_on_exoplanets",
+        "title": "ESA — Life on exoplanets?",
+        "locator": "Choosing the right exoplanet; Looking from a distance; Spectra sleuths; So, you think you found a biosignature; What is life?",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+        "title": "NASA — How We Find and Classify Exoplanets",
+        "locator": "Radial Velocity: Reading the Wobble; Transits: Planets Found in Dips in Light; Gravitational Microlensing; The Rise of Direct Imaging; Coronagraph",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.nasa.gov/news-release/nasas-asteroid-bennu-sample-reveals-mix-of-lifes-ingredients/",
+        "title": "NASA — Asteroid Bennu Sample Reveals Mix of Life’s Ingredients",
+        "locator": "Paragraphs beginning “Detailed in the Nature Astronomy paper”, “These building blocks”, and “Reporting in the journal Nature”",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "data",
+    "options": [
+      "Y alone, because it shares the first band",
+      "Both are proven present because one band overlaps",
+      "X is favored, but model limitations still require checking",
+      "Neither can absorb because all spectra must be continuous"
+    ],
+    "answer": 2,
+    "data": {
+      "headers": [
+        "Wavelength (μm)",
+        "Observed absorption",
+        "X prediction",
+        "Y prediction"
+      ],
+      "rows": [
+        [
+          2.0,
+          "present",
+          "present",
+          "present"
+        ],
+        [
+          3.0,
+          "present",
+          "present",
+          "absent"
+        ],
+        [
+          4.0,
+          "absent",
+          "absent",
+          "present"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "qf-delivery",
+    "lesson_id": "foundation-evidence",
+    "rule_refs": [
+      "3.b.ii"
+    ],
+    "type": "written",
+    "prompt": "A returned small-body sample contains amino acids and salts associated with evaporation. Explain what this supports about water and organic delivery, and what it does not establish.",
+    "explanation": "The ingredients support organic chemistry and a history involving water-rich processing in the parent body. Small bodies can supply raw ingredients to other worlds. The sample does not demonstrate living cells, current liquid on the object or the fraction of another world’s water delivered by impacts.",
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/mars-2020-perseverance/science-highlights",
+        "title": "NASA — Perseverance Science Highlights",
+        "locator": "Sampled Ancient Lakebeds; Revealed Complex History of Water",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Exoplanets/Life_on_exoplanets",
+        "title": "ESA — Life on exoplanets?",
+        "locator": "Choosing the right exoplanet; Looking from a distance; Spectra sleuths; So, you think you found a biosignature; What is life?",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+        "title": "NASA — How We Find and Classify Exoplanets",
+        "locator": "Radial Velocity: Reading the Wobble; Transits: Planets Found in Dips in Light; Gravitational Microlensing; The Rise of Direct Imaging; Coronagraph",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.nasa.gov/news-release/nasas-asteroid-bennu-sample-reveals-mix-of-lifes-ingredients/",
+        "title": "NASA — Asteroid Bennu Sample Reveals Mix of Life’s Ingredients",
+        "locator": "Paragraphs beginning “Detailed in the Nature Astronomy paper”, “These building blocks”, and “Reporting in the journal Nature”",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "reasoning",
+    "rubric": [
+      "1 point: identify organic building blocks and evidence consistent with earlier aqueous processing.",
+      "1 point: explain how impacts could deliver raw ingredients without asserting a quantified delivery history.",
+      "1 point: reject life/current liquid as established conclusions and mention contamination controls or alternative nonbiological chemistry."
+    ]
+  },
+  {
+    "id": "qf-families",
+    "lesson_id": "foundation-biomolecules",
+    "rule_refs": [
+      "3.b.iii"
+    ],
+    "type": "written",
+    "prompt": "Match each fictional sample description to a biomolecule family and give one relevant cellular function: amino-acid polymer; nucleotide polymer; phospholipid; glucose polymer.",
+    "explanation": "The amino-acid polymer is a protein (for example catalysis or structure); the nucleotide polymer is a nucleic acid (information); phospholipids help form membranes; a glucose polymer is a carbohydrate used in storage or structure. Identification is not proof of a living system.",
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/3-4-proteins",
+        "title": "OpenStax Biology 2e — 3.4 Proteins",
+        "locator": "Types and Functions of Proteins; Amino Acids",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/3-5-nucleic-acids",
+        "title": "OpenStax Biology 2e — 3.5 Nucleic Acids",
+        "locator": "DNA and RNA",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/3-3-lipids",
+        "title": "OpenStax Biology 2e — 3.3 Lipids",
+        "locator": "Fats and Oils; Phospholipids",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/3-2-carbohydrates",
+        "title": "OpenStax Biology 2e — 3.2 Carbohydrates",
+        "locator": "Molecular Structures; Monosaccharides; Polysaccharides",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.nasa.gov/news-release/nasas-asteroid-bennu-sample-reveals-mix-of-lifes-ingredients/",
+        "title": "NASA — Asteroid Bennu Sample Reveals Mix of Life’s Ingredients",
+        "locator": "Paragraphs beginning “Detailed in the Nature Astronomy paper”, “These building blocks”, and “Reporting in the journal Nature”",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "easy",
+    "kind": "comparison",
+    "rubric": [
+      "1 point: protein from amino acids, with a correct function such as catalysis, transport or structure.",
+      "1 point: nucleic acid from nucleotides, with a correct information-related role.",
+      "1 point: phospholipid as a lipid contributing to membrane structure/compartmentalization.",
+      "1 point: glucose polymer as a carbohydrate with storage or structural function."
+    ]
+  },
+  {
+    "id": "qf-nucleobase",
+    "lesson_id": "foundation-biomolecules",
+    "rule_refs": [
+      "3.b.iii"
+    ],
+    "type": "mcq",
+    "prompt": "A chemical analysis identifies a nucleobase in an uncontaminated extraterrestrial sample. Which statement stays closest to the measurement?",
+    "explanation": "A nucleobase is a component of nucleotides, not a complete nucleotide chain or organism. Organic compounds can arise through nonbiological chemistry, so the detection is relevant to ingredients but not proof of life.",
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/3-4-proteins",
+        "title": "OpenStax Biology 2e — 3.4 Proteins",
+        "locator": "Types and Functions of Proteins; Amino Acids",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/3-5-nucleic-acids",
+        "title": "OpenStax Biology 2e — 3.5 Nucleic Acids",
+        "locator": "DNA and RNA",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/3-3-lipids",
+        "title": "OpenStax Biology 2e — 3.3 Lipids",
+        "locator": "Fats and Oils; Phospholipids",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/3-2-carbohydrates",
+        "title": "OpenStax Biology 2e — 3.2 Carbohydrates",
+        "locator": "Molecular Structures; Monosaccharides; Polysaccharides",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.nasa.gov/news-release/nasas-asteroid-bennu-sample-reveals-mix-of-lifes-ingredients/",
+        "title": "NASA — Asteroid Bennu Sample Reveals Mix of Life’s Ingredients",
+        "locator": "Paragraphs beginning “Detailed in the Nature Astronomy paper”, “These building blocks”, and “Reporting in the journal Nature”",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "easy",
+    "kind": "recall",
+    "options": [
+      "A complete DNA genome has been sequenced",
+      "A chemical building block has been found; its presence alone does not establish life",
+      "The sample contains only proteins",
+      "The molecule must have been made by a cell"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "qf-water-forms",
+    "lesson_id": "foundation-water",
+    "rule_refs": [
+      "3.b.iii"
+    ],
+    "type": "written",
+    "prompt": "Classify samples A, B and C using the table. Explain why “solid water” alone would not distinguish B and C, and why A is not automatically habitable.",
+    "explanation": "A is a brine, B amorphous ice and C a clathrate hydrate. Both B and C are solids, but C has an ordered guest-host cage structure while B lacks long-range order. Salt-rich liquid can impose water-availability or chemical stress, so liquid is not proof of habitability.",
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/2-2-water",
+        "title": "OpenStax Biology 2e — 2.2 Water",
+        "locator": "Water’s Polarity; Water’s States: Gas, Liquid, and Solid; Water’s High Heat Capacity",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.nasa.gov/solar-system/why-comets-are-like-deep-fried-ice-cream/",
+        "title": "NASA — Why Comets Are Like Deep Fried Ice Cream",
+        "locator": "Paragraphs beginning “In the new study” and “Gudipati and Lignell”; laboratory crystallization experiment",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.usgs.gov/centers/whcmsc/science/gas-hydrates-primer",
+        "title": "USGS — Gas Hydrates: Primer",
+        "locator": "Gas Hydrates - Primer; paragraph beginning “At the molecular level”; text label “Where Does Methane Hydrate Occur?”",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.nasa.gov/missions/dawn/lab-work-digs-into-gullies-seen-on-giant-asteroid-vesta-by-nasas-dawn/",
+        "title": "NASA — Lab Work Digs Into Gullies Seen on Giant Asteroid Vesta",
+        "locator": "Re-creating Vesta; laboratory pure-water versus brine comparison (not confirmation of natural brines)",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/11-4-colligative-properties",
+        "title": "OpenStax Chemistry 2e — 11.4 Colligative Properties",
+        "locator": "Freezing Point Depression; Osmosis and Osmotic Pressure of Solutions",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "comparison",
+    "rubric": [
+      "1 point: correctly identify A as brine and B as amorphous ice.",
+      "1 point: identify C as clathrate hydrate, with guest molecules inside ordered water cages.",
+      "1 point: distinguish structure from phase and explain that liquid water with salts can still be biologically limiting."
+    ],
+    "data": {
+      "headers": [
+        "Sample",
+        "Behavior",
+        "Molecular evidence"
+      ],
+      "rows": [
+        [
+          "A",
+          "Flows under the specified pressure",
+          "Dissolved salts in liquid water"
+        ],
+        [
+          "B",
+          "Solid",
+          "No long-range order in water structure"
+        ],
+        [
+          "C",
+          "Solid",
+          "Repeating water cages containing guest methane"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "qf-ice-warming",
+    "lesson_id": "foundation-water",
+    "rule_refs": [
+      "3.b.iii"
+    ],
+    "type": "mcq",
+    "prompt": "A laboratory water-ice mixture changes from disordered to ordered structure during warming, while some trapped organics separate out. What is the best interpretation?",
+    "explanation": "Crystallization can rearrange solid water and change the distribution of trapped compounds. This does not require melting and does not demonstrate life. A laboratory mechanism should not be assumed to describe every natural comet interior.",
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/2-2-water",
+        "title": "OpenStax Biology 2e — 2.2 Water",
+        "locator": "Water’s Polarity; Water’s States: Gas, Liquid, and Solid; Water’s High Heat Capacity",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.nasa.gov/solar-system/why-comets-are-like-deep-fried-ice-cream/",
+        "title": "NASA — Why Comets Are Like Deep Fried Ice Cream",
+        "locator": "Paragraphs beginning “In the new study” and “Gudipati and Lignell”; laboratory crystallization experiment",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.usgs.gov/centers/whcmsc/science/gas-hydrates-primer",
+        "title": "USGS — Gas Hydrates: Primer",
+        "locator": "Gas Hydrates - Primer; paragraph beginning “At the molecular level”; text label “Where Does Methane Hydrate Occur?”",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.nasa.gov/missions/dawn/lab-work-digs-into-gullies-seen-on-giant-asteroid-vesta-by-nasas-dawn/",
+        "title": "NASA — Lab Work Digs Into Gullies Seen on Giant Asteroid Vesta",
+        "locator": "Re-creating Vesta; laboratory pure-water versus brine comparison (not confirmation of natural brines)",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/11-4-colligative-properties",
+        "title": "OpenStax Chemistry 2e — 11.4 Colligative Properties",
+        "locator": "Freezing Point Depression; Osmosis and Osmotic Pressure of Solutions",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "reasoning",
+    "options": [
+      "The water must have become a stable liquid ocean",
+      "The organics prove organisms grew during warming",
+      "The experiment determines all comet interiors",
+      "Solid ice crystallized, altering how trapped material was stored"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "qf-brine-threshold",
+    "lesson_id": "foundation-water",
+    "rule_refs": [
+      "3.b.iii"
+    ],
+    "type": "mcq",
+    "prompt": "In this fictional chamber at fixed pressure, pure water freezes at 0 °C and the tested brine at −12 °C. Which row contains liquid brine but frozen pure water? Ignore supercooling and use only these stated thresholds.",
+    "explanation": "At −6 °C the temperature is below the pure-water freezing threshold but above this brine’s threshold. The result depends on the stated composition and pressure; it is not a universal rule for every salt solution.",
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/2-2-water",
+        "title": "OpenStax Biology 2e — 2.2 Water",
+        "locator": "Water’s Polarity; Water’s States: Gas, Liquid, and Solid; Water’s High Heat Capacity",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.nasa.gov/solar-system/why-comets-are-like-deep-fried-ice-cream/",
+        "title": "NASA — Why Comets Are Like Deep Fried Ice Cream",
+        "locator": "Paragraphs beginning “In the new study” and “Gudipati and Lignell”; laboratory crystallization experiment",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.usgs.gov/centers/whcmsc/science/gas-hydrates-primer",
+        "title": "USGS — Gas Hydrates: Primer",
+        "locator": "Gas Hydrates - Primer; paragraph beginning “At the molecular level”; text label “Where Does Methane Hydrate Occur?”",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.nasa.gov/missions/dawn/lab-work-digs-into-gullies-seen-on-giant-asteroid-vesta-by-nasas-dawn/",
+        "title": "NASA — Lab Work Digs Into Gullies Seen on Giant Asteroid Vesta",
+        "locator": "Re-creating Vesta; laboratory pure-water versus brine comparison (not confirmation of natural brines)",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/11-4-colligative-properties",
+        "title": "OpenStax Chemistry 2e — 11.4 Colligative Properties",
+        "locator": "Freezing Point Depression; Osmosis and Osmotic Pressure of Solutions",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "data",
+    "options": [
+      "Row 1",
+      "Row 2",
+      "Row 3",
+      "No row"
+    ],
+    "answer": 1,
+    "data": {
+      "headers": [
+        "Row",
+        "Temperature (°C)",
+        "Pressure"
+      ],
+      "rows": [
+        [
+          1,
+          4,
+          "fixed"
+        ],
+        [
+          2,
+          -6,
+          "fixed"
+        ],
+        [
+          3,
+          -18,
+          "fixed"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "qf-chemo-label",
+    "lesson_id": "foundation-extremophiles",
+    "rule_refs": [
+      "3.b.iii",
+      "3.b.i"
+    ],
+    "type": "mcq",
+    "prompt": "A microbe gains energy from oxidizing an inorganic donor and builds organic matter from CO₂. Which description is correct?",
+    "explanation": "The energy is chemical, the electron donor inorganic and the carbon source inorganic carbon. These separate traits match chemolithoautotrophy; carbon dioxide is not itself a statement of the energy source.",
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/22-3-prokaryotic-metabolism",
+        "title": "OpenStax Biology 2e — 22.3 Prokaryotic Metabolism",
+        "locator": "The Ways in Which Prokaryotes Obtain Energy; The Ways in Which Prokaryotes Obtain Carbon; Table 22.3",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.esa.int/articles/about-us/directorates/human-and-robotic-exploration/tiny-animals-survive-exposure-to-space",
+        "title": "ESA — Tiny animals survive exposure to space",
+        "locator": "Opening account of TARDIS; paragraphs beginning “Our principle finding” and “That the water bears survived”",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Exoplanets/Life_on_exoplanets",
+        "title": "ESA — Life on exoplanets?",
+        "locator": "Choosing the right exoplanet; Looking from a distance; Spectra sleuths; So, you think you found a biosignature; What is life?",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "easy",
+    "kind": "recall",
+    "options": [
+      "Chemolithoautotroph; energy and carbon sources are separate traits",
+      "Photosynthetic animal; all CO₂ use requires light",
+      "Heterotroph; inorganic donors mean organic carbon",
+      "Tardigrade; all stress-tolerant organisms make their own food"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "qf-survival",
+    "lesson_id": "foundation-extremophiles",
+    "rule_refs": [
+      "3.b.iii",
+      "3.b.i"
+    ],
+    "type": "written",
+    "prompt": "A fictional recovery assay starts with 20 tardigrades per group. Interpret the table: does it show that animals grew while dry or in vacuum? State the additional measurement needed for that claim.",
+    "explanation": "Recovery after rehydration tests survival through treatment. It does not measure growth or reproduction during exposure. To test growth, repeatedly measure the same animals’ size or biomass during the dry/vacuum interval, with controls and measurement uncertainty. To test reproduction, observe new offspring during that interval. Metabolism alone does not establish growth, and reproduction after rehydration would not demonstrate reproduction during exposure.",
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/22-3-prokaryotic-metabolism",
+        "title": "OpenStax Biology 2e — 22.3 Prokaryotic Metabolism",
+        "locator": "The Ways in Which Prokaryotes Obtain Energy; The Ways in Which Prokaryotes Obtain Carbon; Table 22.3",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.esa.int/articles/about-us/directorates/human-and-robotic-exploration/tiny-animals-survive-exposure-to-space",
+        "title": "ESA — Tiny animals survive exposure to space",
+        "locator": "Opening account of TARDIS; paragraphs beginning “Our principle finding” and “That the water bears survived”",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Exoplanets/Life_on_exoplanets",
+        "title": "ESA — Life on exoplanets?",
+        "locator": "Choosing the right exoplanet; Looking from a distance; Spectra sleuths; So, you think you found a biosignature; What is life?",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "data",
+    "rubric": [
+      "1 point: describe the recovery difference without claiming that every animal survives.",
+      "1 point: distinguish survival after rehydration from active growth/reproduction during treatment.",
+      "1 point: propose direct size/biomass measurements for growth, or offspring observations for reproduction, DURING exposure, with a suitable comparison/control; do not substitute metabolism or post-rehydration observations."
+    ],
+    "data": {
+      "headers": [
+        "Group",
+        "Treatment",
+        "Animals recovered after rehydration"
+      ],
+      "rows": [
+        [
+          "Control",
+          "Hydrated, normal conditions",
+          20
+        ],
+        [
+          "Dry",
+          "Dried, protected",
+          18
+        ],
+        [
+          "Exposed",
+          "Dried, vacuum exposure",
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "qf-energy-carbon",
+    "lesson_id": "foundation-extremophiles",
+    "rule_refs": [
+      "3.b.iii",
+      "3.b.i"
+    ],
+    "type": "written",
+    "prompt": "A classmate says, “A hydrogen-using chemolithoautotroph gets its carbon from hydrogen and never needs an electron acceptor.” Correct both errors and connect the correction to habitat assessment.",
+    "explanation": "Hydrogen contains no carbon: CO₂ or another inorganic carbon source supplies carbon for autotrophic growth. Energy capture requires a workable electron-transfer pathway with a donor and acceptor, along with access to water and nutrients; hydrogen alone is not a complete habitat.",
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/22-3-prokaryotic-metabolism",
+        "title": "OpenStax Biology 2e — 22.3 Prokaryotic Metabolism",
+        "locator": "The Ways in Which Prokaryotes Obtain Energy; The Ways in Which Prokaryotes Obtain Carbon; Table 22.3",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.esa.int/articles/about-us/directorates/human-and-robotic-exploration/tiny-animals-survive-exposure-to-space",
+        "title": "ESA — Tiny animals survive exposure to space",
+        "locator": "Opening account of TARDIS; paragraphs beginning “Our principle finding” and “That the water bears survived”",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Exoplanets/Life_on_exoplanets",
+        "title": "ESA — Life on exoplanets?",
+        "locator": "Choosing the right exoplanet; Looking from a distance; Spectra sleuths; So, you think you found a biosignature; What is life?",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "reasoning",
+    "rubric": [
+      "1 point: explain that hydrogen cannot supply carbon and identify CO₂ as an appropriate inorganic carbon source.",
+      "1 point: distinguish inorganic donor from electron acceptor and explain the need for an energy-yielding pathway.",
+      "1 point: connect habitat assessment to access/supply of reactants and water rather than a single detected ingredient."
+    ]
+  },
+  {
+    "id": "qf-transit-table",
+    "plot": {
+      "title": "Original schematic light curve; simplified ingress/egress",
+      "xLabel": "Time (days)",
+      "yLabel": "Stellar flux (units)",
+      "points": [
+        [
+          0,
+          1000
+        ],
+        [
+          2.6,
+          1000
+        ],
+        [
+          2.9,
+          960
+        ],
+        [
+          3,
+          960
+        ],
+        [
+          3.1,
+          960
+        ],
+        [
+          3.4,
+          1000
+        ],
+        [
+          8.6,
+          1000
+        ],
+        [
+          8.9,
+          960
+        ],
+        [
+          9,
+          960
+        ],
+        [
+          9.1,
+          960
+        ],
+        [
+          9.4,
+          1000
+        ],
+        [
+          14.6,
+          1000
+        ],
+        [
+          14.9,
+          960
+        ],
+        [
+          15,
+          960
+        ],
+        [
+          15.1,
+          960
+        ],
+        [
+          15.4,
+          1000
+        ],
+        [
+          18,
+          1000
+        ]
+      ]
+    },
+    "lesson_id": "method-transits",
+    "rule_refs": [
+      "3.b.iv",
+      "3 intro"
+    ],
+    "type": "written",
+    "prompt": "The schematic light curve and tabulated minima belong to one regularly repeating transiting object. The out-of-transit flux is 1000 units. Assume a uniform stellar disk and full overlap. Calculate the planet/star radius ratio and state the orbital period from the table.",
+    "explanation": "Depth = (1000 − 960)/1000 = 0.04. The radius ratio is √0.04 = 0.2. Matching minima are six days apart, giving a 6-day period under the stated one-object assumption. Neither result measures planet mass or life.",
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+        "title": "NASA — How We Find and Classify Exoplanets",
+        "locator": "Radial Velocity: Reading the Wobble; Transits: Planets Found in Dips in Light; Gravitational Microlensing; The Rise of Direct Imaging; Coronagraph",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://arxiv.org/html/1901.01730v2",
+        "title": "Analytic solutions to the maximum and average exoplanet transit depth for common stellar limb darkening laws",
+        "locator": "Abstract; §1 Introduction: uniform-brightness stellar circle, square-root depth/radius relation, ingress/egress footnote, and limb-darkening limits",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "data",
+    "rubric": [
+      "1 point: calculate fractional depth 0.04 from baseline minus minimum, divided by baseline.",
+      "1 point: take the square root to obtain radius ratio 0.2, using the full-overlap uniform-disk assumption.",
+      "1 point: identify a 6-day recurrence period; do not interpret depth as a mass ratio."
+    ],
+    "data": {
+      "headers": [
+        "Minimum number",
+        "Time (days)",
+        "Minimum flux (units)"
+      ],
+      "rows": [
+        [
+          1,
+          3,
+          960
+        ],
+        [
+          2,
+          9,
+          960
+        ],
+        [
+          3,
+          15,
+          960
+        ]
+      ]
+    },
+    "numeric_check": {
+      "expression": "((1000-960)/1000)**0.5",
+      "expected": 0.2
+    }
+  },
+  {
+    "id": "qf-transit-no-dip",
+    "lesson_id": "method-transits",
+    "rule_refs": [
+      "3.b.iv",
+      "3 intro"
+    ],
+    "type": "mcq",
+    "prompt": "A precise light curve shows no dips during the observed interval. Why is “this star has no planets” not justified?",
+    "explanation": "A planet can fail to transit because its orbit is not aligned with our line of sight. The observing window or sensitivity may also miss a transit. Absence of a measured dip excludes only certain detectable configurations, not every planet.",
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+        "title": "NASA — How We Find and Classify Exoplanets",
+        "locator": "Radial Velocity: Reading the Wobble; Transits: Planets Found in Dips in Light; Gravitational Microlensing; The Rise of Direct Imaging; Coronagraph",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://arxiv.org/html/1901.01730v2",
+        "title": "Analytic solutions to the maximum and average exoplanet transit depth for common stellar limb darkening laws",
+        "locator": "Abstract; §1 Introduction: uniform-brightness stellar circle, square-root depth/radius relation, ingress/egress footnote, and limb-darkening limits",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "reasoning",
+    "options": [
+      "All planets are transparent",
+      "Transits only occur when planets stop orbiting",
+      "Orbital alignment, coverage and sensitivity limit which planets can be found",
+      "Every non-detection proves the star has an ocean"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "qf-rv-table",
+    "lesson_id": "method-radial-velocity",
+    "rule_refs": [
+      "3.b.iv",
+      "3.b.vi(1)",
+      "3 intro"
+    ],
+    "type": "written",
+    "prompt": "The synthetic velocities follow one sinusoidal signal relative to the star’s mean velocity. Assume the listed peaks are true extrema, with no unobserved cycles between repeated phases. Identify the velocity semi-amplitude, recurrence period and one reason this alone cannot give an exact companion mass.",
+    "explanation": "The semi-amplitude is 6 m/s, half the 12 m/s peak-to-peak range. Repeated positive maxima at days 2 and 10 imply an 8-day period. Inclination is unknown, so the signal constrains a minimum mass under orbital assumptions rather than a unique true mass.",
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+        "title": "NASA — How We Find and Classify Exoplanets",
+        "locator": "Radial Velocity: Reading the Wobble; Transits: Planets Found in Dips in Light; Gravitational Microlensing; The Rise of Direct Imaging; Coronagraph",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/astronomy-2e/pages/5-6-the-doppler-effect",
+        "title": "OpenStax Astronomy 2e — 5.6 The Doppler Effect",
+        "locator": "Motion Affects Waves; Color Shifts; Doppler wavelength-shift equation",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://ar5iv.labs.arxiv.org/html/2608.26880",
+        "title": "The true masses of radial-velocity exoplanets constrained by stability",
+        "locator": "Abstract and §1 Introduction: line-of-sight RV signal proportional to M sin i; minimum mass and unknown inclination. Technical preprint; not a scope authority",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "data",
+    "rubric": [
+      "1 point: give semi-amplitude 6 m/s, not peak-to-peak 12 m/s.",
+      "1 point: give an 8-day recurrence period using repeated phases.",
+      "1 point: explain the unknown inclination/mass degeneracy or equivalent minimum-mass limitation."
+    ],
+    "data": {
+      "headers": [
+        "Time (days)",
+        "Relative radial velocity (m/s)"
+      ],
+      "rows": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          6,
+          -6
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          10,
+          6
+        ]
+      ]
+    },
+    "numeric_check": {
+      "expression": "(6-(-6))/2",
+      "expected": 6
+    }
+  },
+  {
+    "id": "qf-rv-shift",
+    "lesson_id": "method-radial-velocity",
+    "rule_refs": [
+      "3.b.iv",
+      "3.b.vi(1)",
+      "3 intro"
+    ],
+    "type": "mcq",
+    "prompt": "A stellar line’s rest wavelength is 400 nm and its observed wavelength is 400.004 nm. Using c = 300000 km/s and v/c = Δλ/λ, what line-of-sight velocity is indicated?",
+    "explanation": "The fractional shift is 0.004/400 = 0.00001, giving 3 km/s. The wavelength increased, so the motion is away from the observer. This single measurement does not by itself establish a planet.",
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+        "title": "NASA — How We Find and Classify Exoplanets",
+        "locator": "Radial Velocity: Reading the Wobble; Transits: Planets Found in Dips in Light; Gravitational Microlensing; The Rise of Direct Imaging; Coronagraph",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/astronomy-2e/pages/5-6-the-doppler-effect",
+        "title": "OpenStax Astronomy 2e — 5.6 The Doppler Effect",
+        "locator": "Motion Affects Waves; Color Shifts; Doppler wavelength-shift equation",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://ar5iv.labs.arxiv.org/html/2608.26880",
+        "title": "The true masses of radial-velocity exoplanets constrained by stability",
+        "locator": "Abstract and §1 Introduction: line-of-sight RV signal proportional to M sin i; minimum mass and unknown inclination. Technical preprint; not a scope authority",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "math",
+    "options": [
+      "3 km/s approaching",
+      "3 km/s receding",
+      "3000 km/s receding",
+      "0.003 km/s approaching"
+    ],
+    "answer": 1,
+    "numeric_check": {
+      "expression": "300000*0.004/400",
+      "expected": 3
+    }
+  },
+  {
+    "id": "qf-microlensing-table",
+    "lesson_id": "method-microlensing",
+    "rule_refs": [
+      "3.b.iv",
+      "3 intro"
+    ],
+    "type": "written",
+    "prompt": "This original table compares a single-lens prediction with observed normalized brightness. Calculate the largest positive residual and explain why it motivates, but does not confirm, a planetary-lens interpretation.",
+    "explanation": "The largest residual is 2.5 − 2.0 = 0.5 at day 0. A brief perturbation of a broader magnification event can be produced by a planet associated with the foreground lens. A single anomaly also needs noise, source variability and other lens models tested.",
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+        "title": "NASA — How We Find and Classify Exoplanets",
+        "locator": "Radial Velocity: Reading the Wobble; Transits: Planets Found in Dips in Light; Gravitational Microlensing; The Rise of Direct Imaging; Coronagraph",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.microlensing-source.org/glossary/",
+        "title": "Microlensing Source — Glossary",
+        "locator": "Binary Lens Parameters: Mass ratio q, Lens separation s and Projected lens separation; Single Lens Parameters: lens distance and lens mass",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://www.microlensing-source.org/theory/binary-lenses/",
+        "title": "Microlensing Source — Binary Lenses",
+        "locator": "Caustics; concluding paragraphs beginning “The expressions derived here depend”: mass ratio and lens-plane positions determine light-curve features",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "data",
+    "rubric": [
+      "1 point: compute the positive residual 0.5 at day 0 from observation minus model.",
+      "1 point: connect the brief departure to a possible companion of the foreground lens, not a transit of the source star.",
+      "1 point: name a competing cause and propose denser sampling/repeated measurements around the event."
+    ],
+    "data": {
+      "headers": [
+        "Time (days)",
+        "Single-lens prediction",
+        "Observed brightness"
+      ],
+      "rows": [
+        [
+          -2,
+          1.0,
+          1.0
+        ],
+        [
+          -1,
+          1.4,
+          1.4
+        ],
+        [
+          0,
+          2.0,
+          2.5
+        ],
+        [
+          1,
+          1.4,
+          1.4
+        ],
+        [
+          2,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "numeric_check": {
+      "expression": "2.5-2.0",
+      "expected": 0.5
+    }
+  },
+  {
+    "id": "qf-microlensing-period",
+    "lesson_id": "method-microlensing",
+    "rule_refs": [
+      "3.b.iv",
+      "3 intro"
+    ],
+    "type": "mcq",
+    "prompt": "A microlensing anomaly lasts four hours. Which claim avoids confusing a transient alignment with an orbital measurement?",
+    "explanation": "The anomaly timescale reflects the lensing geometry and motion through the magnification pattern. It is not directly the planet’s orbital period, and the event is not a transit radius measurement.",
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+        "title": "NASA — How We Find and Classify Exoplanets",
+        "locator": "Radial Velocity: Reading the Wobble; Transits: Planets Found in Dips in Light; Gravitational Microlensing; The Rise of Direct Imaging; Coronagraph",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.microlensing-source.org/glossary/",
+        "title": "Microlensing Source — Glossary",
+        "locator": "Binary Lens Parameters: Mass ratio q, Lens separation s and Projected lens separation; Single Lens Parameters: lens distance and lens mass",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://www.microlensing-source.org/theory/binary-lenses/",
+        "title": "Microlensing Source — Binary Lenses",
+        "locator": "Caustics; concluding paragraphs beginning “The expressions derived here depend”: mass ratio and lens-plane positions determine light-curve features",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "reasoning",
+    "options": [
+      "The planet must orbit every four hours",
+      "The foreground lens has a four-hour rotation period",
+      "The planet radius follows from the square root of the brightening",
+      "The short duration describes the anomaly, not directly the planet’s orbital period"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "qf-imaging-table",
+    "lesson_id": "method-direct-imaging",
+    "rule_refs": [
+      "3.b.iv",
+      "3 intro"
+    ],
+    "type": "mcq",
+    "prompt": "A toy camera detects only candidates with separation at least 0.25 arcsecond AND companion/star flux ratio at least 0.00002. Which candidate passes both limits? Passing is not confirmation of a planet.",
+    "explanation": "Candidate B meets both thresholds: 0.30 arcsecond exceeds 0.25 and 0.00003 exceeds 0.00002. A is too close to the star and C too faint relative to it. Follow-up is needed to reject background objects or artifacts.",
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+        "title": "NASA — How We Find and Classify Exoplanets",
+        "locator": "Radial Velocity: Reading the Wobble; Transits: Planets Found in Dips in Light; Gravitational Microlensing; The Rise of Direct Imaging; Coronagraph",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.amnh.org/content/download/53052/796511/file/DirectImagingChapter.pdf",
+        "title": "Traub & Oppenheimer — Direct Imaging of Exoplanets (2010)",
+        "locator": "§2.2 Angular Separation and §2.3 Contrast of Planet, printed pp.114–115 / PDF pp.4–5; §1.1 common-motion examples. Historical textbook physics, not current instrument capability or event scope",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "data",
+    "options": [
+      "A only",
+      "B only",
+      "C only",
+      "All candidates"
+    ],
+    "answer": 1,
+    "data": {
+      "headers": [
+        "Candidate",
+        "Separation (arcsecond)",
+        "Companion/star flux ratio"
+      ],
+      "rows": [
+        [
+          "A",
+          0.1,
+          5e-05
+        ],
+        [
+          "B",
+          0.3,
+          3e-05
+        ],
+        [
+          "C",
+          0.4,
+          5e-06
+        ]
+      ]
+    }
+  },
+  {
+    "id": "qf-imaging-followup",
+    "lesson_id": "method-direct-imaging",
+    "rule_refs": [
+      "3.b.iv",
+      "3 intro"
+    ],
+    "type": "written",
+    "prompt": "A faint dot appears near a star in one coronagraphic image. Give two different false-positive possibilities and an observation that could help test each.",
+    "explanation": "A background star may appear near the host by chance; multi-epoch relative motion tests association. A speckle from imperfect stellar-light suppression may resemble a source; repeated observations with changed instrument orientation or independent imaging can test persistence at the sky position.",
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+        "title": "NASA — How We Find and Classify Exoplanets",
+        "locator": "Radial Velocity: Reading the Wobble; Transits: Planets Found in Dips in Light; Gravitational Microlensing; The Rise of Direct Imaging; Coronagraph",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.amnh.org/content/download/53052/796511/file/DirectImagingChapter.pdf",
+        "title": "Traub & Oppenheimer — Direct Imaging of Exoplanets (2010)",
+        "locator": "§2.2 Angular Separation and §2.3 Contrast of Planet, printed pp.114–115 / PDF pp.4–5; §1.1 common-motion examples. Historical textbook physics, not current instrument capability or event scope",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "reasoning",
+    "rubric": [
+      "1 point: identify a chance background object and use multi-epoch common-motion/orbital tests.",
+      "1 point: identify an instrumental speckle/artifact and a repeat or independent observation that tests it.",
+      "1 point: avoid claiming that one point source resolves surface features or establishes habitability."
+    ]
+  },
+  {
+    "id": "qf-inverse-square",
+    "lesson_id": "math-radiation",
+    "rule_refs": [
+      "3.b.vi(1)"
+    ],
+    "type": "mcq",
+    "prompt": "A detector receives 720 W/m² from a fixed-luminosity star. It is moved to three times the original distance. Ignore absorption and keep its collecting surface perpendicular to the rays. What flux does it receive?",
+    "explanation": "Flux scales as inverse distance squared: 720/3² = 80 W/m². The source luminosity remains unchanged; its energy is spread over a larger spherical area.",
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/astronomy-2e/pages/5-6-the-doppler-effect",
+        "title": "OpenStax Astronomy 2e — 5.6 The Doppler Effect",
+        "locator": "Motion Affects Waves; Color Shifts; Doppler wavelength-shift equation",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/astronomy-2e/pages/5-2-the-electromagnetic-spectrum",
+        "title": "OpenStax Astronomy 2e — 5.2 The Electromagnetic Spectrum",
+        "locator": "Radiation and Temperature; Radiation Laws (Wien’s law and Stefan–Boltzmann law)",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/",
+        "title": "NASA Earth Observatory — Climate and Earth’s Energy Budget",
+        "locator": "Earth’s Energy Budget; The Atmosphere’s Energy Budget; Effect on Surface Temperature",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/astronomy-2e/pages/17-1-the-brightness-of-stars",
+        "title": "17.1 The Brightness of Stars — Astronomy 2e",
+        "locator": "Opening luminosity/apparent-brightness discussion: received energy varies inversely with distance squared; examples at twice and three times the distance",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "easy",
+    "kind": "math",
+    "options": [
+      "240 W/m²",
+      "2160 W/m²",
+      "80 W/m²",
+      "6480 W/m²"
+    ],
+    "answer": 2,
+    "numeric_check": {
+      "expression": "720/(3**2)",
+      "expected": 80
+    }
+  },
+  {
+    "id": "qf-albedo-average",
+    "lesson_id": "math-radiation",
+    "rule_refs": [
+      "3.b.vi(1)"
+    ],
+    "type": "written",
+    "prompt": "A spherical model planet receives F = 1200 W/m² at normal incidence and has Bond albedo 0.4. Assume full redistribution. Calculate its global-average absorbed flux and explain the factor of four.",
+    "explanation": "The absorbed fraction is 0.6. Global-average absorbed flux = 1200 × 0.6/4 = 180 W/m². The planet intercepts power across πR² but distributes it over 4πR²; this is not a local noon absorption value.",
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/astronomy-2e/pages/5-6-the-doppler-effect",
+        "title": "OpenStax Astronomy 2e — 5.6 The Doppler Effect",
+        "locator": "Motion Affects Waves; Color Shifts; Doppler wavelength-shift equation",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/astronomy-2e/pages/5-2-the-electromagnetic-spectrum",
+        "title": "OpenStax Astronomy 2e — 5.2 The Electromagnetic Spectrum",
+        "locator": "Radiation and Temperature; Radiation Laws (Wien’s law and Stefan–Boltzmann law)",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/",
+        "title": "NASA Earth Observatory — Climate and Earth’s Energy Budget",
+        "locator": "Earth’s Energy Budget; The Atmosphere’s Energy Budget; Effect on Surface Temperature",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "math",
+    "rubric": [
+      "1 point: use absorbed fraction 1 − 0.4 = 0.6, not albedo as absorption.",
+      "1 point: calculate 180 W/m² using F(1 − A)/4.",
+      "1 point: explain intercepting disk area versus entire spherical surface area."
+    ],
+    "numeric_check": {
+      "expression": "1200*(1-0.4)/4",
+      "expected": 180
+    }
+  },
+  {
+    "id": "qf-stefan",
+    "lesson_id": "math-radiation",
+    "rule_refs": [
+      "3.b.vi(1)"
+    ],
+    "type": "mcq",
+    "prompt": "Two ideal blackbody patches have equal area. Patch B is three times as hot as A in kelvin. What is the ratio of their emitted power, B/A?",
+    "explanation": "With equal areas and blackbody emissivity, emitted power scales as T⁴. The ratio is 3⁴ = 81. Celsius temperature ratios would not be valid in this calculation.",
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/astronomy-2e/pages/5-6-the-doppler-effect",
+        "title": "OpenStax Astronomy 2e — 5.6 The Doppler Effect",
+        "locator": "Motion Affects Waves; Color Shifts; Doppler wavelength-shift equation",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/astronomy-2e/pages/5-2-the-electromagnetic-spectrum",
+        "title": "OpenStax Astronomy 2e — 5.2 The Electromagnetic Spectrum",
+        "locator": "Radiation and Temperature; Radiation Laws (Wien’s law and Stefan–Boltzmann law)",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/",
+        "title": "NASA Earth Observatory — Climate and Earth’s Energy Budget",
+        "locator": "Earth’s Energy Budget; The Atmosphere’s Energy Budget; Effect on Surface Temperature",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "math",
+    "options": [
+      "3",
+      "9",
+      "27",
+      "81"
+    ],
+    "answer": 3,
+    "numeric_check": {
+      "expression": "3**4",
+      "expected": 81
+    }
+  },
+  {
+    "id": "qf-wien",
+    "lesson_id": "math-radiation",
+    "rule_refs": [
+      "3.b.vi(1)"
+    ],
+    "type": "written",
+    "prompt": "An ideal blackbody’s spectrum per unit wavelength peaks at 20 μm. Use Wien’s constant b = 2900 μm K to estimate its temperature. Explain what happens to the peak if the temperature doubles.",
+    "explanation": "Wien’s law gives T = 2900/20 = 145 K. Doubling T halves the peak wavelength to 10 μm. This is a continuum blackbody relation, not the identification of an individual absorption line.",
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/astronomy-2e/pages/5-6-the-doppler-effect",
+        "title": "OpenStax Astronomy 2e — 5.6 The Doppler Effect",
+        "locator": "Motion Affects Waves; Color Shifts; Doppler wavelength-shift equation",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/astronomy-2e/pages/5-2-the-electromagnetic-spectrum",
+        "title": "OpenStax Astronomy 2e — 5.2 The Electromagnetic Spectrum",
+        "locator": "Radiation and Temperature; Radiation Laws (Wien’s law and Stefan–Boltzmann law)",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/",
+        "title": "NASA Earth Observatory — Climate and Earth’s Energy Budget",
+        "locator": "Earth’s Energy Budget; The Atmosphere’s Energy Budget; Effect on Surface Temperature",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "math",
+    "rubric": [
+      "1 point: use T = b/λ_peak with μm canceling and obtain 145 K.",
+      "1 point: explain inverse scaling, giving a 10 μm peak when temperature doubles."
+    ],
+    "numeric_check": {
+      "expression": "2900/20",
+      "expected": 145
+    }
+  },
+  {
+    "id": "qf-equilibrium-scale",
+    "lesson_id": "math-radiation",
+    "rule_refs": [
+      "3.b.vi(1)"
+    ],
+    "type": "mcq",
+    "prompt": "A fully redistributing blackbody planet has equilibrium temperature 240 K in a toy model. Holding star luminosity and albedo fixed, move it to four times the distance. What is its new equilibrium temperature?",
+    "explanation": "The flux becomes 1/16 as large, so temperature becomes (1/16)^(1/4) = 1/2 as large: 120 K. This is modeled radiative equilibrium, not a measured surface temperature.",
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/astronomy-2e/pages/5-6-the-doppler-effect",
+        "title": "OpenStax Astronomy 2e — 5.6 The Doppler Effect",
+        "locator": "Motion Affects Waves; Color Shifts; Doppler wavelength-shift equation",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/astronomy-2e/pages/5-2-the-electromagnetic-spectrum",
+        "title": "OpenStax Astronomy 2e — 5.2 The Electromagnetic Spectrum",
+        "locator": "Radiation and Temperature; Radiation Laws (Wien’s law and Stefan–Boltzmann law)",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/",
+        "title": "NASA Earth Observatory — Climate and Earth’s Energy Budget",
+        "locator": "Earth’s Energy Budget; The Atmosphere’s Energy Budget; Effect on Surface Temperature",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/astronomy-2e/pages/17-1-the-brightness-of-stars",
+        "title": "17.1 The Brightness of Stars — Astronomy 2e",
+        "locator": "Opening luminosity/apparent-brightness discussion: received energy varies inversely with distance squared; examples at twice and three times the distance",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "math",
+    "options": [
+      "15 K",
+      "60 K",
+      "120 K",
+      "960 K"
+    ],
+    "answer": 2,
+    "numeric_check": {
+      "expression": "240*(1/16)**0.25",
+      "expected": 120
+    }
+  },
+  {
+    "id": "qf-radiation-graph",
+    "lesson_id": "math-radiation",
+    "rule_refs": [
+      "3.b.vi(1)"
+    ],
+    "type": "written",
+    "prompt": "Treat these synthetic points as a graph of normalized flux (vertical) versus distance units (horizontal). Which relationship fits all points, and what extra assumption would be needed to convert the values into an equilibrium-temperature ratio?",
+    "explanation": "The points obey F ∝ 1/d²: doubling distance quarters flux and tripling divides it by nine. For temperature ratios proportional to F^(1/4), keep albedo and the same full-redistribution blackbody assumptions fixed. The graph does not directly measure surface temperature.",
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/astronomy-2e/pages/5-6-the-doppler-effect",
+        "title": "OpenStax Astronomy 2e — 5.6 The Doppler Effect",
+        "locator": "Motion Affects Waves; Color Shifts; Doppler wavelength-shift equation",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/astronomy-2e/pages/5-2-the-electromagnetic-spectrum",
+        "title": "OpenStax Astronomy 2e — 5.2 The Electromagnetic Spectrum",
+        "locator": "Radiation and Temperature; Radiation Laws (Wien’s law and Stefan–Boltzmann law)",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/",
+        "title": "NASA Earth Observatory — Climate and Earth’s Energy Budget",
+        "locator": "Earth’s Energy Budget; The Atmosphere’s Energy Budget; Effect on Surface Temperature",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/astronomy-2e/pages/17-1-the-brightness-of-stars",
+        "title": "17.1 The Brightness of Stars — Astronomy 2e",
+        "locator": "Opening luminosity/apparent-brightness discussion: received energy varies inversely with distance squared; examples at twice and three times the distance",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "data",
+    "rubric": [
+      "1 point: identify inverse-square dependence and justify it with at least two rows.",
+      "1 point: state the fourth-root flux-to-temperature relation under unchanged albedo and redistribution/emissivity assumptions.",
+      "1 point: distinguish modeled equilibrium temperature from actual surface temperature."
+    ],
+    "data": {
+      "headers": [
+        "Distance (units)",
+        "Normalized flux"
+      ],
+      "rows": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0.25
+        ],
+        [
+          3,
+          "1/9"
+        ],
+        [
+          4,
+          0.0625
+        ]
+      ]
+    }
+  },
+  {
+    "id": "qf-gravity-force",
+    "lesson_id": "math-gravity",
+    "rule_refs": [
+      "3.b.vi(2)"
+    ],
+    "type": "mcq",
+    "prompt": "Two bodies exert a gravitational force F. Their masses stay fixed, but center-to-center distance doubles. What is the new force as a fraction of F?",
+    "explanation": "Newton’s law gives force proportional to 1/r² at fixed masses. Doubling r gives F_new/F = 1/2² = 0.25. This is the total attraction, not the tidal difference across a body.",
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-1-newtons-law-of-universal-gravitation",
+        "title": "OpenStax University Physics Volume 1 — 13.1 Newton’s Law of Universal Gravitation",
+        "locator": "Newton’s Law of Universal Gravitation; inverse-square force equation",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-3-gravitational-potential-energy-and-total-energy",
+        "title": "OpenStax University Physics Volume 1 — 13.3 Gravitational Potential Energy and Total Energy",
+        "locator": "Gravitational Potential Energy beyond Earth; Escape velocity; Energy and gravitationally bound objects",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-5-keplers-laws-of-planetary-motion",
+        "title": "OpenStax University Physics Volume 1 — 13.5 Kepler’s Laws of Planetary Motion",
+        "locator": "Kepler’s First Law; Kepler’s Second Law; Kepler’s Third Law",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-6-tidal-forces",
+        "title": "OpenStax University Physics Volume 1 — 13.6 Tidal Forces",
+        "locator": "Lunar Tides; tidal force as a difference in gravitational attraction",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "easy",
+    "kind": "math",
+    "options": [
+      "0.25 F",
+      "0.5 F",
+      "2 F",
+      "4 F"
+    ],
+    "answer": 0,
+    "numeric_check": {
+      "expression": "1/(2**2)",
+      "expected": 0.25
+    }
+  },
+  {
+    "id": "qf-energy-total",
+    "lesson_id": "math-gravity",
+    "rule_refs": [
+      "3.b.vi(2)"
+    ],
+    "type": "written",
+    "prompt": "In an ideal two-body teaching system, GM = 18 m³/s², test mass m = 2 kg, separation r = 6 m and speed v = 2 m/s. Use U = −GMm/r and K = mv²/2. Find total mechanical energy and classify the motion as bound or unbound.",
+    "explanation": "U = −18 × 2/6 = −6 J and K = 2 × 2²/2 = 4 J, so total energy is −2 J. Negative total energy indicates a bound ideal two-body orbit, taking potential energy zero at infinity. The instantaneous orbit need not be circular.",
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-1-newtons-law-of-universal-gravitation",
+        "title": "OpenStax University Physics Volume 1 — 13.1 Newton’s Law of Universal Gravitation",
+        "locator": "Newton’s Law of Universal Gravitation; inverse-square force equation",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-3-gravitational-potential-energy-and-total-energy",
+        "title": "OpenStax University Physics Volume 1 — 13.3 Gravitational Potential Energy and Total Energy",
+        "locator": "Gravitational Potential Energy beyond Earth; Escape velocity; Energy and gravitationally bound objects",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-5-keplers-laws-of-planetary-motion",
+        "title": "OpenStax University Physics Volume 1 — 13.5 Kepler’s Laws of Planetary Motion",
+        "locator": "Kepler’s First Law; Kepler’s Second Law; Kepler’s Third Law",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-6-tidal-forces",
+        "title": "OpenStax University Physics Volume 1 — 13.6 Tidal Forces",
+        "locator": "Lunar Tides; tidal force as a difference in gravitational attraction",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "math",
+    "rubric": [
+      "1 point: compute U = −6 J with the correct sign and zero-at-infinity convention.",
+      "1 point: compute K = 4 J and total E = −2 J.",
+      "1 point: identify bound motion in the ideal two-body model without assuming circularity."
+    ],
+    "numeric_check": {
+      "expression": "2*(2**2)/2-18*2/6",
+      "expected": -2
+    }
+  },
+  {
+    "id": "qf-kepler-period",
+    "lesson_id": "math-gravity",
+    "rule_refs": [
+      "3.b.vi(2)"
+    ],
+    "type": "mcq",
+    "prompt": "For a negligible-mass planet around a one-solar-mass star, use P² = a³ with P in years and a in AU. At a = 9 AU, what is P?",
+    "explanation": "P² = 9³ = 729; P = √729 = 27 years. The unit-normalized relation assumes a one-solar-mass central star and negligible planet mass; it is not the same numerical formula in meters and seconds.",
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-1-newtons-law-of-universal-gravitation",
+        "title": "OpenStax University Physics Volume 1 — 13.1 Newton’s Law of Universal Gravitation",
+        "locator": "Newton’s Law of Universal Gravitation; inverse-square force equation",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-3-gravitational-potential-energy-and-total-energy",
+        "title": "OpenStax University Physics Volume 1 — 13.3 Gravitational Potential Energy and Total Energy",
+        "locator": "Gravitational Potential Energy beyond Earth; Escape velocity; Energy and gravitationally bound objects",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-5-keplers-laws-of-planetary-motion",
+        "title": "OpenStax University Physics Volume 1 — 13.5 Kepler’s Laws of Planetary Motion",
+        "locator": "Kepler’s First Law; Kepler’s Second Law; Kepler’s Third Law",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-6-tidal-forces",
+        "title": "OpenStax University Physics Volume 1 — 13.6 Tidal Forces",
+        "locator": "Lunar Tides; tidal force as a difference in gravitational attraction",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "math",
+    "options": [
+      "3 years",
+      "9 years",
+      "81 years",
+      "27 years"
+    ],
+    "answer": 3,
+    "numeric_check": {
+      "expression": "(9**3)**0.5",
+      "expected": 27
+    }
+  },
+  {
+    "id": "qf-kepler-laws",
+    "lesson_id": "math-gravity",
+    "rule_refs": [
+      "3.b.vi(2)"
+    ],
+    "type": "written",
+    "prompt": "An orbit is elliptical, and a student draws the star at the ellipse’s center and equal-length path segments for equal times everywhere. Identify both errors and state what Kepler’s second law actually keeps equal.",
+    "explanation": "The central mass lies at a focus, not generally the geometric center. Equal time intervals sweep equal areas about that focus, not equal path lengths; the orbiting body moves faster near closest approach.",
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-1-newtons-law-of-universal-gravitation",
+        "title": "OpenStax University Physics Volume 1 — 13.1 Newton’s Law of Universal Gravitation",
+        "locator": "Newton’s Law of Universal Gravitation; inverse-square force equation",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-3-gravitational-potential-energy-and-total-energy",
+        "title": "OpenStax University Physics Volume 1 — 13.3 Gravitational Potential Energy and Total Energy",
+        "locator": "Gravitational Potential Energy beyond Earth; Escape velocity; Energy and gravitationally bound objects",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-5-keplers-laws-of-planetary-motion",
+        "title": "OpenStax University Physics Volume 1 — 13.5 Kepler’s Laws of Planetary Motion",
+        "locator": "Kepler’s First Law; Kepler’s Second Law; Kepler’s Third Law",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-6-tidal-forces",
+        "title": "OpenStax University Physics Volume 1 — 13.6 Tidal Forces",
+        "locator": "Lunar Tides; tidal force as a difference in gravitational attraction",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "reasoning",
+    "rubric": [
+      "1 point: place the central star at a focus of the ellipse (the center is correct only for the circular special case).",
+      "1 point: state equal areas in equal times, not equal distances.",
+      "1 point: infer faster motion near closest approach and slower motion farther away."
+    ]
+  },
+  {
+    "id": "qf-escape",
+    "lesson_id": "math-gravity",
+    "rule_refs": [
+      "3.b.vi(2)"
+    ],
+    "type": "mcq",
+    "prompt": "A model body has GM/r = 18 m²/s² at the launch point. Ignoring atmosphere and other bodies, calculate the local escape speed using v_esc = √(2GM/r).",
+    "explanation": "The escape speed is √(2 × 18) = √36 = 6 m/s. This is a deliberately scaled teaching example. Circular speed would be √18 m/s, smaller by a factor √2.",
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-1-newtons-law-of-universal-gravitation",
+        "title": "OpenStax University Physics Volume 1 — 13.1 Newton’s Law of Universal Gravitation",
+        "locator": "Newton’s Law of Universal Gravitation; inverse-square force equation",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-3-gravitational-potential-energy-and-total-energy",
+        "title": "OpenStax University Physics Volume 1 — 13.3 Gravitational Potential Energy and Total Energy",
+        "locator": "Gravitational Potential Energy beyond Earth; Escape velocity; Energy and gravitationally bound objects",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-5-keplers-laws-of-planetary-motion",
+        "title": "OpenStax University Physics Volume 1 — 13.5 Kepler’s Laws of Planetary Motion",
+        "locator": "Kepler’s First Law; Kepler’s Second Law; Kepler’s Third Law",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-6-tidal-forces",
+        "title": "OpenStax University Physics Volume 1 — 13.6 Tidal Forces",
+        "locator": "Lunar Tides; tidal force as a difference in gravitational attraction",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "math",
+    "options": [
+      "3 m/s",
+      "6 m/s",
+      "18 m/s",
+      "36 m/s"
+    ],
+    "answer": 1,
+    "numeric_check": {
+      "expression": "(2*18)**0.5",
+      "expected": 6
+    }
+  },
+  {
+    "id": "qf-tide-scale",
+    "lesson_id": "math-gravity",
+    "rule_refs": [
+      "3.b.vi(2)"
+    ],
+    "type": "written",
+    "prompt": "Hold the perturber’s mass and the affected body’s size fixed. If distance triples, find the new leading tidal-acceleration scale as a fraction of the old. Give the reciprocal fraction’s denominator and contrast with total gravity.",
+    "explanation": "The tidal scale goes as 1/r³, so the new fraction is 1/27. The requested denominator is 27. Total gravitational attraction instead becomes 1/9 as large because it scales as 1/r². Tidal heating additionally depends on deformation and dissipation.",
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-1-newtons-law-of-universal-gravitation",
+        "title": "OpenStax University Physics Volume 1 — 13.1 Newton’s Law of Universal Gravitation",
+        "locator": "Newton’s Law of Universal Gravitation; inverse-square force equation",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-3-gravitational-potential-energy-and-total-energy",
+        "title": "OpenStax University Physics Volume 1 — 13.3 Gravitational Potential Energy and Total Energy",
+        "locator": "Gravitational Potential Energy beyond Earth; Escape velocity; Energy and gravitationally bound objects",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-5-keplers-laws-of-planetary-motion",
+        "title": "OpenStax University Physics Volume 1 — 13.5 Kepler’s Laws of Planetary Motion",
+        "locator": "Kepler’s First Law; Kepler’s Second Law; Kepler’s Third Law",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-6-tidal-forces",
+        "title": "OpenStax University Physics Volume 1 — 13.6 Tidal Forces",
+        "locator": "Lunar Tides; tidal force as a difference in gravitational attraction",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "math",
+    "rubric": [
+      "1 point: obtain the fraction 1/27 (denominator 27) using inverse-cube scaling.",
+      "1 point: contrast with gravitational attraction 1/9 and avoid claiming the heating rate must share the same simple ratio."
+    ],
+    "numeric_check": {
+      "expression": "3**3",
+      "expected": 27
+    }
+  },
+  {
+    "id": "qf-gas-pressure",
+    "lesson_id": "math-chemistry",
+    "rule_refs": [
+      "3.b.vi(3)"
+    ],
+    "type": "mcq",
+    "prompt": "A fixed amount of ideal gas in a rigid sealed vessel has pressure 80 kPa at 250 K. Its temperature rises to 375 K. What is the new pressure?",
+    "explanation": "At fixed amount and volume, P/T is constant. P2 = 80 × 375/250 = 120 kPa. The temperatures are absolute kelvin values; neither Celsius ratios nor an inverse-temperature rule apply.",
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law",
+        "title": "OpenStax Chemistry 2e — 9.2 Ideal Gas Law",
+        "locator": "The Ideal Gas Law; Pressure and Temperature: Amontons’s Law",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+        "title": "OpenStax Chemistry 2e — 12.5 Collision Theory",
+        "locator": "Activation Energy and the Arrhenius Equation",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants",
+        "title": "OpenStax Chemistry 2e — 13.2 Equilibrium Constants",
+        "locator": "Reaction quotient definition; Predicting the Direction of Reaction",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/22-3-prokaryotic-metabolism",
+        "title": "OpenStax Biology 2e — 22.3 Prokaryotic Metabolism",
+        "locator": "The Ways in Which Prokaryotes Obtain Energy; The Ways in Which Prokaryotes Obtain Carbon; Table 22.3",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+        "title": "OpenStax Chemistry 2e — 13.3 Shifting Equilibria: Le Châtelier’s Principle",
+        "locator": "Effect of a Catalyst",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "math",
+    "options": [
+      "40 kPa",
+      "120 kPa",
+      "200 kPa",
+      "53.3 kPa"
+    ],
+    "answer": 1,
+    "numeric_check": {
+      "expression": "80*375/250",
+      "expected": 120
+    }
+  },
+  {
+    "id": "qf-gas-substitution",
+    "lesson_id": "math-chemistry",
+    "rule_refs": [
+      "3.b.vi(3)"
+    ],
+    "type": "written",
+    "prompt": "Use PV = nRT for a toy ideal gas with n = 3 mol, T = 200 K, V = 2 m³ and rounded R = 8 J mol⁻¹ K⁻¹. Calculate pressure in Pa and show that the units match.",
+    "explanation": "P = 3 × 8 × 200/2 = 2400 Pa. The mole and kelvin units cancel, leaving J/m³; since J = N m, this equals N/m² = Pa. The rounded R is supplied for hand calculation, not a new physical constant.",
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law",
+        "title": "OpenStax Chemistry 2e — 9.2 Ideal Gas Law",
+        "locator": "The Ideal Gas Law; Pressure and Temperature: Amontons’s Law",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+        "title": "OpenStax Chemistry 2e — 12.5 Collision Theory",
+        "locator": "Activation Energy and the Arrhenius Equation",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants",
+        "title": "OpenStax Chemistry 2e — 13.2 Equilibrium Constants",
+        "locator": "Reaction quotient definition; Predicting the Direction of Reaction",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/22-3-prokaryotic-metabolism",
+        "title": "OpenStax Biology 2e — 22.3 Prokaryotic Metabolism",
+        "locator": "The Ways in Which Prokaryotes Obtain Energy; The Ways in Which Prokaryotes Obtain Carbon; Table 22.3",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+        "title": "OpenStax Chemistry 2e — 13.3 Shifting Equilibria: Le Châtelier’s Principle",
+        "locator": "Effect of a Catalyst",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "math",
+    "rubric": [
+      "1 point: rearrange the ideal gas law to P = nRT/V.",
+      "1 point: calculate 2400 Pa using the supplied rounded constant.",
+      "1 point: explain J/m³ = N/m² = Pa or otherwise demonstrate compatible SI units."
+    ],
+    "numeric_check": {
+      "expression": "3*8*200/2",
+      "expected": 2400
+    }
+  },
+  {
+    "id": "qf-arrhenius-factor",
+    "lesson_id": "math-chemistry",
+    "rule_refs": [
+      "3.b.vi(3)"
+    ],
+    "type": "mcq",
+    "prompt": "For a hypothetical reaction, A = 96 s⁻¹ and exp(−Ea/RT) = 1/8 at the stated temperature. Use k = A exp(−Ea/RT). What is k?",
+    "explanation": "The supplied exponential factor already includes the activation-energy and temperature dependence. Multiply: k = 96 × (1/8) = 12 s⁻¹. Do not apply a second exponential or interpret 1/8 as the activation energy.",
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law",
+        "title": "OpenStax Chemistry 2e — 9.2 Ideal Gas Law",
+        "locator": "The Ideal Gas Law; Pressure and Temperature: Amontons’s Law",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+        "title": "OpenStax Chemistry 2e — 12.5 Collision Theory",
+        "locator": "Activation Energy and the Arrhenius Equation",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants",
+        "title": "OpenStax Chemistry 2e — 13.2 Equilibrium Constants",
+        "locator": "Reaction quotient definition; Predicting the Direction of Reaction",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/22-3-prokaryotic-metabolism",
+        "title": "OpenStax Biology 2e — 22.3 Prokaryotic Metabolism",
+        "locator": "The Ways in Which Prokaryotes Obtain Energy; The Ways in Which Prokaryotes Obtain Carbon; Table 22.3",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+        "title": "OpenStax Chemistry 2e — 13.3 Shifting Equilibria: Le Châtelier’s Principle",
+        "locator": "Effect of a Catalyst",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "math",
+    "options": [
+      "768 s⁻¹",
+      "96 s⁻¹",
+      "12 s⁻¹",
+      "8 s⁻¹"
+    ],
+    "answer": 2,
+    "numeric_check": {
+      "expression": "96*(1/8)",
+      "expected": 12
+    }
+  },
+  {
+    "id": "qf-arrhenius-graph",
+    "lesson_id": "math-chemistry",
+    "rule_refs": [
+      "3.b.vi(3)"
+    ],
+    "type": "written",
+    "prompt": "These original data form a straight line when ln k is plotted vertically against 1/T horizontally. Calculate its slope in kelvin. Given slope = −Ea/R and R = 8 J mol⁻¹ K⁻¹, find Ea. Assume A is constant.",
+    "explanation": "Slope = (−6 − (−4))/(0.004 − 0.003) = −2000 K. Thus Ea = −R × slope = 16000 J/mol. The negative slope means k increases as temperature increases (1/T decreases); the graph does not give an equilibrium constant.",
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law",
+        "title": "OpenStax Chemistry 2e — 9.2 Ideal Gas Law",
+        "locator": "The Ideal Gas Law; Pressure and Temperature: Amontons’s Law",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+        "title": "OpenStax Chemistry 2e — 12.5 Collision Theory",
+        "locator": "Activation Energy and the Arrhenius Equation",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants",
+        "title": "OpenStax Chemistry 2e — 13.2 Equilibrium Constants",
+        "locator": "Reaction quotient definition; Predicting the Direction of Reaction",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/22-3-prokaryotic-metabolism",
+        "title": "OpenStax Biology 2e — 22.3 Prokaryotic Metabolism",
+        "locator": "The Ways in Which Prokaryotes Obtain Energy; The Ways in Which Prokaryotes Obtain Carbon; Table 22.3",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+        "title": "OpenStax Chemistry 2e — 13.3 Shifting Equilibria: Le Châtelier’s Principle",
+        "locator": "Effect of a Catalyst",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "hard",
+    "kind": "data",
+    "rubric": [
+      "1 point: use changes in ln k over changes in 1/T to obtain slope −2000 K.",
+      "1 point: infer a positive activation energy 16000 J/mol from Ea = −R × slope.",
+      "1 point: explain why moving toward smaller 1/T corresponds to hotter conditions and larger k."
+    ],
+    "data": {
+      "headers": [
+        "1/T (K⁻¹)",
+        "ln k (k expressed in fixed units)"
+      ],
+      "rows": [
+        [
+          0.002,
+          -2
+        ],
+        [
+          0.003,
+          -4
+        ],
+        [
+          0.004,
+          -6
+        ]
+      ]
+    },
+    "numeric_check": {
+      "expression": "-8*((-6-(-4))/(0.004-0.003))",
+      "expected": 16000
+    }
+  },
+  {
+    "id": "qf-equilibrium-quotient",
+    "lesson_id": "math-chemistry",
+    "rule_refs": [
+      "3.b.vi(3)"
+    ],
+    "type": "written",
+    "prompt": "For A + 2B ⇌ C, use Q = [C]/([A][B]²). In consistent normalized concentration units, [A] = 2, [B] = 2 and [C] = 8; K = 4 at this temperature. Calculate Q and predict the initial net direction. Also explain what happens to the forward and reverse reaction rates at equilibrium, and whether the concentrations must become equal.",
+    "explanation": "Q = 8/(2 × 2²) = 1. Since 1 < K = 4, the net reaction initially favors products. Concentrations then change; equilibrium is reached when forward and reverse rates are equal, not when all concentrations become equal.",
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law",
+        "title": "OpenStax Chemistry 2e — 9.2 Ideal Gas Law",
+        "locator": "The Ideal Gas Law; Pressure and Temperature: Amontons’s Law",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+        "title": "OpenStax Chemistry 2e — 12.5 Collision Theory",
+        "locator": "Activation Energy and the Arrhenius Equation",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants",
+        "title": "OpenStax Chemistry 2e — 13.2 Equilibrium Constants",
+        "locator": "Reaction quotient definition; Predicting the Direction of Reaction",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/22-3-prokaryotic-metabolism",
+        "title": "OpenStax Biology 2e — 22.3 Prokaryotic Metabolism",
+        "locator": "The Ways in Which Prokaryotes Obtain Energy; The Ways in Which Prokaryotes Obtain Carbon; Table 22.3",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+        "title": "OpenStax Chemistry 2e — 13.3 Shifting Equilibria: Le Châtelier’s Principle",
+        "locator": "Effect of a Catalyst",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "math",
+    "rubric": [
+      "1 point: use the coefficient 2 as an exponent on [B] and obtain Q = 1.",
+      "1 point: compare Q with K and predict net production of C.",
+      "1 point: describe dynamic equilibrium as equal forward/reverse rates, not stopped reactions or equal concentrations."
+    ],
+    "numeric_check": {
+      "expression": "8/(2*(2**2))",
+      "expected": 1
+    }
+  },
+  {
+    "id": "qf-catalyst",
+    "lesson_id": "math-chemistry",
+    "rule_refs": [
+      "3.b.vi(3)"
+    ],
+    "type": "mcq",
+    "prompt": "A catalyst is added to a system already at equilibrium at fixed temperature. Which statement is correct in the usual idealized model?",
+    "explanation": "A catalyst lowers kinetic barriers for a pathway and accelerates both directions. It does not change the equilibrium constant at the same temperature, so it does not by itself shift the equilibrium composition or make Q unequal to K.",
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law",
+        "title": "OpenStax Chemistry 2e — 9.2 Ideal Gas Law",
+        "locator": "The Ideal Gas Law; Pressure and Temperature: Amontons’s Law",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+        "title": "OpenStax Chemistry 2e — 12.5 Collision Theory",
+        "locator": "Activation Energy and the Arrhenius Equation",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants",
+        "title": "OpenStax Chemistry 2e — 13.2 Equilibrium Constants",
+        "locator": "Reaction quotient definition; Predicting the Direction of Reaction",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/22-3-prokaryotic-metabolism",
+        "title": "OpenStax Biology 2e — 22.3 Prokaryotic Metabolism",
+        "locator": "The Ways in Which Prokaryotes Obtain Energy; The Ways in Which Prokaryotes Obtain Carbon; Table 22.3",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+        "title": "OpenStax Chemistry 2e — 13.3 Shifting Equilibria: Le Châtelier’s Principle",
+        "locator": "Effect of a Catalyst",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "reasoning",
+    "options": [
+      "K must increase because the reaction speeds up",
+      "All molecules stop reacting",
+      "The catalyst creates chemical energy without a source",
+      "Forward and reverse processes can speed up, but K is unchanged"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "qf-rates-vs-equilibrium",
+    "lesson_id": "math-chemistry",
+    "rule_refs": [
+      "3.b.vi(3)"
+    ],
+    "type": "written",
+    "prompt": "Two hypothetical reactions have the same equilibrium constant at the same temperature but different activation barriers. Must they reach equilibrium equally quickly? Explain why a persistent nonequilibrium mixture need not be biological.",
+    "explanation": "An equilibrium constant constrains the final composition, not the time to reach it. Different barriers and rate constants can produce different timescales. Slow kinetics or continual nonbiological supply can maintain disequilibrium without organisms.",
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law",
+        "title": "OpenStax Chemistry 2e — 9.2 Ideal Gas Law",
+        "locator": "The Ideal Gas Law; Pressure and Temperature: Amontons’s Law",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+        "title": "OpenStax Chemistry 2e — 12.5 Collision Theory",
+        "locator": "Activation Energy and the Arrhenius Equation",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants",
+        "title": "OpenStax Chemistry 2e — 13.2 Equilibrium Constants",
+        "locator": "Reaction quotient definition; Predicting the Direction of Reaction",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/22-3-prokaryotic-metabolism",
+        "title": "OpenStax Biology 2e — 22.3 Prokaryotic Metabolism",
+        "locator": "The Ways in Which Prokaryotes Obtain Energy; The Ways in Which Prokaryotes Obtain Carbon; Table 22.3",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+        "title": "OpenStax Chemistry 2e — 13.3 Shifting Equilibria: Le Châtelier’s Principle",
+        "locator": "Effect of a Catalyst",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "difficulty": "medium",
+    "kind": "comparison",
+    "rubric": [
+      "1 point: distinguish equilibrium composition (K) from reaction kinetics (rates and barriers).",
+      "1 point: explain that different barriers can lead to different equilibration times even with the same K.",
+      "1 point: identify slow kinetics or abiotic replenishment as a reason disequilibrium can persist without life."
+    ]
+  }
+]

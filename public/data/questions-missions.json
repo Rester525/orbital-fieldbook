@@ -1,0 +1,733 @@
+[
+  {
+    "id": "mission-venus-express-reasoning",
+    "lesson_id": "mission-venus-express",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "type": "written",
+    "prompt": "In a hypothetical Venus Express data set, an infrared patch brightens. Which complementary observations would help distinguish changing clouds from a surface-related change, and why is one wavelength insufficient?",
+    "explanation": "Use VIRTIS spectral information together with cloud images or SPICAV atmospheric information rather than treating brightness as composition. Explain that clouds, temperature and atmospheric absorption can change the detected signal. Require repeated, consistent measurements and acknowledge remote-sensing model uncertainty before assigning a surface cause.",
+    "rubric": [
+      "Use VIRTIS spectral information together with cloud images or SPICAV atmospheric information rather than treating brightness as composition.",
+      "Explain that clouds, temperature and atmospheric absorption can change the detected signal.",
+      "Require repeated, consistent measurements and acknowledge remote-sensing model uncertainty before assigning a surface cause."
+    ],
+    "source_refs": [
+      {
+        "url": "https://www.esa.int/articles/about-us/directorates/science/venus-express/venus-express-orbiter-instruments",
+        "title": "Venus Express orbiter instruments",
+        "locator": "ASPERA; MAG; SPICAV/SOIR; VIRTIS; Venus Monitoring Camera",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "reasoning"
+  },
+  {
+    "id": "mission-davinci-reasoning",
+    "lesson_id": "mission-davinci",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "type": "written",
+    "prompt": "Choose one DAVINCI instrument for atmospheric chemistry and one for physical conditions. Explain how their planned measurements complement one another, and give one limitation of a descent profile.",
+    "explanation": "Choose VMS or VTLS for atmospheric chemical measurements and VASI for temperature, pressure or winds. Explain that chemistry must be interpreted in the physical conditions and altitude where it was measured. Recognize limited geographic coverage and describe the data as planned measurements, not completed evidence for an ocean.",
+    "rubric": [
+      "Choose VMS or VTLS for atmospheric chemical measurements and VASI for temperature, pressure or winds.",
+      "Explain that chemistry must be interpreted in the physical conditions and altitude where it was measured.",
+      "Recognize limited geographic coverage and describe the data as planned measurements, not completed evidence for an ocean."
+    ],
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/davinci/",
+        "title": "NASA's DAVINCI Mission",
+        "locator": "The Mission: spacecraft, probe and Alpha Regio descent",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/davinci/davinci-science/",
+        "title": "DAVINCI Science",
+        "locator": "Science Instruments: VMS, VTLS, VASI and VenDI",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "reasoning"
+  },
+  {
+    "id": "mission-veritas-reasoning",
+    "lesson_id": "mission-veritas",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "type": "written",
+    "prompt": "In a hypothetical VERITAS comparison, one area is brighter in radar than another. Explain why “the brighter area is active lava” is premature and propose a stronger test using the mission’s planned data.",
+    "explanation": "Explain that radar scattering depends on properties such as roughness and geometry, not just geological activity. Combine consistent repeat observations with topography and composition constraints to test a change. Describe the conclusion as conditional and keep planned VERITAS science distinct from already achieved observations.",
+    "rubric": [
+      "Explain that radar scattering depends on properties such as roughness and geometry, not just geological activity.",
+      "Combine consistent repeat observations with topography and composition constraints to test a change.",
+      "Describe the conclusion as conditional and keep planned VERITAS science distinct from already achieved observations."
+    ],
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/veritas/",
+        "title": "VERITAS - NASA Science",
+        "locator": "Seeking Answers; Borrowing From the Past; VERITAS Firsts",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "reasoning"
+  },
+  {
+    "id": "mission-perseverance-reasoning",
+    "lesson_id": "mission-perseverance",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "type": "written",
+    "prompt": "In a hypothetical Perseverance rock, an organic signal occurs beside an unusual mineral texture. Explain why combining SHERLOC, PIXL and images is helpful, but still does not justify a life announcement.",
+    "explanation": "Match SHERLOC to organic/mineral spectral signals, PIXL to elemental mapping and images to spatial context. Explain that co-location strengthens a geological interpretation but does not uniquely establish a biological process. Name nonbiological chemistry or alteration as alternatives and recommend further independent analysis of contextualized samples.",
+    "rubric": [
+      "Match SHERLOC to organic/mineral spectral signals, PIXL to elemental mapping and images to spatial context.",
+      "Explain that co-location strengthens a geological interpretation but does not uniquely establish a biological process.",
+      "Name nonbiological chemistry or alteration as alternatives and recommend further independent analysis of contextualized samples."
+    ],
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/mars-2020-perseverance/science-instruments/",
+        "title": "Perseverance Science Instruments - NASA Science",
+        "locator": "Mastcam-Z; SuperCam; SHERLOC; PIXL",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mars/facts/",
+        "title": "Mars: Facts - NASA Science",
+        "locator": "Potential for Life; Mars 2020: Perseverance Rover",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "reasoning"
+  },
+  {
+    "id": "mission-mars-reconnaissance-orbiter-reasoning",
+    "lesson_id": "mission-mars-reconnaissance-orbiter",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "type": "written",
+    "prompt": "A hypothetical MRO map shows water-altered minerals beside a buried radar reflector. Why is “a living underground lake” an overclaim, and which two kinds of evidence should be interpreted separately?",
+    "explanation": "Distinguish CRISM evidence for mineral composition and past water-rock interaction from SHARAD evidence for a subsurface interface. Explain that old alteration minerals need not imply liquid water now and a radar reflector has multiple material explanations. Require independent constraints on present temperature, material properties and biology; neither data set detects organisms.",
+    "rubric": [
+      "Distinguish CRISM evidence for mineral composition and past water-rock interaction from SHARAD evidence for a subsurface interface.",
+      "Explain that old alteration minerals need not imply liquid water now and a radar reflector has multiple material explanations.",
+      "Require independent constraints on present temperature, material properties and biology; neither data set detects organisms."
+    ],
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/mars-reconnaissance-orbiter/science-instruments/",
+        "title": "MRO Science Instruments - NASA Science",
+        "locator": "High Resolution Imaging Experiment; Context Camera; Compact Reconnaissance Imaging Spectrometer; Shallow Radar",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "reasoning"
+  },
+  {
+    "id": "mission-maven-reasoning",
+    "lesson_id": "mission-maven",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "type": "written",
+    "prompt": "Why did the MAVEN sputtering investigation need gas, solar-wind and magnetic measurements together? Explain one reason a present-day escape rate cannot simply be applied unchanged to all of Martian history.",
+    "explanation": "Use gas data to identify the escaping population and particle/field data to connect it with a physical removal mechanism. Explain that correlated observations are stronger than an isolated gas count, while requiring a consistent causal model. Note that the early Sun and Martian atmosphere differed from today; historical loss requires a time-dependent model, not a fixed-rate extrapolation.",
+    "rubric": [
+      "Use gas data to identify the escaping population and particle/field data to connect it with a physical removal mechanism.",
+      "Explain that correlated observations are stronger than an isolated gas count, while requiring a consistent causal model.",
+      "Note that the early Sun and Martian atmosphere differed from today; historical loss requires a time-dependent model, not a fixed-rate extrapolation."
+    ],
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/maven/",
+        "title": "MAVEN - NASA Science",
+        "locator": "Mission overview: upper-atmosphere evolution",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/missions/maven/nasas-maven-makes-first-observation-of-atmospheric-sputtering-at-mars/",
+        "title": "NASA’s MAVEN Makes First Observation of Atmospheric Sputtering at Mars - NASA Science",
+        "locator": "Sputtering mechanism; simultaneous three-instrument measurements; early solar activity",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "reasoning"
+  },
+  {
+    "id": "mission-galileo-reasoning",
+    "lesson_id": "mission-galileo",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "type": "written",
+    "prompt": "A student says Galileo’s probe sampled Europa’s ocean and found its magnetic field. Correct the target and measurement method, then explain how the antenna problem could affect science without making the remaining data useless.",
+    "explanation": "State that the descent probe sampled Jupiter’s atmosphere, while the orbiter investigated the moons remotely and through field measurements. Distinguish direct sampling from magnetic evidence and distinguish Ganymede’s intrinsic field from induced ocean responses. Explain that lower communications capacity constrains data volume and selection, not automatically the validity of every returned measurement.",
+    "rubric": [
+      "State that the descent probe sampled Jupiter’s atmosphere, while the orbiter investigated the moons remotely and through field measurements.",
+      "Distinguish direct sampling from magnetic evidence and distinguish Ganymede’s intrinsic field from induced ocean responses.",
+      "Explain that lower communications capacity constrains data volume and selection, not automatically the validity of every returned measurement."
+    ],
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/galileo/",
+        "title": "Galileo - NASA Science",
+        "locator": "Spacecraft; Atmospheric Probe; High-Gain Antenna; Top 10 Science Results; Galileo End of Mission",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/jupiter/jupiter-moons/ganymede/facts/",
+        "title": "Ganymede: Facts - NASA Science",
+        "locator": "Introduction; Structure; Magnetosphere",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "reasoning"
+  },
+  {
+    "id": "mission-europa-clipper-reasoning",
+    "lesson_id": "mission-europa-clipper",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "type": "written",
+    "prompt": "For a hypothetical Europa Clipper flyby, explain why a magnetometer should be paired with a plasma instrument and why radar and surface images add different information. What life-related conclusion would still be unjustified?",
+    "explanation": "Pair ECM with PIMS to separate magnetic responses from surrounding charged-particle effects. Use REASON for ice structure and EIS for landform context rather than calling both ocean photographs. Conclude that these measurements can constrain habitability but cannot establish life; retain uncertainty about material properties and interior models.",
+    "rubric": [
+      "Pair ECM with PIMS to separate magnetic responses from surrounding charged-particle effects.",
+      "Use REASON for ice structure and EIS for landform context rather than calling both ocean photographs.",
+      "Conclude that these measurements can constrain habitability but cannot establish life; retain uncertainty about material properties and interior models."
+    ],
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/europa-clipper/spacecraft-instruments/",
+        "title": "Europa Clipper Spacecraft Instruments",
+        "locator": "Spacecraft Instruments; Cameras; Spectrometry; Plasma and Magnetic Field; Radar & Gravity; Chemical Analysis",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "reasoning"
+  },
+  {
+    "id": "mission-juice-reasoning",
+    "lesson_id": "mission-juice",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "type": "written",
+    "prompt": "Why would JUICE combine a laser altimeter, radar and magnetometer rather than use only radar to decide whether Ganymede has a habitable ocean? Explain one measurement and one limit for each approach.",
+    "explanation": "GALA measures surface elevation and tidal deformation; these constrain interior models indirectly rather than directly measuring ocean composition. RIME probes subsurface ice interfaces; finite penetration and nonunique reflector interpretations prevent treating its results as a complete ocean map. J-MAG measures magnetic fields; interpreting an ocean response requires separating Ganymede’s intrinsic field and surrounding magnetic/plasma contributions. Together these measurements constrain the interior, but do not establish biologically usable chemistry or life.",
+    "rubric": [
+      "GALA measures surface elevation and tidal deformation; these constrain interior models indirectly rather than directly measuring ocean composition.",
+      "RIME probes subsurface ice interfaces; finite penetration and nonunique reflector interpretations prevent treating its results as a complete ocean map.",
+      "J-MAG measures magnetic fields; interpreting an ocean response requires separating Ganymede’s intrinsic field and surrounding magnetic/plasma contributions. Together these measurements constrain the interior, but do not establish biologically usable chemistry or life."
+    ],
+    "source_refs": [
+      {
+        "url": "https://sci.esa.int/web/juice/-/61110-juice-instruments",
+        "title": "ESA Science & Technology - JUICE's instruments",
+        "locator": "JUICE's instruments: GALA, RIME, MAJIS, J-MAG and 3GM",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/jupiter/jupiter-moons/ganymede/facts/",
+        "title": "Ganymede: Facts - NASA Science",
+        "locator": "Structure; Magnetosphere",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "reasoning"
+  },
+  {
+    "id": "mission-cassini-huygens-reasoning",
+    "lesson_id": "mission-cassini-huygens",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "type": "written",
+    "prompt": "Explain why Cassini’s broad Titan maps and Huygens’s local descent measurements were more useful together than either alone. Then contrast a remote radar measurement with a gas-analyzer measurement.",
+    "explanation": "Use orbital coverage for context and repeated comparison, and Huygens for direct local atmospheric and surface observations. Explain that radar receives reflected radio signals whereas a gas analyzer measures particles at the spacecraft. Acknowledge the limited descent path and avoid treating every Titan feature as water or any organic molecule as life.",
+    "rubric": [
+      "Use orbital coverage for context and repeated comparison, and Huygens for direct local atmospheric and surface observations.",
+      "Explain that radar receives reflected radio signals whereas a gas analyzer measures particles at the spacecraft.",
+      "Acknowledge the limited descent path and avoid treating every Titan feature as water or any organic molecule as life."
+    ],
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/cassini/spacecraft/cassini-orbiter/",
+        "title": "Cassini Orbiter - NASA Science",
+        "locator": "About the Spacecraft; Optical Remote Sensing; Fields, Particles and Waves; Microwave Remote Sensing",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/cassini/spacecraft/huygens-probe/",
+        "title": "Huygens Probe - NASA Science",
+        "locator": "Most Distant Landing; Science Highlights; instrument descriptions",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/saturn/moons/enceladus/",
+        "title": "Enceladus - NASA Science",
+        "locator": "Overview: plume sampling and ocean evidence",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "reasoning"
+  },
+  {
+    "id": "mission-dragonfly-reasoning",
+    "lesson_id": "mission-dragonfly",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "type": "written",
+    "prompt": "For a hypothetical Dragonfly comparison, one site contains a more complex mix of organic molecules than another. Explain how mobility, DrACO, DraMS and cameras support the comparison without turning it into a life claim.",
+    "explanation": "Explain that flight allows distinct sites to be compared and DrACO transfers collected material to DraMS for chemical analysis. Use camera and environmental context to test whether different histories or processing explain the chemical differences. Distinguish prebiotic complexity from biology and recognize that the measurements are planned or hypothetical, not reported findings.",
+    "rubric": [
+      "Explain that flight allows distinct sites to be compared and DrACO transfers collected material to DraMS for chemical analysis.",
+      "Use camera and environmental context to test whether different histories or processing explain the chemical differences.",
+      "Distinguish prebiotic complexity from biology and recognize that the measurements are planned or hypothetical, not reported findings."
+    ],
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/dragonfly/",
+        "title": "Dragonfly",
+        "locator": "Mission Overview; Sampling the Surface; prebiotic-chemistry mission statement",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/dragonfly/spacecraft-and-instruments/",
+        "title": "Dragonfly Spacecraft and Instruments",
+        "locator": "Flying on Saturn’s Moon; Powering Dragonfly; Science on Board",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "reasoning"
+  },
+  {
+    "id": "mission-osiris-rex-reasoning",
+    "lesson_id": "mission-osiris-rex",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "type": "written",
+    "prompt": "Why did OSIRIS-REx need detailed mapping before its touch-and-go, and why is a returned sample scientifically valuable even though it represents only a small part of Bennu?",
+    "explanation": "Connect mapping to safe navigation among boulders and selection of scientifically useful, accessible material. Explain that Earth laboratories can apply complementary methods and repeat analyses beyond a spacecraft’s fixed instrument suite. Retain contamination and representativeness limits; do not equate an organic ingredient or ancient mineral with life.",
+    "rubric": [
+      "Connect mapping to safe navigation among boulders and selection of scientifically useful, accessible material.",
+      "Explain that Earth laboratories can apply complementary methods and repeat analyses beyond a spacecraft’s fixed instrument suite.",
+      "Retain contamination and representativeness limits; do not equate an organic ingredient or ancient mineral with life."
+    ],
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/osiris-rex/",
+        "title": "NASA's OSIRIS-REx Mission to Asteroid Bennu",
+        "locator": "Mission Overview; Nightingale selection; Touch-and-Go; sample capsule and curation timeline",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/solar-system/asteroids/101955-bennu/",
+        "title": "Bennu - NASA Science",
+        "locator": "About Bennu; Exploring Bennu",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "reasoning"
+  },
+  {
+    "id": "mission-rosetta-reasoning",
+    "lesson_id": "mission-rosetta",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "type": "written",
+    "prompt": "In a hypothetical Rosetta encounter, a gas abundance rises while a jet becomes brighter. Explain how ROSINA and images could be combined, and give two reasons this does not immediately reveal the bulk nucleus composition.",
+    "explanation": "Match gas measurements to ROSINA and visual context to imaging such as OSIRIS. Explain that illumination, local release and observing geometry can make a temporary coma signal differ from bulk material. Distinguish correlation from a fully established source relationship and recognize that repeated observations test the interpretation.",
+    "rubric": [
+      "Match gas measurements to ROSINA and visual context to imaging such as OSIRIS.",
+      "Explain that illumination, local release and observing geometry can make a temporary coma signal differ from bulk material.",
+      "Distinguish correlation from a fully established source relationship and recognize that repeated observations test the interpretation."
+    ],
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/solar-system/comets/67p-churyumov-gerasimenko/",
+        "title": "67P/Churyumov-Gerasimenko - NASA Science",
+        "locator": "Overview: Rosetta escort and findings",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://sci.esa.int/web/rosetta/-/35061-instruments",
+        "title": "ESA Science & Technology - Orbiter Instruments",
+        "locator": "Introduction; Instruments In Brief; ROSINA; OSIRIS; VIRTIS; COSIMA; CONSERT",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "reasoning"
+  },
+  {
+    "id": "mission-kepler-reasoning",
+    "lesson_id": "mission-kepler",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "type": "written",
+    "prompt": "A hypothetical Kepler light curve shows three similar dips, while a second star shows none. What can you infer from the repeating dips, what false-positive checks are needed, and why is the second star not proven planet-free?",
+    "explanation": "Use repetition to constrain orbital timing and depth to estimate relative size under a transit model. Check stellar eclipses or variability and instrumental/pointing effects before treating dimming as a validated planet. Explain that orientation, sensitivity and observing duration can hide planets; transit detection does not establish a habitable surface.",
+    "rubric": [
+      "Use repetition to constrain orbital timing and depth to estimate relative size under a transit model.",
+      "Check stellar eclipses or variability and instrumental/pointing effects before treating dimming as a validated planet.",
+      "Explain that orientation, sensitivity and observing duration can hide planets; transit detection does not establish a habitable surface."
+    ],
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/kepler/",
+        "title": "Kepler / K2 - NASA Science",
+        "locator": "Overview: transit photometry; reaction-wheel failures; K2; Legacy",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "reasoning"
+  },
+  {
+    "id": "mission-jwst-reasoning",
+    "lesson_id": "mission-jwst",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "type": "written",
+    "prompt": "A hypothetical JWST transit spectrum has a weak water-like feature. Explain how the measurement is made, two alternative signal explanations to test, and why confirming water vapor would not prove an ocean or life.",
+    "explanation": "Describe comparing wavelength-resolved starlight during and outside transit, not collecting a physical sample. Test noise or overlapping spectral features and stellar contamination; clouds can also alter the expected signal. Distinguish atmospheric water vapor from surface liquid water and biological activity; require additional environmental and independent evidence.",
+    "rubric": [
+      "Describe comparing wavelength-resolved starlight during and outside transit, not collecting a physical sample.",
+      "Test noise or overlapping spectral features and stellar contamination; clouds can also alter the expected signal.",
+      "Distinguish atmospheric water vapor from surface liquid water and biological activity; require additional environmental and independent evidence."
+    ],
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/webb/science-overview/science-explainers/how-will-webb-study-exoplanets/",
+        "title": "How Will Webb Study Exoplanets? - NASA Science",
+        "locator": "How can Webb analyze exoplanets’ atmospheres?; Will Webb take any images of exoplanets?",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/blogs/webb/2024/06/05/reconnaissance-of-potentially-habitable-worlds-with-nasas-webb/",
+        "title": "Reconnaissance of Potentially Habitable Worlds with NASA’s Webb - NASA Science",
+        "locator": "Transmission spectroscopy limitations; NIRSpec; clouds and starspots; biosignature caution",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "reasoning"
+  },
+  {
+    "id": "mission-roman-space-telescope-reasoning",
+    "lesson_id": "mission-roman-space-telescope",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "type": "written",
+    "prompt": "Compare Roman’s planned microlensing observations with its coronagraph demonstration. Which uses a temporary gravitational brightening, which suppresses starlight, and why would neither automatically reveal whether a planet is inhabited?",
+    "explanation": "Identify microlensing as light bending by a foreground mass, not a transit blocking its host star. Identify the coronagraph as suppressing glare for direct imaging, a separate experiment with different target constraints. Explain that detection or imaging capability alone does not determine atmospheric conditions or biological origin; microlensing events also have limited repeatability.",
+    "rubric": [
+      "Identify microlensing as light bending by a foreground mass, not a transit blocking its host star.",
+      "Identify the coronagraph as suppressing glare for direct imaging, a separate experiment with different target constraints.",
+      "Explain that detection or imaging capability alone does not determine atmospheric conditions or biological origin; microlensing events also have limited repeatability."
+    ],
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/roman-space-telescope/exoplanets/",
+        "title": "Exoplanets - NASA Science",
+        "locator": "Wrinkles in Space-time; Microlensing; Direct Imaging; Transit Method",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "reasoning"
+  },
+  {
+    "id": "mission-davinci-probe-or-mapper",
+    "lesson_id": "mission-davinci",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "type": "mcq",
+    "prompt": "A team wants a vertical atmospheric profile and a broad surface-geology map of Venus. Which pairing best matches the planned investigations?",
+    "options": [
+      "DAVINCI for a descent profile; VERITAS for broad radar/topographic mapping.",
+      "VERITAS for an atmospheric descent profile; DAVINCI for a global radar map.",
+      "Either mission provides the same measurements because both study Venus.",
+      "DAVINCI for a global surface map from its one descent; VERITAS for a local gas sample."
+    ],
+    "answer": 0,
+    "explanation": "DAVINCI’s probe is designed to measure gases and physical conditions during descent. VERITAS is designed for orbital radar, topographic and related surface/interior investigations. Local profiles and broad maps are complementary rather than interchangeable measurements.",
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/davinci/",
+        "title": "NASA's DAVINCI Mission",
+        "locator": "The Mission: spacecraft, probe and Alpha Regio descent",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/davinci/davinci-science/",
+        "title": "DAVINCI Science",
+        "locator": "Science Instruments: VMS, VTLS, VASI and VenDI",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/veritas/",
+        "title": "VERITAS - NASA Science",
+        "locator": "Seeking Answers; Borrowing From the Past; VERITAS Firsts",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "comparison"
+  },
+  {
+    "id": "mission-mars-reconnaissance-orbiter-mars-scales",
+    "lesson_id": "mission-mars-reconnaissance-orbiter",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "type": "mcq",
+    "prompt": "Which comparison of MRO and Perseverance correctly matches observation scale to scientific use?",
+    "options": [
+      "MRO physically collects every mineral it maps from orbit.",
+      "Perseverance photographs all of Mars at once from a fixed orbit.",
+      "Neither can contribute evidence for ancient water because Mars is dry today.",
+      "MRO connects regional landforms and spectra; Perseverance tests selected rocks at close range."
+    ],
+    "answer": 3,
+    "explanation": "MRO’s cameras and CRISM relate landforms and composition across regions. Perseverance examines local textures and chemistry and collects selected samples. Broad context and close-up investigation strengthen one another but neither automatically proves ancient life.",
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/mars-reconnaissance-orbiter/science-instruments/",
+        "title": "MRO Science Instruments - NASA Science",
+        "locator": "High Resolution Imaging Experiment; Context Camera; Compact Reconnaissance Imaging Spectrometer; Shallow Radar",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/mars-2020-perseverance/science-instruments/",
+        "title": "Perseverance Science Instruments - NASA Science",
+        "locator": "Mastcam-Z; SuperCam; SHERLOC; PIXL",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mars/facts/",
+        "title": "Mars: Facts - NASA Science",
+        "locator": "Potential for Life; Mars 2020: Perseverance Rover",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "comparison"
+  },
+  {
+    "id": "mission-maven-escaping-versus-altered",
+    "lesson_id": "mission-maven",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "type": "mcq",
+    "prompt": "Which comparison best separates the questions addressed by MAVEN and MRO’s CRISM instrument?",
+    "options": [
+      "MAVEN identifies every mineral grain, while CRISM measures solar-wind particles.",
+      "MAVEN investigates atmospheric loss processes, while CRISM spectra help identify minerals including records of past water-rock interaction.",
+      "Both instruments directly count fossil organisms.",
+      "CRISM measures only present liquid-water depth, never minerals."
+    ],
+    "answer": 1,
+    "explanation": "MAVEN’s upper-atmosphere observations test escape mechanisms and atmospheric evolution. CRISM’s visible/infrared spectra constrain surface minerals, including evidence of past alteration. These are complementary records of environmental history, not two direct life detectors.",
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/maven/",
+        "title": "MAVEN - NASA Science",
+        "locator": "Mission overview: upper-atmosphere evolution",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/missions/maven/nasas-maven-makes-first-observation-of-atmospheric-sputtering-at-mars/",
+        "title": "NASA’s MAVEN Makes First Observation of Atmospheric Sputtering at Mars - NASA Science",
+        "locator": "Sputtering mechanism; simultaneous three-instrument measurements; early solar activity",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/mars-reconnaissance-orbiter/science-instruments/",
+        "title": "MRO Science Instruments - NASA Science",
+        "locator": "High Resolution Imaging Experiment; Context Camera; Compact Reconnaissance Imaging Spectrometer; Shallow Radar",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "comparison"
+  },
+  {
+    "id": "mission-juice-icy-moon-instruments",
+    "lesson_id": "mission-juice",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "type": "mcq",
+    "prompt": "Which comparison correctly describes the roles of JUICE’s RIME and GALA instruments?",
+    "options": [
+      "RIME measures surface height with a laser, while GALA sends radar through ice.",
+      "RIME directly identifies ocean molecules, while GALA measures only atmospheric gases.",
+      "RIME uses radar to investigate subsurface structure, while GALA uses laser altimetry to measure surface shape and deformation.",
+      "Both measure only surface brightness, so neither constrains shape or buried structure."
+    ],
+    "answer": 2,
+    "explanation": "RIME and GALA use different signals for different spatial information: radar investigates subsurface interfaces while laser altimetry constrains surface elevation and deformation. Their combined constraints help evaluate interiors, but neither guarantees a complete view of deep water or life.",
+    "source_refs": [
+      {
+        "url": "https://sci.esa.int/web/juice/-/61110-juice-instruments",
+        "title": "ESA Science & Technology - JUICE's instruments",
+        "locator": "JUICE's instruments: GALA, RIME, MAJIS, J-MAG and 3GM",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/jupiter/jupiter-moons/ganymede/facts/",
+        "title": "Ganymede: Facts - NASA Science",
+        "locator": "Structure; Magnetosphere",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "comparison"
+  },
+  {
+    "id": "mission-jwst-detect-or-characterize",
+    "lesson_id": "mission-jwst",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "type": "mcq",
+    "prompt": "Which comparison best distinguishes Kepler’s main detection technique from JWST transmission spectroscopy?",
+    "options": [
+      "Kepler searches for repeating brightness dips; JWST compares transit effects across wavelengths to constrain atmospheric models.",
+      "Kepler measures atmospheric molecules directly; JWST measures only orbital periods.",
+      "A Kepler transit guarantees an atmosphere, so spectroscopy is unnecessary.",
+      "Every JWST absorption feature uniquely proves biological activity."
+    ],
+    "answer": 0,
+    "explanation": "Kepler transit photometry establishes repeating dimming patterns and helps constrain size and period. JWST can investigate wavelength-dependent atmospheric effects for suitable targets. Clouds, stellar effects and nonunique chemistry still limit atmospheric and biological conclusions.",
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/webb/science-overview/science-explainers/how-will-webb-study-exoplanets/",
+        "title": "How Will Webb Study Exoplanets? - NASA Science",
+        "locator": "How can Webb analyze exoplanets’ atmospheres?; Will Webb take any images of exoplanets?",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/blogs/webb/2024/06/05/reconnaissance-of-potentially-habitable-worlds-with-nasas-webb/",
+        "title": "Reconnaissance of Potentially Habitable Worlds with NASA’s Webb - NASA Science",
+        "locator": "Transmission spectroscopy limitations; NIRSpec; clouds and starspots; biosignature caution",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/kepler/",
+        "title": "Kepler / K2 - NASA Science",
+        "locator": "Overview: transit photometry; reaction-wheel failures; K2; Legacy",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "comparison"
+  },
+  {
+    "id": "mission-roman-space-telescope-transit-or-lensing",
+    "lesson_id": "mission-roman-space-telescope",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "type": "mcq",
+    "prompt": "Which comparison correctly separates Roman’s planned microlensing survey from Kepler’s transit method?",
+    "options": [
+      "Both require a planet to block its own host star at regular intervals.",
+      "Microlensing always gives a resolved photograph of the planet’s surface.",
+      "A transit is caused by gravity brightening an unrelated background star.",
+      "Microlensing uses gravitational magnification of background light, whereas a transit dims the host star when a planet crosses it."
+    ],
+    "answer": 3,
+    "explanation": "Gravitational microlensing and transits have different geometries and selection effects. Roman’s survey can complement transit discoveries with planets at wider separations or free-floating objects. A brief lensing event is generally harder to repeat and does not by itself characterize an atmosphere.",
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/roman-space-telescope/exoplanets/",
+        "title": "Exoplanets - NASA Science",
+        "locator": "Wrinkles in Space-time; Microlensing; Direct Imaging; Transit Method",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/kepler/",
+        "title": "Kepler / K2 - NASA Science",
+        "locator": "Overview: transit photometry; reaction-wheel failures; K2; Legacy",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "comparison"
+  }
+]

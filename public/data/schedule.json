@@ -1,0 +1,91 @@
+{
+  "missions": [
+    {
+      "week": 1,
+      "date": "2026-11-08",
+      "topic": "Kickoff - Rules + habitability basics",
+      "mode": "LIVE",
+      "source_status": "screenshot_visually_confirmed_year_contextual"
+    },
+    {
+      "week": 2,
+      "date": "2026-11-15",
+      "topic": "Venus & Mars + spacecraft",
+      "mode": "LIVE",
+      "source_status": "screenshot_visually_confirmed_year_contextual"
+    },
+    {
+      "week": 3,
+      "date": "2026-11-22",
+      "topic": "Icy moons + spacecraft",
+      "mode": "LIVE",
+      "source_status": "screenshot_visually_confirmed_year_contextual"
+    },
+    {
+      "week": 4,
+      "date": "2026-11-29",
+      "topic": "Makemake - Bennu - 67P + spacecraft",
+      "mode": "SELF",
+      "source_status": "screenshot_visually_confirmed_year_contextual"
+    },
+    {
+      "week": 5,
+      "date": "2026-12-06",
+      "topic": "Three exoplanet systems",
+      "mode": "LIVE",
+      "source_status": "screenshot_visually_confirmed_year_contextual"
+    },
+    {
+      "week": 6,
+      "date": "2026-12-13",
+      "topic": "Detection methods + telescopes",
+      "mode": "LIVE",
+      "source_status": "screenshot_visually_confirmed_year_contextual"
+    },
+    {
+      "week": 7,
+      "date": null,
+      "topic": "Not supplied",
+      "mode": null,
+      "source_status": "awaiting_schedule"
+    },
+    {
+      "week": 8,
+      "date": null,
+      "topic": "Not supplied",
+      "mode": null,
+      "source_status": "awaiting_schedule"
+    },
+    {
+      "week": 9,
+      "date": null,
+      "topic": "Not supplied",
+      "mode": null,
+      "source_status": "awaiting_schedule"
+    },
+    {
+      "week": 10,
+      "date": null,
+      "topic": "Not supplied",
+      "mode": null,
+      "source_status": "awaiting_schedule"
+    },
+    {
+      "week": 11,
+      "date": null,
+      "topic": "Not supplied",
+      "mode": null,
+      "source_status": "awaiting_schedule"
+    }
+  ],
+  "routine": [
+    "read",
+    "practice",
+    "discuss",
+    "teach each other"
+  ],
+  "year_basis": "Screenshot filename contains 20261108 and footer says Sun Nov 8; year is contextual, not printed on each row",
+  "target": "mid-January; exact date not visible",
+  "source": "User screenshot · visually checked 2026-11-08; year contextual",
+  "self_instruction": "Study and send work without a meeting."
+}

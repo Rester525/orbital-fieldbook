@@ -1,0 +1,32 @@
+{
+  "name": "Orbital Fieldbook \u00b7 Solar System B",
+  "short_name": "Fieldbook",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#102438",
+  "theme_color": "#102438",
+  "description": "Independent Solar System B 2026\u201327 study missions, evidence, practice and labs.",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "./assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

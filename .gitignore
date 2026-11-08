@@ -1,0 +1,5 @@
+node_modules/
+*.log
+SOURCE_BASELINE.json
+.qa*
+.DS_Store

@@ -1,0 +1,751 @@
+[
+  {
+    "id": "world-venus-reasoning",
+    "lesson_id": "world-venus",
+    "rule_refs": [
+      "3.a.i",
+      "3.b.i",
+      "3.b.ii"
+    ],
+    "type": "written",
+    "prompt": "A classmate says Venus must be habitable because it is Earth-sized and some cloud levels have mild temperatures. Explain two missing conditions and choose a measurement that would improve the argument.",
+    "explanation": "Explain that the thick greenhouse atmosphere produces a hostile surface despite Earth-like size. Distinguish a temperature range from available water and suitable cloud chemistry; no life is established. Choose a relevant atmospheric composition measurement, such as spectroscopy, and explain what it can constrain rather than claiming it detects organisms.",
+    "rubric": [
+      "Explain that the thick greenhouse atmosphere produces a hostile surface despite Earth-like size.",
+      "Distinguish a temperature range from available water and suitable cloud chemistry; no life is established.",
+      "Choose a relevant atmospheric composition measurement, such as spectroscopy, and explain what it can constrain rather than claiming it detects organisms."
+    ],
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/venus/venus-facts/",
+        "title": "Venus: Facts - NASA Science",
+        "locator": "Introduction; Potential for Life; Surface; Atmosphere",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://www.esa.int/articles/about-us/directorates/science/venus-express/venus-express-orbiter-instruments",
+        "title": "Venus Express orbiter instruments",
+        "locator": "SPICAV/SOIR; VIRTIS; Venus Monitoring Camera",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "reasoning"
+  },
+  {
+    "id": "world-mars-reasoning",
+    "lesson_id": "world-mars",
+    "rule_refs": [
+      "3.a.i",
+      "3.b.i",
+      "3.b.ii"
+    ],
+    "type": "written",
+    "prompt": "In a hypothetical Mars investigation, an orbital image shows a fan-shaped deposit and spectra indicate water-altered minerals nearby. Build a case for past habitability, then explain why this is not proof of ancient life.",
+    "explanation": "Connect the fan shape to sediment transport and possible deposition into a basin, rather than identifying life from shape. Use the mineral evidence as an independent line supporting interaction with liquid water. State that duration, chemistry and biological origin remain uncertain; recommend rover texture and chemical measurements.",
+    "rubric": [
+      "Connect the fan shape to sediment transport and possible deposition into a basin, rather than identifying life from shape.",
+      "Use the mineral evidence as an independent line supporting interaction with liquid water.",
+      "State that duration, chemistry and biological origin remain uncertain; recommend rover texture and chemical measurements."
+    ],
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mars/facts/",
+        "title": "Mars: Facts - NASA Science",
+        "locator": "Water on Mars; Atmosphere; Potential for Life",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/mars-reconnaissance-orbiter/science-instruments/",
+        "title": "MRO Science Instruments - NASA Science",
+        "locator": "Context Camera; Compact Reconnaissance Imaging Spectrometer",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/mars-2020-perseverance/science-instruments/",
+        "title": "Perseverance Science Instruments - NASA Science",
+        "locator": "SHERLOC; Planetary Instrument for X-ray Lithochemistry (PIXL)",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "reasoning"
+  },
+  {
+    "id": "world-ganymede-reasoning",
+    "lesson_id": "world-ganymede",
+    "rule_refs": [
+      "3.a.i",
+      "3.b.i",
+      "3.b.ii"
+    ],
+    "type": "written",
+    "prompt": "Why is “Ganymede has a magnetic field, so we have directly seen its ocean” an incorrect explanation? Replace it with an observation-to-inference chain and one remaining habitability question.",
+    "explanation": "Distinguish the intrinsic field measured by Galileo from the inferred effect of a conducting ocean. Explain that auroral behavior within Jupiter’s changing magnetic field is compared with physical models. Name an unresolved condition such as ocean chemistry, energy availability or exchange across layers; no direct ocean image or life detection follows.",
+    "rubric": [
+      "Distinguish the intrinsic field measured by Galileo from the inferred effect of a conducting ocean.",
+      "Explain that auroral behavior within Jupiter’s changing magnetic field is compared with physical models.",
+      "Name an unresolved condition such as ocean chemistry, energy availability or exchange across layers; no direct ocean image or life detection follows."
+    ],
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/jupiter/jupiter-moons/ganymede/facts/",
+        "title": "Ganymede: Facts - NASA Science",
+        "locator": "Introduction; Potential for Life; Structure; Surface; Magnetosphere",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://sci.esa.int/web/juice/-/61110-juice-instruments",
+        "title": "ESA Science & Technology - JUICE's instruments",
+        "locator": "JUICE's instruments: J-MAG, 3GM, GALA",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-observations-suggest-underground-ocean-on-jupiters-largest-moon/",
+        "title": "NASA’s Hubble Observations Suggest Underground Ocean on Jupiter’s Largest Moon",
+        "locator": "March 12, 2015 report: paragraph beginning “If a saltwater ocean were present”; modeled rocking reduced to 2° versus 6° without ocean",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "reasoning"
+  },
+  {
+    "id": "world-europa-reasoning",
+    "lesson_id": "world-europa",
+    "rule_refs": [
+      "3.a.i",
+      "3.b.i",
+      "3.b.ii"
+    ],
+    "type": "written",
+    "prompt": "A hypothetical Europa flyby records a magnetic variation and a salt-like surface spectrum. Explain why these are complementary clues, and name two checks needed before connecting them to a habitable ocean.",
+    "explanation": "Use the magnetic response as indirect evidence for a conducting salty interior, not direct sampling. Check surrounding plasma with a separate instrument and examine surface context or alteration before assigning salts to ocean material. Explain that liquid water and chemistry may support habitability but do not demonstrate energy availability or life.",
+    "rubric": [
+      "Use the magnetic response as indirect evidence for a conducting salty interior, not direct sampling.",
+      "Check surrounding plasma with a separate instrument and examine surface context or alteration before assigning salts to ocean material.",
+      "Explain that liquid water and chemistry may support habitability but do not demonstrate energy availability or life."
+    ],
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/jupiter/jupiter-moons/europa/",
+        "title": "Europa - NASA Science",
+        "locator": "Facts About Europa; introductory ocean evidence",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/europa-clipper/spacecraft-instruments/",
+        "title": "Europa Clipper Spacecraft Instruments",
+        "locator": "Plasma and Magnetic Field; Radar & Gravity; Spectrometry",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "reasoning"
+  },
+  {
+    "id": "world-enceladus-reasoning",
+    "lesson_id": "world-enceladus",
+    "rule_refs": [
+      "3.a.i",
+      "3.b.i",
+      "3.b.ii"
+    ],
+    "type": "written",
+    "prompt": "Explain why the combination of Enceladus’s plumes, salts, silica and rotational wobble is stronger evidence than a plume image alone. Then explain why even this combination does not prove life.",
+    "explanation": "Connect salts and silica with ocean chemistry and water-rock interaction rather than using brightness alone. Use gravity and wobble as independent physical support for a global liquid layer. Distinguish habitable ingredients from organisms and note nonbiological chemistry or plume modification.",
+    "rubric": [
+      "Connect salts and silica with ocean chemistry and water-rock interaction rather than using brightness alone.",
+      "Use gravity and wobble as independent physical support for a global liquid layer.",
+      "Distinguish habitable ingredients from organisms and note nonbiological chemistry or plume modification."
+    ],
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/saturn/moons/enceladus/",
+        "title": "Enceladus - NASA Science",
+        "locator": "Overview: jets, orbital resonance, gravity, silica and hydrothermal evidence",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/cassini/spacecraft/cassini-orbiter/",
+        "title": "Cassini Orbiter - NASA Science",
+        "locator": "Fields, Particles and Waves; Optical Remote Sensing",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "reasoning"
+  },
+  {
+    "id": "world-titan-reasoning",
+    "lesson_id": "world-titan",
+    "rule_refs": [
+      "3.a.i",
+      "3.b.i",
+      "3.b.ii"
+    ],
+    "type": "written",
+    "prompt": "A student labels a radar-dark Titan lake “liquid water” and concludes that its organics came from life. Correct both conclusions and distinguish surface evidence from an inference about Titan’s deep interior.",
+    "explanation": "Identify methane and ethane as the surface lake liquids in Titan’s cold environment. Explain that organic chemistry can arise from nonbiological atmospheric processes. Separate mapped surface lakes from model-based evidence for a buried water ocean; neither is proof of organisms.",
+    "rubric": [
+      "Identify methane and ethane as the surface lake liquids in Titan’s cold environment.",
+      "Explain that organic chemistry can arise from nonbiological atmospheric processes.",
+      "Separate mapped surface lakes from model-based evidence for a buried water ocean; neither is proof of organisms."
+    ],
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/saturn/moons/titan/facts/",
+        "title": "Titan: Facts",
+        "locator": "Introduction; Potential for Life; Structure; Surface; Atmosphere",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/cassini/spacecraft/cassini-orbiter/",
+        "title": "Cassini Orbiter - NASA Science",
+        "locator": "Microwave Remote Sensing",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/cassini/spacecraft/huygens-probe/",
+        "title": "Huygens Probe - NASA Science",
+        "locator": "Science Highlights; probe instrument descriptions",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "reasoning"
+  },
+  {
+    "id": "world-makemake-reasoning",
+    "lesson_id": "world-makemake",
+    "rule_refs": [
+      "3.a.i",
+      "3.b.ii"
+    ],
+    "type": "written",
+    "prompt": "A hypothetical spectrum of Makemake matches frozen methane. Explain what that supports, why it does not demonstrate a methane lake, and what important interior claim would still be unjustified.",
+    "explanation": "State that the measurement supports methane ice on the observed surface, not automatically liquid methane. Use the cold, distant environment and the solid-state interpretation rather than assuming every methane detection is a lake. Do not infer a buried water ocean or life from surface composition; the interior remains poorly known.",
+    "rubric": [
+      "State that the measurement supports methane ice on the observed surface, not automatically liquid methane.",
+      "Use the cold, distant environment and the solid-state interpretation rather than assuming every methane detection is a lake.",
+      "Do not infer a buried water ocean or life from surface composition; the interior remains poorly known."
+    ],
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/dwarf-planets/makemake/",
+        "title": "Makemake",
+        "locator": "Potential for Life; Size and Distance; Structure; Surface; Atmosphere",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "reasoning"
+  },
+  {
+    "id": "world-101955-bennu-reasoning",
+    "lesson_id": "world-101955-bennu",
+    "rule_refs": [
+      "3.a.i",
+      "3.b.ii"
+    ],
+    "type": "written",
+    "prompt": "A Bennu grain contains an organic compound and a mineral associated with ancient water. Why might it tell us about a parent body rather than a present-day lake on Bennu, and why is contamination control important?",
+    "explanation": "Distinguish ancient rocks and parent-body alteration from Bennu’s later assembly as rubble. Explain that organic compounds and water-related minerals are ingredients or process records, not evidence that organisms existed. Explain that Earth contamination could mimic a sample chemical signal, so documented clean handling and controls strengthen interpretation.",
+    "rubric": [
+      "Distinguish ancient rocks and parent-body alteration from Bennu’s later assembly as rubble.",
+      "Explain that organic compounds and water-related minerals are ingredients or process records, not evidence that organisms existed.",
+      "Explain that Earth contamination could mimic a sample chemical signal, so documented clean handling and controls strengthen interpretation."
+    ],
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/solar-system/asteroids/101955-bennu/",
+        "title": "Bennu - NASA Science",
+        "locator": "About Bennu; Exploring Bennu",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/osiris-rex/",
+        "title": "NASA's OSIRIS-REx Mission to Asteroid Bennu",
+        "locator": "Mission Overview; sample-site selection; Jan. 29, 2025 sample findings",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "reasoning"
+  },
+  {
+    "id": "world-67p-churyumov-gerasimenko-reasoning",
+    "lesson_id": "world-67p-churyumov-gerasimenko",
+    "rule_refs": [
+      "3.a.i",
+      "3.b.ii"
+    ],
+    "type": "written",
+    "prompt": "Rosetta found glycine at 67P, and glycine is used in proteins on Earth. Explain why “Rosetta found life” does not follow, and identify a limitation in using coma measurements to describe the whole comet.",
+    "explanation": "Distinguish a molecule useful to life from evidence that a biological process produced it. State that nonbiological chemistry can explain organic ingredients and must be tested before invoking organisms. Explain that coma material has been released and processed; location, time and instrument sensitivity limit extrapolation to the whole nucleus.",
+    "rubric": [
+      "Distinguish a molecule useful to life from evidence that a biological process produced it.",
+      "State that nonbiological chemistry can explain organic ingredients and must be tested before invoking organisms.",
+      "Explain that coma material has been released and processed; location, time and instrument sensitivity limit extrapolation to the whole nucleus."
+    ],
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/solar-system/comets/67p-churyumov-gerasimenko/",
+        "title": "67P/Churyumov-Gerasimenko - NASA Science",
+        "locator": "Overview: Rosetta findings and nucleus properties",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://sci.esa.int/web/rosetta/-/35061-instruments",
+        "title": "ESA Science & Technology - Orbiter Instruments",
+        "locator": "Introduction; Instruments In Brief; ROSINA; OSIRIS; VIRTIS",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "reasoning"
+  },
+  {
+    "id": "system-trappist-1-reasoning",
+    "lesson_id": "system-trappist-1",
+    "rule_refs": [
+      "3.a.ii",
+      "3.b.i",
+      "3.b.iv"
+    ],
+    "type": "written",
+    "prompt": "A hypothetical report says two TRAPPIST-1 planets have similar bulk densities and one lies in the habitable zone. What does each observation support, and why do they not prove identical interiors or inhabited surfaces?",
+    "explanation": "Use mass and size together to explain density as a bulk property with multiple possible compositions. Define the habitable zone conditionally: liquid surface water requires suitable atmospheric conditions, not merely an orbital location. Identify a separate needed observation such as atmospheric spectroscopy, with cloud and stellar-signal limitations.",
+    "rubric": [
+      "Use mass and size together to explain density as a bulk property with multiple possible compositions.",
+      "Define the habitable zone conditionally: liquid surface water requires suitable atmospheric conditions, not merely an orbital location.",
+      "Identify a separate needed observation such as atmospheric spectroscopy, with cloud and stellar-signal limitations."
+    ],
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/universe/exoplanets/seven-rocky-trappist-1-planets-may-be-made-of-similar-stuff/",
+        "title": "Seven Rocky TRAPPIST-1 Planets May Be Made of Similar Stuff - NASA Science",
+        "locator": "Transit method, density measurements, iron-oxide and water alternatives",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/universe/exoplanets/10-things-all-about-trappist-1-2/",
+        "title": "10 Things: All About TRAPPIST-1 - NASA Science",
+        "locator": "3) ...but actually there were seven.; 6) They are mostly made of rock",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/blogs/webb/2024/06/05/reconnaissance-of-potentially-habitable-worlds-with-nasas-webb/",
+        "title": "Reconnaissance of Potentially Habitable Worlds with NASA’s Webb - NASA Science",
+        "locator": "Small-planet transmission spectroscopy and stellar-contamination limitations",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "reasoning"
+  },
+  {
+    "id": "system-kepler-452-reasoning",
+    "lesson_id": "system-kepler-452",
+    "rule_refs": [
+      "3.a.ii",
+      "3.b.i",
+      "3.b.iv"
+    ],
+    "type": "written",
+    "prompt": "A poster shows Kepler-452b with blue oceans and calls it a second Earth because its year is similar to ours. Separate measured information, artist interpretation and two missing habitability constraints.",
+    "explanation": "Identify repeated transits as support for orbital timing and an estimated planet size, not visible continents or oceans. Label the ocean picture as an artist’s possible interpretation rather than a resolved observation. Name unresolved atmosphere, water or composition constraints and explain that a similar year does not establish a life-supporting surface.",
+    "rubric": [
+      "Identify repeated transits as support for orbital timing and an estimated planet size, not visible continents or oceans.",
+      "Label the ocean picture as an artist’s possible interpretation rather than a resolved observation.",
+      "Name unresolved atmosphere, water or composition constraints and explain that a similar year does not establish a life-supporting surface."
+    ],
+    "source_refs": [
+      {
+        "url": "https://www.nasa.gov/news-release/nasas-kepler-mission-discovers-bigger-older-cousin-to-earth/",
+        "title": "NASA’s Kepler Mission Discovers Bigger, Older Cousin to Earth - NASA",
+        "locator": "2015 discovery release: size, 385-day orbit, unknown mass/composition and illustration captions",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/kepler/",
+        "title": "Kepler / K2 - NASA Science",
+        "locator": "Overview: photometer and transit method",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "reasoning"
+  },
+  {
+    "id": "system-lhs-1140-reasoning",
+    "lesson_id": "system-lhs-1140",
+    "rule_refs": [
+      "3.a.ii",
+      "3.b.i",
+      "3.b.iv"
+    ],
+    "type": "written",
+    "prompt": "In a hypothetical LHS 1140 b spectrum, a weak absorption feature appears in only one transit. Give two non-life explanations to test and explain why more than a habitable-zone label is needed.",
+    "explanation": "Consider instrumental or statistical uncertainty and a stellar contribution such as cool starspots, not just planetary biology. Explain that overlapping molecules or clouds complicate atmospheric interpretation and motivate repeated wavelength-resolved observations. State that atmospheric composition, suitable liquid conditions and independent evidence are needed; neither one feature nor an orbital label establishes life.",
+    "rubric": [
+      "Consider instrumental or statistical uncertainty and a stellar contribution such as cool starspots, not just planetary biology.",
+      "Explain that overlapping molecules or clouds complicate atmospheric interpretation and motivate repeated wavelength-resolved observations.",
+      "State that atmospheric composition, suitable liquid conditions and independent evidence are needed; neither one feature nor an orbital label establishes life."
+    ],
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/exoplanet-catalog/lhs-1140-b/",
+        "title": "LHS 1140 b - NASA Science",
+        "locator": "LHS 1140 b: planet type, star type and discovery method",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/blogs/webb/2024/06/05/reconnaissance-of-potentially-habitable-worlds-with-nasas-webb/",
+        "title": "Reconnaissance of Potentially Habitable Worlds with NASA’s Webb - NASA Science",
+        "locator": "LHS 1140 b observing-time example; clouds, overlapping signals and starspots",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "reasoning"
+  },
+  {
+    "id": "world-venus-surface-environments",
+    "lesson_id": "world-venus",
+    "rule_refs": [
+      "3.a.i",
+      "3.b.i",
+      "3.b.ii"
+    ],
+    "type": "mcq",
+    "prompt": "Which comparison correctly explains why Venus and Mars can both have carbon-dioxide-rich atmospheres but very different surface environments?",
+    "options": [
+      "The same main atmospheric gas guarantees the same surface temperature.",
+      "Atmospheric amount and heat retention matter, so a thick Venus atmosphere and thin Mars atmosphere need not produce similar conditions.",
+      "Mars’s red color proves its surface is hotter than Venus.",
+      "Clouds always prevent greenhouse warming, regardless of atmospheric composition."
+    ],
+    "answer": 1,
+    "explanation": "Composition is only one variable: Venus has a very thick heat-trapping atmosphere, whereas Mars has a thin atmosphere and a cold, dry surface environment. A shared major gas does not make pressure, heat transport or surface temperature identical.",
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/venus/venus-facts/",
+        "title": "Venus: Facts - NASA Science",
+        "locator": "Introduction; Potential for Life; Surface; Atmosphere",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://www.esa.int/articles/about-us/directorates/science/venus-express/venus-express-orbiter-instruments",
+        "title": "Venus Express orbiter instruments",
+        "locator": "SPICAV/SOIR; VIRTIS; Venus Monitoring Camera",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mars/facts/",
+        "title": "Mars: Facts - NASA Science",
+        "locator": "Water on Mars; Atmosphere; Potential for Life",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/mars-reconnaissance-orbiter/science-instruments/",
+        "title": "MRO Science Instruments - NASA Science",
+        "locator": "Context Camera; Compact Reconnaissance Imaging Spectrometer",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/mars-2020-perseverance/science-instruments/",
+        "title": "Perseverance Science Instruments - NASA Science",
+        "locator": "SHERLOC; Planetary Instrument for X-ray Lithochemistry (PIXL)",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "comparison"
+  },
+  {
+    "id": "world-enceladus-ocean-access",
+    "lesson_id": "world-enceladus",
+    "rule_refs": [
+      "3.a.i",
+      "3.b.i",
+      "3.b.ii"
+    ],
+    "type": "mcq",
+    "prompt": "Which comparison most accurately describes how Enceladus and Europa can be investigated for subsurface habitability?",
+    "options": [
+      "Both have had spacecraft land inside their oceans.",
+      "A surface photograph directly measures every dissolved ocean chemical.",
+      "Enceladus ejects ocean-related material into space; Europa investigations combine indirect interior measurements with surface and near-moon observations.",
+      "Europa’s visible ice proves there can be no liquid below it."
+    ],
+    "answer": 2,
+    "explanation": "Enceladus’s plumes make ocean-related material accessible to a passing spacecraft. Europa’s ocean properties are investigated through complementary methods such as magnetometry, radar and composition measurements. Neither approach alone establishes organisms.",
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/saturn/moons/enceladus/",
+        "title": "Enceladus - NASA Science",
+        "locator": "Overview: jets, orbital resonance, gravity, silica and hydrothermal evidence",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/cassini/spacecraft/cassini-orbiter/",
+        "title": "Cassini Orbiter - NASA Science",
+        "locator": "Fields, Particles and Waves; Optical Remote Sensing",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/jupiter/jupiter-moons/europa/",
+        "title": "Europa - NASA Science",
+        "locator": "Facts About Europa; introductory ocean evidence",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/europa-clipper/spacecraft-instruments/",
+        "title": "Europa Clipper Spacecraft Instruments",
+        "locator": "Plasma and Magnetic Field; Radar & Gravity; Spectrometry",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "comparison"
+  },
+  {
+    "id": "world-titan-liquid-identity",
+    "lesson_id": "world-titan",
+    "rule_refs": [
+      "3.a.i",
+      "3.b.i",
+      "3.b.ii"
+    ],
+    "type": "mcq",
+    "prompt": "Why should a Titan surface lake and an inferred Enceladus ocean not simply be labeled the same kind of habitat?",
+    "options": [
+      "Titan’s surface lakes contain hydrocarbons, while Enceladus’s inferred ocean is water-based beneath ice.",
+      "Any material forming a lake must be liquid water.",
+      "Both liquids are directly visible oceans at Earth-like temperatures.",
+      "A hydrocarbon lake contains life by definition."
+    ],
+    "answer": 0,
+    "explanation": "Titan’s cold surface supports liquid methane and ethane, whereas Enceladus evidence points to a buried saltwater ocean. Different solvents, temperatures and settings require different habitability arguments; the presence of a liquid alone does not prove life.",
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/saturn/moons/titan/facts/",
+        "title": "Titan: Facts",
+        "locator": "Introduction; Potential for Life; Structure; Surface; Atmosphere",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/cassini/spacecraft/cassini-orbiter/",
+        "title": "Cassini Orbiter - NASA Science",
+        "locator": "Microwave Remote Sensing",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/cassini/spacecraft/huygens-probe/",
+        "title": "Huygens Probe - NASA Science",
+        "locator": "Science Highlights; probe instrument descriptions",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/saturn/moons/enceladus/",
+        "title": "Enceladus - NASA Science",
+        "locator": "Overview: jets, orbital resonance, gravity, silica and hydrothermal evidence",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "comparison"
+  },
+  {
+    "id": "world-101955-bennu-sample-versus-spectrum",
+    "lesson_id": "world-101955-bennu",
+    "rule_refs": [
+      "3.a.i",
+      "3.b.ii"
+    ],
+    "type": "mcq",
+    "prompt": "Which comparison correctly distinguishes evidence from Bennu and Makemake?",
+    "options": [
+      "Both have returned samples that can be analyzed in Earth laboratories.",
+      "Both were mapped by rovers operating on their surfaces.",
+      "A surface ice spectrum contains a complete interior map.",
+      "Bennu has returned samples, while Makemake’s surface composition is studied remotely and its interior remains poorly constrained."
+    ],
+    "answer": 3,
+    "explanation": "OSIRIS-REx returned material from Bennu for terrestrial laboratory study. Makemake is studied from afar, with detected surface ices but little detailed interior knowledge. These different observation routes impose different limits on what can be inferred.",
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/solar-system/asteroids/101955-bennu/",
+        "title": "Bennu - NASA Science",
+        "locator": "About Bennu; Exploring Bennu",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/osiris-rex/",
+        "title": "NASA's OSIRIS-REx Mission to Asteroid Bennu",
+        "locator": "Mission Overview; sample-site selection; Jan. 29, 2025 sample findings",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/dwarf-planets/makemake/",
+        "title": "Makemake",
+        "locator": "Potential for Life; Size and Distance; Structure; Surface; Atmosphere",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "comparison"
+  },
+  {
+    "id": "system-kepler-452-zone-versus-ocean",
+    "lesson_id": "system-kepler-452",
+    "rule_refs": [
+      "3.a.ii",
+      "3.b.i",
+      "3.b.iv"
+    ],
+    "type": "mcq",
+    "prompt": "Which comparison of Kepler-452 and TRAPPIST-1 uses the habitable-zone idea correctly?",
+    "options": [
+      "The habitable zone is always exactly the same distance from every star.",
+      "Different stellar energy outputs place potential liquid-water zones at different distances; neither orbital placement proves an ocean.",
+      "Every Earth-sized planet is known to have an Earth-like atmosphere.",
+      "An artist’s blue planet proves water more directly than a light curve does."
+    ],
+    "answer": 1,
+    "explanation": "TRAPPIST-1’s faint star permits a close-in potential habitable zone, while a Sun-like star has a different scale. The zone is conditional on planetary environments: atmospheric properties and available water must be evaluated independently. Illustrations are not ocean observations.",
+    "source_refs": [
+      {
+        "url": "https://www.nasa.gov/news-release/nasas-kepler-mission-discovers-bigger-older-cousin-to-earth/",
+        "title": "NASA’s Kepler Mission Discovers Bigger, Older Cousin to Earth - NASA",
+        "locator": "2015 discovery release: size, 385-day orbit, unknown mass/composition and illustration captions",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/kepler/",
+        "title": "Kepler / K2 - NASA Science",
+        "locator": "Overview: photometer and transit method",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/universe/exoplanets/seven-rocky-trappist-1-planets-may-be-made-of-similar-stuff/",
+        "title": "Seven Rocky TRAPPIST-1 Planets May Be Made of Similar Stuff - NASA Science",
+        "locator": "Transit method, density measurements, iron-oxide and water alternatives",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/universe/exoplanets/10-things-all-about-trappist-1-2/",
+        "title": "10 Things: All About TRAPPIST-1 - NASA Science",
+        "locator": "3) ...but actually there were seven.; 6) They are mostly made of rock",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/blogs/webb/2024/06/05/reconnaissance-of-potentially-habitable-worlds-with-nasas-webb/",
+        "title": "Reconnaissance of Potentially Habitable Worlds with NASA’s Webb - NASA Science",
+        "locator": "Small-planet transmission spectroscopy and stellar-contamination limitations",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "comparison"
+  },
+  {
+    "id": "world-67p-churyumov-gerasimenko-chemistry-not-biology",
+    "lesson_id": "world-67p-churyumov-gerasimenko",
+    "rule_refs": [
+      "3.a.i",
+      "3.b.ii"
+    ],
+    "type": "mcq",
+    "prompt": "Which conclusion is justified when comparing organic ingredients from Bennu with glycine measured at comet 67P?",
+    "options": [
+      "Both bodies are confirmed inhabited because organic means biological.",
+      "Comets must contain organisms, but asteroids cannot.",
+      "Both help investigate prebiotic chemistry, but nonbiological production and sampling limits must be considered.",
+      "Finding one molecule proves the whole body has the same composition."
+    ],
+    "answer": 2,
+    "explanation": "Organic compounds and glycine can be produced without life. Bennu samples and 67P coma measurements give different kinds of access to ancient small-body chemistry, with contamination, representativeness and release-process limitations. Neither measurement alone establishes biology.",
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/solar-system/comets/67p-churyumov-gerasimenko/",
+        "title": "67P/Churyumov-Gerasimenko - NASA Science",
+        "locator": "Overview: Rosetta findings and nucleus properties",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://sci.esa.int/web/rosetta/-/35061-instruments",
+        "title": "ESA Science & Technology - Orbiter Instruments",
+        "locator": "Introduction; Instruments In Brief; ROSINA; OSIRIS; VIRTIS",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/solar-system/asteroids/101955-bennu/",
+        "title": "Bennu - NASA Science",
+        "locator": "About Bennu; Exploring Bennu",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/osiris-rex/",
+        "title": "NASA's OSIRIS-REx Mission to Asteroid Bennu",
+        "locator": "Mission Overview; sample-site selection; Jan. 29, 2025 sample findings",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "difficulty": "intermediate",
+    "kind": "comparison"
+  }
+]

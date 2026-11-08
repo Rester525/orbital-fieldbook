@@ -1,0 +1,751 @@
+[
+  {
+    "id": "mission-venus-express",
+    "title": "Venus Express",
+    "category": "mission",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "summary": "ESA’s Venus orbiter used complementary wavelengths and particle measurements to investigate atmospheric structure and change.",
+    "sections": [
+      {
+        "heading": "A laboratory above the clouds",
+        "text": "Venus Express studied Venus from orbit rather than placing a laboratory on its hot surface. Its instruments addressed atmospheric composition, temperature, circulation and interaction with space. An orbiter can return to regions and compare conditions over time, an advantage for studying weather. The tradeoff is that many properties must be inferred from radiation or particles reaching the spacecraft, rather than measured by a sensor sitting at every altitude of interest. [1]"
+      },
+      {
+        "heading": "Different instruments ask different questions",
+        "text": "VIRTIS recorded visible and infrared information about the lower atmosphere and cloud motion. SPICAV/SOIR used ultraviolet and infrared observations to investigate atmospheric gases and structure. ASPERA investigated particles and atmospheric escape, while MAG measured the magnetic environment. A moving cloud pattern is mainly a clue to circulation; it is not itself a chemical identification. Combining spectra, cloud images and particle measurements lets researchers connect processes without pretending one detector measures everything. [1]"
+      },
+      {
+        "heading": "Design a stronger interpretation",
+        "text": "Suppose an infrared pattern changes between observations. It could reflect temperature, composition or which atmospheric layer contributes most strongly to the signal. The useful next step is to compare wavelengths and measurements from other instruments, not immediately announce a volcanic eruption or life. Venus Express demonstrates a general mission strategy: observe related phenomena in multiple ways, then use agreement and disagreement to test models of how a planet’s atmosphere works. [1]"
+      }
+    ],
+    "evidence": {
+      "observation": "Venus Express returned wavelength-dependent atmospheric and cloud observations along with measurements of particles and magnetic conditions.",
+      "instrument": "VIRTIS and SPICAV/SOIR supplied spectral information, while ASPERA and MAG addressed particles and the magnetic environment.",
+      "inference": "Combining these measurements constrains atmospheric structure, circulation and interactions that influence long-term atmospheric evolution.",
+      "alternative": "An infrared brightness change could result from clouds or absorption changes rather than a hotter patch of solid ground.",
+      "uncertainty": "Remote sensing mixes contributions from different depths, so retrieval models and complementary observations are needed to isolate causes."
+    },
+    "source_refs": [
+      {
+        "url": "https://www.esa.int/articles/about-us/directorates/science/venus-express/venus-express-orbiter-instruments",
+        "title": "Venus Express orbiter instruments",
+        "locator": "ASPERA; MAG; SPICAV/SOIR; VIRTIS; Venus Monitoring Camera",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "In a hypothetical Venus Express data set, an infrared patch brightens. Which complementary observations would help distinguish changing clouds from a surface-related change, and why is one wavelength insufficient?",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "mission-davinci",
+    "title": "DAVINCI",
+    "category": "mission",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "summary": "A descent probe and supporting spacecraft are designed to connect Venus’s atmospheric chemistry with its history and surface geology.",
+    "sections": [
+      {
+        "heading": "Measure while descending",
+        "text": "DAVINCI is designed to investigate how Venus and its massive atmosphere formed and evolved. Its architecture includes a spacecraft and an atmospheric descent probe. The probe’s journey would sample changing conditions with height, while spacecraft observations provide wider context. This is a complementary approach to remote mapping: an instrument inside the atmosphere can measure local gases directly, but it follows a limited path rather than surveying every location around the planet. [1]"
+      },
+      {
+        "heading": "Match a sensor to the question",
+        "text": "The Venus Mass Spectrometer is intended to measure gases including noble gases and trace compounds. The Venus Tunable Laser Spectrometer measures atmospheric chemical compounds, while VASI measures temperature, pressure and winds during descent. VenDI is an infrared camera intended to view Alpha Regio beneath the clouds. Gas measurements address atmospheric history; images address terrain and composition. Neither kind of observation replaces the other, because chemistry and geological context constrain different parts of Venus’s evolution. [2]"
+      },
+      {
+        "heading": "Objectives are not completed discoveries",
+        "text": "DAVINCI’s planned measurements could test explanations for why Venus differs from Earth, including its history of water and atmosphere. A descent is an engineering compromise: the instruments must work through changing pressure and temperature while returning data on a short sequence. A strong answer says what a measurement would distinguish and what remains uncertain. It should not say DAVINCI has already found an ancient ocean simply because that question motivates the mission design. [1][2]"
+      }
+    ],
+    "evidence": {
+      "observation": "Planned observations include gas abundances and atmospheric profiles during descent, plus infrared views of terrain below the clouds.",
+      "instrument": "VMS and VTLS address chemistry, VASI profiles physical conditions, and VenDI links the descent to surface geology.",
+      "inference": "Together these measurements could constrain atmospheric evolution and test competing histories for water and surface formation.",
+      "alternative": "A local chemical profile might reflect regional mixing or later atmospheric processing rather than one unique ancient climate.",
+      "uncertainty": "A single descent path has limited spatial coverage, and planned scientific objectives must not be presented as achieved findings."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/davinci/",
+        "title": "NASA's DAVINCI Mission",
+        "locator": "The Mission: spacecraft, probe and Alpha Regio descent",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/davinci/davinci-science/",
+        "title": "DAVINCI Science",
+        "locator": "Science Instruments: VMS, VTLS, VASI and VenDI",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "Choose one DAVINCI instrument for atmospheric chemistry and one for physical conditions. Explain how their planned measurements complement one another, and give one limitation of a descent profile.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "mission-veritas",
+    "title": "VERITAS",
+    "category": "mission",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "summary": "A Venus mapping mission is designed to test how geology, surface composition and interior evolution differ from Earth’s.",
+    "sections": [
+      {
+        "heading": "Why orbit is useful",
+        "text": "VERITAS is designed as a Venus orbiter to investigate the planet’s surface and interior evolution. The thick clouds make ordinary visible-light surface mapping difficult, so the mission emphasizes radar topography and imaging, together with compositional information and radio science. Broad orbital coverage addresses how landforms relate across the planet. It complements a descent probe’s detailed atmospheric profile rather than competing to answer exactly the same questions in the same way. [1]"
+      },
+      {
+        "heading": "Turn maps into geological tests",
+        "text": "A topographic map describes elevation, whereas a radar image records how the surface scatters the transmitted signal. Those are related but different measurements. VERITAS aims to identify geological activity and improve constraints on surface rock composition and the interior. The useful scientific question is whether patterns fit ongoing volcanism, deformation or particular evolutionary histories, not simply whether a radar image looks dramatic. Repeated and complementary measurements strengthen the interpretation of any proposed change. [1]"
+      },
+      {
+        "heading": "Understand the engineering tradeoff",
+        "text": "The mission description includes solar power, aerobraking to reshape the orbit, and a near-polar mapping orbit. Global coverage can reveal patterns unavailable from a single landing site, but orbital observations remain indirect. Radar brightness can depend on surface texture and viewing geometry as well as material properties. Thus a bright patch is not automatically lava. Mission objectives about active geology or past water are questions to investigate, not discoveries already made by the planned mapper. [1]"
+      }
+    ],
+    "evidence": {
+      "observation": "Planned VERITAS products include high-resolution radar images, topography and constraints on surface composition and internal structure.",
+      "instrument": "Radar mapping, radio science and spectroscopy contribute distinct measurements rather than one all-purpose photograph of Venus.",
+      "inference": "Combined maps could distinguish geological histories and test whether surface deformation or volcanism is actively changing Venus.",
+      "alternative": "Radar brightness can change with roughness or viewing geometry, so brightness alone does not establish newly erupted lava.",
+      "uncertainty": "Orbital properties require model interpretation, and intended mapping results are not evidence of completed measurements or proven past oceans."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/veritas/",
+        "title": "VERITAS - NASA Science",
+        "locator": "Seeking Answers; Borrowing From the Past; VERITAS Firsts",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "In a hypothetical VERITAS comparison, one area is brighter in radar than another. Explain why “the brighter area is active lava” is premature and propose a stronger test using the mission’s planned data.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "mission-perseverance",
+    "title": "Perseverance",
+    "category": "mission",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "summary": "A rover connects rock textures, minerals and chemistry at close range while collecting material for possible future study.",
+    "sections": [
+      {
+        "heading": "A close-up investigation of Mars",
+        "text": "Perseverance studies Martian geology and searches for possible signs of ancient microbial life. Its advantage is working close to selected rocks rather than viewing every target from orbit. Cameras establish where a feature sits within a rock and a landscape, while chemical instruments test what it contains. This combination helps distinguish a scientifically interesting pattern from a pattern that only happens to resemble something biological on Earth. [1]"
+      },
+      {
+        "heading": "Do not confuse chemical instruments",
+        "text": "PIXL uses X-rays to identify chemical elements at small scales and pairs those measurements with close-up imaging. SHERLOC uses spectroscopy and imaging to investigate organic materials and minerals associated with watery environments. SuperCam can investigate targets remotely using a laser, camera and spectrometers, while Mastcam-Z supplies broader visual context. Element maps, molecular clues and pictures are complementary; an element such as carbon is not automatically a particular organic molecule or a living cell. [1]"
+      },
+      {
+        "heading": "Context and limits matter",
+        "text": "Perseverance also collects samples for possible return to Earth, where larger laboratories could apply additional methods. The rover’s observations themselves do not complete that return or automatically confirm life. A candidate biosignature needs testing against nonbiological chemistry, geological alteration and contamination. A mobile laboratory can examine several sites in detail, but it still samples a small fraction of Mars. Conclusions must preserve both the specific rock context and the limits of the instruments. [1][2]"
+      }
+    ],
+    "evidence": {
+      "observation": "Perseverance measures textures, elemental distributions and spectral signals in selected Martian rocks and collects samples for possible return.",
+      "instrument": "PIXL maps elements, SHERLOC investigates organic and mineral signals, and cameras place those measurements in geological context.",
+      "inference": "Agreement between texture and chemistry can identify promising records of ancient environments and prioritize samples for further analysis.",
+      "alternative": "Nonbiological mineral growth or chemical alteration can produce intriguing patterns and organic molecules without any organism.",
+      "uncertainty": "A candidate biosignature is not a confirmed biological origin; limited sampled area and instrumental ambiguities require additional tests."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/mars-2020-perseverance/science-instruments/",
+        "title": "Perseverance Science Instruments - NASA Science",
+        "locator": "Mastcam-Z; SuperCam; SHERLOC; PIXL",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mars/facts/",
+        "title": "Mars: Facts - NASA Science",
+        "locator": "Potential for Life; Mars 2020: Perseverance Rover",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "In a hypothetical Perseverance rock, an organic signal occurs beside an unusual mineral texture. Explain why combining SHERLOC, PIXL and images is helpful, but still does not justify a life announcement.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "mission-mars-reconnaissance-orbiter",
+    "title": "Mars Reconnaissance Orbiter",
+    "category": "mission",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "summary": "Orbital images, spectra and radar connect local features to the larger history and subsurface of Mars.",
+    "sections": [
+      {
+        "heading": "Seeing detail without losing context",
+        "text": "Mars Reconnaissance Orbiter carries instruments for several views of Mars. HiRISE supplies detailed images, while CTX supplies the larger landscape around smaller targets. Context matters because a close-up ridge could be interpreted very differently when placed within a crater, a channel or a layered deposit. An orbiter trades direct contact with a rock for broad coverage and the ability to connect features across regions and observing times. [1]"
+      },
+      {
+        "heading": "Composition and layers answer different questions",
+        "text": "CRISM measures reflected visible and infrared light to identify characteristic mineral patterns, including minerals associated with past interaction with water. SHARAD sends radar signals to investigate layers below the surface. A spectral mineral map therefore answers a compositional question, while radar echoes constrain buried structure. The instruments do not simply provide interchangeable photographs. Images help connect both data sets to landforms so scientists can test a geological history rather than interpret isolated colored pixels. [1]"
+      },
+      {
+        "heading": "Avoid the water shortcut",
+        "text": "A mineral that formed with water can remain long after the liquid has disappeared. Similarly, a radar reflection marks a contrast in electrical properties, not automatically a present liquid-water lake. The strongest investigation compares possible materials and geometries using several instruments. MRO shows why ancient habitability is reconstructed from connected observations: mapping where alteration occurred is valuable, but temperature, timing, duration and chemical conditions still require interpretation and sometimes close-up measurements from other missions. [1]"
+      }
+    ],
+    "evidence": {
+      "observation": "MRO has mapped fine landforms, broader geological context, mineral spectral patterns and subsurface radar reflections on Mars.",
+      "instrument": "HiRISE and CTX image different scales; CRISM measures mineral spectra; SHARAD investigates buried interfaces with radar.",
+      "inference": "Agreement among landforms, composition and structure can support a history of water-related alteration or deposition.",
+      "alternative": "A water-altered mineral can be ancient and dry today, while a radar boundary need not be liquid water.",
+      "uncertainty": "Orbital resolution and nonunique material interpretations limit claims about local conditions, timing and any biological history."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/mars-reconnaissance-orbiter/science-instruments/",
+        "title": "MRO Science Instruments - NASA Science",
+        "locator": "High Resolution Imaging Experiment; Context Camera; Compact Reconnaissance Imaging Spectrometer; Shallow Radar",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "A hypothetical MRO map shows water-altered minerals beside a buried radar reflector. Why is “a living underground lake” an overclaim, and which two kinds of evidence should be interpreted separately?",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "mission-maven",
+    "title": "MAVEN",
+    "category": "mission",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "summary": "Measurements of escaping atmosphere help reconstruct why Mars’s environment changed over time.",
+    "sections": [
+      {
+        "heading": "Follow the atmosphere into space",
+        "text": "MAVEN investigated the Martian upper atmosphere and its loss to space. This addresses a different part of habitability from photographing a delta: it asks how a planet could lose atmospheric conditions that once helped support liquid water. Particles escaping today are not a complete recording of every earlier epoch, but measurements of the physical processes let researchers test models of how atmospheric evolution connects to long-term climate change. [1][2]"
+      },
+      {
+        "heading": "Three instruments test one process",
+        "text": "NASA’s 2025 account describes evidence for sputtering, in which energetic particles strike the atmosphere and knock other atoms outward. The study combined the Solar Wind Ion Analyzer, a magnetometer and the Neutral Gas and Ion Mass Spectrometer. Measuring incoming particles, magnetic conditions and atmospheric argon together allowed researchers to relate an escaping population to a physical cause. An unexplained high-altitude atom count alone would provide a much weaker causal argument. [2]"
+      },
+      {
+        "heading": "Reconstruct the past carefully",
+        "text": "Escape measurements constrain atmospheric history but do not directly measure an ancient ocean’s size or prove it supported organisms. The Sun’s activity and the planet’s atmosphere have changed, so extrapolating a modern rate backward unchanged is not justified. MAVEN illustrates the power and limitation of process-based reasoning: observe a mechanism, compare its behavior under different conditions, then build and test a historical model rather than multiply one snapshot by billions of years. [2]"
+      }
+    ],
+    "evidence": {
+      "observation": "MAVEN data linked high-altitude argon with energetic-particle conditions, supporting atmospheric sputtering at Mars in the cited study.",
+      "instrument": "The Solar Wind Ion Analyzer, magnetometer and Neutral Gas and Ion Mass Spectrometer supplied complementary particle, field and gas measurements.",
+      "inference": "Energetic particles can remove atmospheric material, helping explain mechanisms behind the evolution of Mars’s climate.",
+      "alternative": "A gas-density change without simultaneous particle and field measurements could reflect other atmospheric variations rather than the proposed escape mechanism.",
+      "uncertainty": "Ancient loss rates depend on changing solar and atmospheric conditions; modern observations do not uniquely specify ancient water inventories."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/maven/",
+        "title": "MAVEN - NASA Science",
+        "locator": "Mission overview: upper-atmosphere evolution",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/missions/maven/nasas-maven-makes-first-observation-of-atmospheric-sputtering-at-mars/",
+        "title": "NASA’s MAVEN Makes First Observation of Atmospheric Sputtering at Mars - NASA Science",
+        "locator": "Sputtering mechanism; simultaneous three-instrument measurements; early solar activity",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "Why did the MAVEN sputtering investigation need gas, solar-wind and magnetic measurements together? Explain one reason a present-day escape rate cannot simply be applied unchanged to all of Martian history.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "mission-galileo",
+    "title": "Galileo",
+    "category": "mission",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "summary": "A Jupiter orbiter combined images, spectra and magnetic measurements, revealing why icy moons deserve close study.",
+    "sections": [
+      {
+        "heading": "A tour of a planetary system",
+        "text": "Galileo studied Jupiter, its moons and its magnetic environment through an orbital tour and repeated encounters. Its separate atmospheric probe entered Jupiter, not Europa. This distinction prevents a common mistake: evidence for a moon’s ocean did not come from a probe swimming in it. The orbiter supplied remote and local-environment measurements, including images, spectra and magnetic data that scientists used to infer conditions inside the icy moons. [1]"
+      },
+      {
+        "heading": "Compare two magnetic stories",
+        "text": "Galileo’s magnetometer discovered Ganymede’s intrinsic magnetic field and contributed to the investigation of oceans in the Jovian system. Ganymede’s own field is not the same physical thing as a response induced by Jupiter’s changing field in a conducting layer. Cameras and spectrometers placed magnetic clues beside surface geology. The combined strategy was to test an interior model against several kinds of evidence instead of treating every magnetic variation as the same phenomenon. [1][2]"
+      },
+      {
+        "heading": "Engineering shapes the available science",
+        "text": "Galileo’s high-gain antenna failed to deploy fully, reducing communication capability and forcing the team to manage data carefully. This is a useful example of a real tradeoff: an instrument can collect more information than a constrained communications link can easily return. The mission nevertheless transformed understanding of Jupiter’s system. Its deliberate final descent into Jupiter also illustrates planetary protection, avoiding an uncontrolled future encounter with a moon of potential biological interest. [1]"
+      }
+    ],
+    "evidence": {
+      "observation": "Galileo returned images and field measurements that transformed icy-moon studies, including the discovery of Ganymede’s intrinsic magnetic field.",
+      "instrument": "The orbiter carried a magnetometer, imaging camera and spectrometers; its separate descent probe sampled Jupiter’s atmosphere.",
+      "inference": "Combining geology and electromagnetic behavior supported models of layered interiors and possible subsurface oceans.",
+      "alternative": "Intrinsic magnetism, induced ocean responses and surrounding plasma have different causes and must not be treated as interchangeable signals.",
+      "uncertainty": "Indirect ocean evidence does not reveal organisms, and communication constraints limited which observations could be returned to Earth."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/galileo/",
+        "title": "Galileo - NASA Science",
+        "locator": "Spacecraft; Atmospheric Probe; High-Gain Antenna; Top 10 Science Results; Galileo End of Mission",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/jupiter/jupiter-moons/ganymede/facts/",
+        "title": "Ganymede: Facts - NASA Science",
+        "locator": "Introduction; Structure; Magnetosphere",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "A student says Galileo’s probe sampled Europa’s ocean and found its magnetic field. Correct the target and measurement method, then explain how the antenna problem could affect science without making the remaining data useless.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "mission-europa-clipper",
+    "title": "Europa Clipper",
+    "category": "mission",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "summary": "A coordinated instrument suite is designed to test Europa’s habitability through repeated flyby measurements.",
+    "sections": [
+      {
+        "heading": "A habitability investigation, not a life detector",
+        "text": "Europa Clipper is designed to investigate whether places beneath Europa’s surface could support life. NASA explicitly distinguishes this from carrying instruments that directly seek organisms. The science questions concern the ice shell, the possible ocean, surface composition and geological activity. Flybys bring multiple instruments over related regions, allowing different measurements to be layered into a physical explanation rather than allowing one spectacular image to stand in for the whole investigation. [1]"
+      },
+      {
+        "heading": "Use instruments as a team",
+        "text": "REASON radar investigates the ice shell and structures within it. The Europa Clipper Magnetometer works with PIMS, which measures plasma, to interpret the magnetic response. EIS cameras provide landform context, and MISE maps infrared signatures of surface materials. MASPEX and SUDA investigate gases and dust near the moon. Each observes a different part of the system; they do not all directly measure ocean chemistry, and some ocean properties must still be inferred through models. [1]"
+      },
+      {
+        "heading": "Design a cross-check",
+        "text": "Suppose radar indicates a subsurface structure near an unusual surface deposit. Camera topography and material spectra could help test whether it represents transport through the ice. Magnetic observations supply a different constraint on the larger interior. However, radar propagation depends on the ice’s properties, plasma can affect field measurements and surface material can be altered. This is why the mission’s suite emphasizes complementary evidence and uncertainty rather than promising that any one pass will prove a habitable ocean. [1]"
+      }
+    ],
+    "evidence": {
+      "observation": "Planned flyby observations combine ice-penetrating radar, surface images and spectra, fields, plasma, and nearby gas and dust measurements.",
+      "instrument": "REASON, EIS, MISE, ECM with PIMS, MASPEX and SUDA address distinct parts of Europa’s structure and composition.",
+      "inference": "Consistent measurements can constrain ice thickness, ocean-related properties and material exchange relevant to habitability.",
+      "alternative": "Plasma effects can mimic or modify magnetic signals, and altered surface deposits may not faithfully preserve original ocean material.",
+      "uncertainty": "The spacecraft assesses conditions that could support life; it does not directly establish organisms or guarantee every buried boundary is detectable."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/europa-clipper/spacecraft-instruments/",
+        "title": "Europa Clipper Spacecraft Instruments",
+        "locator": "Spacecraft Instruments; Cameras; Spectrometry; Plasma and Magnetic Field; Radar & Gravity; Chemical Analysis",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "For a hypothetical Europa Clipper flyby, explain why a magnetometer should be paired with a plasma instrument and why radar and surface images add different information. What life-related conclusion would still be unjustified?",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "mission-juice",
+    "title": "JUICE",
+    "category": "mission",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "summary": "ESA’s Jupiter Icy Moons Explorer combines surface, interior and environmental measurements, with particular interest in Ganymede.",
+    "sections": [
+      {
+        "heading": "Study a moon within its surroundings",
+        "text": "JUICE is designed to investigate Jupiter’s icy moons and their environment, including Ganymede. A moon cannot be understood only by looking at its surface: Jupiter’s field, nearby charged particles and the moon’s internal structure all influence the observations. The mission combines remote sensing with instruments that measure local fields and particles. These planned measurements connect geological questions with the physical environment rather than assuming all icy moons have identical oceans or histories. [1]"
+      },
+      {
+        "heading": "Measure shape, ice and composition",
+        "text": "GALA is a laser altimeter designed to measure topography and tidal deformation. RIME radar investigates subsurface ice structure, while MAJIS examines spectral signatures of ices and minerals. J-MAG measures magnetic behavior, and the 3GM radio-science package helps constrain gravity and internal structure. An altimeter’s surface height is different from radar’s buried interfaces. Combining them can test whether a proposed interior is consistent with both surface shape and the moon’s response to external forces. [1]"
+      },
+      {
+        "heading": "Depth limits are part of the science",
+        "text": "An ice-penetrating radar does not guarantee a view through every thickness or type of ice. The ESA instrument description gives RIME a subsurface-structure goal, not a promise to photograph an entire deep ocean. Likewise, magnetic observations must account for Ganymede’s own field and Jupiter’s environment. A good scientific interpretation looks for agreement among gravity, deformation, spectra and fields while describing the range of interior models still allowed by the measurements. [1][2]"
+      }
+    ],
+    "evidence": {
+      "observation": "Planned JUICE measurements include icy-moon surface elevations, subsurface radar structure, composition, gravity and magnetic environment.",
+      "instrument": "GALA, RIME, MAJIS, J-MAG and 3GM provide distinct constraints on shape, materials and the moon’s interior response.",
+      "inference": "Joint interpretation can narrow layered-interior and ocean models while linking the moons to Jupiter’s wider environment.",
+      "alternative": "A radar interface could separate different ice properties, and magnetic variation can include intrinsic and external field contributions.",
+      "uncertainty": "Radar penetration and nonunique interior models limit direct claims about deep oceans, chemical exchange or biological activity."
+    },
+    "source_refs": [
+      {
+        "url": "https://sci.esa.int/web/juice/-/61110-juice-instruments",
+        "title": "ESA Science & Technology - JUICE's instruments",
+        "locator": "JUICE's instruments: GALA, RIME, MAJIS, J-MAG and 3GM",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/jupiter/jupiter-moons/ganymede/facts/",
+        "title": "Ganymede: Facts - NASA Science",
+        "locator": "Structure; Magnetosphere",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "Why would JUICE combine a laser altimeter, radar and magnetometer rather than use only radar to decide whether Ganymede has a habitable ocean? Explain one measurement and one limit for each approach.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "mission-cassini-huygens",
+    "title": "Cassini-Huygens",
+    "category": "mission",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "summary": "An orbiter and a descending probe provided complementary views of Saturn’s ocean-world candidates.",
+    "sections": [
+      {
+        "heading": "Two platforms, two scales",
+        "text": "Cassini-Huygens combined an orbiter that investigated Saturn’s system with a probe that descended through Titan’s atmosphere and reached its surface in 2005. Cassini could revisit moons and compare broad patterns, while Huygens recorded a detailed local path through the haze. The two platforms therefore answered related but different questions. A probe’s local reading should not be mistaken for a global map, and an orbital map is not a direct chemical sample from every mapped location. [1][2]"
+      },
+      {
+        "heading": "Remote sensing and direct sampling",
+        "text": "Cassini’s radar investigated Titan through its obscuring atmosphere. Cameras and spectrometers characterized many features, while instruments such as the Ion and Neutral Mass Spectrometer and Cosmic Dust Analyzer measured material near the spacecraft. Encounters with Enceladus connected water-rich plumes to chemical clues about its buried ocean. Huygens instruments measured atmospheric conditions, chemistry and descent images. A mission can thus combine light received from far away with particles that actually enter a detector. [1][2][3]"
+      },
+      {
+        "heading": "Tradeoffs make the evidence stronger and narrower",
+        "text": "The orbiter’s radioisotope power supported investigation far from strong sunlight. Huygens needed protection during entry and parachutes to control its descent, trading long-term mobility for direct measurements along one path. Together the mission revealed environments relevant to habitability, but not organisms. Titan’s hydrocarbon liquids must be distinguished from Enceladus’s water-related plume evidence, and the chemistry sampled in space must be interpreted in terms of its origin and subsequent processing. [1][2][3]"
+      }
+    ],
+    "evidence": {
+      "observation": "Cassini observed Titan and Enceladus repeatedly, while Huygens measured a local descent through Titan’s atmosphere and reached the surface.",
+      "instrument": "Radar and imaging supplied remote views; gas and dust analyzers sampled nearby material; Huygens carried atmospheric and imaging instruments.",
+      "inference": "The combination links global context with local conditions, strengthening interpretations of hydrocarbon weather and ocean-related plume chemistry.",
+      "alternative": "Similar-looking channels can involve different liquids, and organic material in a plume or atmosphere can have nonbiological origins.",
+      "uncertainty": "One Titan landing and selected plume encounters do not map every environment or determine whether any measured habitat contains life."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/cassini/spacecraft/cassini-orbiter/",
+        "title": "Cassini Orbiter - NASA Science",
+        "locator": "About the Spacecraft; Optical Remote Sensing; Fields, Particles and Waves; Microwave Remote Sensing",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/cassini/spacecraft/huygens-probe/",
+        "title": "Huygens Probe - NASA Science",
+        "locator": "Most Distant Landing; Science Highlights; instrument descriptions",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/saturn/moons/enceladus/",
+        "title": "Enceladus - NASA Science",
+        "locator": "Overview: plume sampling and ocean evidence",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "Explain why Cassini’s broad Titan maps and Huygens’s local descent measurements were more useful together than either alone. Then contrast a remote radar measurement with a gas-analyzer measurement.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "mission-dragonfly",
+    "title": "Dragonfly",
+    "category": "mission",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "summary": "A planned Titan rotorcraft links mobility, surface sampling and chemical analysis to questions about prebiotic chemistry.",
+    "sections": [
+      {
+        "heading": "Why fly on Titan",
+        "text": "Dragonfly is designed to visit different sites on Titan using a rotorcraft rather than staying at one landing spot. Titan’s dense atmosphere and low gravity make this approach attractive, while weak sunlight motivates a radioisotope power system with battery storage. The scientific payoff is comparison: chemistry at one deposit can be contrasted with chemistry at another. Mobility is not unlimited freedom, however; safe landing, power and sample operations still shape which measurements can be made. [1][2]"
+      },
+      {
+        "heading": "Connect a grain to its surroundings",
+        "text": "DrACO is designed to drill and transfer surface material to DraMS, the Dragonfly Mass Spectrometer. DraMS investigates chemical components and processes relevant to biologically interesting compounds. DragonCam supplies landform and surface images, DraGNS measures elemental composition, and DraGMet addresses environmental and geophysical conditions. The chain matters: collecting material, identifying its chemistry and knowing the geological setting are different tasks. A camera alone cannot provide a molecular inventory of the sampled grains. [2]"
+      },
+      {
+        "heading": "Prebiotic does not mean inhabited",
+        "text": "Titan’s carbon-rich chemistry offers a way to investigate processes that might precede biology. Dragonfly’s mission description explicitly distinguishes this from a mission that simply detects life. A complex molecule could result from atmospheric chemistry, surface processing or other nonbiological reactions. Comparing sites and their histories can test these alternatives. Planned analyses should therefore be described as ways to constrain chemical pathways and environmental conditions, not as promised evidence of Titanian organisms. [1][2]"
+      }
+    ],
+    "evidence": {
+      "observation": "Planned observations compare surface chemistry, images and environmental conditions at multiple Titan sites reached by the rotorcraft.",
+      "instrument": "DrACO collects material for DraMS; DragonCam, DraGNS and DraGMet add geological, elemental and environmental context.",
+      "inference": "Comparisons among sites could reveal how Titan’s prebiotic chemistry progresses under different surface conditions.",
+      "alternative": "Complex carbon compounds may form through nonbiological atmospheric or surface chemistry rather than biological metabolism.",
+      "uncertainty": "Flight and sampling constraints limit coverage, and chemical complexity alone cannot establish that any organism exists."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/dragonfly/",
+        "title": "Dragonfly",
+        "locator": "Mission Overview; Sampling the Surface; prebiotic-chemistry mission statement",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/dragonfly/spacecraft-and-instruments/",
+        "title": "Dragonfly Spacecraft and Instruments",
+        "locator": "Flying on Saturn’s Moon; Powering Dragonfly; Science on Board",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "For a hypothetical Dragonfly comparison, one site contains a more complex mix of organic molecules than another. Explain how mobility, DrACO, DraMS and cameras support the comparison without turning it into a life claim.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "mission-osiris-rex",
+    "title": "OSIRIS-REx",
+    "category": "mission",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "summary": "Returning Bennu material brings asteroid samples into laboratories where complementary measurements can be repeated and extended.",
+    "sections": [
+      {
+        "heading": "Choose the material before collecting it",
+        "text": "OSIRIS-REx traveled to Bennu, mapped the asteroid and collected surface material before delivering a sample capsule to Earth in 2023. Choosing a site required both scientific interest and spacecraft safety because Bennu has many boulders. The selected Nightingale site offered comparatively fresh exposed material within a constrained sampling area. This illustrates an engineering-science compromise: the most interesting-looking feature is not automatically a place the spacecraft can safely approach and sample. [1]"
+      },
+      {
+        "heading": "A touch-and-go is not a landing laboratory",
+        "text": "The Touch-and-Go Sample Acquisition Mechanism collected material during a brief surface interaction. Mapping and approach images supplied the context needed to interpret and target that encounter. Returning the material made it available to terrestrial laboratories, allowing multiple techniques and future reanalysis rather than only the instruments carried into space. A sample-return mission therefore spends substantial effort on navigation, containment and delivery, not just on producing a chemical reading during a flyby. [1]"
+      },
+      {
+        "heading": "Protect the inference as well as the capsule",
+        "text": "The mission’s documented sample-handling process and laboratory distribution support studies of ancient water-related and organic chemistry. To reason from a chemical measurement to an asteroid process, researchers must consider contamination and whether a small collected portion represents a much larger body. Organic ingredients are not organisms, and a mineral can record an earlier parent body. OSIRIS-REx strengthens investigations of possible delivery of life’s ingredients, without determining by itself where or how life began. [1][2]"
+      }
+    ],
+    "evidence": {
+      "observation": "OSIRIS-REx returned rocks and dust from Bennu after mapping a boulder-rich surface and selecting a sampling site.",
+      "instrument": "Mapping cameras and the Touch-and-Go Sample Acquisition Mechanism linked a documented surface location to material examined in terrestrial laboratories.",
+      "inference": "Returned grains permit detailed tests of ancient parent-body chemistry and possible ingredients delivered by small bodies.",
+      "alternative": "A detected compound could be nonbiological or contaminated, and one sampling location may not represent the whole asteroid.",
+      "uncertainty": "Laboratory precision does not remove uncertainties about sample representativeness, ancient history or the origin of life."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/osiris-rex/",
+        "title": "NASA's OSIRIS-REx Mission to Asteroid Bennu",
+        "locator": "Mission Overview; Nightingale selection; Touch-and-Go; sample capsule and curation timeline",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/solar-system/asteroids/101955-bennu/",
+        "title": "Bennu - NASA Science",
+        "locator": "About Bennu; Exploring Bennu",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "Why did OSIRIS-REx need detailed mapping before its touch-and-go, and why is a returned sample scientifically valuable even though it represents only a small part of Bennu?",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "mission-rosetta",
+    "title": "Rosetta",
+    "category": "mission",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "summary": "A comet escort mission paired images and particle measurements to follow an active nucleus and its changing surroundings.",
+    "sections": [
+      {
+        "heading": "Stay with a changing target",
+        "text": "Rosetta accompanied comet 67P instead of collecting only a brief flyby snapshot. As the comet experienced different solar heating, the orbiter could relate changes in gas and dust to the nucleus. It also carried the Philae lander, which had a different set of surface investigations. Keeping orbiter and lander measurements distinct matters: a molecule detected in the coma was not necessarily collected from a particular photographed patch of ground. [1][2]"
+      },
+      {
+        "heading": "Many ways to inspect comet material",
+        "text": "ROSINA analyzed gases in the comet’s surroundings, while OSIRIS supplied images and VIRTIS investigated visible and infrared spectral information. COSIMA collected and analyzed dust, and CONSERT used radio signals between the orbiter and lander to investigate the nucleus. These instruments connect particle chemistry, surface appearance and internal properties. The common scientific thread is not memorizing acronyms; it is recognizing what physically reaches each detector and which part of the comet that signal represents. [2]"
+      },
+      {
+        "heading": "Link chemistry to planetary history cautiously",
+        "text": "Rosetta’s findings included water-related material and molecules such as glycine that are relevant to prebiotic chemistry. That supports studying comets as possible ingredient carriers, not calling them inhabited worlds. Gas release and dust activity vary, so a local or temporary abundance must be interpreted before it becomes a statement about the whole nucleus. Staying near a target improves time coverage, but safe spacecraft distances and changing activity still limit what can be sampled and compared. [1][2]"
+      }
+    ],
+    "evidence": {
+      "observation": "Rosetta followed 67P’s evolving coma and nucleus and measured gases, dust and surface properties over an extended encounter.",
+      "instrument": "ROSINA sampled gases, OSIRIS imaged the nucleus, VIRTIS examined spectra, COSIMA analyzed dust and CONSERT probed with radio signals.",
+      "inference": "Combined observations connect volatile release and organic chemistry with the comet’s surface and internal properties.",
+      "alternative": "A coma abundance can change with local release and processing, and organic compounds can form without biological activity.",
+      "uncertainty": "Sampling geometry and time variation limit extrapolation to the entire nucleus or to every comet in the Solar System."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/solar-system/comets/67p-churyumov-gerasimenko/",
+        "title": "67P/Churyumov-Gerasimenko - NASA Science",
+        "locator": "Overview: Rosetta escort and findings",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://sci.esa.int/web/rosetta/-/35061-instruments",
+        "title": "ESA Science & Technology - Orbiter Instruments",
+        "locator": "Introduction; Instruments In Brief; ROSINA; OSIRIS; VIRTIS; COSIMA; CONSERT",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "In a hypothetical Rosetta encounter, a gas abundance rises while a jet becomes brighter. Explain how ROSINA and images could be combined, and give two reasons this does not immediately reveal the bulk nucleus composition.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "mission-kepler",
+    "title": "Kepler",
+    "category": "mission",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "summary": "Long sequences of precise brightness measurements turn small repeating dips into a census of planetary systems.",
+    "sections": [
+      {
+        "heading": "Measure a star, discover a planet",
+        "text": "Kepler’s principal planet-finding method was transit photometry. The telescope repeatedly measured stellar brightness and searched for small dips when a planet crossed in front of its star. Repetition helps distinguish an orbiting object from a single unusual measurement. The interval between events constrains the orbital period; the depth helps constrain size relative to the star. The detector records light, however, not a close-up picture of a planet’s surface. [1]"
+      },
+      {
+        "heading": "A survey has selection effects",
+        "text": "Continuous monitoring of many stars makes recurring events easier to recognize. Nevertheless, only appropriately aligned systems transit from our viewpoint, and small or infrequent events are harder to establish. An absence of detected dips therefore does not prove the absence of planets. Kepler’s discoveries describe what its observing strategy could detect, and scientists must account for that strategy before using the catalog to infer how common different kinds of planets are. [1]"
+      },
+      {
+        "heading": "Pointing is part of the measurement",
+        "text": "After reaction-wheel failures limited precise pointing, the K2 extension used solar-radiation pressure in a new observing strategy. This engineering adaptation changed the fields and observing campaigns while preserving useful science. A stable light curve depends on both astrophysics and instrument behavior, so apparent dips require checks against stellar variability and instrumental effects. Even a well-established planet detection does not measure an atmosphere, an ocean or life; those require different evidence and often different instruments. [1]"
+      }
+    ],
+    "evidence": {
+      "observation": "Kepler recorded repeated small decreases in stellar brightness and produced light curves for large numbers of stars.",
+      "instrument": "A precision telescope and photometric detector measured changes in light, while pointing control helped keep measurements comparable over time.",
+      "inference": "Periodic transit signals constrain orbital timing and planet size relative to the star, supporting a statistical study of planetary systems.",
+      "alternative": "Stellar variability, eclipsing stars or instrumental effects can also produce dimming, so a dip alone is not automatically a planet.",
+      "uncertainty": "Nontransiting or weak-signal planets can be missed, and transit photometry alone does not determine habitability or biological conditions."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/kepler/",
+        "title": "Kepler / K2 - NASA Science",
+        "locator": "Overview: transit photometry; reaction-wheel failures; K2; Legacy",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "A hypothetical Kepler light curve shows three similar dips, while a second star shows none. What can you infer from the repeating dips, what false-positive checks are needed, and why is the second star not proven planet-free?",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "mission-jwst",
+    "title": "JWST",
+    "category": "mission",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "summary": "Infrared spectroscopy helps characterize distant atmospheres, but extracting a small planetary signal from bright starlight is difficult.",
+    "sections": [
+      {
+        "heading": "Characterization is a different task from discovery",
+        "text": "JWST observes infrared light and can investigate exoplanets through spectroscopy, eclipse measurements and, for suitable systems, direct images. Its atmospheric work often begins with a planet already known to transit. Instead of only asking whether starlight dims, researchers ask whether the dimming differs by wavelength. Molecules interact with particular wavelengths, making those differences potential clues to atmospheric composition rather than a direct visual map of the planet’s surface. [1]"
+      },
+      {
+        "heading": "Compare spectra carefully",
+        "text": "In transmission spectroscopy, the telescope measures the star outside transit and while the planet crosses it. A small portion of the light passes through any atmosphere, so the atmospheric signal is much weaker than the star’s total signal. Infrared instruments such as NIRSpec help separate wavelengths. Repeated observations and model comparisons are necessary because clouds can hide features, different molecules can overlap spectrally and cool stellar regions can add misleading signatures. [1][2]"
+      },
+      {
+        "heading": "A molecule is not a verdict",
+        "text": "Finding a robust atmospheric molecule would be an important measurement, but its origin and environmental meaning still need interpretation. Water vapor is not a photograph of a surface ocean, and a gas that life produces on Earth may also have nonbiological sources. NASA’s discussion of small potentially habitable planets emphasizes the difficulty and observing time involved. A defensible claim states which spectral feature was measured, how alternatives were tested and what the data cannot yet determine. [2]"
+      }
+    ],
+    "evidence": {
+      "observation": "JWST can measure wavelength-dependent differences between in-transit and out-of-transit starlight to investigate exoplanet atmospheres.",
+      "instrument": "Infrared spectrographs such as NIRSpec separate incoming light by wavelength rather than directly sampling atmospheric gas at the planet.",
+      "inference": "A reproducible spectral pattern can constrain atmospheric molecules when compared with physical and chemical models.",
+      "alternative": "Clouds, overlapping molecular bands and stellar surface variations can hide or imitate an apparent planetary atmospheric signal.",
+      "uncertainty": "Even a genuine molecule does not uniquely establish an ocean, a habitable surface or biological production."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/webb/science-overview/science-explainers/how-will-webb-study-exoplanets/",
+        "title": "How Will Webb Study Exoplanets? - NASA Science",
+        "locator": "How can Webb analyze exoplanets’ atmospheres?; Will Webb take any images of exoplanets?",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/blogs/webb/2024/06/05/reconnaissance-of-potentially-habitable-worlds-with-nasas-webb/",
+        "title": "Reconnaissance of Potentially Habitable Worlds with NASA’s Webb - NASA Science",
+        "locator": "Transmission spectroscopy limitations; NIRSpec; clouds and starspots; biosignature caution",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "A hypothetical JWST transit spectrum has a weak water-like feature. Explain how the measurement is made, two alternative signal explanations to test, and why confirming water vapor would not prove an ocean or life.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "mission-roman-space-telescope",
+    "title": "Roman Space Telescope",
+    "category": "mission",
+    "rule_refs": [
+      "3.b.v"
+    ],
+    "summary": "A wide-field microlensing survey and a coronagraph technology demonstration address different gaps in exoplanet research.",
+    "sections": [
+      {
+        "heading": "Find planets through gravitational brightening",
+        "text": "Roman’s exoplanet program includes a microlensing survey. When a foreground object aligns closely with a background star, gravity bends the light and can temporarily magnify the background star. A planet associated with the foreground system can affect that brightening pattern. Unlike a transit, this is not a planet blocking its own host star. The alignment is a valuable opportunity but generally not a repeatable event on a convenient orbital schedule. [1]"
+      },
+      {
+        "heading": "Survey breadth complements other methods",
+        "text": "Roman is designed to monitor many stars toward the crowded central region of the Milky Way. Microlensing can probe planets at wider orbital separations and even objects not bound to a star, complementing the short-period systems most readily found in transit surveys. A wide view raises the chance of catching rare events, but the data still require a model of the alignment. Detecting an influence on a light curve is not directly measuring the planet’s atmosphere. [1]"
+      },
+      {
+        "heading": "Keep the coronagraph goal separate",
+        "text": "Roman also carries a Coronagraph Instrument technology demonstration designed to suppress bright starlight so much fainter nearby companions and disks can be studied. This direct-imaging experiment is not the same as the microlensing survey and does not promise routine pictures of inhabited Earth twins. Its purpose includes advancing techniques needed for future observations. Different methods select different targets and information, so the strongest comparison explains their strengths and limitations rather than declaring one universally best. [1]"
+      }
+    ],
+    "evidence": {
+      "observation": "Planned microlensing observations monitor temporary stellar brightening, while the Coronagraph Instrument tests direct imaging through starlight suppression.",
+      "instrument": "Wide-field photometric monitoring catches lensing light curves; the coronagraph suppresses host-star glare for selected nearby systems.",
+      "inference": "Microlensing can broaden the planetary census beyond easy transit detections, while coronagraphy develops complementary imaging capability.",
+      "alternative": "A brief brightness feature must be modeled against other lensing geometries or stellar variations, not automatically labeled a planet.",
+      "uncertainty": "Rare alignment events are hard to repeat, and neither a census detection nor a technology demonstration establishes habitability or life."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/roman-space-telescope/exoplanets/",
+        "title": "Exoplanets - NASA Science",
+        "locator": "Wrinkles in Space-time; Microlensing; Direct Imaging; Transit Method",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "Compare Roman’s planned microlensing observations with its coronagraph demonstration. Which uses a temporary gravitational brightening, which suppresses starlight, and why would neither automatically reveal whether a planet is inhabited?",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  }
+]

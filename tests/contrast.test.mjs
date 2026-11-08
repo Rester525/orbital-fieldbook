@@ -1,0 +1,6 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';
+const css=fs.readFileSync(new URL('../public/css/app.css',import.meta.url),'utf8');
+function tokens(selector){return Object.fromEntries([...css.match(selector)[1].matchAll(/--([a-z-]+):\s*(#[0-9a-f]{6}|#[0-9a-f]{3})/g)].map(m=>[m[1],m[2].length===4?'#'+[...m[2].slice(1)].map(c=>c+c).join(''):m[2]]));}
+function luminance(h){const rgb=[1,3,5].map(i=>parseInt(h.slice(i,i+2),16)/255).map(v=>v<=.04045?v/12.92:((v+.055)/1.055)**2.4);return rgb.reduce((s,v,i)=>s+v*[.2126,.7152,.0722][i],0);}
+const contrast=(a,b)=>{const [lo,hi]=[luminance(a),luminance(b)].sort((a,b)=>a-b);return (hi+.05)/(lo+.05);};
+test('theme text and essential form boundaries meet computed contrast thresholds',()=>{for(const t of [tokens(/:root\{([^}]+)\}/),tokens(/html\[data-theme=light\]\{([^}]+)\}/)]){for(const surface of ['bg','card','raised','soft'])for(const ink of ['ink','muted','accent','signal','error'])assert.ok(contrast(t[ink],t[surface])>=4.5,`${ink}/${surface}: ${contrast(t[ink],t[surface])}`);assert.ok(t['control-line'],'separate essential control boundary token');for(const surface of ['bg','soft'])assert.ok(contrast(t['control-line'],t[surface])>=3,`control/${surface}`);}});

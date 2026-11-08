@@ -1,0 +1,526 @@
+[
+  {
+    "title": "New - Solar Systems Starter Pack",
+    "caution": "Store listing only. This link does not authenticate the separately supplied private PDF or establish redistribution rights.",
+    "url": "https://store.soinc.org/us/starter-packs/c/3405/solar-system-starter-pack-26-27/p/208723",
+    "section": "2027/current",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "2027 National Test Packet",
+    "caution": "HISTORICAL EXAM CONTENT: the dossier reports this 2027-named product contains 2026 tournament tests; its Solar System exam concerns planet formation and structure, not the 2027 habitability focus. Not purchased or bundled.",
+    "url": "https://store.soinc.org/us/digital-test-packets/c/2723/test-packet-2027-division-b/p/208677",
+    "section": "2027/current",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Solar System Exploration",
+    "url": "https://solarsystem.nasa.gov/",
+    "section": "2027/current",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Exoplanets",
+    "url": "https://science.nasa.gov/exoplanets/?utm_source",
+    "section": "2027/current",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Can We Find Life",
+    "url": "https://science.nasa.gov/exoplanets/can-we-find-life/?utm_source",
+    "section": "2027/current",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Habitable Worlds Observatory",
+    "url": "https://science.nasa.gov/astrophysics/programs/habitable-worlds-observatory/?utm_source",
+    "section": "2027/current",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Life on Exoplanets",
+    "url": "https://www.esa.int/Science_Exploration/Space_Science/Exoplanets/Life_on_exoplanets?utm_source",
+    "section": "2027/current",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "In addition to the resources on the Event Supervisors page, Solar System Event Supervisors should be sure to use the following resources:",
+    "url": "https://www.soinc.org/officials/event-supervisors",
+    "section": "2027/current",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "New - Event Logistics Resource Sheet",
+    "url": "https://drive.google.com/file/d/1hEm1Edn2m_0c5-hAFRr8PufZR1N6PDGr/view?usp=sharing",
+    "section": "2027/current",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Earth & Space Science Committee Created Event Guide & Practice Test",
+    "url": "https://www.soinc.org/sites/default/files/uploaded_files/sampletesteventguideforsolarsystem.zip",
+    "section": "previous-season learning resources",
+    "status": "zip_download_verified",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Solar Systems Tips for Success Webinar",
+    "url": "https://www.youtube.com/watch?v=CrAAZld9nXI",
+    "section": "previous-season learning resources",
+    "status": "video_page_only",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "26 Sample Activity",
+    "url": "https://www.soinc.org/sites/default/files/uploaded_files/Solar_System_B.pdf",
+    "section": "previous-season learning resources",
+    "status": "pdf_download_verified",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "James Webb Telescope Workshop",
+    "url": "https://www.youtube.com/watch?v=J63mC_tmczo",
+    "section": "previous-season learning resources",
+    "status": "video_page_only",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Chandra Science Olympiad Webinar Site",
+    "url": "http://chandra.harvard.edu/edu/olympiad.html",
+    "section": "previous-season learning resources",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "NASA Solar System Exploration",
+    "url": "https://solarsystem.nasa.gov/",
+    "section": "previous-season learning resources",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "NASA Image Gallery",
+    "url": "https://images.nasa.gov/",
+    "section": "previous-season learning resources",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Eyes on Exoplanets",
+    "url": "https://eyes.jpl.nasa.gov/eyes-on-exoplanets.html",
+    "section": "previous-season learning resources",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Magellan",
+    "url": "https://solarsystem.nasa.gov/missions/magellan/in-depth",
+    "section": "previous-season learning resources",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Galileo",
+    "url": "https://solarsystem.nasa.gov/missions/galileo/overview/",
+    "section": "previous-season learning resources",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Juno",
+    "url": "https://www.nasa.gov/mission_pages/juno/main/index.html",
+    "section": "previous-season learning resources",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Cassini-Huygens",
+    "url": "https://www.nasa.gov/mission_pages/cassini/main/index.html",
+    "section": "previous-season learning resources",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "New Horizons",
+    "url": "https://www.nasa.gov/mission_pages/newhorizons/main/index.html",
+    "section": "previous-season learning resources",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "ALMA",
+    "url": "https://www.almaobservatory.org/en/home/",
+    "section": "previous-season learning resources",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Kepler",
+    "url": "https://www.nasa.gov/mission_pages/kepler/main/index.html",
+    "section": "previous-season learning resources",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "TESS",
+    "url": "https://www.nasa.gov/tess-transiting-exoplanet-survey-satellite",
+    "section": "previous-season learning resources",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "CFA Microobservatory",
+    "url": "https://waps.cfa.harvard.edu/microobservatory/diy/index.php",
+    "section": "previous-season learning resources",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "JPL PlanetQuest",
+    "url": "https://exoplanets.nasa.gov/",
+    "section": "previous-season learning resources",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "NASA Universe of Learning",
+    "url": "https://www.universe-of-learning.org/",
+    "section": "previous-season learning resources",
+    "status": "blocked",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "James Webb Space Telescope First Images Gallery First Images Expert Panel",
+    "url": "https://www.nasa.gov/mission_pages/webb/main/index.html",
+    "section": "previous-season learning resources",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "First Images Gallery",
+    "url": "https://webbtelescope.org/news/first-images/gallery",
+    "section": "previous-season learning resources",
+    "status": "timeout_or_error",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "First Images Expert Panel",
+    "url": "https://www.youtube.com/watch?v=IC3LcELkSDU",
+    "section": "previous-season learning resources",
+    "status": "video_page_only",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Event Guide & Practice Test",
+    "url": "https://www.soinc.org/sites/default/files/uploaded_files/sampletesteventguideforsolarsystem.zip",
+    "section": "previous-season practice tests",
+    "status": "zip_download_verified",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Practice Test - 2026 BullSO Invitational",
+    "url": "https://drive.google.com/drive/folders/1O1duR0PqVUilIS5VwtgkbmHq8Oo0fqv4?usp=sharing",
+    "section": "previous-season practice tests",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Practice Test - 2026 Berkeley Invitational",
+    "url": "https://drive.google.com/drive/folders/1MaQqY2djJaWI1ZJc_B2hxEJ7Dd-6PcYe?usp=sharing",
+    "section": "previous-season practice tests",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Practice Test - 2026 Pembroke Hill Invitational",
+    "url": "https://drive.google.com/drive/folders/18_JSo5INjEBEKjrAcYtpdyQOgxTrPj3E?usp=sharing",
+    "section": "previous-season practice tests",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "State-level Practice Test - 2023",
+    "url": "https://www.soinc.org/sites/default/files/uploaded_files/Solar_System_State_Test_Key_2023.pdf",
+    "section": "previous-season practice tests",
+    "status": "pdf_download_verified",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Practice Test - 2023 Sierra Vista Invitational",
+    "url": "https://drive.google.com/drive/folders/1MpyNfNJUWV9QmsSdtFqpKIJnX2wbRhpS",
+    "section": "previous-season practice tests",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Practice Test - 2023 University of Michigan Invitational",
+    "url": "https://drive.google.com/drive/folders/1WMgRFyreaMDwZ5V9GlE0BIGr4PHdna_3",
+    "section": "previous-season practice tests",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Practice Test - 2023 University of Chicago Invitational",
+    "url": "https://drive.google.com/drive/folders/1azX2fV93Ona7FwbxR9KOfz59aTYA_l3k",
+    "section": "previous-season practice tests",
+    "status": "broken_404",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Practice Test - 2022 Rickards Invitational",
+    "url": "https://drive.google.com/drive/folders/1NpXksOEc9Km0R86C9__uUrU-KZx4AU0L",
+    "section": "previous-season practice tests",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "2022 UT Austin In-Person Invitational Solar System Exam, Image Set, Answer Sheet and Answer Key",
+    "url": "https://www.soinc.org/sites/default/files/uploaded_files/2022_23%20UTexas_SS_Exam.pdf",
+    "section": "previous-season practice tests",
+    "status": "pdf_download_verified",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "2022 UT Austin In-Person Invitational Solar System Exam, Image Set, Answer Sheet and Answer Key",
+    "url": "https://www.soinc.org/sites/default/files/uploaded_files/2022_23_UTexas_SS_Image_Set.pdf",
+    "section": "previous-season practice tests",
+    "status": "pdf_download_verified",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "2022 UT Austin In-Person Invitational Solar System Exam, Image Set, Answer Sheet and Answer Key",
+    "url": "https://www.soinc.org/sites/default/files/uploaded_files/2022_23_UTexas_SS_Answer_Sheet.pdf",
+    "section": "previous-season practice tests",
+    "status": "pdf_download_verified",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "2022 UT Austin In-Person Invitational Solar System Exam, Image Set, Answer Sheet and Answer Key",
+    "url": "https://www.soinc.org/sites/default/files/uploaded_files/2022_23_UTexas_SS_Answer_Key.pdf",
+    "section": "previous-season practice tests",
+    "status": "pdf_download_verified",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Practice Test - 2022 Highlands Invitational",
+    "url": "https://drive.google.com/drive/folders/1pkPV1QbhJ51eAh53QqCXH_PeFinUODxr",
+    "section": "previous-season practice tests",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Practice Test - 2022 BullSO Invitational",
+    "url": "https://drive.google.com/drive/folders/1K4mQnHZqO67eOqWe1duHd2AoKQkGVQa3",
+    "section": "previous-season practice tests",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Practice Test - 2022 National Invitational",
+    "url": "https://drive.google.com/drive/folders/1Ce8M7HFipd9_kT2IMZFfvv7X5Ce2UaH7?usp=sharing",
+    "section": "previous-season practice tests",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Practice Test - 2022 UChicago Invitational",
+    "url": "https://drive.google.com/drive/folders/1hq7uspZnVss_97g9iknGOhuawIjMh-VS?usp=sharing",
+    "section": "previous-season practice tests",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Practice Test - 2021 UT Austin Invitational",
+    "url": "https://www.soinc.org/sites/default/files/uploaded_files/UTexas%20Austin%20Solar%20System%20Exam%202021.pdf",
+    "section": "previous-season practice tests",
+    "status": "pdf_download_verified",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Practice Test - 2021 Troy High School Invitational",
+    "url": "https://drive.google.com/drive/folders/1fCmoKNL2effzD27GmIYBuFyEA8arFFJd?usp=sharing",
+    "section": "previous-season practice tests",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Practice Test - 2021 BirdSO Invitational",
+    "url": "https://drive.google.com/drive/u/5/folders/15MTbFy_3tNawprAS1moHyUlwygI7F0NK",
+    "section": "previous-season practice tests",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Careers at NASA",
+    "url": "https://www.nasa.gov/careers/",
+    "section": "career connections",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Embry-Riddle Careers in Space",
+    "url": "https://erau.edu/about/news-and-stories/hub-spoke/stories/careers-in-space-degrees-that-make-it-happen",
+    "section": "career connections",
+    "status": "viewed",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "Astronomy STEM Session",
+    "url": "https://www.youtube.com/watch?v=mMh-hgSLYW0",
+    "section": "career connections",
+    "status": "video_page_only",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "NASA - So You Want to Be an Astronaut?",
+    "url": "https://www.jpl.nasa.gov/edu/news/2015/11/4/so-you-want-to-be-an-astronaut/",
+    "section": "career connections",
+    "status": "blocked",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "CareerOneStop - Atmospheric and Space Scientists Occupation Profile",
+    "url": "https://www.careeronestop.org/Toolkit/Careers/Occupations/occupation-profile.aspx?keyword=Atmospheric%20and%20Space%20Scientists&onetcode=19202100&location=UNITED%20STATES",
+    "section": "career connections",
+    "status": "challenge",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "STEM Session on Space",
+    "url": "https://www.youtube.com/watch?v=38oYN4jaVAk&list=PL1t-RzwecjdOi0jyo2k-itASsUTef_er-&index=8",
+    "section": "career connections",
+    "status": "video_page_only",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  },
+  {
+    "title": "US Bureau of Labor Statistics - Space Careers: A Universe of Options",
+    "url": "https://www.bls.gov/careeroutlook/2016/article/careers-in-space.htm",
+    "section": "career connections",
+    "status": "blocked",
+    "checked_at": "2026-11-08",
+    "rights": "link_only",
+    "note": "Dossier retrieval status, not rechecked in this app build. Historical grouping does not itself determine current B55 scope."
+  }
+]

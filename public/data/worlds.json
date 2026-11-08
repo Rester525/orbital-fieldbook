@@ -1,0 +1,639 @@
+[
+  {
+    "id": "world-venus",
+    "title": "Venus",
+    "category": "world",
+    "rule_refs": [
+      "3.a.i",
+      "3.b.i",
+      "3.b.ii"
+    ],
+    "summary": "A rocky planet with a heat-trapping atmosphere shows why Earth-like size does not guarantee an Earth-like environment.",
+    "sections": [
+      {
+        "heading": "The atmosphere changes the answer",
+        "text": "Venus is a rocky world similar in size and internal structure to Earth, but its surface is extremely hot beneath a thick atmosphere. Carbon dioxide helps trap outgoing heat: sunlight can supply energy while the atmosphere slows its escape to space. Therefore distance from the Sun alone is not a surface-temperature prediction. A bright cloud deck does not make the ground cool when the greenhouse effect is strong. [1]"
+      },
+      {
+        "heading": "Investigating an obscured surface",
+        "text": "Clouds hide the ground from ordinary visible-light views. Radar maps reveal surface shapes, while measurements at selected infrared wavelengths can probe parts of the lower atmosphere and surface. Venus Express combined spectral measurements with cloud tracking rather than treating every bright patch as the same kind of feature. Matching wavelength to the question is essential: a cloud image, a temperature map and a topographic map measure different things. [1][2]"
+      },
+      {
+        "heading": "Habitability needs more than comfortable temperature",
+        "text": "Some altitudes above the surface have temperatures much milder than the ground, but Venus also has sulfuric-acid clouds and a challenging chemical environment. A comfortable temperature range alone is not evidence that organisms survive there. Questions about how much water Venus once had require further evidence; similarities to Earth do not prove a particular ocean history. Separate the well-established hostile surface conditions from hypotheses about past climates or cloud life. [1]"
+      }
+    ],
+    "evidence": {
+      "observation": "Venus has persistent clouds, extreme surface heat and a thick atmosphere, rather than Earth-like surface conditions.",
+      "instrument": "Radar mapping and Venus Express infrared and ultraviolet spectroscopy investigate different layers and properties of the planet.",
+      "inference": "A strong greenhouse effect explains why rocky composition and Earth-like size do not imply a temperate surface.",
+      "alternative": "Changes in cloud particles or atmospheric absorption can alter brightness without requiring organisms or a surface change.",
+      "uncertainty": "The presence and duration of ancient habitable conditions are not settled by modern temperature measurements alone."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/venus/venus-facts/",
+        "title": "Venus: Facts - NASA Science",
+        "locator": "Introduction; Potential for Life; Surface; Atmosphere",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://www.esa.int/articles/about-us/directorates/science/venus-express/venus-express-orbiter-instruments",
+        "title": "Venus Express orbiter instruments",
+        "locator": "SPICAV/SOIR; VIRTIS; Venus Monitoring Camera",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "A classmate says Venus must be habitable because it is Earth-sized and some cloud levels have mild temperatures. Explain two missing conditions and choose a measurement that would improve the argument.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "world-mars",
+    "title": "Mars",
+    "category": "world",
+    "rule_refs": [
+      "3.a.i",
+      "3.b.i",
+      "3.b.ii"
+    ],
+    "summary": "Ancient landforms and water-altered minerals record environments very different from the thin, cold atmosphere of Mars today.",
+    "sections": [
+      {
+        "heading": "Read rocks as a history book",
+        "text": "Mars is a cold desert with a thin atmosphere today, yet its landscape preserves valleys, deltas and lakebeds. A delta forms where moving water loses speed and drops sediment, so its shape can record both transport and a receiving basin. Minerals associated with interaction between rock and liquid water add chemical evidence. Agreement between shape and composition is stronger than a single photograph that merely resembles a terrestrial river. [1][2]"
+      },
+      {
+        "heading": "Two scales of investigation",
+        "text": "An orbiter can compare many landscapes, while a rover examines individual rocks and their small textures. Mars Reconnaissance Orbiter paired detailed images with a wider context camera and CRISM spectra that identify diagnostic mineral absorption patterns. Perseverance brings cameras and chemical instruments close to selected targets. Think of an orbital map as the chapter outline and a rover investigation as a close reading of one page, not the whole planet. [2][3]"
+      },
+      {
+        "heading": "Past water is not present life",
+        "text": "Evidence for ancient liquid water makes past habitability a scientific question; it does not establish that organisms existed. Present Mars has a sparse, mostly carbon-dioxide atmosphere and surface conditions that do not generally sustain exposed liquid water for long. Ice is not the same environment as an open lake. Ask when the water existed, how long it lasted, what chemistry was available and whether possible signs of life could have survived later alteration. [1][3]"
+      }
+    ],
+    "evidence": {
+      "observation": "Mars preserves river-like valleys, deltas and minerals associated with water interacting with rock in the past.",
+      "instrument": "Orbital cameras map landforms, CRISM records mineral spectra, and rover instruments examine rocks at much smaller scales.",
+      "inference": "Converging landform and mineral evidence supports ancient watery environments that may have offered habitable conditions.",
+      "alternative": "A suggestive shape alone could be misleading; erosion or deposition without a long-lived lake must be considered.",
+      "uncertainty": "The duration of wet conditions and whether any organism ever lived there remain separate questions from detecting ancient water."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mars/facts/",
+        "title": "Mars: Facts - NASA Science",
+        "locator": "Water on Mars; Atmosphere; Potential for Life",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/mars-reconnaissance-orbiter/science-instruments/",
+        "title": "MRO Science Instruments - NASA Science",
+        "locator": "Context Camera; Compact Reconnaissance Imaging Spectrometer",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/mars-2020-perseverance/science-instruments/",
+        "title": "Perseverance Science Instruments - NASA Science",
+        "locator": "SHERLOC; Planetary Instrument for X-ray Lithochemistry (PIXL)",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "In a hypothetical Mars investigation, an orbital image shows a fan-shaped deposit and spectra indicate water-altered minerals nearby. Build a case for past habitability, then explain why this is not proof of ancient life.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "world-ganymede",
+    "title": "Ganymede",
+    "category": "world",
+    "rule_refs": [
+      "3.a.i",
+      "3.b.i",
+      "3.b.ii"
+    ],
+    "summary": "The largest moon combines an intrinsic magnetic field with indirect evidence for buried salty water.",
+    "sections": [
+      {
+        "heading": "A layered moon, not a giant ice cube",
+        "text": "Ganymede is Jupiter’s largest moon and the largest moon in the Solar System. Its inferred structure includes metal, rock and an outer icy region, rather than one uniform material throughout. Scientists have evidence for a salty ocean beneath the ice. The ocean is not visible as a blue patch in a photograph: it is inferred by combining measurements with physical models of the interior and its electrical behavior. [1]"
+      },
+      {
+        "heading": "Magnetism supplies a clue",
+        "text": "Galileo discovered that Ganymede has its own magnetic field. Because the moon also sits within Jupiter’s changing field, its magnetic environment is complicated. Hubble observations of auroral belts show how their positions respond to those changes. A conducting salty layer modifies that response. The key reasoning is not simply magnetic field equals ocean: scientists compare expected motions with and without a conducting ocean while accounting for the moon’s own field. [1][3]"
+      },
+      {
+        "heading": "An ocean is a beginning, not a verdict",
+        "text": "A buried ocean would provide liquid water, but habitability also depends on accessible chemistry, energy and exchange between layers. Thick ice and uncertain internal layering make these hard to measure. Ganymede’s bright grooved terrain and darker cratered terrain also preserve different surface histories. Combining surface maps, gravity and magnetic measurements helps test a coherent model; none of those measurements alone reports whether an ocean contains life or how readily nutrients reach it. [1][2]"
+      }
+    ],
+    "evidence": {
+      "observation": "Ganymede has an intrinsic magnetic field, and its auroral belts respond less strongly than an ocean-free model predicts. [3]",
+      "instrument": "Galileo magnetometer measurements and Hubble auroral observations probe magnetic behavior without directly photographing the buried ocean.",
+      "inference": "An electrically conducting salty ocean can explain the modified magnetic response inside the icy moon.",
+      "alternative": "A magnetic signal can include Ganymede’s own field and surrounding plasma; those contributions must be separated from ocean induction.",
+      "uncertainty": "Ocean depth, internal layers and exchange of useful chemicals remain model-dependent rather than directly sampled properties."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/jupiter/jupiter-moons/ganymede/facts/",
+        "title": "Ganymede: Facts - NASA Science",
+        "locator": "Introduction; Potential for Life; Structure; Surface; Magnetosphere",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://sci.esa.int/web/juice/-/61110-juice-instruments",
+        "title": "ESA Science & Technology - JUICE's instruments",
+        "locator": "JUICE's instruments: J-MAG, 3GM, GALA",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-observations-suggest-underground-ocean-on-jupiters-largest-moon/",
+        "title": "NASA’s Hubble Observations Suggest Underground Ocean on Jupiter’s Largest Moon",
+        "locator": "March 12, 2015 report: paragraph beginning “If a saltwater ocean were present”; modeled rocking reduced to 2° versus 6° without ocean",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "Why is “Ganymede has a magnetic field, so we have directly seen its ocean” an incorrect explanation? Replace it with an observation-to-inference chain and one remaining habitability question.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "world-europa",
+    "title": "Europa",
+    "category": "world",
+    "rule_refs": [
+      "3.a.i",
+      "3.b.i",
+      "3.b.ii"
+    ],
+    "summary": "An icy surface may conceal a salty ocean; the challenge is to connect surface clues with conditions below.",
+    "sections": [
+      {
+        "heading": "A hidden environment",
+        "text": "Europa is an icy moon of Jupiter with strong evidence for a subsurface saltwater ocean. The relevant habitat would be beneath the frozen surface, not an exposed sea warmed like Earth’s tropics. Ice separates the observable exterior from the place scientists most want to understand. A surface map is therefore a starting point for reconstructing the interior, not a photograph of everything that could make the moon habitable. [1][2]"
+      },
+      {
+        "heading": "Combine measurements instead of guessing",
+        "text": "A changing magnetic field can drive electrical currents in salty water. Europa Clipper’s magnetometer and plasma instrument are designed to distinguish the moon’s magnetic response from disturbances produced by nearby charged particles. Radar can examine structures within the ice, while cameras and infrared spectra relate those structures to surface landforms and materials. These methods test different parts of an ocean model, so their agreement would be more persuasive than any single unexplained feature. [2]"
+      },
+      {
+        "heading": "What habitability means here",
+        "text": "The investigation asks whether liquid water, useful chemical ingredients and available energy could coexist. It also asks whether material moves between the surface, ice and ocean. Europa Clipper is designed to assess habitability, not to announce life from an image or a spectrum. Even a salt-rich surface deposit would need interpretation: determining where material came from and how the harsh external environment changed it is essential before drawing conclusions about the ocean below. [1][2]"
+      }
+    ],
+    "evidence": {
+      "observation": "Europa’s icy surface and magnetic-response evidence support a buried salty ocean rather than an exposed surface sea.",
+      "instrument": "Magnetometry with plasma measurements tests induction; radar, cameras and infrared spectroscopy investigate ice structure and surface composition.",
+      "inference": "Converging interior and surface evidence can constrain whether a liquid-water environment has suitable ingredients and exchange pathways.",
+      "alternative": "Plasma disturbances can contribute to magnetic signals, and surface materials need not preserve unmodified ocean chemistry.",
+      "uncertainty": "Ice thickness, chemical exchange and the availability of energy require constraints; the presence of life has not been established."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/jupiter/jupiter-moons/europa/",
+        "title": "Europa - NASA Science",
+        "locator": "Facts About Europa; introductory ocean evidence",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/europa-clipper/spacecraft-instruments/",
+        "title": "Europa Clipper Spacecraft Instruments",
+        "locator": "Plasma and Magnetic Field; Radar & Gravity; Spectrometry",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "A hypothetical Europa flyby records a magnetic variation and a salt-like surface spectrum. Explain why these are complementary clues, and name two checks needed before connecting them to a habitable ocean.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "world-enceladus",
+    "title": "Enceladus",
+    "category": "world",
+    "rule_refs": [
+      "3.a.i",
+      "3.b.i",
+      "3.b.ii"
+    ],
+    "summary": "Plumes carry material from an ocean beneath the ice into space, making a remote interior accessible to sampling.",
+    "sections": [
+      {
+        "heading": "A small moon with an active interior",
+        "text": "Enceladus is an icy moon of Saturn whose south-polar fractures release water vapor and ice particles. Cassini observed these jets and sampled material associated with them. The bright frozen exterior therefore does not tell the whole thermal story. The moon’s changing gravitational interaction with Saturn, maintained by its orbital relationship with Dione, produces tidal deformation and heating. Far from the Sun need not mean frozen solid all the way through. [1]"
+      },
+      {
+        "heading": "From particles to a model of the ocean",
+        "text": "Salts, organic material and silica provide clues to water chemistry and interaction with rock. Gravity measurements and the moon’s small rotational wobble support a global ocean rather than only an isolated surface melt pocket. Silica particles are especially useful because their formation can be tested against laboratory and chemical models of hot water interacting with rock. Scientists combine these independent clues before proposing hydrothermal activity below the ice. [1]"
+      },
+      {
+        "heading": "Sampling is not the same as finding life",
+        "text": "The plume makes ocean-related material available without drilling through the ice, an enormous observational advantage. However, erupting, freezing and traveling through space may change what reaches a detector. Organic molecules can form without organisms, and hot water reacting with rock is itself a nonbiological chemical process. Enceladus is compelling because water, chemistry and internal heat appear together; the existence, abundance and nature of any life remain separate questions. [1][2]"
+      }
+    ],
+    "evidence": {
+      "observation": "Cassini observed water-rich jets and detected salts, organic material and silica associated with Enceladus and its surroundings.",
+      "instrument": "Cameras, particle and gas instruments, radio tracking and observations of rotational wobble constrain different parts of the ocean model.",
+      "inference": "A global ocean and interaction between water and rock can explain the combined plume, gravity and chemical evidence.",
+      "alternative": "Nonbiological water-rock reactions can produce interesting chemistry; organic molecules do not require an organism to make them.",
+      "uncertainty": "Eruption and transport can modify samples, and neither a plume nor hydrothermal evidence establishes that life exists."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/saturn/moons/enceladus/",
+        "title": "Enceladus - NASA Science",
+        "locator": "Overview: jets, orbital resonance, gravity, silica and hydrothermal evidence",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/cassini/spacecraft/cassini-orbiter/",
+        "title": "Cassini Orbiter - NASA Science",
+        "locator": "Fields, Particles and Waves; Optical Remote Sensing",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "Explain why the combination of Enceladus’s plumes, salts, silica and rotational wobble is stronger evidence than a plume image alone. Then explain why even this combination does not prove life.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "world-titan",
+    "title": "Titan",
+    "category": "world",
+    "rule_refs": [
+      "3.a.i",
+      "3.b.i",
+      "3.b.ii"
+    ],
+    "summary": "Methane weather on a cold surface and possible water deep below must not be confused with one another.",
+    "sections": [
+      {
+        "heading": "An Earth-like cycle with a different liquid",
+        "text": "Titan has a thick nitrogen-rich atmosphere with methane, clouds and an obscuring haze. Rivers, lakes and seas occur on its surface, but the surface liquids are hydrocarbons such as methane and ethane rather than ordinary liquid water. Those substances can evaporate, condense and rain in Titan’s cold conditions. A landscape can resemble Earth’s drainage patterns while operating with a different liquid and a very different temperature. [1]"
+      },
+      {
+        "heading": "Look through the haze and beneath the ground",
+        "text": "Cassini used radar and other instruments to investigate Titan while Huygens descended through the atmosphere and reached the surface. Radar is especially valuable where visible-light images mainly show haze. Gravity and radio measurements have also been used to infer a possible internal water ocean, but the interior is not completely known. Keep a map of surface hydrocarbon seas separate from a model of deep water: they answer different scientific questions. [1][2][3]"
+      },
+      {
+        "heading": "Organic chemistry is a starting material",
+        "text": "Sunlight drives reactions involving atmospheric methane, producing complex carbon-containing materials that can settle onto the surface. Here organic means carbon chemistry, not material known to come from life. Titan offers a way to study chemical steps relevant to biology without assuming biology has occurred. Any proposed life in hydrocarbon liquids would differ greatly from familiar water-based life; possible deep-water environments pose a different question about access to energy and ingredients. [1]"
+      }
+    ],
+    "evidence": {
+      "observation": "Titan has a hazy nitrogen-rich atmosphere and surface rivers and lakes containing methane and ethane rather than water.",
+      "instrument": "Cassini radar investigated terrain through haze, while Huygens measured atmospheric conditions and imaged a local descent and landing site.",
+      "inference": "An active hydrocarbon cycle and complex organic chemistry make Titan useful for investigating chemistry relevant to habitability.",
+      "alternative": "Earth-like channel shapes need not imply water; very cold hydrocarbons can produce analogous erosion and deposition.",
+      "uncertainty": "The deep interior and potential water ocean are model-dependent, and neither surface organics nor liquid hydrocarbons establish life."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/saturn/moons/titan/facts/",
+        "title": "Titan: Facts",
+        "locator": "Introduction; Potential for Life; Structure; Surface; Atmosphere",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/cassini/spacecraft/cassini-orbiter/",
+        "title": "Cassini Orbiter - NASA Science",
+        "locator": "Microwave Remote Sensing",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/cassini/spacecraft/huygens-probe/",
+        "title": "Huygens Probe - NASA Science",
+        "locator": "Science Highlights; probe instrument descriptions",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "A student labels a radar-dark Titan lake “liquid water” and concludes that its organics came from life. Correct both conclusions and distinguish surface evidence from an inference about Titan’s deep interior.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "world-makemake",
+    "title": "Makemake",
+    "category": "world",
+    "rule_refs": [
+      "3.a.i",
+      "3.b.ii"
+    ],
+    "summary": "A distant icy dwarf planet illustrates what remote observations reveal and what they leave unresolved.",
+    "sections": [
+      {
+        "heading": "A cold member of the Kuiper Belt",
+        "text": "Makemake is a dwarf planet in the Kuiper Belt beyond Neptune. At that great distance it receives far less sunlight than inner planets, and its surface is very cold. It is not a miniature Earth with a smaller ocean. The word dwarf describes a category of Solar System body, not a promise about its chemistry or habitability. NASA notes that its conditions do not appear suitable for life as we know it. [1]"
+      },
+      {
+        "heading": "What a small point of light can reveal",
+        "text": "Even when telescopes cannot resolve fine landforms, reflected light can carry composition information. Observations have identified frozen methane and ethane on Makemake’s reddish-brown surface. A spectrum separates light by wavelength, letting characteristic absorption patterns constrain which materials are present. This is a different kind of information from a close-up geological map: identifying surface ice does not reveal valleys, liquid reservoirs or an inventory of every layer below the surface. [1]"
+      },
+      {
+        "heading": "Keep unknowns visible",
+        "text": "NASA’s overview explicitly notes that little is known about Makemake’s structure. It describes a possible very thin atmosphere near the part of its orbit closest to the Sun, not a thick atmosphere measured everywhere and at all times. When sunlight changes, volatile materials can change behavior, but a proposed seasonal atmosphere is not evidence for stable surface liquid water. A good profile therefore emphasizes cold surface ices, remote measurements and unanswered interior questions instead of inventing an ocean. [1]"
+      }
+    ],
+    "evidence": {
+      "observation": "Remote observations show a reddish-brown surface and identify frozen methane and ethane on distant Makemake.",
+      "instrument": "Telescopic measurements of reflected light constrain surface composition despite the lack of detailed resolved surface views.",
+      "inference": "Cold volatile ices are consistent with a distant Kuiper Belt environment receiving relatively little sunlight.",
+      "alternative": "An observed ice signature traces surface material, not necessarily the composition or physical state of the entire interior.",
+      "uncertainty": "Internal structure and a possible thin seasonal atmosphere remain poorly constrained; stable habitable liquids have not been demonstrated."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/dwarf-planets/makemake/",
+        "title": "Makemake",
+        "locator": "Potential for Life; Size and Distance; Structure; Surface; Atmosphere",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "A hypothetical spectrum of Makemake matches frozen methane. Explain what that supports, why it does not demonstrate a methane lake, and what important interior claim would still be unjustified.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "world-101955-bennu",
+    "title": "101955 Bennu",
+    "category": "world",
+    "rule_refs": [
+      "3.a.i",
+      "3.b.ii"
+    ],
+    "summary": "A rubble-pile asteroid preserves ancient materials whose chemistry can be studied directly in laboratories on Earth.",
+    "sections": [
+      {
+        "heading": "A small body with a long material history",
+        "text": "Bennu is a small near-Earth asteroid assembled from debris of a larger parent body. Its rocks preserve a much older history than the present arrangement of that rubble. This distinction matters: a mineral can record conditions on an earlier parent body rather than conditions inside today’s small asteroid. Studying Bennu is therefore partly a reconstruction problem, connecting present grains to processes that acted before the rubble came together. [1]"
+      },
+      {
+        "heading": "Why returning a sample changes the investigation",
+        "text": "OSIRIS-REx mapped Bennu, selected a sampling location among hazardous boulders, collected surface material and delivered a capsule to Earth in 2023. Researchers can compare mineral textures and chemistry in laboratories rather than relying only on light reflected from the asteroid. The mission’s reported sample findings include compounds relevant to life’s chemistry and evidence of an ancient saltwater history. These are clues about chemical processing, not observations of a lake on Bennu now. [1][2]"
+      },
+      {
+        "heading": "Ingredients are not organisms",
+        "text": "Small bodies are relevant to the idea that impacts delivered water-bearing and carbon-containing materials to early Earth. Bennu samples let scientists examine some of those possible ingredients directly. Finding them does not prove exactly how much material reached Earth or that life was delivered ready-made. Sample handling and comparison among different grains are also important: a clean, well-documented chain from spacecraft to laboratory makes a chemical interpretation more trustworthy than an unexplained signal alone. [2]"
+      }
+    ],
+    "evidence": {
+      "observation": "Returned Bennu grains contain materials relevant to prebiotic chemistry and preserve evidence of earlier interaction with water.",
+      "instrument": "OSIRIS-REx collected surface material for terrestrial laboratory study after mapping the asteroid and selecting a safe sampling site.",
+      "inference": "The grains can preserve ancient parent-body chemistry and help test whether asteroids supplied ingredients to young planets.",
+      "alternative": "Organic compounds and water-altered minerals can form without life; modern contamination must also be considered during analysis.",
+      "uncertainty": "A sample from one site cannot establish the entire asteroid’s composition or the fraction of Earth’s ingredients supplied by asteroids."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/solar-system/asteroids/101955-bennu/",
+        "title": "Bennu - NASA Science",
+        "locator": "About Bennu; Exploring Bennu",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/osiris-rex/",
+        "title": "NASA's OSIRIS-REx Mission to Asteroid Bennu",
+        "locator": "Mission Overview; sample-site selection; Jan. 29, 2025 sample findings",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "A Bennu grain contains an organic compound and a mineral associated with ancient water. Why might it tell us about a parent body rather than a present-day lake on Bennu, and why is contamination control important?",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "world-67p-churyumov-gerasimenko",
+    "title": "67P/Churyumov–Gerasimenko",
+    "category": "world",
+    "rule_refs": [
+      "3.a.i",
+      "3.b.ii"
+    ],
+    "summary": "A comet’s evolving gas and dust reveal volatile chemistry without demonstrating that comets are inhabited.",
+    "sections": [
+      {
+        "heading": "A nucleus with changing activity",
+        "text": "Comet 67P has a small, porous nucleus that releases gas and dust as solar heating increases. Rosetta accompanied it during part of its journey around the Sun, allowing scientists to study change rather than only one brief encounter. The coma is the surrounding cloud of released material, not the solid body itself. A detector in that cloud measures material that has already left the nucleus and experienced a new environment. [1][2]"
+      },
+      {
+        "heading": "Follow molecules from instrument to inference",
+        "text": "Rosetta’s suite combined cameras with spectrometers and particle instruments. NASA’s summary reports water vapor, exposed water ice, molecular nitrogen and oxygen, and the amino acid glycine together with phosphorus. These findings show that cometary material includes useful chemical ingredients. Molecular identification depends on the instrument’s ability to distinguish candidate substances; a familiar biological role on Earth does not establish that the same molecule was produced biologically at the comet. [1][2]"
+      },
+      {
+        "heading": "Delivery is a question to test",
+        "text": "Comets are possible contributors of volatile and organic material to planets. Comparing cometary water with terrestrial water can test simple delivery stories, but one comet does not represent every comet or every delivery event. Early Rosetta analyses found a higher deuterium-to-hydrogen ratio than in Earth’s oceans. A later NASA-led reanalysis linked elevated ratios to cometary dust and found water more similar to Earth’s when those sampling effects were accounted for. This reopens a possible cometary contribution; it does not prove how much of Earth’s water came from comets. Sampling conditions and small-body diversity matter. [1][2][3]"
+      }
+    ],
+    "evidence": {
+      "observation": "Rosetta measured gas and dust released by 67P and found water-related material and molecules relevant to prebiotic chemistry.",
+      "instrument": "ROSINA analyzed coma gases while imaging and other spectrometers linked chemical measurements with the evolving comet environment.",
+      "inference": "Cometary reservoirs can preserve and release volatile and organic ingredients relevant to planetary chemical histories.",
+      "alternative": "Glycine and other organic compounds can arise without organisms, and released gases need not exactly represent bulk nucleus composition.",
+      "uncertainty": "One comet and one observing geometry cannot determine all comet compositions or the complete origin of Earth’s water."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/solar-system/comets/67p-churyumov-gerasimenko/",
+        "title": "67P/Churyumov-Gerasimenko - NASA Science",
+        "locator": "Overview: Rosetta findings and nucleus properties",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://sci.esa.int/web/rosetta/-/35061-instruments",
+        "title": "ESA Science & Technology - Orbiter Instruments",
+        "locator": "Introduction; Instruments In Brief; ROSINA; OSIRIS; VIRTIS",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/solar-system/comets/nasa-led-team-links-comet-water-to-earths-oceans/",
+        "title": "NASA-Led Team Links Comet Water to Earth’s Oceans",
+        "locator": "Opening finding; paragraphs on analysis of more than 16,000 Rosetta measurements, dust-linked isotope ratios, and dried dust in the outer coma; page updated February 11, 2025",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "Rosetta found glycine at 67P, and glycine is used in proteins on Earth. Explain why “Rosetta found life” does not follow, and identify a limitation in using coma measurements to describe the whole comet.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "system-trappist-1",
+    "title": "TRAPPIST-1",
+    "category": "system",
+    "rule_refs": [
+      "3.a.ii",
+      "3.b.i",
+      "3.b.iv"
+    ],
+    "summary": "Seven closely packed, roughly Earth-sized planets let scientists compare rocky worlds around the same faint star.",
+    "sections": [
+      {
+        "heading": "Same star, different environments",
+        "text": "TRAPPIST-1 hosts seven approximately Earth-sized planets around a small, faint star. Several have been discussed as habitable-zone worlds because their received starlight could permit liquid surface water under suitable atmospheric conditions. A habitable zone is not a measured ocean boundary. Around a faint star it lies much closer to the star than around the Sun, so a short orbital period does not automatically mean a planet is scorching hot. [1][2]"
+      },
+      {
+        "heading": "Transit timing adds information",
+        "text": "All seven planets were found using dips in starlight as they cross the star. Transit depths help estimate sizes, and changes in transit timing reveal gravitational interactions that help constrain masses. Mass and size together give bulk density. NASA’s discussion of their similar densities describes multiple possible compositions, including different proportions or chemical forms of iron. The same measured density can fit more than one interior, so it is not a photograph of a core or ocean. [1]"
+      },
+      {
+        "heading": "An atmosphere must be tested separately",
+        "text": "A rocky bulk composition does not establish a breathable atmosphere, liquid water or life. Transmission spectroscopy searches for wavelength-dependent effects as starlight passes through any atmosphere, but the signals from small planets are very weak. Clouds and stellar contamination can complicate them. TRAPPIST-1 is valuable because planets share a star yet receive different energy; the scientifically useful comparison separates measured sizes and orbits from uncertain atmospheric and surface conditions. [2][3]"
+      }
+    ],
+    "evidence": {
+      "observation": "Repeated transits reveal seven planets, while their timing variations and depths constrain masses, sizes and similar bulk densities.",
+      "instrument": "Precision photometry records light curves; transit timing analysis and infrared transmission spectroscopy address different physical questions.",
+      "inference": "The measurements support a family of rocky worlds but allow more than one detailed internal composition.",
+      "alternative": "Lower bulk density could reflect different iron chemistry or water content rather than one uniquely determined ocean structure.",
+      "uncertainty": "Atmospheres, clouds, stellar effects and surface conditions remain critical unknowns; habitable-zone placement is not proof of habitability or life."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/universe/exoplanets/seven-rocky-trappist-1-planets-may-be-made-of-similar-stuff/",
+        "title": "Seven Rocky TRAPPIST-1 Planets May Be Made of Similar Stuff - NASA Science",
+        "locator": "Transit method, density measurements, iron-oxide and water alternatives",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/universe/exoplanets/10-things-all-about-trappist-1-2/",
+        "title": "10 Things: All About TRAPPIST-1 - NASA Science",
+        "locator": "3) ...but actually there were seven.; 6) They are mostly made of rock",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/blogs/webb/2024/06/05/reconnaissance-of-potentially-habitable-worlds-with-nasas-webb/",
+        "title": "Reconnaissance of Potentially Habitable Worlds with NASA’s Webb - NASA Science",
+        "locator": "Small-planet transmission spectroscopy and stellar-contamination limitations",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "A hypothetical report says two TRAPPIST-1 planets have similar bulk densities and one lies in the habitable zone. What does each observation support, and why do they not prove identical interiors or inhabited surfaces?",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "system-kepler-452",
+    "title": "Kepler-452",
+    "category": "system",
+    "rule_refs": [
+      "3.a.ii",
+      "3.b.i",
+      "3.b.iv"
+    ],
+    "summary": "A planet detected around a Sun-like star illustrates the gap between an Earth-like orbit and a demonstrated Earth-like environment.",
+    "sections": [
+      {
+        "heading": "The comparison that made the system interesting",
+        "text": "NASA’s 2015 discovery report describes Kepler-452b as larger than Earth, orbiting a Sun-like star approximately once every 385 days. Its orbit lies in the region discussed as the star’s habitable zone. These similarities make it an interesting comparison, but the star and planet are not exact copies of the Sun and Earth. The source explicitly says that the planet’s mass and composition were not determined in that report. [1]"
+      },
+      {
+        "heading": "What a transit actually measures",
+        "text": "Kepler monitored stellar brightness and searched for repeated dips caused by a planet crossing the star. A transit gives orbital timing and, with information about the star, a size estimate. It does not by itself weigh the planet or reveal whether the surface has continents. NASA’s illustrations of Kepler-452b are possible appearances, not resolved photographs. In a study answer, treat those pictures as models rather than data showing blue water or white clouds. [1][2]"
+      },
+      {
+        "heading": "Build a conditional habitability argument",
+        "text": "A Sun-like star and an approximately year-long orbit motivate further study, but a larger planet could have a different interior and atmosphere. Atmospheric greenhouse effects, reflective clouds and the amount of available water would all affect surface conditions. The discovery report’s habitable-zone language therefore supports a candidate environment for investigation, not a verified habitat. Keep the historical measurements and their stated uncertainties together instead of converting the nickname Earth’s cousin into a scientific conclusion. [1]"
+      }
+    ],
+    "evidence": {
+      "observation": "Kepler detected repeatable stellar dimming associated with Kepler-452b, described in the discovery report as a larger-than-Earth planet on a near-year orbit.",
+      "instrument": "Kepler’s precision photometer measured stellar brightness changes, with stellar properties needed to interpret the transit depth.",
+      "inference": "Orbital timing and estimated planet size make this a useful comparison with Earth around a Sun-like star.",
+      "alternative": "A similar radius and received starlight can accompany different atmospheric thicknesses and internal compositions, not necessarily an Earth analogue.",
+      "uncertainty": "The cited discovery report does not determine the planet’s mass, composition, oceans or biological state; illustrations do not fill those gaps."
+    },
+    "source_refs": [
+      {
+        "url": "https://www.nasa.gov/news-release/nasas-kepler-mission-discovers-bigger-older-cousin-to-earth/",
+        "title": "NASA’s Kepler Mission Discovers Bigger, Older Cousin to Earth - NASA",
+        "locator": "2015 discovery release: size, 385-day orbit, unknown mass/composition and illustration captions",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/mission/kepler/",
+        "title": "Kepler / K2 - NASA Science",
+        "locator": "Overview: photometer and transit method",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "A poster shows Kepler-452b with blue oceans and calls it a second Earth because its year is similar to ours. Separate measured information, artist interpretation and two missing habitability constraints.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "system-lhs-1140",
+    "title": "LHS 1140",
+    "category": "system",
+    "rule_refs": [
+      "3.a.ii",
+      "3.b.i",
+      "3.b.iv"
+    ],
+    "summary": "A transiting super-Earth around a cool star is a promising atmospheric target, but small signals require careful interpretation.",
+    "sections": [
+      {
+        "heading": "Know what the system label means",
+        "text": "LHS 1140 names the star system; LHS 1140 b is the planet emphasized here. NASA’s catalog identifies b as a super-Earth discovered with the transit method around an M-type star. Super-Earth is a size or mass category, not a guarantee of surface oceans or Earth-like biology. A planet can be interesting for habitability research even while the properties most important for its surface environment remain uncertain. [1][2]"
+      },
+      {
+        "heading": "Measure filtered starlight",
+        "text": "The planet’s nearly edge-on orbit allows transmission spectroscopy: compare the star’s light outside transit with light received while the planet crosses it. Any atmosphere absorbs some wavelengths more than others. NASA identifies LHS 1140 b as one of a small group of potentially habitable worlds accessible to this kind of Webb study. The atmospheric contribution is tiny compared with the star’s total light, so repeated observations and careful comparisons are essential. [2]"
+      },
+      {
+        "heading": "Why an exciting hint stays a hint",
+        "text": "NASA’s discussion emphasizes long observing requirements, clouds that can hide spectral features, overlapping molecular signals and contamination from cool regions on the star. A weak feature does not uniquely select a gas, an ocean or life. Proposed surface conditions should therefore be labeled hypotheses, not photographed facts. The strongest argument asks whether repeated measurements across wavelengths reject competing explanations, while acknowledging that a featureless spectrum can also be caused by clouds rather than an airless planet. [2]"
+      }
+    ],
+    "evidence": {
+      "observation": "LHS 1140 b transits an M-type star, making repeated stellar-light measurements possible during and outside transit.",
+      "instrument": "Webb transmission spectroscopy compares wavelengths to seek very small atmospheric signals superimposed on the star’s much stronger light.",
+      "inference": "Well-reproduced spectral features can constrain atmospheric models and help assess conditions relevant to habitability.",
+      "alternative": "Clouds, overlapping absorption bands or cool starspots can hide or imitate the atmospheric feature being sought.",
+      "uncertainty": "The sources used here do not establish a surface ocean or life; weak atmospheric interpretations require further evidence."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/exoplanet-catalog/lhs-1140-b/",
+        "title": "LHS 1140 b - NASA Science",
+        "locator": "LHS 1140 b: planet type, star type and discovery method",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://science.nasa.gov/blogs/webb/2024/06/05/reconnaissance-of-potentially-habitable-worlds-with-nasas-webb/",
+        "title": "Reconnaissance of Potentially Habitable Worlds with NASA’s Webb - NASA Science",
+        "locator": "LHS 1140 b observing-time example; clouds, overlapping signals and starspots",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "In a hypothetical LHS 1140 b spectrum, a weak absorption feature appears in only one transit. Give two non-life explanations to test and explain why more than a habitable-zone label is needed.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  }
+]

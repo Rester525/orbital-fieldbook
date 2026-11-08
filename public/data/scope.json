@@ -1,0 +1,259 @@
+{
+  "event": {
+    "season": "2026-2027",
+    "division": "B",
+    "name": "Solar System",
+    "topic": "habitability within and beyond the Solar System",
+    "max_team_size": 2,
+    "approximate_time_minutes": 50,
+    "calculator_allowed": false,
+    "notes": "Two 8.5 x 11 inch sheets, both sides; protector sealed with tape or laminated; no labels/annotations affixed",
+    "exam_emphasis": "Mathematical reasoning, concepts and data interpretation; minimize trivia",
+    "relative_focus": "Solar System objects more than extrasolar systems",
+    "unlisted_objects": "No detailed questions about unlisted objects/systems",
+    "named_solar_system_objects": [
+      "Venus",
+      "Mars",
+      "Ganymede",
+      "Europa",
+      "Enceladus",
+      "Titan",
+      "Makemake",
+      "101955 Bennu",
+      "67P/Churyumov–Gerasimenko"
+    ],
+    "named_extrasolar_systems": [
+      "TRAPPIST-1",
+      "Kepler-452",
+      "LHS 1140"
+    ],
+    "specific_mission_question_list": [
+      "Venus Express",
+      "DAVINCI",
+      "VERITAS",
+      "Perseverance",
+      "Mars Reconnaissance Orbiter",
+      "MAVEN",
+      "Galileo",
+      "Europa Clipper",
+      "JUICE",
+      "Cassini-Huygens",
+      "Dragonfly",
+      "OSIRIS-REx",
+      "Rosetta",
+      "Kepler",
+      "JWST",
+      "Roman Space Telescope"
+    ],
+    "exoplanet_detection_methods": [
+      "transits",
+      "radial velocity",
+      "microlensing",
+      "direct imaging"
+    ]
+  },
+  "rule_map": [
+    {
+      "rule_ref": "1",
+      "topic": "Habitability within and beyond the Solar System",
+      "items_or_examples": null,
+      "source_url": "https://www.soinc.org/sites/default/files/uploaded_files/Science_Olympiad_Div_B_Rules_2027_for_Web_Secured.pdf",
+      "pdf_page": 60,
+      "manual_page": "B55"
+    },
+    {
+      "rule_ref": "2.a–c",
+      "topic": "Writing utensils; two 8.5 x 11 inch sheets, both sides, protector sealed by tape or laminated; no affixed annotations/labels; no calculators",
+      "items_or_examples": null,
+      "source_url": "https://www.soinc.org/sites/default/files/uploaded_files/Science_Olympiad_Div_B_Rules_2027_for_Web_Secured.pdf",
+      "pdf_page": 60,
+      "manual_page": "B55"
+    },
+    {
+      "rule_ref": "3 intro",
+      "topic": "Mathematical reasoning, conceptual understanding, maps/graphs/images/photos/charts/tables; minimize trivia",
+      "items_or_examples": null,
+      "source_url": "https://www.soinc.org/sites/default/files/uploaded_files/Science_Olympiad_Div_B_Rules_2027_for_Web_Secured.pdf",
+      "pdf_page": 60,
+      "manual_page": "B55"
+    },
+    {
+      "rule_ref": "3.a.i",
+      "topic": "Named Solar System objects; identify/explain relevant features, processes and properties",
+      "items_or_examples": [
+        "Venus",
+        "Mars",
+        "Ganymede",
+        "Europa",
+        "Enceladus",
+        "Titan",
+        "Makemake",
+        "101955 Bennu",
+        "67P/Churyumov–Gerasimenko"
+      ],
+      "source_url": "https://www.soinc.org/sites/default/files/uploaded_files/Science_Olympiad_Div_B_Rules_2027_for_Web_Secured.pdf",
+      "pdf_page": 60,
+      "manual_page": "B55"
+    },
+    {
+      "rule_ref": "3.a.ii",
+      "topic": "Named extrasolar systems; Solar System objects receive more focus; no detailed questions on unlisted objects or systems",
+      "items_or_examples": [
+        "TRAPPIST-1",
+        "Kepler-452",
+        "LHS 1140"
+      ],
+      "source_url": "https://www.soinc.org/sites/default/files/uploaded_files/Science_Olympiad_Div_B_Rules_2027_for_Web_Secured.pdf",
+      "pdf_page": 60,
+      "manual_page": "B55"
+    },
+    {
+      "rule_ref": "3.b.i",
+      "topic": "Conditions relevant to habitability",
+      "items_or_examples": [
+        "temperature",
+        "atmospheric composition and retention",
+        "stable surface and subsurface liquids",
+        "tidal heating",
+        "chemical disequilibrium"
+      ],
+      "source_url": "https://www.soinc.org/sites/default/files/uploaded_files/Science_Olympiad_Div_B_Rules_2027_for_Web_Secured.pdf",
+      "pdf_page": 60,
+      "manual_page": "B55"
+    },
+    {
+      "rule_ref": "3.b.ii",
+      "topic": "Geologic and chemical evidence",
+      "items_or_examples": [
+        "historical liquid water inferred from morphology",
+        "surface and atmospheric composition from spectral features",
+        "delivery of water and organic material from small bodies"
+      ],
+      "source_url": "https://www.soinc.org/sites/default/files/uploaded_files/Science_Olympiad_Div_B_Rules_2027_for_Web_Secured.pdf",
+      "pdf_page": 60,
+      "manual_page": "B55"
+    },
+    {
+      "rule_ref": "3.b.iii",
+      "topic": "Basic biology and chemistry",
+      "items_or_examples": [
+        "proteins, nucleic acids, lipids, carbohydrates",
+        "liquid water, amorphous/crystalline ice, brines, clathrates",
+        "chemolithoautotrophs, tardigrades"
+      ],
+      "source_url": "https://www.soinc.org/sites/default/files/uploaded_files/Science_Olympiad_Div_B_Rules_2027_for_Web_Secured.pdf",
+      "pdf_page": 60,
+      "manual_page": "B55"
+    },
+    {
+      "rule_ref": "3.b.iv",
+      "topic": "Exoplanet detection techniques limited to the listed methods",
+      "items_or_examples": [
+        "transits",
+        "radial velocity",
+        "microlensing",
+        "direct imaging"
+      ],
+      "source_url": "https://www.soinc.org/sites/default/files/uploaded_files/Science_Olympiad_Div_B_Rules_2027_for_Web_Secured.pdf",
+      "pdf_page": 60,
+      "manual_page": "B55"
+    },
+    {
+      "rule_ref": "3.b.v",
+      "topic": "Engineering, objectives, instrumentation and tradeoffs; specific mission questions limited to named list",
+      "items_or_examples": [
+        "Venus Express",
+        "DAVINCI",
+        "VERITAS",
+        "Perseverance",
+        "Mars Reconnaissance Orbiter",
+        "MAVEN",
+        "Galileo",
+        "Europa Clipper",
+        "JUICE",
+        "Cassini-Huygens",
+        "Dragonfly",
+        "OSIRIS-REx",
+        "Rosetta",
+        "Kepler",
+        "JWST",
+        "Roman Space Telescope"
+      ],
+      "source_url": "https://www.soinc.org/sites/default/files/uploaded_files/Science_Olympiad_Div_B_Rules_2027_for_Web_Secured.pdf",
+      "pdf_page": 60,
+      "manual_page": "B55"
+    },
+    {
+      "rule_ref": "3.b.vi(1)",
+      "topic": "Light, radiation and temperature math",
+      "items_or_examples": [
+        "Doppler shift",
+        "flux",
+        "inverse-square law",
+        "albedo",
+        "Stefan–Boltzmann law",
+        "Wien’s displacement law",
+        "equilibrium temperature"
+      ],
+      "source_url": "https://www.soinc.org/sites/default/files/uploaded_files/Science_Olympiad_Div_B_Rules_2027_for_Web_Secured.pdf",
+      "pdf_page": 60,
+      "manual_page": "B55"
+    },
+    {
+      "rule_ref": "3.b.vi(2)",
+      "topic": "Gravity, orbits and tides math",
+      "items_or_examples": [
+        "kinetic and potential energy",
+        "Newton’s law of gravitation",
+        "Kepler’s laws",
+        "escape velocity",
+        "tidal forces"
+      ],
+      "source_url": "https://www.soinc.org/sites/default/files/uploaded_files/Science_Olympiad_Div_B_Rules_2027_for_Web_Secured.pdf",
+      "pdf_page": 60,
+      "manual_page": "B55"
+    },
+    {
+      "rule_ref": "3.b.vi(3)",
+      "topic": "Chemistry math",
+      "items_or_examples": [
+        "ideal gas law",
+        "kinetics including Arrhenius equation",
+        "chemical (dis)equilibrium"
+      ],
+      "source_url": "https://www.soinc.org/sites/default/files/uploaded_files/Science_Olympiad_Div_B_Rules_2027_for_Web_Secured.pdf",
+      "pdf_page": 60,
+      "manual_page": "B55"
+    },
+    {
+      "rule_ref": "4.a–c",
+      "topic": "High score wins; quality and accuracy; preselected questions break ties",
+      "items_or_examples": null,
+      "source_url": "https://www.soinc.org/sites/default/files/uploaded_files/Science_Olympiad_Div_B_Rules_2027_for_Web_Secured.pdf",
+      "pdf_page": 60,
+      "manual_page": "B55"
+    }
+  ],
+  "handbook_outline": [
+    "Venus & Mars (3.a.i)",
+    "Icy moons (3.a.i)",
+    "Small bodies (3.a.i)",
+    "Exoplanet systems (3.a.ii)",
+    "Habitability conditions (3.b)",
+    "Evidence for habitability (3.b)",
+    "Exoplanet detection (3.b)",
+    "Missions & instruments (3.b)",
+    "Habitability math (3.b)",
+    "Two note sheets (2)",
+    "Timed tests, no calculator (2)"
+  ],
+  "review": {
+    "status": "pending_rules_review",
+    "checked_at": "2026-11-08",
+    "message": "B55 mapped from supplied verified curriculum. Live corrections and clarifications recheck returned HTTP 403. The dossier reports no Solar System updates in its earlier check; that is not a successful current recheck. Verify official updates and local tournament notices before competition.",
+    "urls": [
+      "https://www.soinc.org/events/rules-corrections",
+      "https://www.soinc.org/solar-system-div-b"
+    ]
+  }
+}

@@ -1,0 +1,880 @@
+[
+  {
+    "id": "foundation-orientation",
+    "title": "Rules, materials, scoring and evidence",
+    "category": "foundation",
+    "rule_refs": [
+      "1",
+      "2.a–c",
+      "3 intro",
+      "4.a–c"
+    ],
+    "summary": "Prepare for reasoning about habitability, not a race to memorize isolated facts.",
+    "sections": [
+      {
+        "heading": "Authority and scope",
+        "text": "This independent fieldbook maps the supplied 2027 Division B manual, B55, to original study activities. It is not an official rulebook. The current official corrections and clarification check was blocked, so every lesson remains B55 mapped · update check pending. Recheck the official manual, applicable updates and tournament notices before competing. The mapped event centers on habitability within and beyond the Solar System, with more emphasis on Solar System objects. Detailed questions about unlisted worlds and systems are outside the mapped named-list scope; scientific examples are not permission to invent a larger closed list."
+      },
+      {
+        "heading": "Materials and timing",
+        "text": "The supplied rule map describes teams of up to two and approximately 50 minutes. Bring writing utensils. Notes fit on two 8.5 × 11 inch sheets, usable on both sides: four faces total, not four sheets. Use the required taped-sealed sheet protectors or lamination; do not attach labels or extra annotations. Calculators are not allowed. Put units, ratio formulas, small comparison tables and common inference errors on the notes, rather than shrinking a textbook into unreadable type. These preparation suggestions are editorial; the material limits come from the mapped manual and remain subject to updates."
+      },
+      {
+        "heading": "Scoring with explanations",
+        "text": "Higher total score wins. Accuracy and quality of responses matter, and preselected questions resolve ties. A useful written answer states a claim, cites a particular measurement, explains the mechanism connecting them, and names a limitation. A keyword alone rarely demonstrates that chain. The app’s written rubric is a self-check, not an official scoring scheme or automatic proof that your answer is correct. Explain disagreements to a partner before marking an answer mastered."
+      },
+      {
+        "heading": "Read before calculating",
+        "text": "For any map, image, graph, photo, chart or table, read the caption, axes, units, scale and uncertainty first. Distinguish a photograph from an artist’s illustration and a measured curve from this app’s synthetic teaching data. An apparent channel is an observation of shape; past water is an interpretation. Under a no-calculator constraint, use fractions and powers: if equal-sized detectors receive 12 and 3 energy units each second, their flux ratio is 4. That ratio does not identify a molecule or prove life. Practice describing what the data cannot decide."
+      }
+    ],
+    "evidence": {
+      "observation": "A supplied clause map records materials, timing and scoring on B55.",
+      "instrument": "The source is a rule document, not a scientific instrument or the app’s quiz score.",
+      "inference": "Prepare compact notes and reason from data within the mapped scope.",
+      "alternative": "A prior-season guide or a practice pack can describe different permissions.",
+      "uncertainty": "Live corrections access was blocked; this is not a current-final rules certification."
+    },
+    "source_refs": [
+      {
+        "url": "https://www.soinc.org/sites/default/files/uploaded_files/Science_Olympiad_Div_B_Rules_2027_for_Web_Secured.pdf",
+        "title": "Science Olympiad 2027 Division B Rules — Solar System",
+        "locator": "B55 / PDF page 60, clauses 1, 2.a–c, 3 introduction, 4.a–c; supplied verified rule map, current corrections check blocked",
+        "checked_at": "2026-11-08",
+        "status": "pending_rules_review"
+      }
+    ],
+    "teach_back": "Explain the difference between four note faces and four sheets, then give a claim–evidence–limitation answer about habitability.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "foundation-habitability",
+    "title": "Habitability is a set of conditions, not a discovery of life",
+    "category": "foundation",
+    "rule_refs": [
+      "1",
+      "3.b.i"
+    ],
+    "summary": "Connect temperature, retained atmospheres, liquids, energy and chemical disequilibrium.",
+    "sections": [
+      {
+        "heading": "Temperature and atmosphere work together",
+        "text": "A habitable-zone orbit is a useful screen for possible surface liquid water, assuming suitable atmospheric conditions. It is not a measurement of water and not proof of life. Temperature affects reaction rates and water phase, while pressure and dissolved substances also matter. An atmosphere can redistribute energy and absorb outgoing infrared radiation; composition matters, not simply the presence of gas. Too much heating can be as limiting as too little. The same incoming starlight can therefore produce very different surface environments."
+      },
+      {
+        "heading": "Retention and radiation",
+        "text": "Gas retention is a competition among gravity, molecular motion, heating and loss processes. A larger escape speed helps retain gas; hotter gas and lighter molecules are generally more vulnerable to thermal escape. Stellar ultraviolet radiation can alter atmospheric chemistry and contribute to loss. A single mass or a single temperature is insufficient to reconstruct an atmosphere’s history. A magnetic field is not a universal yes/no habitability test: radiation, atmospheric properties and replenishment must be considered together."
+      },
+      {
+        "heading": "Surface and subsurface liquids",
+        "text": "Surface water needs a suitable pressure–temperature environment and persistence. A brief melt is not equivalent to a stable lake. Below an insulating icy shell, internal heat can maintain a liquid reservoir even where the surface is too cold for liquid water. Radiogenic heat and tidal dissipation can contribute. Tidal heating converts mechanical energy into heat when repeated deformation is dissipated; it depends on orbital forcing and internal properties. Strong gravity alone does not guarantee sustained heating. Excessive heating can also be harmful."
+      },
+      {
+        "heading": "Energy that can do chemical work",
+        "text": "Chemical disequilibrium means that the available chemical mixture has not reached its equilibrium state. Reactions between electron donors and acceptors can provide usable energy, if organisms can access them. Hydrogen supplied by water–rock reactions, for example, may support chemical energy pathways without sunlight. Reactant supply, mixing and reaction rates matter. Coexisting reactive gases can also be maintained by nonbiological chemistry or transport, so disequilibrium is not itself a biosignature. For a comparison, rank evidence for liquid, usable energy and ingredients separately, then state what remains unmeasured rather than averaging everything into a fake probability of life."
+      }
+    ],
+    "evidence": {
+      "observation": "A spectrum may indicate atmospheric molecules while surface shape suggests past liquid flow.",
+      "instrument": "Spectrometers measure wavelength-dependent light; imaging and geophysical measurements constrain other conditions.",
+      "inference": "Combined evidence can support a potentially habitable environment, including a subsurface one.",
+      "alternative": "Greenhouse differences, nonbiological chemistry or short-lived melting can explain individual favorable clues.",
+      "uncertainty": "Accessible energy, persistence of water and biological activity remain separate uncertainties."
+    },
+    "source_refs": [
+      {
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Exoplanets/Life_on_exoplanets",
+        "title": "ESA — Life on exoplanets?",
+        "locator": "Choosing the right exoplanet; Looking from a distance; Spectra sleuths; So, you think you found a biosignature; What is life?",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://science.nasa.gov/exoplanets/habitable-zone/",
+        "title": "NASA — The Habitable Zone",
+        "locator": "Fast facts: What is the Habitable Zone?; Where Are We Looking for Life, and Why?",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-3-gravitational-potential-energy-and-total-energy",
+        "title": "OpenStax University Physics Volume 1 — 13.3 Gravitational Potential Energy and Total Energy",
+        "locator": "Gravitational Potential Energy beyond Earth; Escape velocity; Energy and gravitationally bound objects",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/2-2-water",
+        "title": "OpenStax Biology 2e — 2.2 Water",
+        "locator": "Water’s Polarity; Water’s States: Gas, Liquid, and Solid; Water’s High Heat Capacity",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants",
+        "title": "OpenStax Chemistry 2e — 13.2 Equilibrium Constants",
+        "locator": "Reaction quotient definition; Predicting the Direction of Reaction",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-6-tidal-forces",
+        "title": "OpenStax University Physics Volume 1 — 13.6 Tidal Forces",
+        "locator": "Lunar Tides; tidal force as a difference in gravitational attraction",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://science.nasa.gov/solar-system/ocean-worlds/",
+        "title": "NASA — Ocean Worlds",
+        "locator": "Jupiter’s Moon Europa; Saturn’s Moon Enceladus; Ancient Mars (mechanisms only, not dated mission status)",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "teach_back": "Compare a cold surface above an internally heated ocean with a warm but airless surface. What additional evidence would you seek?",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "foundation-evidence",
+    "title": "Geologic and chemical evidence: measure, infer, challenge",
+    "category": "foundation",
+    "rule_refs": [
+      "3 intro",
+      "3.b.ii"
+    ],
+    "summary": "Read morphology, spectral fingerprints and delivery evidence without turning ingredients into organisms.",
+    "sections": [
+      {
+        "heading": "Morphology records processes",
+        "text": "Morphology means shape and arrangement. A branching channel network feeding a fan at a basin edge is consistent with fluid transport and sediment deposition. Inclined layers, fine sediment and water-altered minerals strengthen a past-water interpretation. NASA’s Perseverance account describes delta deposits and later high-energy floods in Jezero: different layers can record different environments. Do not infer a continuously wet climate from one channel. Wind, lava, impacts and dry mass movement can make some superficially similar forms. Ask which combination of geometry, grain size and mineral evidence best discriminates the alternatives."
+      },
+      {
+        "heading": "Spectra are comparisons, not colored photographs",
+        "text": "A spectrum records intensity as a function of wavelength. Molecules and minerals absorb or emit in characteristic bands because of their physical energy states. Compare several observed features with laboratory references, accounting for resolution, temperature and noise. Surface reflected-light spectra sample exposed materials; atmospheric transmission spectra sample starlight filtered through a planet’s limb. They do not automatically describe an entire planet or its surface. Overlapping bands, clouds and stellar contamination can create ambiguity. A dip at a single wavelength should prompt a repeat measurement and a search for other expected bands."
+      },
+      {
+        "heading": "Delivery is plausible, not a complete history",
+        "text": "Small bodies can carry water-bearing materials and organic compounds. The NASA Bennu sample report describes amino acids, nucleobases and salts consistent with ancient brine evaporation in its parent body. Those findings support a supply of chemical ingredients and aqueous processing; they do not demonstrate life or show that all terrestrial water came from one kind of object. Distinguish a molecule delivered in a solid, liquid water during the parent body’s history, and liquid currently present. Provenance and contamination controls are essential when interpreting tiny organic signals."
+      },
+      {
+        "heading": "A worked evidence ladder",
+        "text": "Imagine a synthetic observation table: branched channels, a layered fan, two matching hydrated-mineral bands, and no direct measurement of current liquid. A defensible conclusion is that multiple lines favor past water-related activity. An indefensible conclusion is that organisms now inhabit an ocean. To improve the inference, collect higher-resolution stratigraphy and additional bands; test whether dry flows fit the geometry. To investigate biology, add independent chemical patterns and contamination controls. All training tables here are original constructions, not spacecraft datasets or reproduced test questions."
+      }
+    ],
+    "evidence": {
+      "observation": "Channels, sediment layers and selected absorption bands are measured features.",
+      "instrument": "Cameras resolve morphology; spectrometers measure wavelength patterns; laboratory analyses examine returned material.",
+      "inference": "Agreement between shape and chemistry strengthens an inference of historical liquid-water activity.",
+      "alternative": "Dry transport or nonbiological organic synthesis can explain parts of the record.",
+      "uncertainty": "Morphology does not fix duration; a molecular detection does not establish a biological source."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/mission/mars-2020-perseverance/science-highlights",
+        "title": "NASA — Perseverance Science Highlights",
+        "locator": "Sampled Ancient Lakebeds; Revealed Complex History of Water",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Exoplanets/Life_on_exoplanets",
+        "title": "ESA — Life on exoplanets?",
+        "locator": "Choosing the right exoplanet; Looking from a distance; Spectra sleuths; So, you think you found a biosignature; What is life?",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+        "title": "NASA — How We Find and Classify Exoplanets",
+        "locator": "Radial Velocity: Reading the Wobble; Transits: Planets Found in Dips in Light; Gravitational Microlensing; The Rise of Direct Imaging; Coronagraph",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.nasa.gov/news-release/nasas-asteroid-bennu-sample-reveals-mix-of-lifes-ingredients/",
+        "title": "NASA — Asteroid Bennu Sample Reveals Mix of Life’s Ingredients",
+        "locator": "Paragraphs beginning “Detailed in the Nature Astronomy paper”, “These building blocks”, and “Reporting in the journal Nature”",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "teach_back": "Use a channel image and a two-band mineral spectrum to argue for past water, then propose a specific competing explanation and a discriminating measurement.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "foundation-biomolecules",
+    "title": "Four biomolecule families and what their detection means",
+    "category": "foundation",
+    "rule_refs": [
+      "3.b.iii"
+    ],
+    "summary": "Connect molecular building blocks to function and distinguish organic chemistry from life.",
+    "sections": [
+      {
+        "heading": "Proteins: sequence, shape, function",
+        "text": "Proteins are chains of amino acids linked by peptide bonds. Their sequence helps determine their folded shape, which enables functions such as transport, structure and catalysis. Many enzymes are proteins that accelerate specific reactions; a detected amino acid is only a building block, not an enzyme or a cell. Temperature, pH and salts can affect folding and activity. This connects environmental chemistry to habitability: having carbon is insufficient if useful reaction networks cannot function."
+      },
+      {
+        "heading": "Nucleic acids: information molecules",
+        "text": "DNA and RNA are nucleic acids built from nucleotide units. A nucleotide contains a sugar, phosphate group and nitrogen-containing base. Nucleotide sequences store or convey biological information, and RNA has several roles in expressing that information. A nucleobase alone is not a complete nucleotide, a gene or evidence of a reproducing organism. NASA’s Bennu analysis reports nucleobases and amino acids; describing those as DNA and living proteins would overstate the measurement."
+      },
+      {
+        "heading": "Lipids and carbohydrates: boundaries and fuel",
+        "text": "Lipids are a diverse family with largely water-avoiding regions. Fats can store energy; phospholipids have water-interacting heads and water-avoiding tails and help form cell membranes. A membrane separates and regulates an internal environment, rather than merely acting as a decorative shell. Lipids are not all long chains of repeated identical monomers. Carbohydrates include simple sugars such as glucose and larger assemblies such as starch and cellulose. They supply energy and storage or structural functions. Carbohydrate does not mean that every sugar is sweet or that every carbon-containing molecule is a sugar."
+      },
+      {
+        "heading": "A hand-built classification example",
+        "text": "Suppose a synthetic analysis lists an amino-acid chain, a sequence of nucleotides, a two-tailed molecule with a phosphate-containing head, and a chain of glucose units. Match them to protein, nucleic acid, phospholipid and polysaccharide, respectively. The classification follows structure, not where the sample was collected. Now separate detection from origin: organic molecules can be made without biology, and earthly contamination can mimic an extraterrestrial signal. Check blanks, independent instruments, chemical distributions and environmental context before making a biological claim. All four families matter to familiar cells, but a list of ingredients is not a functioning living system."
+      }
+    ],
+    "evidence": {
+      "observation": "Analyses identify molecular building blocks or structures, such as amino acids and nucleobases.",
+      "instrument": "Laboratory chemical separation and spectrometric measurements distinguish compounds and controls.",
+      "inference": "The compounds may provide ingredients relevant to prebiotic chemistry.",
+      "alternative": "Nonbiological synthesis and terrestrial contamination can also supply organic molecules.",
+      "uncertainty": "Building blocks alone do not establish functional polymers, reproduction or a living cell."
+    },
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/3-4-proteins",
+        "title": "OpenStax Biology 2e — 3.4 Proteins",
+        "locator": "Types and Functions of Proteins; Amino Acids",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/3-5-nucleic-acids",
+        "title": "OpenStax Biology 2e — 3.5 Nucleic Acids",
+        "locator": "DNA and RNA",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/3-3-lipids",
+        "title": "OpenStax Biology 2e — 3.3 Lipids",
+        "locator": "Fats and Oils; Phospholipids",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/3-2-carbohydrates",
+        "title": "OpenStax Biology 2e — 3.2 Carbohydrates",
+        "locator": "Molecular Structures; Monosaccharides; Polysaccharides",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.nasa.gov/news-release/nasas-asteroid-bennu-sample-reveals-mix-of-lifes-ingredients/",
+        "title": "NASA — Asteroid Bennu Sample Reveals Mix of Life’s Ingredients",
+        "locator": "Paragraphs beginning “Detailed in the Nature Astronomy paper”, “These building blocks”, and “Reporting in the journal Nature”",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "teach_back": "Explain one function of each family and why finding a nucleobase does not mean finding DNA or life.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "foundation-water",
+    "title": "Liquid water, two ice structures, brines and clathrates",
+    "category": "foundation",
+    "rule_refs": [
+      "3.b.iii"
+    ],
+    "summary": "Separate phase, molecular structure and dissolved or trapped material.",
+    "sections": [
+      {
+        "heading": "Why liquid water matters",
+        "text": "Water is polar: charge is unevenly distributed within each molecule. Hydrogen bonding and interactions with ions make it an effective solvent for many biologically useful reactions. Liquid water permits transport and contact among reactants; its high heat capacity buffers temperature changes. It does not dissolve every substance, and water alone does not supply all ingredients or usable energy. Pressure, temperature and composition determine whether liquid persists. A low-pressure exposed film may evaporate or freeze rather than remain a stable habitat."
+      },
+      {
+        "heading": "Amorphous and crystalline ice",
+        "text": "Crystalline ice has an ordered repeating molecular arrangement; amorphous ice lacks long-range order. Both are solid water, not liquid oceans. Very cold deposition can trap a disordered structure; warming can allow rearrangement into crystals and alter the release or segregation of trapped material. NASA’s laboratory account describes an amorphous mixture warming and crystallizing, with organic molecules clustering and being expelled from the ice host. This is a laboratory mechanism, not a direct measurement of every comet’s interior. Porosity and crystallinity are different properties: a loose snow pile can still contain crystalline grains."
+      },
+      {
+        "heading": "Brines and guest-filled cages",
+        "text": "A brine is liquid water containing dissolved salts. Salt can lower the freezing point relative to pure water; the effect depends on the salt and concentration. Cold brines are not automatically biologically usable, because low water availability and chemical stresses can limit familiar life. A clathrate hydrate is a solid crystalline cage structure of water molecules trapping guest molecules such as methane. The guest is enclosed rather than simply dissolved as in a brine. Clathrate stability depends on pressure, temperature and available guests; finding a trapped gas does not show its biological origin."
+      },
+      {
+        "heading": "Classify before interpreting",
+        "text": "In a teaching comparison, sample A flows and contains dissolved ions: call it a brine if salt-rich. Sample B is solid water with no repeating order: amorphous ice. Sample C has repeating water cages holding methane: a clathrate. Sample D is ordinary ordered water ice without guests: crystalline ice. The categories describe different properties, so clathrates are also crystalline solids, not a competing liquid phase. In a separate hypothetical cooling test, pure water freezes at 0 °C while a specified brine stays liquid to −10 °C. At −5 °C only that brine remains liquid under the stated conditions; do not reuse those toy thresholds as universal planetary constants."
+      }
+    ],
+    "evidence": {
+      "observation": "Laboratory ice structure and liquid persistence can be measured under controlled temperature and pressure.",
+      "instrument": "Diffraction or spectroscopy probes structure; controlled chambers test phase behavior.",
+      "inference": "Solid structure and dissolved salts affect storage, release and accessibility of water and other compounds.",
+      "alternative": "A flow-shaped feature could be dry; an icy spectrum need not imply an accessible liquid reservoir.",
+      "uncertainty": "Composition, pressure and thermal history are required to assess liquid stability or biological suitability."
+    },
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/2-2-water",
+        "title": "OpenStax Biology 2e — 2.2 Water",
+        "locator": "Water’s Polarity; Water’s States: Gas, Liquid, and Solid; Water’s High Heat Capacity",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.nasa.gov/solar-system/why-comets-are-like-deep-fried-ice-cream/",
+        "title": "NASA — Why Comets Are Like Deep Fried Ice Cream",
+        "locator": "Paragraphs beginning “In the new study” and “Gudipati and Lignell”; laboratory crystallization experiment",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.usgs.gov/centers/whcmsc/science/gas-hydrates-primer",
+        "title": "USGS — Gas Hydrates: Primer",
+        "locator": "Gas Hydrates - Primer; paragraph beginning “At the molecular level”; text label “Where Does Methane Hydrate Occur?”",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.nasa.gov/missions/dawn/lab-work-digs-into-gullies-seen-on-giant-asteroid-vesta-by-nasas-dawn/",
+        "title": "NASA — Lab Work Digs Into Gullies Seen on Giant Asteroid Vesta",
+        "locator": "Re-creating Vesta; laboratory pure-water versus brine comparison (not confirmation of natural brines)",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/11-4-colligative-properties",
+        "title": "OpenStax Chemistry 2e — 11.4 Colligative Properties",
+        "locator": "Freezing Point Depression; Osmosis and Osmotic Pressure of Solutions",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "teach_back": "Explain why brine, amorphous ice and methane clathrate are not interchangeable names, and why none alone proves habitability.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "foundation-extremophiles",
+    "title": "Chemolithoautotrophs and tardigrades: growth versus survival",
+    "category": "foundation",
+    "rule_refs": [
+      "3.b.iii",
+      "3.b.i"
+    ],
+    "summary": "Use terrestrial examples to ask careful questions about energy and biological limits.",
+    "sections": [
+      {
+        "heading": "Decode the energy and carbon labels",
+        "text": "In chemolithoautotroph, chemo refers to chemical energy rather than light, litho to inorganic electron donors, and auto to building organic carbon from inorganic carbon such as carbon dioxide. These are distinct axes: an energy source is not necessarily a carbon source. Some microorganisms can oxidize hydrogen or reduced sulfur compounds while using a suitable electron acceptor. The energy released helps power cell chemistry and carbon fixation. No organism gets usable energy from a rock simply by being next to it; a favorable chemical reaction and access to reactants are needed."
+      },
+      {
+        "heading": "Habitats without direct sunlight",
+        "text": "Hydrothermal settings motivate the search for subsurface habitats because water–rock interactions can sustain chemical gradients. An organism using hydrogen and carbon dioxide still needs liquid water, nutrients and a workable electron-transfer pathway. A closed mixture eventually approaches equilibrium unless inputs or other processes maintain it. Thus chemical disequilibrium can provide an opportunity, not a guarantee. Earth’s examples establish that photosynthesis is not the only way to support life; they do not establish that the same organisms exist in an extraterrestrial ocean."
+      },
+      {
+        "heading": "Tardigrades are animals, not chemical-energy microbes",
+        "text": "Tardigrades, or water bears, are tiny multicellular animals. They obtain food rather than making organic matter solely from inorganic carbon. They can survive severe environmental stresses in protected inactive states. ESA reports survival after space exposure, followed by recovery; this is not evidence of continuous growth, feeding or reproduction in vacuum. Survival limits vary with species, exposure duration, shielding and physiological state. Avoid treating a spectacular maximum temperature or radiation result as a normal operating range for all life."
+      },
+      {
+        "heading": "An experiment that distinguishes claims",
+        "text": "Imagine three original treatments with equal starting numbers: active hydrated animals, dried animals, and dried animals later rehydrated. A recovery count in the third treatment tests survival through drying; it does not measure growth during the dry interval. For an active-metabolism claim, measure substrate use, products or population increase while the stress is applied, with appropriate controls. For a chemolithoautotroph culture, compare growth with and without an inorganic donor while controlling carbon dioxide and other nutrients. The central lesson is to match a claim to the variable actually measured, not merely to the organism’s reputation for toughness."
+      }
+    ],
+    "evidence": {
+      "observation": "Some organisms recover after stress, while other experiments show microbial use of chemical energy.",
+      "instrument": "Recovery assays count viable animals; chemical and growth assays measure microbial activity.",
+      "inference": "Life can use non-solar energy pathways, and survival limits can exceed active-growth limits.",
+      "alternative": "A dormant survivor need not have metabolized or reproduced in the harsh environment.",
+      "uncertainty": "Terrestrial experiments do not demonstrate extraterrestrial life or universal stress tolerance."
+    },
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/22-3-prokaryotic-metabolism",
+        "title": "OpenStax Biology 2e — 22.3 Prokaryotic Metabolism",
+        "locator": "The Ways in Which Prokaryotes Obtain Energy; The Ways in Which Prokaryotes Obtain Carbon; Table 22.3",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.esa.int/articles/about-us/directorates/human-and-robotic-exploration/tiny-animals-survive-exposure-to-space",
+        "title": "ESA — Tiny animals survive exposure to space",
+        "locator": "Opening account of TARDIS; paragraphs beginning “Our principle finding” and “That the water bears survived”",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Exoplanets/Life_on_exoplanets",
+        "title": "ESA — Life on exoplanets?",
+        "locator": "Choosing the right exoplanet; Looking from a distance; Spectra sleuths; So, you think you found a biosignature; What is life?",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "teach_back": "Contrast an inorganic energy donor with a carbon source, then distinguish tardigrade recovery from growth in space.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "method-transits",
+    "title": "transits",
+    "category": "method",
+    "rule_refs": [
+      "3.b.iv",
+      "3 intro"
+    ],
+    "summary": "Measure repeated losses of starlight when a planet crosses the visible stellar disk.",
+    "sections": [
+      {
+        "heading": "What the detector measures",
+        "text": "A photometer measures received stellar brightness over time. If a planet crosses in front of the star along our line of sight, it blocks some light. Plot time horizontally and normalized stellar flux vertically; 1 means the out-of-transit baseline, not one watt. Repeated dips with compatible shape and spacing suggest an orbiting object. The interval between corresponding dips estimates the orbital period when the same object is being observed each time. [1]"
+      },
+      {
+        "heading": "Size from area, with assumptions",
+        "text": "For an opaque planet fully inside a uniformly bright stellar disk, depth δ = (F_out − F_in)/F_out = (R_planet/R_star)^2. A depth of 0.01 is 1%, and its square root gives a radius ratio of 0.1. This does not mean a mass ratio of 0.1. The app uses a uniform star disk and a circular orbit, not a realistic atmosphere or limb darkening. At a grazing transit only part of the planet’s disk overlaps the star; use overlap area rather than the full radius-squared shortcut. [2]"
+      },
+      {
+        "heading": "Geometry and false positives",
+        "text": "The orbital plane must align so the planet passes across the star’s face. An orbit seen face-on will not transit; non-detection is therefore not proof that no planet exists. Eclipsing stars, blended background light, starspots and instrument errors can confuse interpretation. Repeated observations, checking dip shapes and independent radial-velocity evidence help test a planet hypothesis. Transit spectroscopy compares the blocked light at different wavelengths; it characterizes possible atmospheric absorption but is not a fifth required detection method. [1][2]"
+      },
+      {
+        "heading": "Read a constructed light curve",
+        "text": "Imagine equal-depth minima at days 2, 8 and 14. The spacing is six days. If the baseline is 1000 arbitrary units and the flat minimum is 990, the lost fraction is 10/1000, not 990/1000. Assuming full overlap and uniform brightness gives the radius ratio above. Neither the six-day period nor the one-percent depth alone tells you surface temperature, atmosphere, ocean or life. Keep measured brightness, inferred geometry and speculation about habitability in separate sentences. [2]"
+      }
+    ],
+    "evidence": {
+      "observation": "A synthetic light curve contains repeated dips below the normalized baseline.",
+      "instrument": "A photometer records stellar brightness; a spectrograph can resolve wavelength-dependent transit depths.",
+      "inference": "Dip spacing constrains period and full-overlap depth constrains planet-to-star radius ratio.",
+      "alternative": "An eclipsing binary, blended source or instrument artifact can mimic a dip.",
+      "uncertainty": "Only aligned orbits transit; limb darkening and grazing geometry change the simple depth relation."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+        "title": "NASA — How We Find and Classify Exoplanets",
+        "locator": "Radial Velocity: Reading the Wobble; Transits: Planets Found in Dips in Light; Gravitational Microlensing; The Rise of Direct Imaging; Coronagraph",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://arxiv.org/html/1901.01730v2",
+        "title": "Analytic solutions to the maximum and average exoplanet transit depth for common stellar limb darkening laws",
+        "locator": "Abstract; §1 Introduction: uniform-brightness stellar circle, square-root depth/radius relation, ingress/egress footnote, and limb-darkening limits",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "Explain why a 1% transit suggests a 0.1 radius ratio, not 1%, and why a star without dips may still have planets.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "method-radial-velocity",
+    "title": "radial velocity",
+    "category": "method",
+    "rule_refs": [
+      "3.b.iv",
+      "3.b.vi(1)",
+      "3 intro"
+    ],
+    "summary": "Infer a companion from the star’s recurring line-of-sight motion, not from a photographed planet.",
+    "sections": [
+      {
+        "heading": "The star moves too",
+        "text": "A star and planet orbit their common center of mass. The planet’s gravity causes a small stellar motion. A spectrograph tracks the wavelengths of stellar absorption lines: approaching motion blueshifts them and receding motion redshifts them. The measured velocity is the component along our line of sight, not the star’s complete three-dimensional speed. An unchanging redshift alone can reflect the system’s bulk motion; planet searches look for a recurring change about that baseline. [1][2]"
+      },
+      {
+        "heading": "A small-shift ruler",
+        "text": "For speeds much smaller than light speed, v_r/c ≈ (λ_observed − λ_rest)/λ_rest. Use the same wavelength unit in numerator and denominator, so their ratio is dimensionless. With a 500 nm rest line observed at 500.01 nm, the positive fractional shift is 0.01/500. Using c = 300000 km/s gives 6 km/s away from us. These deliberately easy numbers demonstrate the calculation; they are not a claim about a particular planet or a typical instrumental precision. [2]"
+      },
+      {
+        "heading": "Read the curve and its limitations",
+        "text": "For a circular orbit the ideal velocity curve is sinusoidal. Its recurrence gives a period; its amplitude, with stellar mass and orbital assumptions, constrains the companion’s minimum mass. Unknown inclination leaves a mass–inclination degeneracy: a nearly face-on orbit produces a smaller line-of-sight signal. Radius is not obtained directly. Combined with a transit inclination, radial velocity can better constrain mass; mass plus transit radius permits a bulk-density estimate, though density does not uniquely specify internal structure. [3]"
+      },
+      {
+        "heading": "A constructed signal to test",
+        "text": "Suppose velocities relative to the average are 0, +4, 0, −4 and 0 m/s at evenly spaced times covering one complete cycle. The amplitude is 4 m/s, not the 8 m/s peak-to-peak range. A second cycle should repeat approximately if the same orbit causes the motion. Stellar activity and line-shape changes can imitate velocity shifts, so compare multiple lines and activity indicators. A gravitational companion is an inference supported by consistency, not a statement that an Earth-like surface has been measured. [1][3]"
+      }
+    ],
+    "evidence": {
+      "observation": "Stellar absorption lines shift periodically to longer and shorter wavelengths.",
+      "instrument": "A high-resolution spectrograph compares stellar lines with a wavelength reference.",
+      "inference": "Periodic line-of-sight motion can constrain a companion’s period and minimum mass.",
+      "alternative": "Stellar activity or calibration drift can generate apparent velocity variations.",
+      "uncertainty": "Inclination limits mass inference; radial velocity alone provides neither radius nor proof of habitability."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+        "title": "NASA — How We Find and Classify Exoplanets",
+        "locator": "Radial Velocity: Reading the Wobble; Transits: Planets Found in Dips in Light; Gravitational Microlensing; The Rise of Direct Imaging; Coronagraph",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/astronomy-2e/pages/5-6-the-doppler-effect",
+        "title": "OpenStax Astronomy 2e — 5.6 The Doppler Effect",
+        "locator": "Motion Affects Waves; Color Shifts; Doppler wavelength-shift equation",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://ar5iv.labs.arxiv.org/html/2608.26880",
+        "title": "The true masses of radial-velocity exoplanets constrained by stability",
+        "locator": "Abstract and §1 Introduction: line-of-sight RV signal proportional to M sin i; minimum mass and unknown inclination. Technical preprint; not a scope authority",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "Use the sign of a wavelength shift to infer direction, then explain the difference between velocity amplitude and peak-to-peak range.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "method-microlensing",
+    "title": "microlensing",
+    "category": "method",
+    "rule_refs": [
+      "3.b.iv",
+      "3 intro"
+    ],
+    "summary": "Look for a short gravitational magnification anomaly during a foreground–background alignment.",
+    "sections": [
+      {
+        "heading": "A gravitational lens, not an eclipse",
+        "text": "When a foreground mass passes close to our line of sight to a more distant source star, its gravity bends light and can magnify the unresolved source. The observed signal is a brightening, not the loss of stellar light used in a transit. A planet associated with the lens may perturb the otherwise smoother event. NASA describes a smaller feature associated with the planet, but real planetary deviations need not always be a separate upward spike; the geometry and model determine the form. [1][3]"
+      },
+      {
+        "heading": "Two objects and two timescales",
+        "text": "Keep the background source and the foreground lens distinct. The planet is associated with the lens, not necessarily the source whose brightness is being monitored. The broad event reflects the overall lensing configuration; a short residual can carry information about a smaller companion. The duration of that residual is not the planet’s orbital period. Model fitting can constrain a planet-to-host mass ratio and projected separation, but distance and lens mass may need additional information. [2][3]"
+      },
+      {
+        "heading": "Why a one-time event is useful and difficult",
+        "text": "Chance alignments allow sensitivity to planets at large distances and to populations poorly sampled by transits or radial velocity. They also make rapid follow-up important: many events cannot be repeated on demand. A weak or missing anomaly does not prove absence of all planets. Source variability, a binary source, another lens configuration, blending and sparse sampling need consideration. Compare the whole time series and competing models rather than declaring a planet from one high point. [1][3]"
+      },
+      {
+        "heading": "Subtract a model in a teaching table",
+        "text": "Suppose a normalized source has magnifications 1.0, 1.5, 2.0, 1.5 and 1.0 at five times in a single-lens model. Observations agree except the central value is 2.4. The residual there is +0.4, or 20% of the predicted 2.0. That is a reason to investigate a perturbation, not enough by itself to confirm a planet. Dense sampling around the anomaly and independent measurements reduce the chance that noise or source variability is responsible. No dip-depth-to-radius formula applies here, because lensing redirects light instead of blocking an area. [3]"
+      }
+    ],
+    "evidence": {
+      "observation": "A synthetic magnification curve departs briefly from a smooth single-lens prediction.",
+      "instrument": "Repeated photometric measurements track a background source during a foreground alignment.",
+      "inference": "A planetary companion to the lens is one possible cause of a short perturbation.",
+      "alternative": "Source variability, noise or a different lens configuration can also produce an anomaly.",
+      "uncertainty": "Lens mass and distance can be degenerate; a transient event usually cannot be repeated on demand."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+        "title": "NASA — How We Find and Classify Exoplanets",
+        "locator": "Radial Velocity: Reading the Wobble; Transits: Planets Found in Dips in Light; Gravitational Microlensing; The Rise of Direct Imaging; Coronagraph",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.microlensing-source.org/glossary/",
+        "title": "Microlensing Source — Glossary",
+        "locator": "Binary Lens Parameters: Mass ratio q, Lens separation s and Projected lens separation; Single Lens Parameters: lens distance and lens mass",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      },
+      {
+        "url": "https://www.microlensing-source.org/theory/binary-lenses/",
+        "title": "Microlensing Source — Binary Lenses",
+        "locator": "Caustics; concluding paragraphs beginning “The expressions derived here depend”: mass ratio and lens-plane positions determine light-curve features",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "Explain why a microlensing anomaly lasting hours is neither an hours-long orbital period nor a transit radius measurement.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "method-direct-imaging",
+    "title": "direct imaging",
+    "category": "method",
+    "rule_refs": [
+      "3.b.iv",
+      "3 intro"
+    ],
+    "summary": "Separate a faint companion’s light from the much brighter host star.",
+    "sections": [
+      {
+        "heading": "What “direct” means",
+        "text": "Direct imaging records light from the companion itself, either emitted thermally or reflected from the star, rather than inferring it solely from a dip or stellar wobble. It does not usually resolve oceans, continents or biological structures. A faint point of light is already a major measurement. NASA notes that many directly imaged planets have been young giant worlds still glowing from formation; this is an observational selection effect, not proof that smaller or older planets are absent. [1][2]"
+      },
+      {
+        "heading": "Suppress glare and resolve separation",
+        "text": "The host star can overwhelm the companion. A coronagraph suppresses starlight within a telescope so fainter nearby light can be measured. An external starshade is another proposed approach. The instrument still has a limiting contrast and an inner working angle: too-close companions can remain hidden even when bright enough. At a fixed physical orbital separation, a more distant system has a smaller angular separation. Noise from imperfect optical correction can create speckles that resemble point sources. [2]"
+      },
+      {
+        "heading": "Confirm association before claiming a planet",
+        "text": "Compare images taken at different times. A background source can appear near a star by chance; common sky motion and consistent orbital motion support association. Measurements at different wavelengths can constrain atmosphere and temperature through models, but brightness-to-mass estimates can depend strongly on age and evolutionary assumptions. Seeing a companion is not a direct mass measurement and does not determine habitability. Distinguish an optical artifact, a background star and a bound companion through follow-up rather than through a single attractive image. [2]"
+      },
+      {
+        "heading": "Read an instrument-limit table",
+        "text": "For a hypothetical imager, require separation at least 0.20 arcsecond and companion/star flux ratio at least 0.00001. Candidate A at 0.30 arcsecond with ratio 0.00002 passes both simple thresholds. Candidate B at 0.10 arcsecond with the same ratio fails separation; candidate C at 0.30 arcsecond with ratio 0.000001 fails contrast. Passing this idealized screen only identifies a detectable candidate under the stated model. Real completeness also depends on exposure, wavelength, noise and processing, and follow-up must still distinguish a planet from a background object. [2]"
+      }
+    ],
+    "evidence": {
+      "observation": "A faint point source is detected at an angular separation from a bright star.",
+      "instrument": "A camera with starlight suppression measures companion light and its position across epochs.",
+      "inference": "Common motion and spectral evidence may support a physically associated companion.",
+      "alternative": "A background star or residual stellar speckle can look like a planet in one image.",
+      "uncertainty": "Angular resolution, contrast limits and uncertain age can bias detection and inferred properties."
+    },
+    "source_refs": [
+      {
+        "url": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+        "title": "NASA — How We Find and Classify Exoplanets",
+        "locator": "Radial Velocity: Reading the Wobble; Transits: Planets Found in Dips in Light; Gravitational Microlensing; The Rise of Direct Imaging; Coronagraph",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://www.amnh.org/content/download/53052/796511/file/DirectImagingChapter.pdf",
+        "title": "Traub & Oppenheimer — Direct Imaging of Exoplanets (2010)",
+        "locator": "§2.2 Angular Separation and §2.3 Contrast of Planet, printed pp.114–115 / PDF pp.4–5; §1.1 common-motion examples. Historical textbook physics, not current instrument capability or event scope",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "Use both separation and contrast to screen a candidate, then name a follow-up that tests whether the source is truly associated with the star.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "math-radiation",
+    "title": "Light, radiation and temperature",
+    "category": "math",
+    "rule_refs": [
+      "3.b.vi(1)"
+    ],
+    "summary": "Use units and ratios to connect Doppler shifts, flux, albedo and blackbody temperature.",
+    "sections": [
+      {
+        "heading": "Doppler shifts and units",
+        "text": "For nonrelativistic line-of-sight motion, v_r = c(λ_observed − λ_rest)/λ_rest. A positive shift means recession; a negative shift means approach. For a rest line at 600 nm and observed line at 600.006 nm, v_r = 300000 × 0.006/600 = 3 km/s away. The wavelength units cancel. This measurement concerns relative motion; it is not a temperature or molecular-abundance estimate. Keep c in the velocity unit you want, and do not substitute frequency into the wavelength formula without changing the relation."
+      },
+      {
+        "heading": "Flux and the inverse-square law",
+        "text": "Luminosity L is total power in watts. Flux F is power per unit area, in W/m². An isotropic source spreads its light over a sphere of area 4πd², so F = L/(4πd²). For two locations, F2/F1 = (L2/L1)(d1/d2)². Moving from one distance unit to three with the same source divides flux by nine. Thus 900 W/m² becomes 100 W/m². This is spreading of the same power, not a reduction in the source’s luminosity. Detector orientation and absorption along the path are additional effects omitted from this simple model."
+      },
+      {
+        "heading": "Albedo and absorbed energy",
+        "text": "Bond albedo A is the fraction of total incoming power reflected. The absorbed fraction is 1 − A. If F = 800 W/m² and A = 0.25, a surface perpendicular to the rays absorbs 600 W/m² in this toy calculation. A uniformly redistributing spherical planet intercepts sunlight over πR² but radiates over 4πR². Its global-average absorbed flux is therefore F(1 − A)/4 = 150 W/m². Do not confuse incident flux, local absorption and global-average absorption. A larger albedo lowers absorption at fixed incident flux."
+      },
+      {
+        "heading": "Stefan–Boltzmann and Wien",
+        "text": "A blackbody emits F_emitted = σT⁴ per unit surface area, with σ approximately 5.67 × 10⁻⁸ W m⁻² K⁻⁴. Use kelvin. Doubling absolute temperature multiplies emitted flux by 16. Total luminosity additionally includes surface area, so two equal-temperature stars of different radii need not have equal luminosity. Wien’s displacement law is λ_peak T = b, with b approximately 2.9 × 10⁻³ m K, or 2900 μm K. A 10 μm peak corresponds to about 290 K; halving that peak wavelength doubles temperature. The peak depends on whether a spectrum is plotted per wavelength or per frequency; this relation is for the wavelength form."
+      },
+      {
+        "heading": "Equilibrium temperature is not surface temperature",
+        "text": "Equating absorbed and emitted power gives T_eq = [L(1 − A)/(16πσd²)]^(1/4), equivalently [F(1 − A)/(4σ)]^(1/4). Assumptions: a spherical blackbody emitter, full redistribution, steady balance, no internal heat, and no modeled greenhouse warming. It is an effective radiative equilibrium temperature, not a measured surface temperature. With unchanged albedo, four times the distance means one-sixteenth the flux and one-half the equilibrium temperature. With unchanged distance and luminosity, changing absorbed fraction from 0.8 to 0.4 multiplies temperature by (1/2)^(1/4), not 1/2. Ratios can be solved without a calculator when the fourth powers are simple."
+      },
+      {
+        "heading": "Use the model honestly",
+        "text": "Before calculating, identify what is held fixed and the quantity actually requested. Write the symbolic ratio, cancel units and estimate the sign of the change. More distance or more reflection should not produce a hotter equilibrium in this model. Atmospheric chemistry, clouds, heat transport, internal power and time variability can make a real world differ from the model. A temperature compatible with liquid water is only one condition: pressure, persistence, chemical resources and biological evidence must still be assessed."
+      }
+    ],
+    "evidence": {
+      "observation": "Fluxes, wavelength shifts and spectral peaks are measurable radiation quantities.",
+      "instrument": "Photometers measure received power; spectrographs locate spectral features and continuum shape.",
+      "inference": "Specified models translate those data into velocity, energy balance or approximate blackbody temperature.",
+      "alternative": "Atmospheric absorption, greenhouse effects or internal heat can alter the simple interpretation.",
+      "uncertainty": "Full-redistribution equilibrium temperature is not surface temperature or evidence for life."
+    },
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/astronomy-2e/pages/5-6-the-doppler-effect",
+        "title": "OpenStax Astronomy 2e — 5.6 The Doppler Effect",
+        "locator": "Motion Affects Waves; Color Shifts; Doppler wavelength-shift equation",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/astronomy-2e/pages/5-2-the-electromagnetic-spectrum",
+        "title": "OpenStax Astronomy 2e — 5.2 The Electromagnetic Spectrum",
+        "locator": "Radiation and Temperature; Radiation Laws (Wien’s law and Stefan–Boltzmann law)",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/",
+        "title": "NASA Earth Observatory — Climate and Earth’s Energy Budget",
+        "locator": "Earth’s Energy Budget; The Atmosphere’s Energy Budget; Effect on Surface Temperature",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/astronomy-2e/pages/17-1-the-brightness-of-stars",
+        "title": "17.1 The Brightness of Stars — Astronomy 2e",
+        "locator": "Opening luminosity/apparent-brightness discussion: received energy varies inversely with distance squared; examples at twice and three times the distance",
+        "checked_at": "2026-11-08",
+        "status": "checked"
+      }
+    ],
+    "teach_back": "Derive the factor of four from a sphere’s geometry, then explain why halving incoming flux does not halve equilibrium temperature.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "math-gravity",
+    "title": "Gravity, orbital energy, Kepler’s laws and tides",
+    "category": "math",
+    "rule_refs": [
+      "3.b.vi(2)"
+    ],
+    "summary": "Keep force, energy, speed and differential gravity distinct.",
+    "sections": [
+      {
+        "heading": "Newton’s law and distance",
+        "text": "For spherical bodies or point masses, gravitational force magnitude is F = GMm/r², where r is center-to-center separation and G is the gravitational constant. Surface gravitational acceleration is g = GM/R², independent of a test object’s mass. Doubling separation at fixed masses divides the force by four; doubling both masses multiplies it by four. If both changes happen together, the force is unchanged. A height above a surface is not r: add the central body’s radius first. The inverse-square form resembles radiative spreading but describes a different physical interaction."
+      },
+      {
+        "heading": "Kinetic and gravitational potential energy",
+        "text": "Kinetic energy is K = mv²/2. Taking gravitational potential energy zero at infinity gives U = −GMm/r; it is negative for a finite separation. Increasing r makes U less negative, so moving outward requires energy. In a teaching system with GM = 24 m³/s², test mass m = 2 kg and r = 6 m, U = −8 J. At speed 2 m/s, K = 4 J and total E = −4 J. Negative total energy indicates a bound ideal two-body orbit. In a circular orbit K = GMm/(2r), U = −2K and E = −GMm/(2r). These convenient numbers are not a real planet."
+      },
+      {
+        "heading": "All three Kepler laws",
+        "text": "First: an unperturbed bound orbit is an ellipse with the central mass at a focus; a circle is a special case. Second: the line joining the bodies sweeps equal areas in equal times, so the orbiting body moves faster near closest approach, not at constant speed everywhere on an ellipse. Third: P² = 4π²a³/[G(M + m)]. For a negligible planet mass and a one-solar-mass star, P² = a³ when P is in years and a in astronomical units. At a = 4 AU, P² = 64 and P = 8 years. Compare different central masses with P² proportional to a³/M, rather than assuming the same constant for every system."
+      },
+      {
+        "heading": "Circular speed and escape",
+        "text": "For a circular orbit, v_circ = √(GM/r). Escape speed from radius r is v_esc = √(2GM/r), obtained by requiring final total energy at infinity to be zero. It is √2 times local circular speed, not twice as fast. In the teaching system above, circular speed is 2 m/s. If GM/r = 8 m²/s² in a second system, escape speed is 4 m/s. Escape speed ignores air resistance, rotation and additional bodies; it does not promise a practical launch trajectory. At fixed radius, quadrupling central mass doubles escape speed."
+      },
+      {
+        "heading": "Tidal forces are gravity differences",
+        "text": "Gravity is stronger on the near side of an extended body than on the far side. For a body much smaller than the distance to the perturber, the leading tidal acceleration scale is proportional to GM R/r³, with geometric factors depending on direction. Keep the body’s size R fixed when comparing distances: doubling r reduces this scale to one-eighth, whereas the central attraction falls to one-quarter. Tidal deformation can dissipate mechanical energy as heat when the forcing varies and the interior responds. A tide or synchronous rotation alone does not specify a heating rate. Eccentricity, resonances and material properties matter."
+      },
+      {
+        "heading": "From arithmetic to habitability",
+        "text": "Gravity can help retain atmospheres; orbital distance affects received radiation; tidal dissipation can maintain subsurface heat. None is a yes/no life detector. A close orbit can increase tidal forcing while also increasing irradiation. The app’s transit model assumes circular motion for tractable geometry, but the Kepler lesson explicitly includes eccentric orbits. In written answers state which approximation is used, give units for every computed quantity, and distinguish a general gravitational force from its variation across a world."
+      }
+    ],
+    "evidence": {
+      "observation": "Periods, separations and changing positions constrain orbital motion.",
+      "instrument": "Repeated imaging, timing and velocity measurements trace orbits rather than measuring biological activity.",
+      "inference": "Two-body gravity connects period, mass, orbital energy and escape speed under stated assumptions.",
+      "alternative": "Other bodies, eccentricity or non-gravitational forces can spoil an oversimplified model.",
+      "uncertainty": "Tidal forcing does not by itself determine internal heat or an accessible liquid habitat."
+    },
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-1-newtons-law-of-universal-gravitation",
+        "title": "OpenStax University Physics Volume 1 — 13.1 Newton’s Law of Universal Gravitation",
+        "locator": "Newton’s Law of Universal Gravitation; inverse-square force equation",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-3-gravitational-potential-energy-and-total-energy",
+        "title": "OpenStax University Physics Volume 1 — 13.3 Gravitational Potential Energy and Total Energy",
+        "locator": "Gravitational Potential Energy beyond Earth; Escape velocity; Energy and gravitationally bound objects",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-5-keplers-laws-of-planetary-motion",
+        "title": "OpenStax University Physics Volume 1 — 13.5 Kepler’s Laws of Planetary Motion",
+        "locator": "Kepler’s First Law; Kepler’s Second Law; Kepler’s Third Law",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/13-6-tidal-forces",
+        "title": "OpenStax University Physics Volume 1 — 13.6 Tidal Forces",
+        "locator": "Lunar Tides; tidal force as a difference in gravitational attraction",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "teach_back": "Explain why force scales as inverse distance squared but the leading tidal effect scales as inverse distance cubed.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  },
+  {
+    "id": "math-chemistry",
+    "title": "Gas laws, reaction rates and chemical disequilibrium",
+    "category": "math",
+    "rule_refs": [
+      "3.b.vi(3)"
+    ],
+    "summary": "Distinguish the amount of gas, speed of reaction and final equilibrium state.",
+    "sections": [
+      {
+        "heading": "Ideal gas law and units",
+        "text": "PV = nRT relates pressure P, volume V, amount n in moles and absolute temperature T. Use a compatible gas constant: R ≈ 8.31 J mol⁻¹ K⁻¹ with pascals and cubic meters, or about 0.0821 L atm mol⁻¹ K⁻¹ with liters and atmospheres. An ideal gas neglects molecular volume and intermolecular forces; low-pressure, non-condensing gases often approximate it better. At fixed n and V, P is proportional to T. A sealed rigid container changing from 200 K to 300 K increases pressure by a factor 3/2, so 40 kPa becomes 60 kPa. Never use Celsius directly in this ratio."
+      },
+      {
+        "heading": "Ratios before substitution",
+        "text": "For two states of the same amount of gas, P1V1/T1 = P2V2/T2. At constant temperature, halving volume doubles pressure. If temperature doubles while volume triples, pressure becomes 2/3 of its original value. A simple substitution example uses n = 2 mol, a deliberately rounded R = 8 J mol⁻¹ K⁻¹, T = 300 K and V = 4 m³. Then P = nRT/V = 1200 Pa. This calculation is a classroom model, not an atmospheric profile; real atmospheres vary with altitude and may exchange gas or heat."
+      },
+      {
+        "heading": "Rates and the Arrhenius equation",
+        "text": "A reaction rate tells how quickly concentrations change; a rate constant k belongs to a specified rate law. In k = A exp(−Ea/RT), A is a frequency/orientation factor, Ea is activation energy, R is the gas constant and T is kelvin. Ea and R must use compatible energy units. For positive Ea and approximately fixed A, raising T makes the exponent less negative and usually increases k. A catalyst provides a lower-barrier pathway; it changes the speed of reaching equilibrium, not the equilibrium constant at a fixed temperature."
+      },
+      {
+        "heading": "Hand-solvable kinetics and an Arrhenius plot",
+        "text": "Use ln(k2/k1) = (Ea/R)(1/T1 − 1/T2). If the right side equals ln 4, then k2/k1 = 4 without calculating an exponential. For a different toy case, let A = 80 s⁻¹ and exp(−Ea/RT) = 1/8; then k = 10 s⁻¹. A plot of ln k vertically against 1/T horizontally has slope −Ea/R when A is approximately constant. A more negative slope means a larger activation energy, not a faster reaction at every temperature, since the intercept also matters. For a first-order law rate = k[A], doubling concentration doubles the initial rate; that inference is not valid for every rate law."
+      },
+      {
+        "heading": "Equilibrium is dynamic",
+        "text": "For A ⇌ B at a fixed temperature, the concentration-based quotient is Q = [B]/[A]. For A + 2B ⇌ C, it is Q = [C]/([A][B]²): balanced coefficients become powers. In introductory calculations, use concentrations consistently in the specified units; rigorous equilibrium expressions use dimensionless activities. Pure solids and liquids are omitted from the usual equilibrium expression because their activities are effectively constant. At equilibrium Q = K and forward and reverse rates are equal, not zero; the concentrations need not be equal. If Q < K, the net reaction proceeds toward products; if Q > K, toward reactants."
+      },
+      {
+        "heading": "Compute, then interpret the energy opportunity",
+        "text": "Suppose A ⇌ B has K = 4, [A] = 2 and [B] = 2 in consistent concentration units. Q = 1, so products are favored until the composition changes toward equilibrium. Q < K says the net direction, not the speed or proof of life. A large activation barrier can let a nonequilibrium mixture persist. An open environment may continually replenish donors and acceptors, sustaining chemical energy for possible metabolism. Geological reactions, transport and sunlight can maintain disequilibrium without biology. Always distinguish a gas-law state calculation, a kinetic rate prediction and an equilibrium composition prediction."
+      }
+    ],
+    "evidence": {
+      "observation": "Pressure, temperature, concentrations and reaction rates can be measured in a controlled system.",
+      "instrument": "Pressure sensors, thermometers and chemical assays test state relations and reaction progress.",
+      "inference": "Gas laws, rate laws and equilibrium quotients answer distinct questions about a chemical system.",
+      "alternative": "Nonbiological inputs or slow kinetics can preserve a nonequilibrium chemical mixture.",
+      "uncertainty": "An ideal gas or elementary rate law is an approximation; disequilibrium does not establish metabolism."
+    },
+    "source_refs": [
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law",
+        "title": "OpenStax Chemistry 2e — 9.2 Ideal Gas Law",
+        "locator": "The Ideal Gas Law; Pressure and Temperature: Amontons’s Law",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+        "title": "OpenStax Chemistry 2e — 12.5 Collision Theory",
+        "locator": "Activation Energy and the Arrhenius Equation",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants",
+        "title": "OpenStax Chemistry 2e — 13.2 Equilibrium Constants",
+        "locator": "Reaction quotient definition; Predicting the Direction of Reaction",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/biology-2e/pages/22-3-prokaryotic-metabolism",
+        "title": "OpenStax Biology 2e — 22.3 Prokaryotic Metabolism",
+        "locator": "The Ways in Which Prokaryotes Obtain Energy; The Ways in Which Prokaryotes Obtain Carbon; Table 22.3",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      },
+      {
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+        "title": "OpenStax Chemistry 2e — 13.3 Shifting Equilibria: Le Châtelier’s Principle",
+        "locator": "Effect of a Catalyst",
+        "checked_at": "2026-11-08",
+        "status": "retrieved"
+      }
+    ],
+    "teach_back": "Explain how a catalyst can change reaction speed without changing K, and why a chemically out-of-equilibrium mixture is not proof of organisms.",
+    "scope_status": "pending_rules_review",
+    "season": "2026-2027"
+  }
+]
