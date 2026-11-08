@@ -101,9 +101,9 @@ The Node service-worker harness runs the actual generated worker against real lo
 9. Back up, clear a test profile's site data, import, and verify restored notes/progress/schedule. Never clear the primary profile without a backup.
 10. Mentor-review scientific explanations/keys, provisional source flags and official updates before competition.
 
-## Vercel deployment (not yet deployed)
+## Vercel deployment
 
-Import this GitHub repository into Vercel with the **repository root** as the project root. `vercel.json` selects the Other framework, runs `npm ci --omit=dev` and `npm run build`, and serves only `public/`. No environment variables, serverless functions, paid APIs, or rewrites are required. The build validates the original content and generates the content-hashed offline cache. Vercel's default revalidation policy for unversioned files and the explicit `sw.js` header avoid stale deploys; the service worker keeps already-installed assets available offline.
+Live site: **https://orbital-fieldbook.vercel.app/**. GitHub `main` is connected to Vercel's `rishi-s-projects10/orbital-fieldbook` project; pushes trigger production builds. `vercel.json` selects the Other framework, runs `npm ci --omit=dev` and `npm run build`, and serves only `public/`. `.vercelignore` excludes the local-only source baseline, test fixtures and development reports from CLI uploads. No environment variables, serverless functions, paid APIs, or rewrites are required. The build validates the original content and generates the content-hashed offline cache. Vercel's default revalidation policy for unversioned files and the explicit `sw.js` header avoid stale deploys; the service worker keeps already-installed assets available offline.
 
 GitHub publication makes the original question bank and answer keys visible in source; this is a study tool, not a secure assessment. Student work remains in each browser's local storage and is **not** synced to GitHub or Vercel. Different origins (localhost vs. a Vercel domain, preview vs. production) have separate progress; export/import a backup to move work. Only the app subdirectory is in the repository; the parent PDFs, scans, attachments and local `SOURCE_BASELINE.json` are not committed. Review official corrections and arrange mentor science review before relying on this for competition.
 

@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-08T20:25:59.497Z",
-  "base": "http://127.0.0.1:4173/",
+  "checkedAt": "2026-11-08T20:45:02.051Z",
+  "base": "https://orbital-fieldbook.vercel.app/",
   "assetsVerified": 27,
   "assetResults": [
     {
@@ -24,145 +24,145 @@
     {
       "path": "css/app.css",
       "status": 200,
-      "contentType": "text/css",
+      "contentType": "text/css; charset=utf-8",
       "bytes": 14294
     },
     {
       "path": "data/foundations.json",
       "status": 200,
-      "contentType": "application/json",
+      "contentType": "application/json; charset=utf-8",
       "bytes": 70942
     },
     {
       "path": "data/missions.json",
       "status": 200,
-      "contentType": "application/json",
+      "contentType": "application/json; charset=utf-8",
       "bytes": 60235
     },
     {
       "path": "data/questions-foundations.json",
       "status": 200,
-      "contentType": "application/json",
+      "contentType": "application/json; charset=utf-8",
       "bytes": 111846
     },
     {
       "path": "data/questions-missions.json",
       "status": 200,
-      "contentType": "application/json",
+      "contentType": "application/json; charset=utf-8",
       "bytes": 40514
     },
     {
       "path": "data/questions-worlds.json",
       "status": 200,
-      "contentType": "application/json",
+      "contentType": "application/json; charset=utf-8",
       "bytes": 37467
     },
     {
       "path": "data/resources.json",
       "status": 200,
-      "contentType": "application/json",
+      "contentType": "application/json; charset=utf-8",
       "bytes": 24601
     },
     {
       "path": "data/schedule.json",
       "status": 200,
-      "contentType": "application/json",
+      "contentType": "application/json; charset=utf-8",
       "bytes": 2344
     },
     {
       "path": "data/scope.json",
       "status": 200,
-      "contentType": "application/json",
+      "contentType": "application/json; charset=utf-8",
       "bytes": 8926
     },
     {
       "path": "data/worlds.json",
       "status": 200,
-      "contentType": "application/json",
+      "contentType": "application/json; charset=utf-8",
       "bytes": 46761
     },
     {
       "path": "index.html",
       "status": 200,
-      "contentType": "text/html",
+      "contentType": "text/html; charset=utf-8",
       "bytes": 3032
     },
     {
       "path": "js/app.js",
       "status": 200,
-      "contentType": "text/javascript",
+      "contentType": "application/javascript; charset=utf-8",
       "bytes": 6813
     },
     {
       "path": "js/dashboard-ui.js",
       "status": 200,
-      "contentType": "text/javascript",
+      "contentType": "application/javascript; charset=utf-8",
       "bytes": 11608
     },
     {
       "path": "js/labs-ui.js",
       "status": 200,
-      "contentType": "text/javascript",
+      "contentType": "application/javascript; charset=utf-8",
       "bytes": 7818
     },
     {
       "path": "js/library-ui.js",
       "status": 200,
-      "contentType": "text/javascript",
+      "contentType": "application/javascript; charset=utf-8",
       "bytes": 3210
     },
     {
       "path": "js/missions-ui.js",
       "status": 200,
-      "contentType": "text/javascript",
+      "contentType": "application/javascript; charset=utf-8",
       "bytes": 7185
     },
     {
       "path": "js/models.js",
       "status": 200,
-      "contentType": "text/javascript",
+      "contentType": "application/javascript; charset=utf-8",
       "bytes": 2288
     },
     {
       "path": "js/notes-ui.js",
       "status": 200,
-      "contentType": "text/javascript",
+      "contentType": "application/javascript; charset=utf-8",
       "bytes": 4510
     },
     {
       "path": "js/practice-ui.js",
       "status": 200,
-      "contentType": "text/javascript",
+      "contentType": "application/javascript; charset=utf-8",
       "bytes": 14817
     },
     {
       "path": "js/quiz.js",
       "status": 200,
-      "contentType": "text/javascript",
+      "contentType": "application/javascript; charset=utf-8",
       "bytes": 5480
     },
     {
       "path": "js/storage.js",
       "status": 200,
-      "contentType": "text/javascript",
+      "contentType": "application/javascript; charset=utf-8",
       "bytes": 6938
     },
     {
       "path": "js/view.js",
       "status": 200,
-      "contentType": "text/javascript",
+      "contentType": "application/javascript; charset=utf-8",
       "bytes": 1925
     },
     {
       "path": "manifest.webmanifest",
       "status": 200,
-      "contentType": "application/manifest+json",
+      "contentType": "application/manifest+json; charset=utf-8",
       "bytes": 739
     },
     {
       "path": "sw.js",
       "status": 200,
-      "contentType": "text/javascript",
+      "contentType": "application/javascript; charset=utf-8",
       "bytes": 2003
     }
   ],

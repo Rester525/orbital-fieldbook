@@ -19,7 +19,8 @@ Project: repository root (`solar-system-study-app/`).
 | Exam integration | Timer ownership, reload/expiry, skip-link regression, hidden answer controls, full-state recovery export, stale imported options pass |
 | Color calculations | Text ≥4.5:1 across defined surfaces; essential control boundaries ≥3:1 in both themes |
 | Service worker | Generated worker executed in Node VM; real-asset offline navigation, namespace cleanup and byte-derived cache version pass |
-| HTTP smoke test | **27 public assets HTTP 200**, every served byte matches disk; JavaScript/CSS/JSON MIME assertions pass |
+| HTTP smoke test | **27 public assets HTTP 200**, every served byte matches disk on `https://orbital-fieldbook.vercel.app/`; JavaScript/CSS/JSON MIME assertions pass |
+| Vercel response headers | Production `/` returns 200 with `nosniff`, `no-referrer`, `DENY` frame policy and revalidating cache; `/sw.js` returns 200 with `no-cache` |
 | Private-path HTTP probes | Four representative private/nonpublic paths return **404** |
 | Protected original hashes | Five original files unchanged (private handbook, two source PDFs, reference app's two uncommitted UI files) |
 | Reference git state | Still exactly ` M index.html` and `?? css/modern-test.css`; no checkout/reset/write performed |
@@ -54,7 +55,7 @@ Project: repository root (`solar-system-study-app/`).
 - Weeks 7–11, Hub logistics and an exact January deadline remain unsupplied, not inferred.
 - Automated schema/key checks are not a guarantee of tournament performance or independent human science approval. Sources and written rubrics remain available for mentor review.
 - No private pack questions/keys, OCR, scans, original PDFs/DOCX or official rule copy are shipped.
-- No Vercel deployment, paid external API, telemetry, or synchronization was performed. GitHub hosts the source, not a running app.
+- The production site is deployed at `https://orbital-fieldbook.vercel.app/`; GitHub `main` triggers Vercel production builds. No paid external API, telemetry, or synchronization was performed.
 
 ## Local running artifact
 
