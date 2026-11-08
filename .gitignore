@@ -3,3 +3,5 @@ node_modules/
 SOURCE_BASELINE.json
 .qa*
 .DS_Store
+.vercel
+.env*

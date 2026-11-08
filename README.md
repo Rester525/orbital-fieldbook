@@ -63,7 +63,7 @@ Only `public/` is served. **Never serve the enclosing `Solar System` directory**
 - `tests/*.test.mjs` — pure-core, data, rendering, DOM-interaction and simulated-service-worker checks.
 - `package.json`, `package-lock.json` — Node test commands and **test-only** LinkeDOM; no runtime library dependencies.
 - `start.command` — localhost-only Python server.
-- `vercel.json` — static-only Vercel preset, production-only dependency install, security and service-worker revalidation headers.
+- `vercel.json`, `.vercelignore` — static-only Vercel preset, production-only dependency install, security headers, service-worker revalidation and build-upload boundary.
 - `.github/workflows/verify.yml` — Node 22 build, tests and source checks on push/PR.
 - `tests/vercel.test.mjs` — deployment boundary and configuration assertions.
 - `IMPLEMENTATION_PLAN.md` — pre-build plan and self-audit.

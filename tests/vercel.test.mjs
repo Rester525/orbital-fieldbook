@@ -16,6 +16,13 @@ test('Vercel deploys the checked static directory without a runtime or dev depen
   assert.ok(!walk(PUBLIC).some(file => /\.(?:pdf|docx|zip)$/i.test(file)));
 });
 
+test('Vercel upload excludes local-only originals and build evidence', () => {
+  const ignore = fs.readFileSync(path.join(ROOT, '.vercelignore'), 'utf8');
+  for (const name of ['SOURCE_BASELINE.json', 'tests/', 'HTTP_VERIFICATION.json']) {
+    assert.ok(ignore.split(/\r?\n/).includes(name), `${name} excluded from CLI uploads`);
+  }
+});
+
 test('service worker is revalidated instead of held in the browser cache', () => {
   const headers = config.headers.find(rule => rule.source === '/sw.js')?.headers;
   const cache = headers?.find(header => header.key.toLowerCase() === 'cache-control')?.value;

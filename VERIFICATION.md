@@ -7,7 +7,7 @@ Project: repository root (`solar-system-study-app/`).
 | Check | Actual result |
 |---|---|
 | `npm run build` | Passed; generated content-derived cache and coverage report |
-| `npm test` | **60 tests passed, 0 failed**, including Vercel static-output contract |
+| `npm test` | **61 tests passed, 0 failed**, including Vercel static-output and upload-boundary contracts |
 | `npm run check` | Passed; 41 lessons, 84 original questions, 14 exact B55 clause IDs |
 | Exact named lists vs original curriculum | 9 worlds, 3 extrasolar systems, 4 methods, 16 missions/telescopes; no substitutions/additions |
 | Numeric question checks | 19 explicit numeric keys independently recomputed; lesson worked arithmetic tested |

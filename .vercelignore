@@ -1,0 +1,11 @@
+# Only build inputs belong in the Vercel upload.
+SOURCE_BASELINE.json
+.github/
+tests/
+*.md
+BUILD_REPORT.json
+HTTP_VERIFICATION.json
+VERIFICATION_TEST_OUTPUT.txt
+start.command
+scripts/http-smoke.mjs
+scripts/icons.py

@@ -3,6 +3,7 @@
 All listed files are within the new `solar-system-study-app/` project. No existing source/research/reference-app files were changed. `node_modules/` is generated development tooling, omitted from this list and never served; its versions are captured by `package-lock.json`.
 
 - `.gitignore`
+- `.vercelignore`
 - `BUILD_REPORT.json`
 - `CHANGED_FILES.md`
 - `CORE_API.md`
