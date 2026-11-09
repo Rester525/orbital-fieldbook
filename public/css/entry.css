@@ -1,0 +1,22 @@
+/* A focused entrance, using the same light/dark tokens as the study app. */
+.entry-screen { min-height:100vh; min-height:100dvh; display:grid; place-items:center; padding:2rem 1rem; }
+.entry-card { width:min(100%,460px); background:var(--card); border:1px solid var(--line); border-radius:18px; padding:2.5rem; box-shadow:var(--shadow); }
+.entry-brand { display:flex; align-items:center; gap:.75rem; margin-bottom:2rem; color:var(--accent); font-size:1.1rem; font-weight:750; letter-spacing:-.025em; }
+.entry-brand img { background:var(--soft); border-radius:12px; padding:.4rem; flex:none; }
+.entry-brand small { display:block; margin-top:.125rem; color:var(--muted); font-size:.7rem; font-weight:500; letter-spacing:0; }
+.entry-card h1 { font-size:2.15rem; margin-bottom:.75rem; outline:none; }
+.entry-card .eyebrow { font-size:.62rem; letter-spacing:.08em; margin-bottom:.5rem; }
+.entry-card > .muted { font-size:.9rem; margin-bottom:1.5rem; }
+.entry-card label { font-size:.85rem; margin-bottom:.35rem; }
+.entry-card input { display:block; width:100%; margin-bottom:1rem; min-height:46px; }
+.entry-card button { min-height:44px; }
+#entry-signin,#entry-guest { width:100%; }
+.entry-options { display:flex; justify-content:space-between; gap:.75rem; flex-wrap:wrap; margin-top:.75rem; }
+.entry-options button { font-size:.75rem; padding:.5rem .75rem; }
+.entry-text-button { background:transparent; border-color:transparent; color:var(--accent); text-decoration:underline; text-underline-offset:.2em; }
+#entry-status { margin:1rem 0 0; min-height:2.5rem; color:var(--muted); }
+.entry-divider { display:flex; align-items:center; gap:.75rem; margin:1rem 0; font-size:.75rem; color:var(--muted); }
+.entry-divider::before,.entry-divider::after { content:""; height:1px; background:var(--line); flex:1; }
+.entry-footnote { margin:1rem 0 0; text-align:center; font-size:.72rem; }
+@media(max-width:480px) { .entry-screen { padding:1rem; } .entry-card { padding:1.5rem; border-radius:14px; } .entry-brand { margin-bottom:1.5rem; } }
+@media print { body.entry-active .app-shell { display:none!important; } }

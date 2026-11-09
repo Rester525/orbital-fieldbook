@@ -7,6 +7,30 @@ test('account dialog offers labeled email/password login, signup, reset and sync
  const html=authHTML();for(const word of ['type="email"','type="password"','Sign in','Create account','Reset password','Sign out','Retry sync','Use cloud copy','Keep device copy'])assert.ok(html.includes(word),word);
  assert.match(html,/aria-live="polite"/);
 });
+test('account dialog has a dedicated mentor activation section inside signed-in controls',()=>{
+ const {document}=parseHTML(authHTML());
+ assert.ok(document.querySelector('#account-signed-in #mentor-access'),'signed-in-only mentor section');
+});
+test('mentor activation works inside the account dialog and clears on close/signout',async()=>{
+ const calls=[];let active=false;
+ const client={auth:{},rpc:async(name,args)=>{
+  calls.push({name,args});
+  if(name==='redeem_mentor_code'){active=true;return {data:{ok:true},error:null};}
+  return {data:{is_mentor:active},error:null};
+ }};
+ const {document}=parseHTML('<button id="entry"></button><dialog id="dialog"></dialog>');
+ const dialog=document.querySelector('#dialog');dialog.close=()=>{};
+ const ui=mountAuthUI({client,sync:{status:{kind:'synced',user:'test-account',dirty:false}},button:document.querySelector('#entry'),dialog});
+ await new Promise(resolve=>setImmediate(resolve));
+ const input=dialog.querySelector('#mentor-access input');input.value='test-only-placeholder';
+ dialog.querySelector('[data-mentor-action="activate"]').click();
+ await new Promise(resolve=>setImmediate(resolve));
+ assert.deepEqual(calls.map(c=>c.name),['mentor_access_status','redeem_mentor_code','mentor_access_status']);
+ assert.equal(input.value,'');assert.match(dialog.querySelector('#mentor-access').textContent,/Mentor access active/);
+ input.value='temporary draft';dialog.querySelector('[data-account-action="close"]').click();assert.equal(input.value,'');
+ ui.update({kind:'guest',user:null,dirty:false});assert.equal(dialog.querySelector('#account-signed-in').hidden,true);
+ assert.ok(!dialog.querySelector('#mentor-access').textContent.includes('Mentor access active'));
+});
 test('first account with guest work offers explicit start-empty or copy guest choices',()=>{
  const {document}=parseHTML('<button id="entry"></button><dialog id="dialog"></dialog>');
  const sync={status:{kind:'guest',user:null,dirty:false}};

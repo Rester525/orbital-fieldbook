@@ -70,7 +70,7 @@ test('version, note limits, settings and unsafe object structure reject malforme
   const circular=store.defaultState(); circular.other=circular; assert.throws(()=>store.validateState(circular));
 });
 test('default state is fresh, versioned and normalized without unknown fields',()=>{
-  const expected={schemaVersion:1,missions:{},schedule:[],notes:['','','',''],attempts:[],recall:{},settings:{theme:'dark'},exam:null};
+  const expected={schemaVersion:1,missions:{},schedule:[],notes:['','','',''],attempts:[],recall:{},settings:{theme:'light'},exam:null};
   assert.deepEqual(store.defaultState(),expected);
   const a=store.defaultState(); a.notes[0]='changed'; assert.equal(store.defaultState().notes[0],'');
   const normalized=store.validateState({...expected,unknown:'dropped'});

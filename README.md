@@ -16,7 +16,8 @@ Only `public/` is served. **Never serve the enclosing `Solar System` directory**
 
 ## Requirements and expected behavior
 
-- Home is the 11-mission board. Weeks 1–6 use the screenshot's actual dates and LIVE/SELF modes, visually confirmed in this build. The contextual year is 2026. **Week 4, Nov 29 is SELF: study and send work without a meeting.** Weeks 7–11 remain `Not supplied` with null dates/modes until the user edits them. No inferred January deadline, catch-up penalty or lockout.
+- Fresh visits open on an email/password login page with **Create account**, **Forgot password?**, and **Continue as guest**. A saved signed-in session opens its own fieldbook automatically; signing out returns to the login page. Guest entry works even while sign-in is connecting or unavailable, and ignores late account restoration so guest work cannot silently become account work. Reloading an active guest simulation resumes its clock instead of adding an entrance barrier. Guest choice is for the current page visit, not an account or persisted login preference.
+- Home is a reference-inspired study dashboard with actual lesson/MCQ/review counts, live lesson search, quick actions and six curriculum collections. The grouped sidebar opens distinct collection and practice routes; mobile navigation is an inline Menu disclosure. New users start light; saved themes remain unchanged. The 11-mission board is available under **Weekly missions** (`#missions`); legacy individual mission links still work. Weeks 1–6 use the screenshot's actual dates and LIVE/SELF modes, visually confirmed in this build. The contextual year is 2026. **Week 4, Nov 29 is SELF: study and send work without a meeting.** Weeks 7–11 remain `Not supplied` with null dates/modes until the user edits them. No inferred January deadline, catch-up penalty or lockout.
 - Four-step routine: read → practice → discuss → teach each other. SELF reflections save locally and can be exported as text for the user to send. **The app does not submit work to a mentor.**
 - The library contains original science explanations, evidence chains, uncertainties, exact B55 clause IDs and independent source locators. The curriculum's nine worlds, three extrasolar systems, four detection methods and sixteen missions/telescopes are checked by exact names, not a loose count.
 - Quick reviews use 5 or 10 items (or the smaller matching pool), with comparisons, data interpretation, reasoning, math and written rubrics. Recall ratings schedule a future review. MCQ accuracy is separate from written self-assessment; this app does not pretend to grade scientific explanations automatically.
@@ -24,6 +25,7 @@ Only `public/` is served. **Never serve the enclosing `Solar System` directory**
 - Two meaningful SVG/table models: geometric transit light curve and flux/equilibrium-temperature explorer. Models state units, assumptions, omissions, guided questions and known cases. Simulated data are never presented as observations or proof of life.
 - The notes planner has four Letter-sized faces for **two sheets, both sides**, editable plain text, an on-screen print preview, font selection and overflow checks. Print duplex/long-edge at actual size with browser headers/footers disabled. No affixed labels/annotations. Preview assistance is not a tournament-acceptance guarantee.
 - Guest work is stored only on this device. **Sign in · sync** offers Supabase email/password login, email-confirmed signup, password reset, and private per-account sync. Signing in never copies guest work automatically; choose **Copy guest work to account**. Account writes save locally first, then sync online. Offline edits remain pending, with a Retry sync control. If two devices diverge, choose a cloud copy (the device copy downloads first) or explicitly confirm overwriting the cloud. Sign out returns to the separate guest work.
+- After confirmed Supabase sign-in, **Account & sync → Mentor access** accepts a private activation code. Validation and role grants run in Postgres; the code is not bundled in the app, and only its bcrypt hash is provisioned privately. Incorrect attempts are limited to five per account and thirty globally in a 15-minute window. A revoked mentor cannot reactivate themselves. Anyone who knows the shared code can activate a role, so a short temporary code should be replaced before a wider rollout. **Activation currently grants a role only: the classroom roster/dashboard and assessed weekly homework are not implemented yet.** Private fieldbooks remain owner-only.
 - Device state includes mission steps/reflections, edited schedule, notes, attempts, recall and current simulation. JSON backups are validated and versioned; future schemas are rejected. Import downloads a backup before replacing existing work. Storage errors are visible. If an existing save is unreadable, automatic saves are blocked until **Recover saved data** exports the original and you explicitly approve replacement. A corrupt account copy can be exported from **Account & sync** without overwriting it. Keep independent backups: cloud sync is not version history or a substitute for export.
 - All lessons, questions, models and the Supabase browser SDK are bundled locally; external citations and signed-in sync need internet. Offline return requires a successful first cache installation. No remote fonts/JS/images, telemetry or AI calls. Supabase Auth and a private Postgres row provide optional login and sync; the project URL and publishable key are public browser configuration, never a service-role key.
 
@@ -40,13 +42,21 @@ Only `public/` is served. **Never serve the enclosing `Solar System` directory**
 ## Architecture / file manifest
 
 - `public/index.html` — semantic app shell, CSP, skip link, navigation.
-- `public/css/app.css` — observatory visual system, light/dark, responsive layout, focus/reduced-motion and Letter print styles.
+- `public/css/app.css` — shared light/dark tokens, controls, focus/reduced-motion and Letter print styles.
+- `public/css/study-dashboard.css` — reference-inspired screen-only dashboard, sidebar, cards and mobile layout; does not override notes printing.
+- `public/js/home-ui.js` — real-data dashboard, curriculum shortcuts and live lesson search.
+- `public/js/navigation-ui.js` — grouped route selection and accessible mobile disclosure.
+- `UI_REFRESH_PLAN.md`, `UI_REFRESH_VERIFICATION.md` — refresh scope and executed checks.
 - `public/js/app.js` — bootstrap, data loading, route guard, themes, account integration, offline/update status.
 - `public/js/auth-ui.js`, `public/js/cloud-sync.js`, `public/js/cloud-config.js` — email account dialog, per-user local-first sync/conflict controller, public project configuration.
+- `public/js/mentor-access-ui.js` — signed-in code activation, backend role readback and account-switch race protection; no secret or cached role.
+- `supabase/migrations/20261109140917_mentor_activation.sql` — role/secret/attempt tables, restricted status/redemption RPCs and durable row-locked throttling; does not include the production code/hash.
+- `tests/mentor-activation-live.sql` — rollback-only live SQL role/confirmation/throttle/revocation tests using disposable fixtures; not a browser/login flow test.
+- `MENTOR_ACTIVATION_VERIFICATION.md` — activation deployment and test evidence, with remaining classroom work explicitly separated.
 - `public/js/view.js` — safe text escaping, external URL protocol check, shared tables/citations/downloads.
 - `public/js/missions-ui.js` — mission board, editorial reading mapping, local work/export.
 - `public/js/library-ui.js` — searchable lessons, evidence and citation views.
-- `public/js/practice-ui.js` — quick practice, recall, written self-assessment and timed simulation.
+- `public/js/practice-ui.js` — quick practice, recall, written self-assessment and timed simulation. Direct `#practice/quick`, `/recall`, `/due` and `/simulation` entries show the relevant mode; simulation entry never starts the clock without the explicit Start action.
 - `public/js/labs-ui.js` — accessible SVG/model-table controls and explanations.
 - `public/js/notes-ui.js` — four-face editing, import/export, preview/print.
 - `public/js/dashboard-ui.js` — progress, rule/source directory, schedule and backup settings.

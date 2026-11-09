@@ -19,7 +19,7 @@ export function importState(raw) {
   return validateState(JSON.parse(raw));
 }
 export function defaultState() {
-  return {schemaVersion:1,missions:{},schedule:[],notes:['','','',''],attempts:[],recall:{},settings:{theme:'dark'},exam:null};
+  return {schemaVersion:1,missions:{},schedule:[],notes:['','','',''],attempts:[],recall:{},settings:{theme:'light'},exam:null};
 }
 const MAX_TEXT=2_000_000;
 const unsafe=new Set(['__proto__','prototype','constructor']);

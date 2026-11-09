@@ -5,3 +5,4 @@ SOURCE_BASELINE.json
 .DS_Store
 .vercel
 .env*
+.hermes/

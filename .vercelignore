@@ -5,7 +5,8 @@ tests/
 *.md
 BUILD_REPORT.json
 HTTP_VERIFICATION.json
-VERIFICATION_TEST_OUTPUT.txt
+*_TEST_OUTPUT.txt
+.hermes/
 start.command
 scripts/http-smoke.mjs
 scripts/icons.py
