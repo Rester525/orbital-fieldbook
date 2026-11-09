@@ -2,6 +2,14 @@
 
 A local-first, optionally cloud-synced **Solar System Division B (2026–27)** study app. Independent of Science Olympiad; not an official rulebook or tournament exam.
 
+## Production
+
+- App: **https://orbital-fieldbook.vercel.app/**
+- GitHub: https://github.com/Rester525/orbital-fieldbook — pushes to `main` trigger the connected Vercel production deployment.
+- Supabase email/password authentication, private fieldbook sync, and mentor activation use the existing project. The production origin is configured as the Auth site URL and allowed redirect. Email confirmation is required; no privileged credentials are shipped to the browser.
+- **Email delivery limitation:** custom SMTP is not configured. Confirmation and recovery emails use Supabase's restricted default mailer (currently two emails per hour); configure a transactional email provider before inviting a classroom. Successful settings/database checks do not verify delivery to students' mailboxes.
+- `HTTP_VERIFICATION.json` records the production asset-byte, MIME, and private-path checks. Earlier UI/mentor verification reports describe their pre-deployment state.
+
 ## Start locally
 
 From this repository's directory:
