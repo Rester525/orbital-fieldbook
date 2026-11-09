@@ -12,6 +12,12 @@ function fixture(){
  return {map,storage,rows,writes,client,sync,backups,get state(){return state;},get status(){return status;},setCurrent:id=>current=id,setOffline:v=>offline=v};
 }
 const named=text=>({...defaultState(),notes:[text,'','','']});
+test('cloud writes carry their source account and cannot overwrite a newly authenticated account',async()=>{
+ const f=fixture();f.rows.set('a',{state:named('private A'),revision:1});f.rows.set('b',{state:named('private B'),revision:1});await f.sync.switchUser('a');
+ f.sync.save(named('new private A'));f.setCurrent('b');
+ f.client.rpc=async(_,args)=>{f.writes.push(args);if(args.p_user_id&&args.p_user_id!=='b')return {error:{code:'42501',message:'Account changed'}};f.rows.set('b',{state:args.p_state,revision:2});return {data:2};};
+ try{await f.sync.retry();assert.equal(f.rows.get('b').state.notes[0],'private B');assert.equal(f.writes.at(-1).p_user_id,'a');assert.equal(f.storage.getItem(accountKey('a')+':dirty'),'1');}finally{f.sync.dispose();}
+});
 test('account switch isolates guest and users, and sign-out restores guest',async()=>{
  const f=fixture();f.storage.setItem(STORAGE_KEY,exportState(named('guest')));
  await f.sync.switchUser('a');assert.equal(f.state.notes[0],'');assert.equal(f.status.kind,'decision');

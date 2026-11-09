@@ -7,6 +7,7 @@ const ASSETS = [
   "assets/supabase.js",
   "css/app.css",
   "css/entry.css",
+  "css/mentor-dashboard.css",
   "css/study-dashboard.css",
   "data/foundations.json",
   "data/missions.json",
@@ -28,6 +29,7 @@ const ASSETS = [
   "js/labs-ui.js",
   "js/library-ui.js",
   "js/mentor-access-ui.js",
+  "js/mentor-dashboard-ui.js",
   "js/missions-ui.js",
   "js/models.js",
   "js/navigation-ui.js",
@@ -38,7 +40,7 @@ const ASSETS = [
   "js/view.js",
   "manifest.webmanifest"
 ];
-const VERSION = 'eee27099ebe4d65a';
+const VERSION = '50007668e928ef5d';
 const PREFIX = 'orbital-fieldbook:' + self.registration.scope + ':';
 const CACHE = PREFIX + VERSION;
 const URLS = ASSETS.map(p => new URL(p, self.registration.scope).href);

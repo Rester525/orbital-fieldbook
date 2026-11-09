@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://ljgagnebvxyawvofiydz.supabase.co; object-src 'none'; base-uri 'none'; form-action 'none'; worker-src 'self'">
 <title>Orbital Fieldbook · Solar System B</title>
 <link rel="manifest" href="./manifest.webmanifest"><link rel="icon" href="./assets/icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="./assets/icon-192.png">
-<link rel="stylesheet" href="./css/app.css"><link rel="stylesheet" href="./css/study-dashboard.css"><link rel="stylesheet" href="./css/entry.css">
+<link rel="stylesheet" href="./css/app.css"><link rel="stylesheet" href="./css/study-dashboard.css"><link rel="stylesheet" href="./css/entry.css"><link rel="stylesheet" href="./css/mentor-dashboard.css">
 <script src="./assets/supabase.js"></script><script type="module" src="./js/app.js"></script>
 </head>
 <body>
@@ -22,6 +22,7 @@
     <div id="sidebar-content">
       <nav aria-label="Main navigation">
         <a href="#home"><span aria-hidden="true">⌂</span> Home</a>
+        <a id="mentor-nav" href="#mentor" hidden><span aria-hidden="true">▥</span> Mentor dashboard</a>
         <div class="nav-group"><p class="nav-label">Learn & explore</p>
           <a href="#library"><span aria-hidden="true">≡</span> All lessons</a>
           <a href="#library/foundation"><span aria-hidden="true">01</span> Foundations</a>

@@ -16,6 +16,7 @@ export function mountEntryUI({root,shell,onGuest,onAuthenticated}) {
     <div class="entry-divider"><span>or</span></div>
     <button id="entry-guest" class="secondary" type="button">Continue as guest</button>
     <p class="entry-footnote small muted">Guest progress stays on this device. Signing in never uploads guest work without your choice.</p>
+    <p class="entry-footnote small muted">For signed-in team members, the mentor can see your email, latest sign-in, and synced progress totals. Private notes and written answers are not shared.</p>
   </div>`;
   const form=root.querySelector('form'),email=root.querySelector('#entry-email'),password=root.querySelector('#entry-password'),status=root.querySelector('#entry-status');
   const authButtons=[...form.querySelectorAll('button')];

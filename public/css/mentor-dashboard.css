@@ -1,0 +1,142 @@
+/* Owner-only roster: deliberately isolated from study and print layouts. */
+@media screen {
+  .mentor-dashboard {
+    min-width: 0;
+    color: var(--ink);
+  }
+  .mentor-dashboard [hidden] { display: none !important; }
+  .mentor-dashboard .mentor-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .mentor-dashboard .mentor-header h1 {
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin-bottom: .75rem;
+  }
+  .mentor-dashboard .mentor-header p:last-child {
+    color: var(--muted);
+    margin-bottom: 0;
+    max-width: 48rem;
+  }
+  .mentor-dashboard .mentor-kicker {
+    font-size: .7rem;
+    font-weight: 700;
+    letter-spacing: .12em;
+    color: var(--accent);
+    margin-bottom: .75rem;
+  }
+  .mentor-dashboard button { min-height: 44px; flex-shrink: 0; }
+  .mentor-dashboard .mentor-context {
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--accent);
+    border-radius: 5px;
+    background: var(--soft);
+    font-size: .875rem;
+  }
+  .mentor-dashboard .mentor-context p { margin: 0; }
+  .mentor-dashboard .mentor-context p + p { margin-top: .5rem; color: var(--muted); }
+  .mentor-dashboard .mentor-status {
+    min-height: 1.5rem;
+    margin: 1.25rem 0 .75rem;
+    font-size: .875rem;
+    color: var(--muted);
+  }
+  .mentor-dashboard .mentor-status[role="alert"] {
+    padding: 1rem;
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--accent);
+    border-radius: 5px;
+    color: var(--ink);
+    background: var(--soft);
+  }
+  .mentor-dashboard .mentor-table-region {
+    max-width: 100%;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    border: 1px solid var(--line);
+    border-radius: 5px;
+    background: var(--card);
+  }
+  .mentor-dashboard :focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 3px;
+  }
+  .mentor-dashboard table {
+    width: 100%;
+    min-width: 64rem;
+    margin: 0;
+    border-collapse: collapse;
+    font-size: .8125rem;
+    line-height: 1.5;
+    font-variant-numeric: tabular-nums;
+  }
+  .mentor-dashboard caption {
+    text-align: left;
+    padding: .75rem 1rem;
+    background: var(--bg);
+    color: var(--muted);
+    font-size: .75rem;
+  }
+  .mentor-dashboard th, .mentor-dashboard td {
+    padding: 1rem;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid var(--line);
+  }
+  .mentor-dashboard thead th {
+    background: var(--soft);
+    color: var(--muted);
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: .025em;
+  }
+  .mentor-dashboard tbody th { font-weight: 500; min-width: 14rem; max-width: 22rem; }
+  .mentor-dashboard tbody tr:last-child th, .mentor-dashboard tbody tr:last-child td { border-bottom: 0; }
+  .mentor-dashboard tbody tr:hover { background: var(--soft); }
+  .mentor-dashboard .mentor-email { display: block; overflow-wrap: anywhere; }
+  .mentor-dashboard .mentor-role {
+    display: inline-block;
+    margin-top: .5rem;
+    padding: .125rem .5rem;
+    background: var(--soft);
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    color: var(--muted);
+    font-size: .7rem;
+    font-weight: 600;
+  }
+  .mentor-dashboard td strong { display: block; font-weight: 600; white-space: nowrap; }
+  .mentor-dashboard td small { display: block; color: var(--muted); margin-top: .25rem; }
+  .mentor-dashboard time { display: inline-block; min-width: 9rem; }
+  .mentor-dashboard .mentor-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem 0 1.5rem;
+  }
+  .mentor-dashboard .mentor-footer p { margin: 0; }
+  .mentor-dashboard .mentor-range { font-size: .875rem; font-weight: 600; }
+  .mentor-dashboard .mentor-fetched { color: var(--muted); font-size: .75rem; }
+  .mentor-dashboard .mentor-footer nav { display: flex; gap: .5rem; }
+  .mentor-dashboard .mentor-privacy {
+    border-top: 1px solid var(--line);
+    padding-top: 1rem;
+    color: var(--muted);
+    font-size: .8125rem;
+    max-width: 65rem;
+  }
+  @media (max-width: 760px) {
+    .mentor-dashboard .mentor-header { flex-wrap: wrap; gap: 1rem; }
+    .mentor-dashboard .mentor-header button { width: 100%; }
+    .mentor-dashboard .mentor-context { padding: 1rem; }
+    .mentor-dashboard .mentor-footer { align-items: flex-start; }
+    .mentor-dashboard .mentor-footer nav { width: 100%; }
+    .mentor-dashboard .mentor-footer button { flex: 1; }
+  }
+}

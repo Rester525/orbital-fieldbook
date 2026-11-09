@@ -50,7 +50,7 @@ export function createCloudSync({client,storage,onState=()=>{},onStatus=()=>{},b
    const snapshot=validateState(state),atVersion=version,expected=revision;
    report('syncing');
    try{
-    const {data,error}=await client.rpc('save_fieldbook',{p_expected_revision:expected,p_state:snapshot});
+    const {data,error}=await client.rpc('save_fieldbook',{p_user_id:id,p_expected_revision:expected,p_state:snapshot});
     if(id!==user||epoch!==generation)return false;
     if(error){if(/stale|conflict|revision/i.test(message(error))){report('conflict','Cloud changed elsewhere. Choose which copy to keep.');return false;}throw error;}
     const next=typeof data==='number'?data:Number(Array.isArray(data)?data[0]?.save_fieldbook:data?.save_fieldbook??data);

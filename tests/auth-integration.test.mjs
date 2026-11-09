@@ -5,8 +5,8 @@ const read=p=>readFileSync(new URL(p,import.meta.url),'utf8');
 test('explicit guest recovery can bypass the corrupt-data save lock only after backup and confirmation',()=>{
  const app=read('../public/js/app.js');assert.match(app,/const result=saveState\(storage,state\);if\(!result\.ok\)/);
 });
-test('exam account changes are deferred and resumed after submission',()=>{
- const app=read('../public/js/app.js');assert.match(app,/pendingUser=id/);assert.match(app,/applyAccount\(id\)/);assert.match(app,/pendingUser!==undefined/);
+test('authentication changes are not deferred behind the simulation guard',()=>{
+ const app=read('../public/js/app.js');assert.doesNotMatch(app,/pendingUser/);assert.match(app,/await sync\.switchUser\(id\)/);
 });
 test('page loads local Supabase SDK before app and exposes account dialog without changing CSP',()=>{
  const page=read('../public/index.html');assert.match(page,/<script src="\.\/assets\/supabase\.js"><\/script>[\s\S]*<script type="module" src="\.\/js\/app\.js"/);
