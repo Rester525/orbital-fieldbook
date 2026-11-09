@@ -22,9 +22,24 @@ test('login uses Supabase and clears password before entering',async()=>{
  s.email.value='student@example.com';s.password.value='fixture-password';s.root.querySelector('form').dispatchEvent(new s.window.Event('submit',{cancelable:true}));await tick();
  assert.equal(calls.length,1);assert.equal(calls[0].email,'student@example.com');assert.deepEqual(s.identities,['student-a']);assert.equal(s.password.value,'');assert.equal(s.shell.hidden,false);
 });
-test('email-confirmation signup stays on the login page',async()=>{
- const s=await setup({auth:{signUp:async()=>({data:{session:null},error:null})}});s.email.value='student@example.com';s.password.value='fixture-password';
- s.root.querySelector('#entry-signup').click();await tick();assert.equal(s.shell.hidden,true);assert.equal(s.password.value,'');assert.match(s.root.textContent,/confirm.*email|email.*confirm/i);assert.deepEqual(s.identities,[]);
+test('Create account opens a signup view without submitting empty login fields',async()=>{
+ let calls=0;const s=await setup({auth:{signUp:async()=>{calls++;return {data:{session:null},error:null};}}});
+ s.email.checkValidity=()=>false;
+ s.root.querySelector('#entry-signup').click();await tick();
+ assert.equal(s.root.querySelector('h1').textContent,'Create your account.');
+ assert.equal(s.root.querySelector('#entry-signin').textContent,'Create account');
+ assert.equal(s.password.getAttribute('autocomplete'),'new-password');assert.equal(calls,0);
+ assert.equal(s.root.querySelector('#entry-signup').textContent,'Back to sign in');
+ s.password.value='discard-on-back';s.root.querySelector('#entry-signup').click();
+ assert.equal(s.root.querySelector('#entry-signin').textContent,'Sign in');assert.equal(s.password.value,'');
+ assert.equal(s.password.getAttribute('autocomplete'),'current-password');
+});
+test('signup view submits to Supabase and awaits email confirmation',async()=>{
+ const calls=[];const s=await setup({auth:{signUp:async args=>{calls.push(args);return {data:{session:null},error:null};}}});
+ s.root.querySelector('#entry-signup').click();await tick();assert.equal(calls.length,0);
+ s.email.value='student@example.com';s.password.value='fixture-password';
+ s.root.querySelector('form').dispatchEvent(new s.window.Event('submit',{cancelable:true}));await tick();
+ assert.deepEqual(calls,[{email:'student@example.com',password:'fixture-password'}]);assert.equal(s.shell.hidden,true);assert.equal(s.password.value,'');assert.match(s.root.textContent,/confirm.*email|email.*confirm/i);assert.deepEqual(s.identities,[]);
 });
 test('password reset does not require a password',async()=>{
  let called=false;const s=await setup({auth:{resetPasswordForEmail:async()=>{called=true;return {data:{},error:null};}}});s.email.value='student@example.com';
