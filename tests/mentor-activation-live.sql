@@ -1,3 +1,5 @@
+-- HISTORICAL: only for the original activation migration before owner_only_mentor.
+-- For the current deployment use mentor-owner-live.sql instead.
 -- Execute as postgres against the intended project. All fixture data rolls back.
 -- No real account, roster, or production activation secret is returned.
 begin;

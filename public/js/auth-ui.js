@@ -21,8 +21,6 @@ export function authHTML(){return `<form id="account-form" method="dialog" noval
 export function mountAuthUI({client,sync,button,dialog,canSwitch=()=>true,exportRaw=()=>{},onAuthenticated=async()=>{}}){
  const actions=createAuthActions(client);dialog.innerHTML=authHTML();let recoveryMode=false;
  const mentor=mountMentorAccess(dialog.querySelector('#mentor-access'),client);
- dialog.addEventListener('close',()=>mentor.clear());
- dialog.addEventListener('cancel',()=>mentor.clear());
  const form=dialog.querySelector('#account-form'),status=dialog.querySelector('#account-status'),identity=dialog.querySelector('#account-identity');
  const text=s=>{status.textContent=s;button.title=s;};
  const labels={loading:'Checking account…',guest:'Guest · saved on this device',ready:'No cloud fieldbook yet. Start here or copy guest work.',decision:'Choose whether to copy guest work or keep device work; no automatic upload.',pending:'Saved on this device · waiting to sync',syncing:'Syncing…',synced:'Saved here and in your account',offline:'Saved on this device · cloud unavailable. Retry sync when online.',conflict:'Sync conflict: cloud and device differ. Choose a copy below.',corrupt:'Unreadable stored work is protected. Export the original before recovery.'};
@@ -44,7 +42,7 @@ export function mountAuthUI({client,sync,button,dialog,canSwitch=()=>true,export
  form.addEventListener('submit',e=>e.preventDefault());
  form.addEventListener('click',async e=>{
   const name=e.target.closest('[data-account-action]')?.dataset.accountAction;if(!name)return;
-  if(name==='close'){mentor.clear();dialog.close();return;}if(!canSwitch())return;
+  if(name==='close'){dialog.close();return;}if(!canSwitch())return;
   const email=form.elements.email.value.trim(),password=form.elements.password.value;
   if(['signin','signup','reset'].includes(name)&&!form.elements.email.checkValidity()){form.elements.email.reportValidity();return;}
   if(['signin','signup'].includes(name)&&!form.elements.password.checkValidity()){form.elements.password.reportValidity();return;}
