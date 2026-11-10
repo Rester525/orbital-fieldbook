@@ -7,9 +7,9 @@
   "missions": 16,
   "clauses": 14,
   "publicFiles": 40,
-  "publicBytes": 793098,
+  "publicBytes": 793972,
   "numericKeys": 19,
-  "cacheVersion": "50007668e928ef5d",
+  "cacheVersion": "a9d091118de0aafe",
   "precacheAssets": [
     "assets/SUPABASE-LICENSE.txt",
     "assets/icon-192.png",

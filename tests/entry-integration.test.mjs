@@ -35,6 +35,19 @@ test('guest entry works while session lookup waits and ignores a late saved acco
   assert.match(s.document.querySelector('#account-button').textContent,/Sign in/);
  }finally{s.restore();}
 });
+test('guest account-dialog signup opens the name form and preserves guest work',async()=>{
+ const s=await setup({session:Promise.resolve({data:{session:null},error:null})});try{
+  s.document.querySelector('#entry-guest').click();await tick();
+  const dialog=s.document.querySelector('#account-dialog');let closed=false;dialog.close=()=>{closed=true;};
+  dialog.querySelector('[data-account-action=signup]').click();await tick();
+  assert.equal(closed,true);assert.equal(s.document.querySelector('#entry-screen').hidden,false);
+  assert.equal(s.document.querySelector('.app-shell').hidden,true);
+  assert.equal(s.document.querySelector('#entry-screen h1').textContent,'Create your account.');
+  assert.equal(s.document.querySelector('#entry-name-field').hidden,false);
+  assert.equal(s.saved.get(STORAGE_KEY),JSON.stringify(s.guest));
+ }finally{s.restore();}
+});
+
 test('guest selection cancels an in-flight account download without exposing its late state',async()=>{
  let resolve;const remote=new Promise(r=>{resolve=r;});const s=await setup({remote});try{
   assert.equal(s.queries,1);s.document.querySelector('#entry-guest').click();await tick();

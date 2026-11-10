@@ -58,8 +58,24 @@ test('unread account storage has an export action rather than a false backup',()
 
 test('auth actions use injected Supabase client and distinguish confirmation from session',async()=>{
  const calls=[];const client={auth:{signUp:async args=>{calls.push(['signup',args]);return {data:{user:{id:'a'},session:null},error:null};},signInWithPassword:async args=>{calls.push(['login',args]);return {data:{session:{user:{id:'a'}}},error:null};},resetPasswordForEmail:async email=>{calls.push(['reset',email]);return {data:{},error:null};},signOut:async()=>{calls.push(['logout']);return {error:null};}}};
- const actions=createAuthActions(client);assert.equal((await actions.signUp('a@example.com','example-secret')).confirmationRequired,true);
+ const actions=createAuthActions(client);assert.equal((await actions.signUp('a@example.com','example-secret','Alex Rivera')).confirmationRequired,true);
  await actions.signIn('a@example.com','example-secret');await actions.reset('a@example.com');await actions.signOut();
  assert.deepEqual(calls.map(x=>x[0]),['signup','login','reset','logout']);
  assert.equal(calls[0][1].email,'a@example.com');
+});
+
+test('signup rejects empty or oversized names before contacting auth',async()=>{
+ let calls=0;const actions=createAuthActions({auth:{signUp:async()=>{calls++;return {data:{session:null}};}}});
+ for(const name of [undefined,null,'','   ','a'.repeat(81)])await assert.rejects(actions.signUp('a@example.com','example-secret',name),/name.*1.*80/i);
+ assert.equal(calls,0);
+});
+
+test('account dialog Create account opens signup without validating login fields',async()=>{
+ const {document,window}=parseHTML('<button id=entry></button><dialog id=dialog></dialog>');
+ const dialog=document.querySelector('#dialog');let opened=0;
+ mountAuthUI({client:{auth:{}},sync:{status:{kind:'guest',user:null,dirty:false}},button:document.querySelector('#entry'),dialog,onCreateAccount:()=>{opened++;}});
+ const form=dialog.querySelector('form');form.elements={email:form.querySelector('#account-email'),password:form.querySelector('#account-password')};
+ form.elements.email.checkValidity=()=>false;form.elements.email.reportValidity=()=>{};
+ dialog.querySelector('[data-account-action=signup]').dispatchEvent(new window.Event('click',{bubbles:true}));
+ await new Promise(resolve=>setImmediate(resolve));assert.equal(opened,1);
 });

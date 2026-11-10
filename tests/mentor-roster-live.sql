@@ -18,7 +18,7 @@ do $$declare r jsonb;m jsonb;begin
  if r::text like '%PRIVATE_SENTINEL%' then raise exception 'private fieldbook content leaked';end if;
  select value into m from jsonb_array_elements(r->'members') where value->>'user_id'=current_setting('app.roster_progress');
  if m->>'completed_weeks' is distinct from '1' or m->>'completed_steps' is distinct from '6' or m->>'practice_attempts' is distinct from '3' or m->>'mcq_attempts' is distinct from '2' or m->>'mcq_correct' is distinct from '1' then raise exception 'progress summary incorrect';end if;
- if exists(select 1 from jsonb_object_keys(m) k where k not in ('user_id','email','created_at','last_sign_in_at','is_mentor','last_synced_at','has_progress','completed_weeks','completed_steps','practice_attempts','mcq_attempts','mcq_correct')) then raise exception 'unexpected private fields';end if;
+ if exists(select 1 from jsonb_object_keys(m) k where k not in ('user_id','email','display_name','created_at','last_sign_in_at','is_mentor','last_synced_at','has_progress','completed_weeks','completed_steps','practice_attempts','mcq_attempts','mcq_correct')) then raise exception 'unexpected private fields';end if;
  select value into m from jsonb_array_elements(r->'members') where value->>'user_id'=current_setting('app.roster_unsynced');
  if m->>'has_progress' is distinct from 'false' or m->'completed_weeks' is distinct from 'null'::jsonb or m->'last_synced_at' is distinct from 'null'::jsonb then raise exception 'unsynced progress fabricated';end if;
  select value into m from jsonb_array_elements(r->'members') where value->>'user_id'=current_setting('app.roster_malformed');

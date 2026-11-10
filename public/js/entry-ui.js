@@ -7,6 +7,7 @@ export function mountEntryUI({root,shell,onGuest,onAuthenticated}) {
     <h1 tabindex="-1">Welcome back.</h1>
     <p id="entry-description" class="muted">Sign in to sync your progress, or explore as a guest.</p>
     <form id="entry-form" novalidate>
+      <div id="entry-name-field" hidden><label for="entry-name">Name</label><input id="entry-name" name="name" type="text" autocomplete="name" maxlength="80" placeholder="Your name" disabled></div>
       <label for="entry-email">Email</label><input id="entry-email" type="email" autocomplete="email" required placeholder="you@example.com">
       <label for="entry-password">Password</label><input id="entry-password" type="password" autocomplete="current-password" minlength="6" required>
       <button id="entry-signin" type="submit" disabled>Sign in</button>
@@ -16,7 +17,7 @@ export function mountEntryUI({root,shell,onGuest,onAuthenticated}) {
     <div class="entry-divider"><span>or</span></div>
     <button id="entry-guest" class="secondary" type="button">Continue as guest</button>
     <p class="entry-footnote small muted">Guest progress stays on this device. Signing in never uploads guest work without your choice.</p>
-    <p class="entry-footnote small muted">For signed-in team members, the mentor can see your email, latest sign-in, and synced progress totals. Private notes and written answers are not shared.</p>
+    <p class="entry-footnote small muted">For signed-in team members, the mentor can see your name, email, latest sign-in, and synced progress totals. Private notes and written answers are not shared.</p>
   </div>`;
   const form=root.querySelector('form'),email=root.querySelector('#entry-email'),password=root.querySelector('#entry-password'),status=root.querySelector('#entry-status');
   const authButtons=[...form.querySelectorAll('button')];
@@ -25,8 +26,10 @@ export function mountEntryUI({root,shell,onGuest,onAuthenticated}) {
     if(busy)return;
     mode=next;password.value='';
     const signup=mode==='signup';
+    const name=root.querySelector('#entry-name');
+    root.querySelector('#entry-name-field').hidden=!signup;name.disabled=!signup;name.required=signup;if(!signup)name.value='';
     root.querySelector('h1').textContent=signup?'Create your account.':'Welcome back.';
-    root.querySelector('#entry-description').textContent=signup?'Save your progress across devices. Enter your email and choose a password of at least 6 characters.':'Sign in to sync your progress, or explore as a guest.';
+    root.querySelector('#entry-description').textContent=signup?'Save your progress across devices. Enter your name, email, and choose a password of at least 6 characters.':'Sign in to sync your progress, or explore as a guest.';
     root.querySelector('#entry-signin').textContent=signup?'Create account':'Sign in';
     root.querySelector('#entry-signup').textContent=signup?'Back to sign in':'Create account';
     root.querySelector('#entry-reset').hidden=signup;
@@ -45,7 +48,7 @@ export function mountEntryUI({root,shell,onGuest,onAuthenticated}) {
         await actions.reset(email.value.trim());
         if(operation===epoch)status.textContent='If an account exists, a password reset link has been sent.';
       }else{
-        const result=kind==='signup'?await actions.signUp(email.value.trim(),password.value):await actions.signIn(email.value.trim(),password.value);
+        const result=kind==='signup'?await actions.signUp(email.value.trim(),password.value,root.querySelector('#entry-name').value):await actions.signIn(email.value.trim(),password.value);
         if(operation!==epoch)return;
         password.value='';
         if(kind==='signup'&&result.confirmationRequired){status.textContent='Check your email to confirm your account, then sign in.';return;}
@@ -67,5 +70,5 @@ export function mountEntryUI({root,shell,onGuest,onAuthenticated}) {
     catch{if(operation===epoch)status.textContent='Guest mode could not open. Please reload and try again.';}
   };
   show();
-  return {enter,show,setClient(client){actions=createAuthActions(client);controls();status.textContent='Sign in or continue as a guest.';},unavailable(){actions=null;controls();status.textContent='Sign-in is unavailable right now. You can still continue as a guest.';}};
+  return {enter,show,showSignup(){show();setMode('signup');status.textContent='After creating your account, check your email for a confirmation link.';root.querySelector('#entry-name')?.focus?.();},setClient(client){actions=createAuthActions(client);controls();status.textContent='Sign in or continue as a guest.';},unavailable(){actions=null;controls();status.textContent='Sign-in is unavailable right now. You can still continue as a guest.';}};
 }

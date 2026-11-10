@@ -38,9 +38,26 @@ test('signup view submits to Supabase and awaits email confirmation',async()=>{
  const calls=[];const s=await setup({auth:{signUp:async args=>{calls.push(args);return {data:{session:null},error:null};}}});
  s.root.querySelector('#entry-signup').click();await tick();assert.equal(calls.length,0);
  s.email.value='student@example.com';s.password.value='fixture-password';
+ const name=s.root.querySelector('#entry-name');assert.ok(name,'signup has a name input');name.value='  Alex Rivera  ';
+ assert.equal(name.disabled,false);assert.equal(name.required,true);
+ assert.equal(name.getAttribute('autocomplete'),'name');
  s.root.querySelector('form').dispatchEvent(new s.window.Event('submit',{cancelable:true}));await tick();
- assert.deepEqual(calls,[{email:'student@example.com',password:'fixture-password'}]);assert.equal(s.shell.hidden,true);assert.equal(s.password.value,'');assert.match(s.root.textContent,/confirm.*email|email.*confirm/i);assert.deepEqual(s.identities,[]);
+ assert.deepEqual(calls,[{email:'student@example.com',password:'fixture-password',options:{data:{display_name:'Alex Rivera'}}}]);assert.equal(s.shell.hidden,true);assert.equal(s.password.value,'');assert.match(s.root.textContent,/confirm.*email|email.*confirm/i);assert.deepEqual(s.identities,[]);
 });
+test('signup rejects whitespace names with a visible error and no auth call',async()=>{
+ let calls=0;const s=await setup({auth:{signUp:async()=>{calls++;return {data:{session:null}};}}});
+ s.ui.showSignup();s.email.value='student@example.com';s.password.value='fixture-password';s.root.querySelector('#entry-name').value='   ';
+ s.root.querySelector('form').dispatchEvent(new s.window.Event('submit'));await tick();
+ assert.equal(calls,0);assert.match(s.root.querySelector('#entry-status').textContent,/name.*1.*80/i);assert.equal(s.root.hidden,false);
+});
+
+test('returning to sign in hides and clears the signup-only name field',async()=>{
+ const s=await setup({auth:{}});s.ui.showSignup();s.root.querySelector('#entry-name').value='Alex Rivera';
+ s.root.querySelector('#entry-signup').click();
+ assert.equal(s.root.querySelector('#entry-name-field').hidden,true);assert.equal(s.root.querySelector('#entry-name').disabled,true);
+ assert.equal(s.root.querySelector('#entry-name').required,false);assert.equal(s.root.querySelector('#entry-name').value,'');
+});
+
 test('password reset does not require a password',async()=>{
  let called=false;const s=await setup({auth:{resetPasswordForEmail:async()=>{called=true;return {data:{},error:null};}}});s.email.value='student@example.com';
  s.root.querySelector('#entry-reset').click();await tick();assert.equal(called,true);assert.match(s.root.textContent,/reset link/i);assert.equal(s.shell.hidden,true);

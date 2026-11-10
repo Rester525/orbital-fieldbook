@@ -29,6 +29,8 @@ function validRoster(data, offset) {
 const timestamp = value => `<time datetime="${esc(value)}">${esc(new Date(value).toLocaleString(undefined, {dateStyle: 'medium', timeStyle: 'short'}))}</time>`;
 
 function rowHTML(member) {
+  const candidate = typeof member.display_name === 'string' ? member.display_name.trim() : '';
+  const name = [...candidate].length <= 80 ? candidate : '';
   const unavailable = member.last_synced_at === null ? 'Not synced yet' : 'Progress unavailable';
   const routine = member.has_progress
     ? `<strong>${esc(member.completed_weeks)} / 11 weeks</strong><small>${esc(member.completed_steps)} / 44 steps</small>`
@@ -38,7 +40,7 @@ function rowHTML(member) {
       ? `<small>${Math.round(100 * member.mcq_correct / member.mcq_attempts)}% MCQ accuracy</small><small>${esc(member.mcq_correct)} / ${esc(member.mcq_attempts)} correct</small>`
       : '<small>No MCQ attempts yet</small>'}`
     : unavailable;
-  return `<tr><th scope="row"><span class="mentor-email">${esc(member.email)}</span><span class="mentor-role">${member.is_mentor ? 'Mentor' : 'Student'}</span></th>
+  return `<tr><th scope="row">${name ? `<strong class="mentor-name">${esc(name)}</strong>` : ''}<span class="mentor-email">${esc(member.email)}</span><span class="mentor-role">${member.is_mentor ? 'Mentor' : 'Student'}</span></th>
     <td>${member.created_at === null ? 'Unknown' : timestamp(member.created_at)}</td><td>${timestamp(member.last_sign_in_at)}</td>
     <td>${member.last_synced_at === null ? 'Not synced yet' : timestamp(member.last_synced_at)}</td>
     <td>${routine}</td><td>${practice}</td></tr>`;
@@ -54,7 +56,7 @@ export function renderMentorDashboard(root, client, {onAccessDenied = () => {}} 
       <table><caption>Signed-in accounts · timestamps shown in your local time</caption><thead><tr><th scope="col">Account / role</th><th scope="col">Account created</th><th scope="col">Latest sign-in</th><th scope="col">Latest sync</th><th scope="col">Weekly self-marked routine</th><th scope="col">Practice summary</th></tr></thead><tbody></tbody></table>
     </div>
     <footer class="mentor-footer"><div><p class="mentor-range"></p><p class="mentor-fetched"></p></div><nav aria-label="Account pages"><button type="button" class="secondary" data-action="previous" disabled>Previous</button><button type="button" class="secondary" data-action="next" disabled>Next</button></nav></footer>
-    <p class="mentor-privacy"><strong>Privacy:</strong> Only account details and summary counts are shared here—never raw study state, private notes, answers, reflections, or metadata. Guests are not included.</p>
+    <p class="mentor-privacy"><strong>Privacy:</strong> Only account details (including self-provided display names) and summary counts are shared here—never raw study state, private notes, answers, reflections, or other account metadata. Guests are not included.</p>
   </section>`;
   const screen = root.querySelector('.mentor-dashboard');
   const status = screen.querySelector('[role="status"]');

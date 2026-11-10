@@ -254,6 +254,41 @@ test('emails render as inert text and additional private properties never render
   cleanup();
 });
 
+test('display names are trimmed inert text alongside email, never mentor authority', async () => {
+  const {root, requests, cleanup} = await mount();
+  const name = '<img src=x onerror="alert(1)"> & "Mentor"';
+  const email = '<script>alert(2)</script>@example.org';
+  requests[0].resolve(response([member({display_name: `  ${name}  `, email,
+    role: 'mentor', future_field: {secret: 'unrendered-sentinel'}})]));
+  await settle();
+  const row = root.querySelector('tbody tr');
+  assert.equal(row?.querySelector('.mentor-name')?.textContent, name);
+  assert.equal(row.querySelector('.mentor-email').textContent, email);
+  assert.equal(row.querySelector('.mentor-role').textContent, 'Student');
+  assert.equal(root.querySelector('img, script, [onerror], [onclick]'), null);
+  assert.doesNotMatch(root.textContent, /unrendered-sentinel/);
+  assert.match(root.querySelector('.mentor-privacy').textContent, /display names/i);
+  cleanup();
+});
+
+test('missing and malformed names fall back to email without rejecting a mixed roster', async () => {
+  const {root, requests, cleanup} = await mount();
+  const invalid = [undefined, null, '', ' \t\n ', 7, true, [], ['Name'], {name: 'Name'}, 'x'.repeat(81), '🪐'.repeat(81)];
+  const members = invalid.map((display_name, i) => member({user_id: `invalid-${i}`, display_name}));
+  members.push(member({user_id: 'valid', display_name: ` \t${'🪐'.repeat(80)}\n `}));
+  requests[0].resolve(response(members));
+  await settle();
+  const rows = [...root.querySelectorAll('tbody tr')];
+  assert.equal(rows.length, members.length);
+  for (const row of rows.slice(0, -1)) {
+    assert.ok(!row.querySelector('.mentor-name'), 'invalid names must not render');
+    assert.equal(row.querySelector('.mentor-email').textContent, 'learner@example.org');
+  }
+  assert.equal(rows.at(-1).querySelector('.mentor-name')?.textContent, '🪐'.repeat(80));
+  assert.equal(root.querySelector('[role="alert"]'), null);
+  cleanup();
+});
+
 test('stylesheet is screen-scoped, token-based and provides keyboard-accessible mobile overflow', async () => {
   const css = await readFile(new URL('../public/css/mentor-dashboard.css', import.meta.url), 'utf8');
   const {document} = parseHTML('<html><head></head><body></body></html>');

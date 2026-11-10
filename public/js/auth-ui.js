@@ -3,7 +3,7 @@ export function createAuthActions(client){
  const check=({data,error})=>{if(error)throw error;return data;};
  return {
   async signIn(email,password){return check(await client.auth.signInWithPassword({email,password}));},
-  async signUp(email,password){const data=check(await client.auth.signUp({email,password}));return {confirmationRequired:!data.session,userId:data.session?.user?.id};},
+  async signUp(email,password,name){if(typeof name!=='string'||!name.trim()||name.trim().length>80)throw Error('Enter a name between 1 and 80 characters.');const data=check(await client.auth.signUp({email,password,options:{data:{display_name:name.trim()}}}));return {confirmationRequired:!data.session,userId:data.session?.user?.id};},
   async reset(email){return check(await client.auth.resetPasswordForEmail(email));},
   async updatePassword(password){return check(await client.auth.updateUser({password}));},
   async signOut(){return check(await client.auth.signOut());}
@@ -16,9 +16,9 @@ export function authHTML(){return `<form id="account-form" method="dialog" noval
  <label for="account-password">Password</label><input id="account-password" name="password" type="password" autocomplete="current-password" minlength="6" required>
  <div class="actions"><button type="button" data-account-action="signin">Sign in</button><button type="button" class="secondary" data-account-action="signup">Create account</button><button type="button" class="secondary" data-account-action="reset">Reset password</button></div></div>
  <div id="account-recovery" hidden><p>Set a new password for this account.</p><label for="account-new-password">New password</label><input id="account-new-password" type="password" autocomplete="new-password" minlength="8" required><button type="button" data-account-action="update-password">Save new password</button></div>
- <div id="account-signed-in" hidden><p>Changes save here first, then sync when online. Your mentor can see sign-in details and synced progress totals; notes and written answers stay private.</p><div class="actions"><button type="button" data-account-action="retry">Retry sync</button><button type="button" class="secondary" data-account-action="guest">Copy guest work to account</button><button type="button" class="secondary" data-account-action="cloud">Use cloud copy</button><button type="button" class="secondary" data-account-action="overwrite">Keep device copy (overwrite cloud)</button><button type="button" class="secondary" data-account-action="export-unread" hidden>Export unread account data</button><button type="button" class="secondary" data-account-action="signout">Sign out</button></div><div id="mentor-access"></div></div>
+ <div id="account-signed-in" hidden><p>Changes save here first, then sync when online. Your mentor can see your name, email, sign-in details and synced progress totals; notes and written answers stay private.</p><div class="actions"><button type="button" data-account-action="retry">Retry sync</button><button type="button" class="secondary" data-account-action="guest">Copy guest work to account</button><button type="button" class="secondary" data-account-action="cloud">Use cloud copy</button><button type="button" class="secondary" data-account-action="overwrite">Keep device copy (overwrite cloud)</button><button type="button" class="secondary" data-account-action="export-unread" hidden>Export unread account data</button><button type="button" class="secondary" data-account-action="signout">Sign out</button></div><div id="mentor-access"></div></div>
  <div class="actions"><button type="button" class="secondary" data-account-action="close">Close</button></div></form>`;}
-export function mountAuthUI({client,sync,button,dialog,canSwitch=()=>true,exportRaw=()=>{},onAuthenticated=async()=>{},onMentorAccessChange=()=>{}}){
+export function mountAuthUI({client,sync,button,dialog,canSwitch=()=>true,exportRaw=()=>{},onAuthenticated=async()=>{},onCreateAccount=()=>{},onMentorAccessChange=()=>{}}){
  const actions=createAuthActions(client);dialog.innerHTML=authHTML();let recoveryMode=false;
  const mentor=mountMentorAccess(dialog.querySelector('#mentor-access'),client,{onAccessChange:onMentorAccessChange});
  dialog.addEventListener('click',event=>{if(event.target.closest('a[href="#mentor"]'))dialog.close();});
@@ -44,16 +44,16 @@ export function mountAuthUI({client,sync,button,dialog,canSwitch=()=>true,export
  form.addEventListener('click',async e=>{
   const name=e.target.closest('[data-account-action]')?.dataset.accountAction;if(!name)return;
   if(name==='close'){dialog.close();return;}if(!canSwitch())return;
+  if(name==='signup'){onCreateAccount();return;}
   const email=form.elements.email.value.trim(),password=form.elements.password.value;
-  if(['signin','signup','reset'].includes(name)&&!form.elements.email.checkValidity()){form.elements.email.reportValidity();return;}
-  if(['signin','signup'].includes(name)&&!form.elements.password.checkValidity()){form.elements.password.reportValidity();return;}
+  if(['signin','reset'].includes(name)&&!form.elements.email.checkValidity()){form.elements.email.reportValidity();return;}
+  if(['signin'].includes(name)&&!form.elements.password.checkValidity()){form.elements.password.reportValidity();return;}
   if(name==='overwrite'&&!confirm('Replace the current cloud fieldbook with this device’s copy? Other devices may have newer work.'))return;
   if(name==='cloud'&&!confirm(sync.status.kind==='decision'?'Start with an empty account fieldbook? Your guest work stays separate, and any account device work downloads as a backup first.':'Download the cloud copy? Your current device copy will download as a backup first.'))return;
   if(name==='guest'&&!confirm('Copy guest work into this account? The guest copy stays on this device.'))return;
   const control=e.target;control.disabled=true;
   try{
    if(name==='signin'){const result=await actions.signIn(email,password);form.elements.password.value='';await onAuthenticated(result.session?.user?.id);text('Signed in. Loading your private fieldbook…');}
-   if(name==='signup'){const result=await actions.signUp(email,password);form.elements.password.value='';if(!result.confirmationRequired)await onAuthenticated(result.userId);text(result.confirmationRequired?'Check your email to confirm the account, then sign in. No fieldbook was uploaded.':'Account created. Loading your fieldbook…');}
    if(name==='reset'){await actions.reset(email);text('If this email has an account, a password reset link has been sent.');}
    if(name==='update-password'){
     const input=form.querySelector('#account-new-password');

@@ -40,7 +40,7 @@ const ASSETS = [
   "js/view.js",
   "manifest.webmanifest"
 ];
-const VERSION = '50007668e928ef5d';
+const VERSION = 'a9d091118de0aafe';
 const PREFIX = 'orbital-fieldbook:' + self.registration.scope + ':';
 const CACHE = PREFIX + VERSION;
 const URLS = ASSETS.map(p => new URL(p, self.registration.scope).href);
