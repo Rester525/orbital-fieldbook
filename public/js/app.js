@@ -1,9 +1,10 @@
+import {startAutoUpdates,consumeUpdateGuest,prepareUpdateReload} from './auto-update.js';
 import {renderMentorDashboard} from './mentor-dashboard-ui.js';
 import {mountEntryUI} from './entry-ui.js';
 import {homeHTML,bindHome} from './home-ui.js';
 import {bindNavigation,updateNavigation} from './navigation-ui.js';
-import {loadState,saveState,STORAGE_KEY} from './storage.js';
-import {createCloudSync,isRelevantStorageKey} from './cloud-sync.js';
+import {loadState,saveState,STORAGE_KEY,defaultState,exportState,importState} from './storage.js';
+import {createCloudSync,isRelevantStorageKey,accountKey} from './cloud-sync.js';
 import {mountAuthUI} from './auth-ui.js';
 import {esc,heading,notify,download} from './view.js';
 import {boardHTML,missionHTML,bindMission} from './missions-ui.js';
@@ -13,13 +14,13 @@ import {labsHTML,bindLabs} from './labs-ui.js';
 import {notesHTML,bindNotes} from './notes-ui.js';
 import {progressHTML,sourcesHTML,settingsHTML,bindSettings} from './dashboard-ui.js';
 const closeMenu=bindNavigation(document);
-const root=document.getElementById('main');let state,data,cleanup=()=>{},storage,blockedByOtherTab=false,sync=null,authUI=null,saving=false,applyAccount=null,guestChosen=false,mentorClient=null,mentorAllowed=false,mentorIdentity=null;
+const root=document.getElementById('main');let state,data,cleanup=()=>{},storage,blockedByOtherTab=false,sync=null,authUI=null,saving=false,applyAccount=null,guestChosen=consumeUpdateGuest(window),authReady=false,mentorClient=null,mentorAllowed=false,mentorIdentity=null;
 try{storage=window.localStorage;}catch{storage={getItem(){throw Error('Device storage access is blocked.');},setItem(){throw Error('Device storage access is blocked.');}};}
 const loaded=loadState(storage);state=loaded.state;let recoveryRequired=Boolean(loaded.error);if(loaded.error)notify(`Saved data could not be read: ${loaded.error}. New saves are blocked until you choose Recover saved data. You can still study and export memory-only work.`,true);
 const recovery=document.getElementById('recover-storage');recovery.hidden=!recoveryRequired;recovery.onclick=()=>{try{const raw=storage.getItem(STORAGE_KEY);if(raw!==null)download('fieldbook-unread-original.txt',raw,'text/plain');if(!confirm('The unread original has been downloaded if accessible. Allow this tab’s current work to replace it? Cancel to keep the original untouched.'))return;recoveryRequired=false;const result=saveState(storage,state);if(!result.ok){recoveryRequired=true;notify(result.error||'Recovery save failed. Export your work before closing.',true);return;}recovery.hidden=true;if(sync)sync.switchUser(null).catch(e=>notify(`Recovery reload failed: ${e.message}`,true));notify('Recovery confirmed. Current work saved; retain the downloaded original for recovery.');}catch(e){notify(`Cannot access stored data: ${e.message}. Export current work and check browser storage permissions.`,true);}};
 async function enterAccount(id){if(!id||!applyAccount)throw Error('Account is not ready. Please try again.');guestChosen=false;await applyAccount(id);}
 const entry=mountEntryUI({root:document.getElementById('entry-screen'),shell:document.querySelector('.app-shell'),onAuthenticated:enterAccount,onGuest:async()=>{guestChosen=true;if(sync?.status.user)await sync.switchUser(null);recoveryRequired=Boolean(loadState(storage).error);recovery.hidden=!recoveryRequired;}});
-if(state.exam&&!state.exam.submitted){guestChosen=true;entry.enter();}
+if(guestChosen||(state.exam&&!state.exam.submitted)){guestChosen=true;entry.enter();}
 function canViewMentor(){return Boolean(mentorAllowed&&mentorIdentity&&mentorIdentity===sync?.status.user&&!guestChosen);}
 function mentorAccessChanged(allowed,userId){const previous=canViewMentor();mentorAllowed=allowed;mentorIdentity=userId;document.getElementById('mentor-nav').hidden=!canViewMentor();if(data&&location.hash.split('/')[0]==='#mentor'&&previous!==canViewMentor())render();}
 function persist(){if(recoveryRequired){notify('Saving blocked to protect unread saved data. Choose Recover saved data, or export this tab’s work before closing.',true);return false;}if(blockedByOtherTab){notify('Another tab changed this fieldbook. Export this tab’s work, then reload before saving more.',true);return false;}saving=true;const result=sync?{ok:sync.save(state),error:'Device save failed. Export your work before closing.'}:saveState(storage,state);saving=false;if(!result.ok)notify(result.error||'Saving failed. Export your work before closing.',true);return result.ok;}
@@ -48,9 +49,14 @@ async function initAuth(){
   const initialRevision=authRevision;const {data:session,error}=await client.auth.getSession();if(error)throw error;
   if(initialRevision===authRevision)await switchAccount(session.session?.user?.id||null);
   window.addEventListener('online',()=>{sync?.retry().catch(e=>notify(`Sync retry failed: ${e.message}`,true));});
- }catch(e){entry.unavailable();document.getElementById('sync-status').textContent=`Cloud unavailable: ${e.message}. Guest work remains on this device.`;document.getElementById('account-button').onclick=()=>notify('Account sign-in unavailable. Cloud configuration or SDK could not load.',true);}
+ }catch(e){entry.unavailable();document.getElementById('sync-status').textContent=`Cloud unavailable: ${e.message}. Guest work remains on this device.`;document.getElementById('account-button').onclick=()=>notify('Account sign-in unavailable. Cloud configuration or SDK could not load.',true);}finally{authReady=true;}
 }
 async function boot(){initAuth();try{const [schedule,scope,resources,worlds,missions,foundations,qw,qm,qf]=await Promise.all(['schedule','scope','resources','worlds','missions','foundations','questions-worlds','questions-missions','questions-foundations'].map(json));data={schedule,scope,resources,lessons:[...foundations,...worlds,...missions],questions:[...qw,...qm,...qf]};render();window.addEventListener('hashchange',render);setupOffline();}catch(e){root.innerHTML=heading('FIELDBOOK COULD NOT OPEN','The study files did not load.',e.message)+'<p>Use the localhost start command, not a file:// URL. Check your server or reconnect for the first complete load.</p><button id="retry-load">Retry loading</button>';root.querySelector('#retry-load').onclick=()=>location.reload();}}
-function setupOffline(){const status=document.getElementById('offline-status');if(!('serviceWorker'in navigator)){status.textContent='Offline installation unavailable in this browser.';return;}navigator.serviceWorker.register('./sw.js',{updateViaCache:'none'}).then(reg=>{status.textContent=reg.active?'Offline files installed.':'Installing offline files…';const offer=()=>{const button=document.getElementById('apply-update');button.hidden=false;button.onclick=()=>{if(state.exam&&!state.exam.submitted){notify('Finish the simulation before loading an update.',true);return;}if(!persist())return;reg.waiting?.postMessage({type:'SKIP_WAITING'});};};if(reg.waiting)offer();reg.addEventListener('updatefound',()=>{const sw=reg.installing;sw?.addEventListener('statechange',()=>{if(sw.state==='installed'){if(navigator.serviceWorker.controller)offer();else status.textContent='Offline files installed. Return to this address offline.';}if(sw.state==='redundant')status.textContent='Offline installation failed. Reconnect and reload to retry.';});});let reloading=false;navigator.serviceWorker.addEventListener('controllerchange',()=>{if(reloading)return;reloading=true;location.reload();});}).catch(e=>{status.textContent=`Offline installation unavailable: ${e.message}`;});}
+function setupOffline(){
+ startAutoUpdates({serviceWorker:navigator.serviceWorker,win:window,doc:document,status:document.getElementById('offline-status'),button:document.getElementById('apply-update'),
+  canReload:()=>Boolean((authReady||guestChosen)&&!entry.isBusy()&&!saving&&!recoveryRequired&&!blockedByOtherTab&&!(state.exam&&!state.exam.submitted)&&!['loading','corrupt','conflict','decision'].includes(sync?.status.kind)),
+  verifySaved:()=>{try{if(sync?.status.dirty)return false;const key=sync?.status.user?accountKey(sync.status.user):STORAGE_KEY;const raw=storage.getItem(key);return exportState(raw===null?defaultState():importState(raw))===exportState(state);}catch{return false;}},reload:()=>{if(!prepareUpdateReload(window,guestChosen))return false;location.reload();return true;}
+ }).then(stop=>window.addEventListener('pagehide',event=>{if(!event.persisted)stop();},{once:true}));
+}
 window.addEventListener('storage',e=>{if(isRelevantStorageKey(e.key,sync?.status.user??null)){blockedByOtherTab=true;notify('Another tab changed the saved fieldbook. Export this tab if needed, then reload to avoid overwriting work.',true);}});
 boot();

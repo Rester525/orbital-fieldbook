@@ -5,10 +5,12 @@ import {parseHTML} from 'linkedom';
 import {defaultState,STORAGE_KEY} from '../public/js/storage.js';
 const tick=()=>new Promise(r=>setTimeout(r,25));
 let run=0;
-async function setup({session,remote}={}){
+async function setup({session,remote,updateGuest=false}={}){
  const {document,window}=parseHTML(readFileSync(new URL('../public/index.html',import.meta.url),'utf8'));
  globalThis.document=document;globalThis.window=window;globalThis.location={hash:'#home',replace(h){this.hash=h;}};
  window.scrollTo=()=>{};window.HTMLElement.prototype.focus=function(){};
+ const sessionValues=new Map(updateGuest?[['orbital-fieldbook:update-guest','1']]:[]);
+ Object.defineProperty(window,'sessionStorage',{value:{getItem:k=>sessionValues.get(k)??null,setItem:(k,v)=>sessionValues.set(k,v),removeItem:k=>sessionValues.delete(k)},configurable:true});
  const guest=defaultState();guest.notes[0]='private guest note';const saved=new Map([[STORAGE_KEY,JSON.stringify(guest)]]);
  Object.defineProperty(window,'localStorage',{value:{getItem:k=>saved.get(k)??null,setItem:(k,v)=>saved.set(k,v),removeItem:k=>saved.delete(k)},configurable:true});
  let listener,queries=0;
@@ -19,6 +21,14 @@ async function setup({session,remote}={}){
  await import(`../public/js/app.js?entry-integration-${++run}`);await tick();
  return {document,saved,guest,client,get queries(){return queries;},emit(event,id){listener(event,id?{user:{id}}:null);},restore(){globalThis.fetch=priorFetch;window.supabase=priorSDK;}};
 }
+test('update reload resumes an explicit guest instead of the saved signed-in account',async()=>{
+ const s=await setup({updateGuest:true});try{
+  assert.equal(s.document.querySelector('#entry-screen').hidden,true);assert.equal(s.queries,0);
+  assert.equal(s.document.documentElement.dataset.theme,'light');assert.equal(s.saved.get(STORAGE_KEY),JSON.stringify(s.guest));
+  s.emit('SIGNED_IN','student-a');await tick();assert.equal(s.queries,0);
+ }finally{s.restore();}
+});
+
 test('saved account enters automatically; signing out returns to login without copying guest work',async()=>{
  const s=await setup();try{
   assert.equal(s.document.querySelector('#entry-screen').hidden,true);assert.equal(s.document.querySelector('.app-shell').hidden,false);

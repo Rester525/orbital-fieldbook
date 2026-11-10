@@ -70,5 +70,5 @@ export function mountEntryUI({root,shell,onGuest,onAuthenticated}) {
     catch{if(operation===epoch)status.textContent='Guest mode could not open. Please reload and try again.';}
   };
   show();
-  return {enter,show,showSignup(){show();setMode('signup');status.textContent='After creating your account, check your email for a confirmation link.';root.querySelector('#entry-name')?.focus?.();},setClient(client){actions=createAuthActions(client);controls();status.textContent='Sign in or continue as a guest.';},unavailable(){actions=null;controls();status.textContent='Sign-in is unavailable right now. You can still continue as a guest.';}};
+  return {enter,show,isBusy:()=>busy,showSignup(){show();setMode('signup');status.textContent='After creating your account, check your email for a confirmation link.';root.querySelector('#entry-name')?.focus?.();},setClient(client){actions=createAuthActions(client);controls();status.textContent='Sign in or continue as a guest.';},unavailable(){actions=null;controls();status.textContent='Sign-in is unavailable right now. You can still continue as a guest.';}};
 }

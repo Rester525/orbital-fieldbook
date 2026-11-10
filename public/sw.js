@@ -21,6 +21,7 @@ const ASSETS = [
   "index.html",
   "js/app.js",
   "js/auth-ui.js",
+  "js/auto-update.js",
   "js/cloud-config.js",
   "js/cloud-sync.js",
   "js/dashboard-ui.js",
@@ -40,7 +41,7 @@ const ASSETS = [
   "js/view.js",
   "manifest.webmanifest"
 ];
-const VERSION = 'a9d091118de0aafe';
+const VERSION = 'e9e1791f3d1040c5';
 const PREFIX = 'orbital-fieldbook:' + self.registration.scope + ':';
 const CACHE = PREFIX + VERSION;
 const URLS = ASSETS.map(p => new URL(p, self.registration.scope).href);
